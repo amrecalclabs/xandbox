@@ -1,5 +1,14 @@
 \newenvironment {prompt}{}{}
 \newcommand {\DeclareMathOperator }[2]{\@OldDeclareMathOperator {##1}{##2}\immediate \write \myfile {\unexpanded {\DeclareMathOperator }{\unexpanded {##1}}{\unexpanded {##2}}}}
+\newcommand {\skip@preamble }[0]{\let \document \relax \let \enddocument \relax \newenvironment {document}{\let \input \otherinput }{}\renewcommand {\documentclass }[2][subfiles]{}}
+\newcommand {\maketitle }[0]{ \pagestyle {empty} \begin {center} ~\\ \vskip .25\textheight \hrulefill \\ \vskip 1em \bfseries {\Huge \@title } \\ \hrulefill \\ \vskip 3em {\Large \@author } \vskip 2em {\large \@date } \end {center} \clearpage \ifnotoc \else \tableofcontents \clearpage \clearpage \fi \pagestyle {main} \let \maketitle \othermaketitle }
+\newcommand {\points }[1]{}
+\newcommand {\l@section }[0]{\@dottedtocline {1}{1.5em}{4.2em}}
+\newcommand {\l@subsection }[0]{\@dottedtocline {2}{3.8em}{4.2em}}
+\newcommand {\thanks }[1]{}
+\newcommand {\and }[0]{\unskip , }
+\newcommand {\thanksmark }[1]{}
+\newcommand {\thanksgap }[1]{}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
@@ -31,6 +40,8 @@
 \newcommand {\ref  }[0]{\@ifstar \@refstar \T@ref }
 \newcommand {\pageref  }[0]{\@ifstar \@pagerefstar \T@pageref }
 \newcommand {\nameref  }[0]{\@ifstar \@namerefstar \T@nameref }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
 \newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[2]{}
