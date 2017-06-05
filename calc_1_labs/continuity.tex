@@ -23,10 +23,26 @@ A function $f$ is said to be \textit{continuous at a point} $x = a$ if which thr
 \subsection{Example}
 Take the function $f(x) = \dfrac{(1-x)^2}{1-x}$.
 
-\usetikzlibrary{arrows}\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}\definecolor{qqwuqq}{rgb}{0,0.39215686274509803,0}\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]\draw [color=cqcqcq,, xstep=2cm,ystep=2cm] (-7.810657580487809,-9.23554612682928) grid (16.006035668292693,10.087431414634153);\draw[->,color=black] (-7.810657580487809,0) -- (16.006035668292693,0);\foreach \x in {-6,-4,-2,2,4,6,8,10,12,14,16}\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};\draw[->,color=black] (0,-9.23554612682928) -- (0,10.087431414634153);\foreach \y in {-8,-6,-4,-2,2,4,6,8,10}\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};\clip(-7.810657580487809,-9.23554612682928) rectangle (16.006035668292693,10.087431414634153);\draw[color=qqwuqq,smooth,samples=100,domain=-7.810657580487809:16.006035668292693] plot(\x,{((\x)-1)^(2)/((\x)-1)});\begin{scriptsize}\draw[color=qqwuqq] (-6.981048526829272,-8.665189902439035) node {$f$};\draw [color=uuuuuu] (1,-19.017899073375403) circle (1.5pt);\draw[color=uuuuuu] (1.2804749658536596,0.598777863414632) node {$A$};\end{scriptsize}\end{tikzpicture}
+\[
+\graph{(1,0),y=\frac{(x-1)^2}{x-1}}
+\]
 
+\begin{tikzpicture}
+\begin{axis}[grid=both,
+          xmax=5,ymax=5,
+          axis lines=middle,
+          restrict y to domain=-1.5:6.5,
+          enlargelimits,
+          axis line style={shorten >=-0.25cm,shorten <=-0.25cm,latex-latex},
+          ticklabel style={fill=white}]
+\addplot[domain=-5:7,mark=none,samples=200] {(x-1)} node[fill=white, below]{$y=\frac{(x-1)^2}{(x-1)}$};
+\draw (axis cs:1,0) circle [radius=3pt];
+\end{axis}
+\end{tikzpicture}
 
 
 
 Through some simple elimination, we can easily see that this function is equivalent to $1-x$, where $x \neq 1$. Thus, there is one point on the original function we should pay close attention to: $x=1$
 \end{document}
+
+%configuration={"latex_command":"latexmk -pdf -f -g -bibtex -synctex=1 -interaction=nonstopmode 'continuity.tex'"}
