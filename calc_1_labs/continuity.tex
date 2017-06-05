@@ -10,13 +10,21 @@
 \end{dialogue}
 \section{Introduction}
 \begin{question}
-A function $f$ is said to be \textit{continuous at a point} $x = a$ if three conditions are satisfied:
+A function $f$ is said to be \textit{continuous at a point} $x = a$ if which three conditions are satisfied?
 \begin{selectAll}
 \choice[correct]{$f(a)$ is defined}
 \choice{$f(a) \neq 0$}
 \choice[correct]{$\displaystyle \lim_{x\to a} f(x)$ exists}
 \choice[correct]{$\displaystyle \lim_{x\to a} f(x)=f(a)$}
-
+\choice{$f(x)$ is linear}
+\choice{$f(x) \neq f(a)$}
 \end{selectAll}
 \end{question}
+\subsection{Example}
+Take the function $f(x) = \dfrac{(1-x)^2}{1-x}$.
+\[
+\graph{\left(1,0\right),y = \frac{\left(x-1\right)^2}{x-1}}
+\]
+
+Through some simple elimination, we can easily see that this function is equivalent to $1-x$, where $x \neq 1$. Thus, there is one point on the original function we should pay close attention to: $x=1$
 \end{document}
