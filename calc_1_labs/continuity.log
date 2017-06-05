@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  5 JUN 2017 19:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  5 JUN 2017 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1133,7 +1133,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \openout8 = `continuity.jax'.
 
 )
-No file continuity.aux.
+(./continuity.aux)
 \openout1 = `continuity.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -1150,7 +1150,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count231
@@ -1204,6 +1204,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
+
+(./continuity.out) (./continuity.out)
 \@outlinefile=\write10
 \openout10 = `continuity.out'.
 
@@ -1221,26 +1223,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 *********************************************************************
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
  (./continuity.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
-
-
-Package rerunfilecheck Warning: File `continuity.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `continuity.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  EEDC97700FF1A414047C79B39E6AB5DD;104.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+Package rerunfilecheck Info: File `continuity.out' has not changed.
+(rerunfilecheck)             Checksum: EEDC97700FF1A414047C79B39E6AB5DD;104.
  ) 
 Here is how much of TeX's memory you used:
- 35819 strings out of 493085
- 805854 string characters out of 6136916
- 998039 words of memory out of 5000000
- 38730 multiletter control sequences out of 15000+600000
+ 35828 strings out of 493085
+ 805973 string characters out of 6136916
+ 996974 words of memory out of 5000000
+ 38733 multiletter control sequences out of 15000+600000
  8866 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,11n,96p,10400b,2126s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1257,10 +1252,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb>
-Output written on continuity.pdf (2 pages, 131252 bytes).
+Output written on continuity.pdf (2 pages, 130799 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
