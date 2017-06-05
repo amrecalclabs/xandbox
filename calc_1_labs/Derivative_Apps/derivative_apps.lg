@@ -1,9 +1,10 @@
-htfcss: cmti  font-style: italic;
+htfcss: cmtt font-family: monospace;
 htfcss: cmbx  font-weight: bold;
 htfcss: cmbxsl  font-weight: bold; font-style: oblique;
 htfcss: cmtt font-family: monospace;
-File: continuity.html
-File: continuity.tmp
+File: derivative_apps.html
+File: derivative_apps.tmp
+File: derivative_apps2.html
 Font_Css("4"): .small-caps{font-variant: small-caps; }
 Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
 Font_Css("12"): .htf-calligraphy {font-family:cursive}
@@ -14,4 +15,6 @@ Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; 
 Font("cmr","10","10","100")
 Font("cmtt","10","10","100")
 Font("cmbx","10","10","100")
-Font("cmti","10","10","100")
+Font("cmr","9","9","100")
+Font("cmr","8","8","100")
+Font("cmtt","8","8","100")
