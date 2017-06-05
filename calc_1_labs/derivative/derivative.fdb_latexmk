@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1496694314 "derivative.tex" "derivative.pdf" "derivative" 1496694315
+["pdflatex"] 1496694679 "derivative.tex" "derivative.pdf" "derivative" 1496694680
   "/etc/texmf/web2c/texmf.cnf" 1451280152 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -219,16 +219,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280843 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280935 3846735 a3be5ff00bc62403b9730d0cecfbba9e ""
-  "derivative.aux" 1496694315 1029 081dc9f0a2cc3f82b48c8ce7398234ae ""
-  "derivative.out" 1496694315 249 02fdac6107dbb6132a4421dc34dcc873 ""
-  "derivative.sagetex.sout" 1496694313 244 a10a13572e1099ba14a9ca9c33e2dd23 ""
-  "derivative.tex" 1496694304 4330 1be4de828fb37c01cc506ce70527a108 ""
+  "derivative.aux" 1496694680 1011 a57829073e34df81541246146ddbf73c ""
+  "derivative.out" 1496694680 228 29038b6d9e448dd66ae4e0cebe2bd6dc ""
+  "derivative.sagetex.sout" 0 -1 0 ""
+  "derivative.tex" 1496694678 4349 9e03ee2389008c239cbe21ec128b3927 ""
   (generated)
-  "derivative.oc"
-  "derivative.out"
-  "derivative.pdf"
-  "derivative.aux"
-  "derivative.jax"
-  "derivative.sagetex.sage"
   "derivative.ids"
+  "derivative.oc"
   "derivative.log"
+  "derivative.sagetex.sage"
+  "derivative.out"
+  "derivative.jax"
+  "derivative.aux"
+  "derivative.pdf"
