@@ -1,8 +1,0 @@
-\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
-\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Differentiation Rules}}{1}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-2}{The Power Rule}}{1}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-3}{The Constant Rule}}{2}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-4000}{QQ2-1-4}{The Constant Multiple Rule}}{3}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-5000}{QQ2-1-5}{The Sum and Difference Rules}}{3}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-6000}{QQ2-1-6}{In Summary}}{4}\relax 
-\par 
