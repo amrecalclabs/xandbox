@@ -1,0 +1,173 @@
+<!doctype html> 
+<html lang="en"> 
+<head>
+<title>Applications of Maxima</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<!-- charset=utf-8,-css,html,xhtml --> 
+<meta name="src" content="max_min_app.tex" /> 
+<meta name="date" content="2017-06-06 16:27:00" /> 
+<meta charset="UTF-8" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="ximera" content="version 0.0.1" /> 
+<link href="http://ximera.osu.edu/public/static/base.min.css" rel="stylesheet" media="screen"/> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/> 
+<script data-module="script" data-main="http://ximera.osu.edu/public/javascripts/app.min" src="http://ximera.osu.edu/components/requirejs/require.js"/> 
+</head><body> 
+<div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
+\newcommand {\epstopdfsetup }[0]{\setkeys {ETE}}
+ changed the theorem header of amsthm failed\MessageBreak }}}
+\newcommand {\GetTitleStringSetup }[0]{\setkeys {gettitlestring}}
+\newcommand {\Sectionformat }[2]{#1}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}</script><script type="text/javascript"> 
+</script> 
+</div>
+ <div class="maketitle"></div>
+     <dl class="dialogue"><dt class="actor">
+Julia </dt><dd 
+class="speech">I love optimization, but I can&#x2019;t really imagine where we could use it in
+     real life.
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">Yeah, it seems great for graphs, but for real world problems? No way.
+     </dd><dt class="actor">
+Julia and Dylan </dt><dd 
+class="speech">.....
+     </dd><dt class="actor">
+Julia and Dylan </dt><dd 
+class="speech">.....
+     </dd><dt class="actor">
+Julia </dt><dd 
+class="speech">This is usually where James would chime in...
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">Maybe he&#x2019;s running late?
+     </dd><dt class="actor">
+James </dt><dd 
+class="speech">Sorry guys, there was a traffic jam! I think it might be just perfect for
+     our first illustration of the uses of optimization!</dd></dl>
+<h5 class="subsubsectionHead"><a 
+ id="x1-1000"></a>James&#x2019; Traffic Jam</h5>
+<!--l. 18--><p class="noindent" >On the way back from Walmart, James ran into a traffic jam along the highway
+caused by an accident. While he was waiting in traffic, James decided to work on a
+function that roughly modeled the speed of the traffic over the day, using data from
+a surveyor who had been monitoring the accident. The equation he found
+was
+                                                                  
+
+                                                                  
+                                 <script type="math/tex; mode=display"> <![CDATA[ 
+t^3-11t^2+25t+45 
+]]> 
+</script>
+ where <script type="math/tex"> <![CDATA[ 
+t 
+]]> 
+</script> is in hours and <script type="math/tex"> <![CDATA[ 
+t = 0 
+]]> 
+</script> at 7 AM, and the function accurately models until 3
+PM.
+     </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+ (a) </dt><dd 
+class="enumerate-enumitem">When is the traffic moving slowest? At what speed is the traffic moving?
+     </dd><dt class="enumerate-enumitem">
+ (b) </dt><dd 
+class="enumerate-enumitem">When is the traffic moving the most quickly? At what speed?</dd></dl>
+     <dl class="dialogue"><dt class="actor">
+Dylan </dt><dd 
+class="speech">Wow, I guess there are some uses for optimization!
+     </dd><dt class="actor">
+Julia </dt><dd 
+class="speech">Could we do something similar for the tree house I&#x2019;m building for my
+     cousin? It needs one side of screen to let air in and keep bugs out, but the
+     rest should be wood. We want it to be 200 square feet.
+     </dd><dt class="actor">
+James </dt><dd 
+class="speech">Sure! Let&#x2019;s try and find the cheapest you could build it for.</dd></dl>
+<h5 class="subsubsectionHead"><a 
+ id="x1-2000"></a>Julia&#x2019;s Tree House</h5>
+<!--l. 30--><p class="noindent" >Julia is building a tree house for her younger cousin. She&#x2019;d like one side to be a large
+screen to give a great view and airflow, without letting bugs pour in. The rest will be
+made of wood, with windows (which we will not account for). Unfortunately, to
+have the screen be sturdy enough for Julia to be comfortable, it will cost
+$18 per foot, while the wood will cost only $7 per foot. The height of the
+house has already been accounted for in the cost per foot. Given that she
+wants a 200 square foot tree house, how should she design it to minimize the
+cost?
+     </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+ (a) </dt><dd 
+class="enumerate-enumitem">Determine the dimensions and cost of the cheapest tree house.</dd></dl>
+     <dl class="dialogue"><dt class="actor">
+Julia </dt><dd 
+class="speech">Wow, thanks James! That&#x2019;s going to be a real help!
+     </dd><dt class="actor">
+James </dt><dd 
+class="speech">Not a problem Julia.
+                                                                  
+
+                                                                  
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">Could you help my little sister with her lemonade stand?
+     </dd><dt class="actor">
+James </dt><dd 
+class="speech">Sure, let&#x2019;s look at how she can maximize her profits!</dd></dl>
+<h5 class="subsubsectionHead"><a 
+ id="x1-3000"></a>Dylan&#x2019;s Lemonade Stand</h5>
+<!--l. 43--><p class="noindent" >Dylan&#x2019;s little sister is running a lemonade stand, selling a cup for 25 cents. On a
+typical day, she&#x2019;ll sell to 100 people. She&#x2019;d like to increase her lemonade prices to
+profit more, and thinks that for every 25 cents she increases the price, 18 fewer
+people will purchase her product.
+     </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+ (a) </dt><dd 
+class="enumerate-enumitem">How should she price the lemonade to maximize her profit?</dd></dl>
+     <dl class="dialogue"><dt class="actor">
+James </dt><dd 
+class="speech">Excuse me for a second guys, I&#x2019;m getting a call. Hello?... Yes, this is
+     him... Sure, I&#x2019;ll get right on it!
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">What was that about?
+     </dd><dt class="actor">
+James </dt><dd 
+class="speech">I just got a call from a small business that wanted me to help them
+     figure out how to maximize their profits. Why don&#x2019;t you guys help me?
+     </dd><dt class="actor">
+Julia and Dylan </dt><dd 
+class="speech">Sounds good!</dd></dl>
+<h5 class="subsubsectionHead"><a 
+ id="x1-4000"></a>Handmade Paper Cups</h5>
+<!--l. 55--><p class="noindent" >James just got a call from a small company just north of Wooster which
+specializes in hand crafted paper cups. Every day, the company pays its
+workers $2000, regardless of their productivity. Each cup costs $2.15 to
+produce, as a result of the high quality paper which is used. Every day, new
+materials are ordered for <script type="math/tex"> <![CDATA[ 
+\frac {\$1500}{x} 
+]]> 
+</script>, where <script type="math/tex"> <![CDATA[ 
+x 
+]]> 
+</script> is the number of cups produced in a single
+day.
+     </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+ (a) </dt><dd 
+class="enumerate-enumitem">How  many  cups  should  the  company  produce  every  day  in  order  to
+     minimize costs?</dd></dl>
+                                                                  
+
+                                                                  
+</body> 
+ 
+</html>
+                                                                  
+
+                                                                  
+                                                                  
+
+

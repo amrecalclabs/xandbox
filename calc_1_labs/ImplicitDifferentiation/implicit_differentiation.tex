@@ -1,6 +1,6 @@
 \documentclass{ximera}
 \begin{document}
-\subsection{Implicit Differentiation}
+\subsection{Implicit Differentiation - Finish solutions}
 \begin{dialogue}
 \item[Dylan] Woah! What's up with this?
 \item[Julia] I didn't know functions were explicit!
@@ -23,30 +23,40 @@ Take the implicit function you defined in part one, and graph it. What do you no
 \begin{freeResponse}
 \end{freeResponse}
 \end{question}
-Now, using your CAS, solve the function for y, and graph the resulting equation(s). What do you notice?
-\begin{javascript}
-Desmos.enabledFeatures === {
-  GraphingCalculator: false,
-  FourFunctionCalculator: false,
-  ScientificCalculator: true
-}
-\end{javascript}
-\[
-\graph{}
-\]
-
-
+\begin{question}
+Now, using a CAS, solve the function for y, and graph the resulting equation(s). What do you notice?
+\begin{freeResponse}
+\end{freeResponse}
+\end{question}
+\begin{question}
 Using the function(s) you found, find the slope of the tangent lines at a point with two values on your graph.
-
+\begin{freeResponse}
+\end{freeResponse}
+\end{question}
+\setcounter{problem}{0}
 \subsubsection{Implicit Differentiation Using Substitution}
 Consider the equation $-x^2*y^3+y^5-32 = 0$.
-\begin{enumerate}
-\item{Using the method shown in the previous section, evaluate the function for $y$. Does this equation look easy to differentiate?}
-\item{Instead, let's treat our equation as an expression - because it equals zero, we don't have to worry about moving anything over. Now consider $y$ as $y(x)$, a function of $x$, and differentiate with respect to $x$. Each $y$ term will gain $\frac{dy}{dx}$. Then, set the expression equal to zero, and solve for $\frac{dy}{dx}$. What does this represent?}
-\item{Using your result in the previous section, evaluate $\frac{dy}{dx}$ at $x = 3$ and $x = 7$.}
-\item{Using the same strategy, find the slope of  $\sin(x^2)=\cos(xy^2)$ at any point.}
-\end{enumerate}
+\begin{question}
+Using the method shown in the previous section, evaluate the function for $y$. Does this equation look easy to differentiate?
+$\answer{No}$
 
+Instead, let's treat our equation as an expression - because it equals zero, we don't have to worry about moving anything over. Now consider $y$ as $y(x)$, a function of $x$, and differentiate with respect to $x$. Each $y$ term will gain $\frac{dy}{dx}$. Then, set the expression equal to zero, and solve for $\frac{dy}{dx}$. What does this represent?
+\begin{freeResponse}
+\end{freeResponse}
+\end{question}
+
+\begin{question}
+Using your result in the previous section, evaluate $\frac{dy}{dx}$ at $x = 3$ and $x = 7$.
+
+$\answer{}$
+
+$\answer{}$
+\end{question}
+\begin{question}
+Using the same strategy, find the slope of  $\sin(x^2)=\cos(xy^2)$ at any point.
+
+$\answer{}$
+\end{question}
 \subsubsection{Perpendicular at a Point}
 \begin{dialogue}
 \item[Julia] Wow, implicit differentiation is rough.
@@ -58,10 +68,23 @@ Consider the equation $-x^2*y^3+y^5-32 = 0$.
 \item[Dylan] Yeah, I don't see how that helps.
 \item[James] It's easy - all we have to do is see if the tangent lines are perpendicular at that point, and if they are, then so are the curves!
 \end{dialogue}
-\begin{enumerate}
-\item{Graph $3x - 2y + x^3-x^2y = 0$ and $x^2 - 2x + y^2 - 3y = 0$ on the same set of axes. Do they look perpendicular anywhere?}
-\item{Prove the two curves are (or are not) perpendicular at the origin. \linebreak \textit{Remember, two perpendicular lines will have their slopes be the negative inverse of one another.}}
-\end{enumerate}
+\begin{question}
+Graph $3x - 2y + x^3-x^2y = 0$ and $x^2 - 2x + y^2 - 3y = 0$ on the same set of axes.
+\[
+\graph{}
+\]
+
+Do they look perpendicular anywhere?
+$\answer{Yes}$
+\end{question}
+\begin{question}
+\begin{hint}
+Remember, two perpendicular lines will have their slopes be the negative inverse of one another.
+\end{hint}
+Prove the two curves are (or are not) perpendicular at the origin.
+\begin{freeResponse}
+\end{freeResponse}
+\end{question}
 
 
 \subsubsection{In Summary}
