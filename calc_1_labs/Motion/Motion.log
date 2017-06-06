@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  6 JUN 2017 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  6 JUN 2017 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,9 +415,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \c@ST@cmdline=\count121
 \sagetexindent=\skip46
 
-No file Motion.sagetex.sout.
+(./Motion.sagetex.sout)
 \sagecommandlineskip=\skip47
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip48
 \enit@outerparindent=\dimen157
@@ -1217,67 +1218,29 @@ LaTeX Info: Redefining \nameref on input line 4.
 \@outlinefile=\write10
 \openout10 = `Motion.out'.
 
- <motion.jpg, id=27, 752.8125pt x 674.52pt>
-File: motion.jpg Graphic file (type jpg)
 
-<use motion.jpg>
-Package pdftex.def Info: motion.jpg used on input line 18.
-(pdftex.def)             Requested size: 227.62204pt x 203.95287pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./motion.jpg>]
-<position.png, id=43, 507.8975pt x 299.1175pt>
-File: position.png Graphic file (type png)
- <use position.png>
-Package pdftex.def Info: position.png used on input line 71.
-(pdftex.def)             Requested size: 227.62204pt x 134.05392pt.
-
-<rocket.png, id=45, 317.185pt x 308.15125pt>
-File: rocket.png Graphic file (type png)
- <use rocket.png>
-Package pdftex.def Info: rocket.png used on input line 81.
-(pdftex.def)             Requested size: 227.62204pt x 221.1446pt.
- [2] [3 <./position.png> <./rocket.png>] [4] [5]
 *********************************************************************
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 6.
 (./Motion.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 6.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 6.
 Package rerunfilecheck Info: File `Motion.out' has not changed.
-(rerunfilecheck)             Checksum: 5063E6EB36405C46FBAAFB19F9AB7159;312.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 35434 strings out of 493085
- 792415 string characters out of 6136916
- 945505 words of memory out of 5000000
- 38296 multiletter control sequences out of 15000+600000
- 8613 words of font info for 32 fonts, out of 8000000 for 9000
+ 35289 strings out of 493085
+ 790585 string characters out of 6136916
+ 936463 words of memory out of 5000000
+ 38224 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,7n,79p,10413b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti10.pfb>
-Output written on Motion.pdf (5 pages, 189743 bytes).
+ 69i,1n,79p,10413b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 PDF objects out of 1000 (max. 8388607)
+ 4 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

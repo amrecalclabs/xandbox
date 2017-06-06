@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1496779274 "Riemann.tex" "Riemann.pdf" "Riemann" 1496779275
+["pdflatex"] 1496779477 "Riemann.tex" "Riemann.pdf" "Riemann" 1496779478
   "/etc/texmf/web2c/texmf.cnf" 1451280152 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -243,16 +243,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280843 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280935 3846735 a3be5ff00bc62403b9730d0cecfbba9e ""
-  "Riemann.aux" 1496779275 1323 ecd03b803d389a43a884a4d98d846375 ""
-  "Riemann.out" 1496779275 504 49eda324b61f69f09917896d71aadc92 ""
+  "Riemann.aux" 1496779478 1346 748369191e9f2b8e35d9cb96415b91dd ""
+  "Riemann.out" 1496779478 527 c2c14532da3eee2422631cf366c44477 ""
   "Riemann.sagetex.sout" 1496777927 241 c0b5da18c64a1b355b139ad2266c18cd ""
-  "Riemann.tex" 1496779268 5993 4b620d3653c065f7b9d8007a6b5356f7 ""
+  "Riemann.tex" 1496779476 6016 2aa3d21155c9f5b50981cc4b186755e0 ""
   (generated)
-  "Riemann.oc"
-  "Riemann.ids"
-  "Riemann.sagetex.sage"
-  "Riemann.pdf"
   "Riemann.out"
   "Riemann.jax"
+  "Riemann.sagetex.sage"
+  "Riemann.ids"
+  "Riemann.oc"
   "Riemann.log"
   "Riemann.aux"
+  "Riemann.pdf"
