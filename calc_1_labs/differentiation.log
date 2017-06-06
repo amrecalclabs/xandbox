@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  6 JUN 2017 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  6 JUN 2017 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,9 +415,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \c@ST@cmdline=\count121
 \sagetexindent=\skip46
 
-No file differentiation.sagetex.sout.
+(./differentiation.sagetex.sout)
 \sagecommandlineskip=\skip47
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip48
 \enit@outerparindent=\dimen157
@@ -1220,31 +1221,56 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2])
-Runaway argument?
-{\frac {j(x+h){h}}$ \item {Using what you found in the previous probl\ETC.
-! File ended while scanning use of \\answer.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+LaTeX Warning: Command \j invalid in math mode on input line 104.
+
+[3]
+! Missing } inserted.
 <inserted text> 
-                \par 
-<*> differentiation.tex
-                       
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+                }
+l.127 \end{enumerate}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-! Emergency stop.
-<*> differentiation.tex
-                       
-*** (job aborted, no legal \end found)
-
- 
+[4]
+*********************************************************************
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+(./differentiation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package rerunfilecheck Info: File `differentiation.out' has not changed.
+(rerunfilecheck)             Checksum: 9D79B7B6FD1BBC63FAC55C8AE0E42F09;430.
+ ) 
 Here is how much of TeX's memory you used:
- 35325 strings out of 493085
- 791287 string characters out of 6136916
- 944160 words of memory out of 5000000
- 38225 multiletter control sequences out of 15000+600000
+ 35349 strings out of 493085
+ 791583 string characters out of 6136916
+ 944249 words of memory out of 5000000
+ 38232 multiletter control sequences out of 15000+600000
  7909 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,79p,10422b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 69i,12n,79p,10422b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb>
+Output written on differentiation.pdf (4 pages, 139824 bytes).
+PDF statistics:
+ 131 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
