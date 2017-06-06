@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 JUN 2017 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 JUN 2017 15:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1217,29 +1217,30 @@ LaTeX Info: Redefining \nameref on input line 5.
 
  [1
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./labs
-.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write10
+\openout10 = `labs.toc'.
+
+[2
+
+] (./Continuity/continuity.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write10
-\openout10 = `labs.toc'.
-
- [2
-
-]
-(./Continuity/continuity.tex [3
+) [3
 
 
-] [4] [5]) [6] (./Derivative/derivative.tex
-[7
+] [4]
+[5]) [6] (./derivative/derivative.tex [7
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.1}) 
 has been already used, duplicate ignored
@@ -1320,14 +1321,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 12.
  (./labs.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 12.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 12.
-Package rerunfilecheck Info: File `labs.out' has not changed.
-(rerunfilecheck)             Checksum: 0F5497B818A031755BDB9C0AB9E62A18;749.
+
+
+Package rerunfilecheck Warning: File `labs.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `labs.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  0F5497B818A031755BDB9C0AB9E62A18;749.
  ) 
 Here is how much of TeX's memory you used:
- 36908 strings out of 493014
- 831189 string characters out of 6133351
- 974593 words of memory out of 5000000
- 39783 multiletter control sequences out of 15000+600000
+ 36894 strings out of 493014
+ 831011 string characters out of 6133351
+ 973494 words of memory out of 5000000
+ 39771 multiletter control sequences out of 15000+600000
  14301 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,81p,10395b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1349,10 +1357,10 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on labs.pdf (13 pages, 229635 bytes).
+Output written on labs.pdf (13 pages, 227266 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
+ 225 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
  80 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
