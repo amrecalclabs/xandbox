@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-06 15:48:00" /> 
+<meta name="date" content="2017-06-06 15:56:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -84,24 +84,23 @@ notice? <script type="math/tex; mode=display"> <![CDATA[
 </div> Now, using your CAS, solve the function for y, and graph the resulting equation(s).
 What do you notice? <div class="javascript" id="javascript5"><script type="text/javascript"> 
 //<![CDATA[ 
-define(['canvas'],function(canvas) {alert("hi")
-    var ctx = canvas.getContext('2d');
-    ctx.fillRect(0, 0, 200, 200);
-    ctx.clearRect(30, 30, 140, 140);
+Desmos.enabledFeatures === {
+  GraphingCalculator: false,
+  FourFunctionCalculator: false,
+  ScientificCalculator: true
                                                                   
 
                                                                   
-    ctx.strokeRect(45, 45, 110, 110);
-});
+}
  
 //]]> 
 </script></div>
-<!--l. 36--><p class="noindent" >Using the function(s) you found, find the slope of the tangent lines at a point with
+<!--l. 35--><p class="noindent" >Using the function(s) you found, find the slope of the tangent lines at a point with
 two values on your graph.
 </p>
 <h5 class="subsubsectionHead"><a 
  id="x1-4000"></a>Implicit Differentiation Using Substitution</h5>
-<!--l. 39--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
+<!--l. 38--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
 -x^2*y^3+y^5-32 = 0 
 ]]> 
 </script>.
@@ -178,12 +177,12 @@ class="speech">James! Tell us more!
 James </dt><dd 
 class="speech">Alright guys, you can use implicit differentiation with implicit functions
      to tell if two functions are perpendicular at a point!
-                                                                  
-
-                                                                  
      </dd><dt class="actor">
 Julia </dt><dd 
 class="speech">But how?
+                                                                  
+
+                                                                  
      </dd><dt class="actor">
 Dylan </dt><dd 
 class="speech">Yeah, I don&#x2019;t see how that helps.
@@ -207,7 +206,7 @@ class="enumerate-enumitem">Prove  the  two  curves  are  (or  are  not)  perpend
      inverse of one another.</em></dd></dl>
 <h5 class="subsubsectionHead"><a 
  id="x1-6000"></a>In Summary</h5>
-<!--l. 65--><p class="noindent" >There are two main methods to solve implicit equations
+<!--l. 64--><p class="noindent" >There are two main methods to solve implicit equations
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 
