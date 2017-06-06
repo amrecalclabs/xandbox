@@ -10,10 +10,6 @@
 \newcommand {\thanksmark }[1]{}
 \newcommand {\thanksgap }[1]{}
 \newcommand {\reserved@a }[2]{}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
-\newcommand {\reserved@a }[1]{}
-\newcommand {\reserved@a }[2]{}
 \newcommand {\AppendGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Append \grfext@Check }{\grfext@Append \grfext@@Add }}
 \newcommand {\PrependGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Prepend \grfext@Check }{\grfext@Prepend \grfext@@Add }}
 \newcommand {\RemoveGraphicsExtensions }[1]{\@ifundefined {Gin@extensions}{\def \Gin@extensions {}}{\edef \grfext@tmp {\zap@space ##1 \@empty }\@for \grfext@ext :=\grfext@tmp \do {\def \grfext@next {\let \grfext@tmp \Gin@extensions \@expandtwoargs \@removeelement \grfext@ext \Gin@extensions \Gin@extensions \ifx \grfext@tmp \Gin@extensions \let \grfext@next \relax \fi \grfext@next }\grfext@next }}\grfext@Print \RemoveGraphicsExtensions }
@@ -39,6 +35,20 @@
 \newcommand {\ref  }[0]{\@ifstar \@refstar \T@ref }
 \newcommand {\pageref  }[0]{\@ifstar \@pagerefstar \T@pageref }
 \newcommand {\nameref  }[0]{\@ifstar \@namerefstar \T@nameref }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[0]{\AtBeginDocument }
