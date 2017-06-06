@@ -1,6 +1,5 @@
 \expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
-\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Application of the Derivative: Change answers to final problem prior to rollout}}{1}\relax 
-\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-2}{The Great Molasses Flood}}{1}\relax 
-\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-3}{Marginal Profit}}{3}\relax 
-\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{x1-4000}{QQ2-1-4}{Dorm Room Froyo}}{3}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{The Great Molasses Flood}}{1}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-2}{Marginal Profit}}{3}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-3}{Dorm Room Froyo}}{3}\relax 
 \par 

@@ -1,8 +1,7 @@
 \expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
-\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Implicit Differentiation - Finish solutions}}{1}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-2}{Introduction}}{1}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-3}{Guided Example}}{1}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-4000}{QQ2-1-4}{Implicit Differentiation Using Substitution}}{2}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-5000}{QQ2-1-5}{Perpendicular at a Point}}{2}\relax 
-\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-6000}{QQ2-1-6}{In Summary}}{3}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Introduction}}{1}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-2}{Guided Example}}{1}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-3}{Implicit Differentiation Using Substitution}}{2}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-4000}{QQ2-1-4}{Perpendicular at a Point}}{2}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-5000}{QQ2-1-5}{In Summary}}{3}\relax 
 \par 

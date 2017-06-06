@@ -1,0 +1,289 @@
+<!doctype html> 
+<html lang="en"> 
+<head>
+<title></title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<!-- charset=utf-8,-css,html,xhtml --> 
+<meta name="src" content="Motion.tex" /> 
+<meta name="date" content="2017-06-06 19:05:00" /> 
+<meta charset="UTF-8" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="ximera" content="version 0.0.1" /> 
+<link href="http://ximera.osu.edu/public/static/base.min.css" rel="stylesheet" media="screen"/> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/> 
+<script data-module="script" data-main="http://ximera.osu.edu/public/javascripts/app.min" src="http://ximera.osu.edu/components/requirejs/require.js"/> 
+</head><body> 
+<div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
+\newcommand {\epstopdfsetup }[0]{\setkeys {ETE}}
+ changed the theorem header of amsthm failed\MessageBreak }}}
+\newcommand {\GetTitleStringSetup }[0]{\setkeys {gettitlestring}}
+\newcommand {\Sectionformat }[2]{#1}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}</script><script type="text/javascript"> 
+</script> 
+</div>
+<h4 class="subsectionHead"><a 
+ id="x1-1000"></a>Motion</h4>
+<h5 class="subsubsectionHead"><a 
+ id="x1-2000"></a>Introduction</h5>
+     <dl class="dialogue"><dt class="actor">
+Dylan </dt><dd 
+class="speech">I wonder where Julia and James are...
+     </dd><dt class="actor">
+Julia </dt><dd 
+class="speech"><em>(runs in panting and clutching side)</em> Ha! I win
+     </dd><dt class="actor">
+James </dt><dd 
+class="speech"><em>(enters, also catching breath)</em> I just don&#x2019;t get it, I was going faster than
+     you at some point!!!
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">Well don&#x2019;t you know that position, velocity, and acceleration are all
+     related? Just because you were at a faster velocity at some point doesn&#x2019;t
+     mean you got there first!
+     </dd><dt class="actor">
+Julia and James </dt><dd 
+class="speech">Oh gosh, please don&#x2019;t tell me this is more applications of
+     derivatives...</dd></dl>
+<!--l. 14--><p class="noindent" >There are three main aspects of motion that we will examine in this lab; position,
+velocity, and acceleration.
+</p>
+<hr class="figure" /><div class="figure" 
+>
+                                                                  
+
+                                                                  
+                                                                  
+
+                                                                  
+
+<!--l. 18--><p class="noindent" ><img 
+src="motion.jpg" alt="PIC"  
+ />
+                                                                  
+
+                                                                  
+</p>
+</div><hr class="endfigure" />
+<h5 class="subsubsectionHead"><a 
+ id="x1-3000"></a>Guided Example</h5>
+     <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+ (a) </dt><dd 
+class="enumerate-enumitem">A banana is sliding across an ice hockey rink after being thrown in by an
+     over-excited child. The position of the banana, in meters, can be given by
+                                   <script type="math/tex; mode=display"> <![CDATA[ 
+p(t) = -\dfrac {1}{2}t^2+14t+11\text {,} 
+]]> 
+</script>
+     where <script type="math/tex"> <![CDATA[ 
+t 
+]]> 
+</script> is measured in seconds.
+         <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+      (i) </dt><dd 
+class="enumerate-enumitem">Graph this function. What does the slope of the graph mean in this
+         context?
+         </dd><dt class="enumerate-enumitem">
+     (ii) </dt><dd 
+class="enumerate-enumitem">How would you determine the average velocity from <script type="math/tex"> <![CDATA[ 
+t = 3 
+]]> 
+</script> to <script type="math/tex"> <![CDATA[ 
+t = 6 
+]]> 
+</script>?
+         </dd><dt class="enumerate-enumitem">
+     (iii) </dt><dd 
+class="enumerate-enumitem">With  help  from  the  formula  you  used  in  the  previous  question,
+         determine the instantaneous velocity at any point. <em>Hint: The limit
+         definition of derivative will be useful here.</em></dd></dl>
+     </dd><dt class="enumerate-enumitem">
+ (b) </dt><dd 
+class="enumerate-enumitem">Graph the equation you found in problem 1 part d.
+         <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+      (i) </dt><dd 
+class="enumerate-enumitem">Does this graph appear to fit our original equation? If not, go back
+         over your work from the previous problem.
+         </dd><dt class="enumerate-enumitem">
+     (ii) </dt><dd 
+class="enumerate-enumitem">What does the slope of this graph indicate?
+         </dd><dt class="enumerate-enumitem">
+     (iii) </dt><dd 
+class="enumerate-enumitem">Determine the average acceleration from <script type="math/tex"> <![CDATA[ 
+t = 3 
+]]> 
+</script> to <script type="math/tex"> <![CDATA[ 
+t = 6 
+]]> 
+</script>.
+                                                                  
+
+                                                                  
+         </dd><dt class="enumerate-enumitem">
+     (iv) </dt><dd 
+class="enumerate-enumitem">Now, create a function to determine the average acceleration at any
+         point - the process will be extremely similar to that of problem 1 part
+         d.</dd></dl>
+     </dd></dl>
+<h5 class="subsubsectionHead"><a 
+ id="x1-4000"></a>On Your Own</h5>
+     <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+ (a) </dt><dd 
+class="enumerate-enumitem">Examine the following graph of a particle&#x2019;s motion: <hr class="figure" /><div class="figure" 
+><img 
+src="position.png" alt="PIC"  
+ />
+     </div><hr class="endfigure" />
+         <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+      (i) </dt><dd 
+class="enumerate-enumitem">At what time(s) does the particle return to its initial point?
+         </dd><dt class="enumerate-enumitem">
+     (ii) </dt><dd 
+class="enumerate-enumitem">When, if ever, is the velocity of the particle zero? If these points exist,
+         does the object change direction each time?
+         </dd><dt class="enumerate-enumitem">
+     (iii) </dt><dd 
+class="enumerate-enumitem">At approximately what time is the particle moving the most quickly?</dd></dl>
+     </dd><dt class="enumerate-enumitem">
+ (b) </dt><dd 
+class="enumerate-enumitem">Model rockets work through burning a propellant to completion, coasting on
+     momentum for some time, and finally releasing a parachute when the rocket
+     begins to fall in order to prevent the rocket and its components from being
+     destroyed upon landing. Examine the following graph of one such rocket&#x2019;s
+     motion: <hr class="figure" /><div class="figure" 
+> <img 
+src="rocket.png" alt="PIC"  
+ />
+     </div><hr class="endfigure" />
+         <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+      (i) </dt><dd 
+class="enumerate-enumitem">What was the maximum velocity obtained by the rocket?
+         </dd><dt class="enumerate-enumitem">
+     (ii) </dt><dd 
+class="enumerate-enumitem">When did the rocket reach its highest point? What was the velocity
+         at that time?
+         </dd><dt class="enumerate-enumitem">
+     (iii) </dt><dd 
+class="enumerate-enumitem">When did the rocket&#x2019;s parachute deploy? How fast was the rocket
+         descending by that time?
+         </dd><dt class="enumerate-enumitem">
+     (iv) </dt><dd 
+class="enumerate-enumitem">Describe how long each phase of the rocket lasted, labeling the graph
+         as well.</dd></dl>
+     </dd><dt class="enumerate-enumitem">
+ (c) </dt><dd 
+class="enumerate-enumitem">At the surface of the Earth, acceleration due to gravity is approximately <script type="math/tex"> <![CDATA[ 
+9.8 \frac {\text {m}}{\text {s}^2} 
+]]> 
+</script>.
+     Consider throwing a ball directly upward from atop a 160 meter building at
+     <script type="math/tex"> <![CDATA[ 
+35 \frac {\text {m}}{\text {s}^2} 
+]]> 
+</script>.
+                                                                  
+
+                                                                  
+         <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+      (i) </dt><dd 
+class="enumerate-enumitem">Create an equation to express the acceleration of the ball at any time
+         after it has been thrown.
+         </dd><dt class="enumerate-enumitem">
+     (ii) </dt><dd 
+class="enumerate-enumitem">Integrate  the  previously  constructed  equation  to  produce  the
+         equation for velocity at any time for the ball. What will the constant
+         produced by the integration be?
+         </dd><dt class="enumerate-enumitem">
+     (iii) </dt><dd 
+class="enumerate-enumitem">Now, integrate your new equation yet again to produce the equation
+         for the position of the ball at any time. What will the constant be
+         here?</dd></dl>
+     </dd><dt class="enumerate-enumitem">
+ (d) </dt><dd 
+class="enumerate-enumitem">Consider a balloon which has been caught in a jet stream high above the
+     ground. The position of the balloon at any time can be given by the
+     equation
+                                   <script type="math/tex; mode=display"> <![CDATA[ 
+s(t) = 3t^5-15x^3+13\text {.} 
+]]> 
+</script>
+         <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+      (i) </dt><dd 
+class="enumerate-enumitem">Produce the velocity and acceleration equations for the balloon.
+         </dd><dt class="enumerate-enumitem">
+     (ii) </dt><dd 
+class="enumerate-enumitem">Over what time period is the balloon moving in the positive direction?
+         When is the velocity increasing?
+         </dd><dt class="enumerate-enumitem">
+     (iii) </dt><dd 
+class="enumerate-enumitem">What was the displacement of the balloon over the interval [-2.5,
+         2.25]? <em>Displacement is distance from the initial position</em>.</dd></dl>
+     </dd><dt class="enumerate-enumitem">
+ (e) </dt><dd 
+class="enumerate-enumitem">On a spring break trip with friends, you find yourself dared to stand upon
+     George Washington&#x2019;s nose on Mount Rushmore. While on the dangerous climb
+     down, you come up with an experiment, and request one of your friends go to
+     the base of the mountain. When you&#x2019;re on the nose, you take out your phone
+     and wallet, and toss the wallet into the air, starting the timer just as you
+     release the wallet. Simultaneously on the ground, your friend starts a
+     stopwatch on his phone. You stop the timer as the wallet passes you, with
+                                                                  
+
+                                                                  
+     your friend stopping their&#x2019;s once the wallet smashes into the ground.
+     Your stopwatch displays 3.8 seconds, and your friend&#x2019;s displays 13.72
+     seconds.
+         <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
+      (i) </dt><dd 
+class="enumerate-enumitem">Determine the acceleration, velocity, and position functions for the
+         wallet. You will need to use equations to determine each constant of
+         integration.
+         </dd><dt class="enumerate-enumitem">
+     (ii) </dt><dd 
+class="enumerate-enumitem">What is the baseball&#x2019;s initial velocity? What is it&#x2019;s velocity as it hits
+         the ground?
+         </dd><dt class="enumerate-enumitem">
+     (iii) </dt><dd 
+class="enumerate-enumitem">How far off the ground is George Washington&#x2019;s nose?</dd></dl>
+     </dd></dl>
+<h5 class="subsubsectionHead"><a 
+ id="x1-5000"></a>In Summary</h5>
+     <dl class="dialogue"><dt class="actor">
+James </dt><dd 
+class="speech">I guess there&#x2019;s more to position than just speed!
+     </dd><dt class="actor">
+Julia </dt><dd 
+class="speech">A <em>lot</em> more! Do you think you could run through the big points real quick
+     Dylan?
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">Sure Julia! When we derive position, we get velocity, and when we
+     derive  velocity,  we  get  acceleration.  Anti-differentiation  will  give  us
+     velocity from acceleration and position from velocity.
+     </dd><dt class="actor">
+James </dt><dd 
+class="speech">Okay, but how do we get the constant of integration?
+     </dd><dt class="actor">
+Julia </dt><dd 
+class="speech">I  know  this!  It&#x2019;s  whatever  was  the  initial  velocity  or  position  in  the
+     problem!
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">That&#x2019;s right Julia! When the initial isn&#x2019;t given, we can use knowledge
+     of when an object returns to a position zero or stops for a moment to
+     determine those constants.</dd></dl>
+                                                                  
+
+                                                                  
+</body> 
+ 
+</html>
+                                                                  
+
+                                                                  
+                                                                  
+
+
