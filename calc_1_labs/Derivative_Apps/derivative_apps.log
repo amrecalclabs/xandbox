@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  6 JUN 2017 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  6 JUN 2017 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,44 +1228,44 @@ ination with the same identifier (name{problem.1}) has been already used, dupli
 cate ignored
 <to be read again> 
                    \relax 
-l.43 C
+l.45 C
       ompute the marginal profit, $P'(x)$. $\answer{-.0081x^2+.1x+18}$pdfTeX wa
 rning (ext4): destination with the same identifier (name{problem.2}) has been a
 lready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 U
+l.52 U
       se the marginal profit function to approximate the increase in profit ...
 pdfTeX warning (ext4): destination with the same identifier (name{problem.3}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 U
+l.56 U
       se the marginal profit function to approximate the increase in profit ...
 [2pdfTeX warning (ext4): destination with the same identifier (name{problem.4})
  has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.63 \choice[correct]{Increase Production}
+l.66 \choice[correct]{Increase Production}
                                           ] [3]
 *********************************************************************
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
 (./derivative_apps.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `derivative_apps.out' has not changed.
 (rerunfilecheck)             Checksum: 3F0118A520A43F7A61F1CF06D9CDC1CC;266.
  ) 
 Here is how much of TeX's memory you used:
- 35381 strings out of 493085
- 791962 string characters out of 6136916
+ 35384 strings out of 493085
+ 791995 string characters out of 6136916
  943127 words of memory out of 5000000
- 38259 multiletter control sequences out of 15000+600000
- 11620 words of font info for 44 fonts, out of 8000000 for 9000
+ 38261 multiletter control sequences out of 15000+600000
+ 12324 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,8n,79p,10405b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,8n,79p,10405b,650s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/te
@@ -1278,7 +1278,7 @@ msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 sbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on derivative_apps.pdf (3 pages, 144839 bytes).
+Output written on derivative_apps.pdf (3 pages, 145038 bytes).
 PDF statistics:
  125 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
