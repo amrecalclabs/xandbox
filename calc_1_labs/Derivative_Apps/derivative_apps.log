@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  6 JUN 2017 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  6 JUN 2017 15:46
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1619,16 +1619,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [2] [3] [4]
+) [2] [3]
 *********************************************************************
-[5] [6] (./derivative_apps.aux) ) 
+[4] [5] (./derivative_apps.aux) ) 
 Here is how much of TeX's memory you used:
- 37611 strings out of 493086
- 821346 string characters out of 6136942
- 1102564 words of memory out of 5000000
- 40342 multiletter control sequences out of 15000+600000
+ 37605 strings out of 493086
+ 821249 string characters out of 6136942
+ 1102561 words of memory out of 5000000
+ 40336 multiletter control sequences out of 15000+600000
  6581 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,6n,79p,10890b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on derivative_apps.dvi (6 pages, 16772 bytes).
+Output written on derivative_apps.dvi (5 pages, 17112 bytes).
