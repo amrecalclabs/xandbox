@@ -1,0 +1,63 @@
+\newenvironment {prompt}{}{}
+\newcommand {\DeclareMathOperator }[2]{\@OldDeclareMathOperator {##1}{##2}\immediate \write \myfile {\unexpanded {\DeclareMathOperator }{\unexpanded {##1}}{\unexpanded {##2}}}}
+\newcommand {\floatstyle }[1]{\@ifundefined {fs@##1}{\float@error {##1}}{\def \float@style {##1}}}
+\newcommand {\float@error }[1]{\PackageError {float}{Unknown float style `##1' }{\@eha }}
+\newcommand {\floatname }[2]{\@namedef {fname@##1}{##2}}
+\newcommand {\floatplacement }[2]{\@namedef {fps@##1}{##2}}
+\newcommand {\floatevery }[2]{\csname @float@every@##1\endcsname ={##2}}
+\newcommand {\restylefloat }[0]{\@ifstar \float@restyle@ \float@restyle }
+\newcommand {\float@restyle@ }[1]{\float@restyle {##1}\expandafter \let \csname @float@c@##1\endcsname =\@caption }
+\newcommand {\float@restyle }[1]{\expandafter \edef \csname fst@##1\endcsname {\expandafter \noexpand \csname fs@\float@style \endcsname }\@namedef {##1}{\@nameuse {fst@##1}\@float@setevery {##1}\@float {##1}}\@namedef {##1*}{\@nameuse {fst@##1}\@float@setevery {##1}\@dblfloat {##1}}\expandafter \let \csname end##1\endcsname \float@end \expandafter \let \csname end##1*\endcsname \float@dblend \expandafter \let \csname @float@c@##1\endcsname =\float@caption \@ifundefined {@float@every@##1}{\expandafter \newtoks \csname @float@every@##1\endcsname }{}\@nameuse {@float@every@##1}={}}
+\newcommand {\newfloat }[3]{\@namedef {ext@##1}{##3} \let \float@do =\relax \xdef \@tempa {\noexpand \float@exts {\the \float@exts \float@do {##3}}}\@tempa \floatplacement {##1}{##2}\@ifundefined {fname@##1}{\floatname {##1}{##1}}{} \expandafter \edef \csname ftype@##1\endcsname {\value {float@type}}\addtocounter {float@type}{\value {float@type}} \restylefloat {##1}\expandafter \edef \csname fnum@##1\endcsname {\expandafter \noexpand \csname fname@##1\endcsname {} \expandafter \noexpand \csname the##1\endcsname } \@ifnextchar [{\float@newx {##1}}{\@ifundefined {c@##1}{\newcounter {##1}\@namedef {the##1}{\arabic {##1}}}{}}}
+\newcommand {\float@makebox }[1]{\vbox {\hsize =##1 \@parboxrestore \@fs@pre \@fs@iftopcapt \ifvoid \@floatcapt \else \unvbox \@floatcapt \par \@fs@mid \fi \unvbox \@currbox \else \unvbox \@currbox \ifvoid \@floatcapt \else \par \@fs@mid \unvbox \@floatcapt \fi \fi \par \@fs@post \vskip \z@ }}
+\newcommand {\float@end }[0]{\@endfloatbox \global \setbox \@currbox \float@makebox \columnwidth \let \@endfloatbox \relax \end@float }
+\newcommand {\float@endH }[0]{\@endfloatbox \vskip \intextsep \if@flstyle \setbox \@currbox \float@makebox \columnwidth \fi \box \@currbox \vskip \intextsep \relax }
+\newcommand {\float@dblend }[0]{\@endfloatbox \global \setbox \@currbox \float@makebox \textwidth \let \@endfloatbox \relax \end@dblfloat }
+\newcommand {\caption }[0]{\ifx \@captype \@undefined \@latex@error {\noexpand \caption outside float}\@ehd \expandafter \@gobble \else \refstepcounter \@captype \let \@tempf \@caption \expandafter \ifx \csname @float@c@\@captype \endcsname \relax \else \expandafter \expandafter \let \expandafter \@tempf \csname @float@c@\@captype \endcsname \fi \fi \@dblarg {\@tempf \@captype }}
+\newcommand {\listof }[2]{\@ifundefined {ext@##1}{\float@error {##1}}{\@namedef {l@##1}{\@dottedtocline {1}{1.5em}{2.3em}}\float@listhead {##2}\begingroup \setlength {\parskip }{\z@ }\@starttoc {\@nameuse {ext@##1}}\endgroup }}
+\newcommand {\float@listhead }[1]{\@ifundefined {chapter}{\def \@tempa {\section *}}{\def \@tempa {\chapter *}}\@tempa {##1\@mkboth {\MakeUppercase {##1}}{\MakeUppercase {##1}}}}
+\newcommand {\float@addtolists }[1]{\def \float@do ####1{\addtocontents {####1}{##1}} \the \float@exts }
+\newcommand {\floatc@plain }[2]{\setbox \@tempboxa \hbox {{\@fs@cfont ##1:} ##2}\ifdim \wd \@tempboxa >\hsize {\@fs@cfont ##1:} ##2\par \else \hbox to\hsize {\hfil \box \@tempboxa \hfil }\fi }
+\newcommand {\fs@plain }[0]{\def \@fs@cfont {\rmfamily }\let \@fs@capt \floatc@plain \def \@fs@pre {}\def \@fs@post {}\def \@fs@mid {\vspace \abovecaptionskip \relax }\let \@fs@iftopcapt \iffalse }
+\newcommand {\fs@plaintop }[0]{\fs@plain \def \@fs@mid {\vspace \belowcaptionskip \relax }\let \@fs@iftopcapt \iftrue }
+\newcommand {\floatc@ruled }[2]{{\@fs@cfont ##1} ##2\par }
+\newcommand {\fs@ruled }[0]{\def \@fs@cfont {\bfseries }\let \@fs@capt \floatc@ruled \def \@fs@pre {\hrule height.8pt depth0pt \kern 2pt}\def \@fs@post {\kern 2pt\hrule \relax }\def \@fs@mid {\kern 2pt\hrule \kern 2pt}\let \@fs@iftopcapt \iftrue }
+\newcommand {\fs@boxed }[0]{\def \@fs@cfont {\bfseries }\let \@fs@capt \floatc@plain \def \@fs@pre {\setbox \@currbox \vbox {\hbadness 10000 \moveleft 3.4pt\vbox {\advance \hsize by6.8pt \hrule \hbox to\hsize {\vrule \kern 3pt \vbox {\kern 3pt\box \@currbox \kern 3pt}\kern 3pt\vrule }\hrule }}}\def \@fs@mid {\kern 2pt}\def \@fs@post {}\let \@fs@iftopcapt \iffalse }
+\newcommand {\reserved@a }[2]{}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
+\newcommand {\reserved@a }[1]{}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\AppendGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Append \grfext@Check }{\grfext@Append \grfext@@Add }}
+\newcommand {\PrependGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Prepend \grfext@Check }{\grfext@Prepend \grfext@@Add }}
+\newcommand {\RemoveGraphicsExtensions }[1]{\@ifundefined {Gin@extensions}{\def \Gin@extensions {}}{\edef \grfext@tmp {\zap@space ##1 \@empty }\@for \grfext@ext :=\grfext@tmp \do {\def \grfext@next {\let \grfext@tmp \Gin@extensions \@expandtwoargs \@removeelement \grfext@ext \Gin@extensions \Gin@extensions \ifx \grfext@tmp \Gin@extensions \let \grfext@next \relax \fi \grfext@next }\grfext@next }}\grfext@Print \RemoveGraphicsExtensions }
+\newcommand {\epstopdfsetup }[0]{\setkeys {ETE}}
+\newcommand {\epstopdfcall }[1]{\ifETE@InsideSetfile \expandafter \@firstoftwo \else \expandafter \@secondoftwo \fi {`##1}{\Gin@base \Gin@ext }}
+\newcommand {\epstopdfDeclareGraphicsRule }[4]{\ifx \\##4\\\@PackageError {epstopdf-base}{Conversion command is missing}\@ehc \else \begingroup \@ifundefined {Gin@rule@##1}{}{\@PackageInfo {epstopdf-base}{Redefining graphics rule for `##1'}}\endgroup \@namedef {Gin@rule@##1}####1{{##2}{##3}{\epstopdfcall {##4}}}\fi }
+\newcommand {\ST@wsf }[1]{\immediate \write \ST@sf {##1}}
+\newcommand {\mdf@patchamsthm }[0]{\let \mdf@deferred@thm@head \deferred@thm@head \pretocmd {\deferred@thm@head }{\@inlabelfalse }{\mdf@PackageInfo {mdframed detected package amsthm 
+ changed the theorem header of amsthm\MessageBreak }}{\mdf@PackageError {mdframed detected package amsthm 
+ changed the theorem header of amsthm failed\MessageBreak }}}
+\newcommand {\GetTitleStringSetup }[0]{\setkeys {gettitlestring}}
+\newcommand {\GetTitleString }[0]{\ifGTS@expand \expandafter \GetTitleStringExpand \else \expandafter \GetTitleStringNonExpand \fi }
+\newcommand {\GetTitleStringExpand }[1]{\def \GetTitleStringResult {##1}\begingroup \GTS@DisablePredefinedCmds \GTS@DisableHook \edef \x {\endgroup \noexpand \def \noexpand \GetTitleStringResult {\GetTitleStringResult }}\x }
+\newcommand {\GetTitleStringNonExpand }[1]{\def \GetTitleStringResult {##1}\global \let \GTS@GlobalString \GetTitleStringResult \begingroup \GTS@RemoveLeft \GTS@RemoveRight \endgroup \let \GetTitleStringResult \GTS@GlobalString }
+\newcommand {\GTS@DisableHook }[0]{}
+\newcommand {\label@hook }[0]{}
+\newcommand {\@currentlabelname }[0]{}
+\newcommand {\reserved@a }[0]{}
+\newcommand {\@safe@activestrue }[0]{}
+\newcommand {\@safe@activesfalse }[0]{}
+\newcommand {\nameref  }[0]{\@ifstar \T@nameref \T@nameref }
+\newcommand {\Sectionformat }[2]{##1}
+\newcommand {\vnameref  }[1]{\unskip ~\nameref {##1}\@vpageref [\unskip ]{##1}}
+\newcommand {\ref  }[0]{\@ifstar \@refstar \T@ref }
+\newcommand {\pageref  }[0]{\@ifstar \@pagerefstar \T@pageref }
+\newcommand {\nameref  }[0]{\@ifstar \@namerefstar \T@nameref }
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\reserved@a }[0]{\AtBeginDocument }
+\newcommand {\reserved@a }[1]{}
+\newcommand {\reserved@a }[2]{}
