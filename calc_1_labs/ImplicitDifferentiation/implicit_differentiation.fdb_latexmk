@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1496774094 "implicit_differentiation.tex" "implicit_differentiation.pdf" "implicit_differentiation" 1496774094
+["pdflatex"] 1496861058 "implicit_differentiation.tex" "implicit_differentiation.pdf" "implicit_differentiation" 1496861058
   "/etc/texmf/web2c/texmf.cnf" 1451280152 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -232,16 +232,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280843 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280935 3846735 a3be5ff00bc62403b9730d0cecfbba9e ""
-  "implicit_differentiation.aux" 1496774094 1272 2e012b2f389c0f304c0bdea97d145e38 ""
-  "implicit_differentiation.out" 1496774094 466 03ff7ddea100527ef9082c83a905a4dc ""
-  "implicit_differentiation.sagetex.sout" 1496774017 258 3775b87edc0f6df6f27c1028c6f9e87d ""
-  "implicit_differentiation.tex" 1496774093 3944 8781525803ae0a03c3464a78adf956b2 ""
+  "implicit_differentiation.aux" 1496861058 1212 a3fecd0c40dbdca21bcd27706ac6eaf3 ""
+  "implicit_differentiation.out" 1496861058 362 b4c75ac48679c532420f4754c711291e ""
+  "implicit_differentiation.sagetex.sout" 1496861041 258 3775b87edc0f6df6f27c1028c6f9e87d ""
+  "implicit_differentiation.tex" 1496861056 3914 36ba5983ff46b062ed685f508edb9e77 ""
   (generated)
-  "implicit_differentiation.jax"
-  "implicit_differentiation.log"
-  "implicit_differentiation.sagetex.sage"
-  "implicit_differentiation.pdf"
   "implicit_differentiation.aux"
-  "implicit_differentiation.oc"
-  "implicit_differentiation.ids"
   "implicit_differentiation.out"
+  "implicit_differentiation.pdf"
+  "implicit_differentiation.jax"
+  "implicit_differentiation.sagetex.sage"
+  "implicit_differentiation.ids"
+  "implicit_differentiation.log"
+  "implicit_differentiation.oc"

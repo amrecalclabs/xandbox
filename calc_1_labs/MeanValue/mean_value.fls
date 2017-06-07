@@ -311,8 +311,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 OUTPUT mean_value.oc
 OUTPUT mean_value.ids
 OUTPUT mean_value.jax
-INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT mean_value.aux
 INPUT mean_value.aux
 OUTPUT mean_value.aux
@@ -367,6 +365,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT meanvalue.jpg
 INPUT ./meanvalue.jpg
