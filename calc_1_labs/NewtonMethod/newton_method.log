@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  6 JUN 2017 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  7 JUN 2017 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1219,12 +1219,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 7.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2]
 *********************************************************************
@@ -1235,14 +1230,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `newton_method.out' has not changed.
-(rerunfilecheck)             Checksum: 206CAB7ECE01A91DA820168EAF979EC0;335.
+(rerunfilecheck)             Checksum: 224CD4AB4F45202E7E087A8727EDB863;253.
  ) 
 Here is how much of TeX's memory you used:
- 35353 strings out of 493085
- 791578 string characters out of 6136916
- 941262 words of memory out of 5000000
- 38244 multiletter control sequences out of 15000+600000
- 13030 words of font info for 48 fonts, out of 8000000 for 9000
+ 35356 strings out of 493085
+ 791548 string characters out of 6136916
+ 941259 words of memory out of 5000000
+ 38247 multiletter control sequences out of 15000+600000
+ 13635 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,8n,79p,10437b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -1257,7 +1252,7 @@ public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msam10.pfb>
-Output written on newton_method.pdf (3 pages, 137354 bytes).
+Output written on newton_method.pdf (3 pages, 137547 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
