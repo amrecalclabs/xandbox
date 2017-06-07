@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1496865150 "implicit_differentiation.tex" "implicit_differentiation.pdf" "implicit_differentiation" 1496865151
+["pdflatex"] 1496865235 "implicit_differentiation.tex" "implicit_differentiation.pdf" "implicit_differentiation" 1496865236
   "/etc/texmf/web2c/texmf.cnf" 1451280152 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -235,16 +235,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280843 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280935 3846735 a3be5ff00bc62403b9730d0cecfbba9e ""
-  "implicit_differentiation.aux" 1496865151 1212 c2295cf15de682b591f4038e6b6f4869 ""
-  "implicit_differentiation.out" 1496865151 362 b4c75ac48679c532420f4754c711291e ""
+  "implicit_differentiation.aux" 1496865236 1212 c2295cf15de682b591f4038e6b6f4869 ""
+  "implicit_differentiation.out" 1496865236 362 b4c75ac48679c532420f4754c711291e ""
   "implicit_differentiation.sagetex.sout" 1496864900 258 3775b87edc0f6df6f27c1028c6f9e87d ""
-  "implicit_differentiation.tex" 1496865147 4037 ada64d6b72ddfa3414f1d8a5c87a7387 ""
+  "implicit_differentiation.tex" 1496865235 3983 9340947258b2a3574bd86485ce39109f ""
   (generated)
-  "implicit_differentiation.aux"
-  "implicit_differentiation.pdf"
-  "implicit_differentiation.oc"
-  "implicit_differentiation.log"
-  "implicit_differentiation.sagetex.sage"
   "implicit_differentiation.jax"
-  "implicit_differentiation.out"
+  "implicit_differentiation.pdf"
   "implicit_differentiation.ids"
+  "implicit_differentiation.sagetex.sage"
+  "implicit_differentiation.aux"
+  "implicit_differentiation.log"
+  "implicit_differentiation.oc"
+  "implicit_differentiation.out"
