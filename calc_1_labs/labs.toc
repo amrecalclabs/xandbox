@@ -1,28 +1,44 @@
-\contentsline {section}{Continuity and Discontinuity}{3}{section*.1}
-\contentsline {section}{Introduction}{3}{section*.2}
-\contentsline {section}{Example}{3}{section*.3}
-\contentsline {section}{Problems}{4}{section*.4}
-\contentsline {section}{Derivative}{7}{section*.5}
-\contentsline {subsection}{Guided Example}{7}{subsection*.6}
-\contentsline {subsection}{On Your Own}{8}{subsection*.7}
-\contentsline {subsection}{In Summary}{9}{subsection*.8}
-\contentsline {section}{Application of the Derivative: Change answers to final problem prior to rollout}{10}{section*.9}
-\contentsline {subsection}{The Great Molasses Flood}{10}{subsection*.10}
-\contentsline {subsection}{Marginal Profit}{11}{subsection*.11}
-\contentsline {subsection}{Dorm Room Froyo}{12}{subsection*.12}
-\contentsline {section}{Applications of Maxima - Add Question Answers}{14}{section*.13}
-\contentsline {subsubsection}{James' Traffic Jam}{14}{subsubsection*.14}
-\contentsline {subsubsection}{Julia's Tree House}{15}{subsubsection*.15}
-\contentsline {subsubsection}{Dylan's Lemonade Stand}{15}{subsubsection*.16}
-\contentsline {subsubsection}{Handmade Paper Cups}{16}{subsubsection*.17}
-\contentsline {section}{Mean Value Theorem}{17}{section*.18}
-\contentsline {subsubsection}{Introduction}{17}{subsubsection*.19}
-\contentsline {subsubsection}{Guided Example}{17}{subsubsection*.20}
-\contentsline {subsubsection}{On Your Own}{18}{subsubsection*.21}
-\contentsline {subsubsection}{In Summary}{19}{subsubsection*.22}
-\contentsline {section}{Motion}{21}{section*.23}
-\contentsline {section}{Introduction}{21}{section*.24}
-\contentsline {section}{Guided Example}{22}{section*.25}
-\contentsline {section}{On Your Own}{23}{section*.26}
-\contentsline {section}{In Summary}{25}{section*.27}
+\contentsline {section}{Continuity and Discontinuity}{4}{section*.1}
+\contentsline {section}{Introduction}{4}{section*.2}
+\contentsline {section}{Example}{4}{section*.3}
+\contentsline {section}{Problems}{5}{section*.4}
+\contentsline {section}{Derivative}{8}{section*.5}
+\contentsline {subsection}{Guided Example}{8}{subsection*.6}
+\contentsline {subsection}{On Your Own}{9}{subsection*.7}
+\contentsline {subsection}{In Summary}{10}{subsection*.8}
+\contentsline {section}{Application of the Derivative: Change answers to final problem prior to rollout}{11}{section*.9}
+\contentsline {subsection}{The Great Molasses Flood}{11}{subsection*.10}
+\contentsline {subsection}{Marginal Profit}{12}{subsection*.11}
+\contentsline {subsection}{Dorm Room Froyo}{13}{subsection*.12}
+\contentsline {section}{Applications of Maxima - Add Question Answers}{15}{section*.13}
+\contentsline {subsubsection}{James' Traffic Jam}{15}{subsubsection*.14}
+\contentsline {subsubsection}{Julia's Tree House}{16}{subsubsection*.15}
+\contentsline {subsubsection}{Dylan's Lemonade Stand}{16}{subsubsection*.16}
+\contentsline {subsubsection}{Handmade Paper Cups}{17}{subsubsection*.17}
+\contentsline {section}{Mean Value Theorem}{18}{section*.18}
+\contentsline {section}{Introduction}{18}{section*.19}
+\contentsline {section}{Guided Example}{18}{section*.20}
+\contentsline {section}{On Your Own}{20}{section*.21}
+\contentsline {section}{In Summary}{21}{section*.22}
+\contentsline {section}{Motion}{22}{section*.23}
+\contentsline {section}{Introduction}{22}{section*.24}
+\contentsline {section}{Guided Example}{23}{section*.25}
+\contentsline {section}{On Your Own}{24}{section*.26}
+\contentsline {section}{In Summary}{26}{section*.27}
+\contentsline {subsubsection}{Introduction}{27}{subsubsection*.28}
+\contentsline {subsubsection}{Guided Example}{27}{subsubsection*.29}
+\contentsline {subsubsection}{On Your Own}{27}{subsubsection*.30}
+\contentsline {subsubsection}{In Summary}{28}{subsubsection*.31}
+\contentsline {section}{Reimann Sums - Obviously Incomplete}{29}{section*.32}
+\contentsline {subsubsection}{Introduction}{29}{subsubsection*.33}
+\contentsline {subsubsection}{Increasing, Concave Up}{29}{subsubsection*.34}
+\contentsline {subsubsection}{Decreasing, Concave Up}{30}{subsubsection*.35}
+\contentsline {subsubsection}{Increasing, Concave Down}{31}{subsubsection*.36}
+\contentsline {subsubsection}{Decreasing, Concave Down}{31}{subsubsection*.37}
+\contentsline {subsubsection}{In Summary}{32}{subsubsection*.38}
+\contentsline {section}{Newton's Methods QUESTIONS}{34}{section*.39}
+\contentsline {subsubsection}{Introduction}{34}{subsubsection*.40}
+\contentsline {subsubsection}{Guided Example}{34}{subsubsection*.41}
+\contentsline {subsubsection}{On Your Own}{35}{subsubsection*.42}
+\contentsline {subsubsection}{In Summary}{36}{subsubsection*.43}
 \contentsfinish 

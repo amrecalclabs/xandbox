@@ -3,10 +3,11 @@
 <head>
 <title>Continuity and Discontinuity</title> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
-<meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="continuity.tex" /> 
+<meta name="date" content="2017-06-07 12:25:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -15,43 +16,16 @@
 <script data-module="script" data-main="http://ximera.osu.edu/public/javascripts/app.min" src="http://ximera.osu.edu/components/requirejs/require.js"/> 
 </head><body> 
 <div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
-\newcommand {\DeclareMathOperator }[2]{\@OldDeclareMathOperator {##1}{##2}\immediate \write \myfile {\unexpanded {\DeclareMathOperator }{\unexpanded {##1}}{\unexpanded {##2}}}}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\reserved@a }[2]{}
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
-\newcommand {\reserved@a }[1]{}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\AppendGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Append \grfext@Check }{\grfext@Append \grfext@@Add }}
-\newcommand {\PrependGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Prepend \grfext@Check }{\grfext@Prepend \grfext@@Add }}
-\newcommand {\RemoveGraphicsExtensions }[1]{\@ifundefined {Gin@extensions}{\def \Gin@extensions {}}{\edef \grfext@tmp {\zap@space ##1 \@empty }\@for \grfext@ext :=\grfext@tmp \do {\def \grfext@next {\let \grfext@tmp \Gin@extensions \@expandtwoargs \@removeelement \grfext@ext \Gin@extensions \Gin@extensions \ifx \grfext@tmp \Gin@extensions \let \grfext@next \relax \fi \grfext@next }\grfext@next }}\grfext@Print \RemoveGraphicsExtensions }
 \newcommand {\epstopdfsetup }[0]{\setkeys {ETE}}
-\newcommand {\epstopdfcall }[1]{\ifETE@InsideSetfile \expandafter \@firstoftwo \else \expandafter \@secondoftwo \fi {‘##1}{\Gin@base \Gin@ext }}
-\newcommand {\epstopdfDeclareGraphicsRule }[4]{\ifx \\##4\\\@PackageError {epstopdf-base}{Conversion command is missing}\@ehc \else \begingroup \@ifundefined {Gin@rule@##1}{}{\@PackageInfo {epstopdf-base}{Redefining graphics rule for ‘##1&#x2019;}}\endgroup \@namedef {Gin@rule@##1}####1{{##2}{##3}{\epstopdfcall {##4}}}\fi }
-\newcommand {\mdf@patchamsthm }[0]{\let \mdf@deferred@thm@head \deferred@thm@head \pretocmd {\deferred@thm@head }{\@inlabelfalse }{\mdf@PackageInfo {mdframed detected package amsthm
- changed the theorem header of amsthm\MessageBreak }}{\mdf@PackageError {mdframed detected package amsthm
  changed the theorem header of amsthm failed\MessageBreak }}}
 \newcommand {\GetTitleStringSetup }[0]{\setkeys {gettitlestring}}
-\newcommand {\GetTitleString }[0]{\ifGTS@expand \expandafter \GetTitleStringExpand \else \expandafter \GetTitleStringNonExpand \fi }
-\newcommand {\GetTitleStringExpand }[1]{\def \GetTitleStringResult {##1}\begingroup \GTS@DisablePredefinedCmds \GTS@DisableHook \edef \x {\endgroup \noexpand \def \noexpand \GetTitleStringResult {\GetTitleStringResult }}\x }
-\newcommand {\GetTitleStringNonExpand }[1]{\def \GetTitleStringResult {##1}\global \let \GTS@GlobalString \GetTitleStringResult \begingroup \GTS@RemoveLeft \GTS@RemoveRight \endgroup \let \GetTitleStringResult \GTS@GlobalString }
-\newcommand {\GTS@DisableHook }[0]{}
-\newcommand {\label@hook }[0]{}
-\newcommand {\@currentlabelname }[0]{}
-\newcommand {\reserved@a }[0]{}
-\newcommand {\@safe@activestrue }[0]{}
-\newcommand {\@safe@activesfalse }[0]{}
-\newcommand {\nameref  }[0]{\@ifstar \T@nameref \T@nameref }
-\newcommand {\Sectionformat }[2]{##1}
-\newcommand {\vnameref  }[1]{\unskip ~\nameref {##1}\@vpageref [\unskip ]{##1}}
-\newcommand {\ref  }[0]{\@ifstar \@refstar \T@ref }
-\newcommand {\pageref  }[0]{\@ifstar \@pagerefstar \T@pageref }
-\newcommand {\nameref  }[0]{\@ifstar \@namerefstar \T@nameref }
-\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\reserved@a }[0]{\AtBeginDocument }
-\newcommand {\reserved@a }[1]{}
-\newcommand {\reserved@a }[2]{}                                                                                                                                                                                                                                                                                                                                                                                                                         </script><script type="text/javascript"> 
+\newcommand {\Sectionformat }[2]{#1}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}</script><script type="math/tex">% This file was *autogenerated* from continuity.sagetex.sage with
+                                                                       % sagetex.py version 2015/08/26 v3.0-92d9f7a
+                                                                      %93d2f3fb9ed033cc72fbadd7257a581c% md5sum of corresponding .sage file (minus &#x0022;goboom&#x0022;,&#x0022;current_tex_line&#x0022;,and pause/unpause lines)</script><script type="text/javascript"> 
 </script> 
 </div>
  <div class="maketitle"></div>
@@ -61,9 +35,6 @@ class="speech">What does it mean for a graph to be discontinuous? I don&#x2019;t
      </dd><dt class="actor">
 Dylan </dt><dd 
 class="speech">I think it&#x2019;s like when there&#x2019;s a hole in the graph or something.
-                                                                  
-
-                                                                  
      </dd><dt class="actor">
 James </dt><dd 
 class="speech">Actually there are different kinds of discontinuities, but it&#x2019;s hard to
@@ -103,8 +74,8 @@ f(x) \neq f(a)
 </script></span>
 </div>
 </div>
-<h4 class="subsectionHead"><a 
- id="x1-2000"></a>Example</h4>
+<h3 class="sectionHead"><a 
+ id="x1-2000"></a>Example</h3>
 <!--l. 26--><p class="noindent" >Take the function <script type="math/tex"> <![CDATA[ 
 f(x) = \dfrac {(1-x)^2}{1-x} 
 ]]> 
@@ -124,7 +95,125 @@ x \neq 1
 attention to: <script type="math/tex"> <![CDATA[ 
 x=1 
 ]]> 
-</script> </body> 
+</script>.
+</p><!--l. 48--><p class="noindent" >Using the simple trick of squaring the denominator to create our numerator, we were
+able to easily pick a point where we will have a discontinuous function, without
+using a jump or infinite discontinuity. Jump discontinuities can easily be
+made using piecewise functions, and infinite discontinuities are often best
+made with rational functions, like fractions of polynomials! Don&#x2019;t worry
+                                                                  
+
+                                                                  
+if you haven&#x2019;t discussed these discontinuities yet; we&#x2019;ll see plenty in this
+lab!
+</p>
+<h3 class="sectionHead"><a 
+ id="x1-3000"></a>Problems</h3>
+<div class="problem-environment question" id="problem3"><a 
+ id="x1-3001r3"></a> Create a function with the left handed and right handed limits not equal. What kind
+of discontinuity have you made here? Is there any kind of discontinuity that can&#x2019;t be
+created like this? Is there another that can? Consider the function
+                                 <script type="math/tex; mode=display"> <![CDATA[ 
+f(x) = \frac {x^3+6x^2+12x+8}{x+2} \text {,} 
+]]> 
+</script>
+ Describe the continuity of this function. If there is a discontinuity, where is it
+present? Is it possible to modify the function to remove this discontinuity? If so,
+how? <div class="free-response" id="problem4"><a 
+ id="x1-3002r4"></a>
+</div>
+</div>
+<div class="problem-environment question" id="problem5"><a 
+ id="x1-3003r5"></a> Consider the function
+                                 <script type="math/tex; mode=display"> <![CDATA[ 
+g(x) = \frac {5x+2}{2x-3} \text {,} 
+]]> 
+</script>
+ Describe the continuity of this function. If there is a discontinuity, where is it
+present? Is it possible modify the function to remove this discontinuity? If so, how?
+<div class="free-response" id="problem6"><a 
+ id="x1-3004r6"></a>
+</div>
+</div>
+                                                                  
+
+                                                                  
+<div class="problem-environment question" id="problem7"><a 
+ id="x1-3005r7"></a> Design a function with a removable discontinuity at 2, and a jump discontinuity at
+0. <div class="free-response" id="problem8"><a 
+ id="x1-3006r8"></a>
+</div>
+</div>
+<div class="problem-environment question" id="problem9"><a 
+ id="x1-3007r9"></a> Design a function with an infinite discontinuity and at least one other type of
+discontinuity <div class="free-response" id="problem10"><a 
+ id="x1-3008r10"></a>
+</div>
+</div>
+     <dl class="dialogue"><dt class="actor">
+Julia </dt><dd 
+class="speech">Whenever I see people talking about jump discontinuities, they always
+     use piecewise functions. Do you think it&#x2019;s possible to make one without
+     the function being piecewise?
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">If there&#x2019;s one thing that I&#x2019;ve learned in math, it‘s that there are usually
+     two  ways  to  do  anything!  I&#x2019;m  not  really  sure  how  you  would  make
+     something like that though...
+     </dd><dt class="actor">
+James </dt><dd 
+class="speech">I know one function that would work! Here&#x2019;s a hint - my function has
+     one value on the positives, the opposite of that on the negatives, and is
+     undefined at 0.</dd></dl>
+<div class="problem-environment question" id="problem11"><a 
+ id="x1-3009r11"></a> Can you create a function which has a jump discontinuity, but is <em>not</em> piecewise?
+<div class="free-response" id="problem12"><a 
+ id="x1-3010r12"></a>
+</div>
+</div>
+     <dl class="dialogue"><dt class="actor">
+Julia </dt><dd 
+class="speech">Hey y&#x2019;all, I was looking at our continuous graphs and noticed something.
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">What did you see? They all look like pretty normal functions to me.
+     </dd><dt class="actor">
+James </dt><dd 
+class="speech">Yeah, I don&#x2019;t really know what you mean.
+     </dd><dt class="actor">
+Julia </dt><dd 
+class="speech">Well, discontinuities mean there are a chunk of the graph where you can
+     skip over a value, right? Like, we can jump right from 1 to 5, or have a
+     hole where some value isn&#x2019;t attained.
+     </dd><dt class="actor">
+Dylan and James </dt><dd 
+class="speech">Right. And?
+     </dd><dt class="actor">
+Julia </dt><dd 
+class="speech">I think if we picked a continuous function and looked at the functional
+     values on each end of a range, we could say something about all the values
+     in between those two!</dd></dl>
+                                                                  
+
+                                                                  
+<div class="problem-environment question" id="problem13"><a 
+ id="x1-3011r13"></a> Can you create a function which has a jump discontinuity, but is <em>not</em> piecewise?
+<div class="free-response" id="problem14"><a 
+ id="x1-3012r14"></a>
+</div>
+</div>
+<div class="problem-environment question" id="problem15"><a 
+ id="x1-3013r15"></a> <div class="problem-environment hint" id="problem16"><a 
+ id="x1-3014r16"></a> Can we skip any of the values?
+</div> What can we say about every value in a range <script type="math/tex"> <![CDATA[ 
+[f(a),f(b)] 
+]]> 
+</script> on a continuous graph?
+<div class="free-response" id="problem17"><a 
+ id="x1-3015r17"></a>
+</div>
+</div>
+</body> 
  
 </html>
                                                                   
