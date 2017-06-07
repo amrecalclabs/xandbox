@@ -8,7 +8,7 @@ solutions</title>
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-07 18:51:00" /> 
+<meta name="date" content="2017-06-07 19:51:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -83,21 +83,35 @@ notice? <script type="math/tex; mode=display"> <![CDATA[
 </div>
 </div> <div class="problem-environment question" id="problem5"><a 
  id="x1-2005r5"></a> Now, using a CAS, solve the function for y, and graph the resulting equation(s).
-What do you notice? <div class="free-response" id="problem6"><a 
+What do you notice? We can confirm our construction with <a class="reference" href="#@sageinline0">@sageinline0</a>
+<div class="sage"><script type="text/x-sage">var('s t')
+x(t) = 3*cos(t)
+y(t) = 3*sin(t)
+                                                                  
+
+                                                                  
+c(t) = (x(t),y(t))
+dc=derivative(c,t)
+ut= dc / dc.norm()
+ddc = derivative(ut,t)
+n = ddc / ddc.norm()
+circle=parametric_plot(c(t),(t,0,2*pi),color="black")
+curve=parametric_plot(c(t) + n*sin(5*t), (t,0,2*pi))
+circle+curve
+ 
+</script></div>
+<div class="free-response" id="problem6"><a 
  id="x1-2006r6"></a>
 </div>
 </div> <div class="problem-environment question" id="problem7"><a 
  id="x1-2007r7"></a> Using the function(s) you found, find the slope of the tangent lines at a point with
 two values on your graph. <div class="free-response" id="problem8"><a 
  id="x1-2008r8"></a>
-                                                                  
-
-                                                                  
 </div>
 </div>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>Implicit Differentiation Using Substitution</h3>
-<!--l. 41--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
+<!--l. 57--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
 -x^2*y^3+y^5-32 = 0 
 ]]> 
 </script>. </p><div class="problem-environment question" id="problem9"><a 
@@ -110,7 +124,7 @@ y
 \answer {No} 
 ]]> 
 </script>
-<!--l. 46--><p class="noindent" >Instead, let&#x2019;s treat our equation as an expression - because it equals zero,
+<!--l. 62--><p class="noindent" >Instead, let&#x2019;s treat our equation as an expression - because it equals zero,
 we don&#x2019;t have to worry about moving anything over. Now consider <script type="math/tex"> <![CDATA[ 
 y 
 ]]> 
@@ -150,11 +164,11 @@ x = 3
 x = 7 
 ]]> 
 </script>.
-<!--l. 54--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 70--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 56--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 72--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
@@ -163,7 +177,7 @@ x = 7
 \sin (x^2)=\cos (xy^2) 
 ]]> 
 </script> at any point.
-<!--l. 61--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 77--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
@@ -174,6 +188,9 @@ x = 7
      <dl class="dialogue"><dt class="actor">
 Julia </dt><dd 
 class="speech">Wow, implicit differentiation is rough.
+                                                                  
+
+                                                                  
      </dd><dt class="actor">
 Dylan </dt><dd 
 class="speech">You&#x2019;re telling me... I&#x2019;ve been doing this for hours! I wish we could at
@@ -192,9 +209,6 @@ class="speech">Alright guys, you can use implicit differentiation with implicit 
      </dd><dt class="actor">
 Julia </dt><dd 
 class="speech">But how?
-                                                                  
-
-                                                                  
      </dd><dt class="actor">
 Dylan </dt><dd 
 class="speech">Yeah, I don&#x2019;t see how that helps.
@@ -213,7 +227,7 @@ x^2 - 2x + y^2 - 3y = 0
  \graph {}  
 ]]> 
 </script>
-<!--l. 80--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
+<!--l. 96--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
 \answer {Yes} 
 ]]> 
 </script>
@@ -227,7 +241,7 @@ one another.
 </div>
 <h3 class="sectionHead"><a 
  id="x1-5000"></a>In Summary</h3>
-<!--l. 94--><p class="noindent" >There are two main methods to solve implicit equations
+<!--l. 110--><p class="noindent" >There are two main methods to solve implicit equations
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 

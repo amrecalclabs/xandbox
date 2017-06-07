@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  7 JUN 2017 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  7 JUN 2017 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1229,25 +1229,25 @@ LaTeX Warning: Reference `@sageinline0' on page 1 undefined on input line 32.
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 U
+l.49 U
       sing the method shown in the previous section, evaluate the function f...
 pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 U
+l.58 U
       sing your result in the previous section, evaluate $\frac{dy}{dx}$ at ...
-[2]pdfTeX warning (ext4): destination with the same identifier (name{problem.3}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.75 U
-      sing the same strategy, find the slope of  $\sin(x^2)=\cos(xy^2)$ at a...
-pdfTeX warning (ext4): destination with the same identifier (name{problem.4}) h
+pdfTeX warning (ext4): destination with the same identifier (name{problem.3}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 G
+l.65 U
+      sing the same strategy, find the slope of  $\sin(x^2)=\cos(xy^2)$ at a...
+[2]pdfTeX warning (ext4): destination with the same identifier (name{problem.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 G
       raph $3x - 2y + x^3-x^2y = 0$ and $x^2 - 2x + y^2 - 3y = 0$ on the sam...
 [3] [4]
 *********************************************************************
@@ -1257,11 +1257,11 @@ Run Sage on implicit_differentiation.sagetex.sage, and then run LaTeX on implic
 it_differentiation.tex again.
 
 *********************************************************************
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
 (./implicit_differentiation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `implicit_differentiation.out' has not change
 d.
 (rerunfilecheck)             Checksum: B4C75AC48679C532420F4754C711291E;362.
@@ -1291,7 +1291,7 @@ ts/cm/cmsl9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msltt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssb
 x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b>
-Output written on implicit_differentiation.pdf (4 pages, 155822 bytes).
+Output written on implicit_differentiation.pdf (4 pages, 149760 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams
