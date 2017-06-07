@@ -28,6 +28,22 @@ Take the implicit function you defined in part one, and graph it. What do you no
 \end{question}
 \begin{question}
 Now, using a CAS, solve the function for y, and graph the resulting equation(s). What do you notice?
+\begin{onlineOnly}
+We can confirm our construction with \sage:
+\begin{sageCell}
+var('s t')
+x(t) = 3*cos(t)
+y(t) = 3*sin(t)
+c(t) = (x(t),y(t))
+dc=derivative(c,t)
+ut= dc / dc.norm()
+ddc = derivative(ut,t)
+n = ddc / ddc.norm()
+circle=parametric_plot(c(t),(t,0,2*pi),color="black")
+curve=parametric_plot(c(t) + n*sin(5*t), (t,0,2*pi))
+circle+curve
+\end{sageCell}
+\end{onlineOnly}
 \begin{freeResponse}
 \end{freeResponse}
 \end{question}
