@@ -422,6 +422,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT NewtonMethod/newton_method.tex
 INPUT NewtonMethod/newton_method.tex
+INPUT Transformations/transformations.tex
+INPUT Transformations/transformations.tex
+INPUT ImplicitDifferentiation/implicit_differentiation.tex
+INPUT ImplicitDifferentiation/implicit_differentiation.tex
+INPUT differentiation.tex
+INPUT differentiation.tex
 INPUT labs.aux
 INPUT ./labs.out
 INPUT ./labs.out

@@ -3,10 +3,11 @@
 <head>
 <title>Newton&#x2019;s Methods QUESTIONS</title> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
-<meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="newton_method.tex" /> 
+<meta name="date" content="2017-06-07 12:45:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -15,55 +16,21 @@
 <script data-module="script" data-main="http://ximera.osu.edu/public/javascripts/app.min" src="http://ximera.osu.edu/components/requirejs/require.js"/> 
 </head><body> 
 <div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
-\newcommand {\DeclareMathOperator }[2]{\@OldDeclareMathOperator {##1}{##2}\immediate \write \myfile {\unexpanded {\DeclareMathOperator }{\unexpanded {##1}}{\unexpanded {##2}}}}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\reserved@a }[2]{}
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
-\newcommand {\reserved@a }[1]{}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\AppendGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Append \grfext@Check }{\grfext@Append \grfext@@Add }}
-\newcommand {\PrependGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Prepend \grfext@Check }{\grfext@Prepend \grfext@@Add }}
-\newcommand {\RemoveGraphicsExtensions }[1]{\@ifundefined {Gin@extensions}{\def \Gin@extensions {}}{\edef \grfext@tmp {\zap@space ##1 \@empty }\@for \grfext@ext :=\grfext@tmp \do {\def \grfext@next {\let \grfext@tmp \Gin@extensions \@expandtwoargs \@removeelement \grfext@ext \Gin@extensions \Gin@extensions \ifx \grfext@tmp \Gin@extensions \let \grfext@next \relax \fi \grfext@next }\grfext@next }}\grfext@Print \RemoveGraphicsExtensions }
 \newcommand {\epstopdfsetup }[0]{\setkeys {ETE}}
-\newcommand {\epstopdfcall }[1]{\ifETE@InsideSetfile \expandafter \@firstoftwo \else \expandafter \@secondoftwo \fi {‘##1}{\Gin@base \Gin@ext }}
-\newcommand {\epstopdfDeclareGraphicsRule }[4]{\ifx \\##4\\\@PackageError {epstopdf-base}{Conversion command is missing}\@ehc \else \begingroup \@ifundefined {Gin@rule@##1}{}{\@PackageInfo {epstopdf-base}{Redefining graphics rule for ‘##1&#x2019;}}\endgroup \@namedef {Gin@rule@##1}####1{{##2}{##3}{\epstopdfcall {##4}}}\fi }
-\newcommand {\mdf@patchamsthm }[0]{\let \mdf@deferred@thm@head \deferred@thm@head \pretocmd {\deferred@thm@head }{\@inlabelfalse }{\mdf@PackageInfo {mdframed detected package amsthm
- changed the theorem header of amsthm\MessageBreak }}{\mdf@PackageError {mdframed detected package amsthm
  changed the theorem header of amsthm failed\MessageBreak }}}
 \newcommand {\GetTitleStringSetup }[0]{\setkeys {gettitlestring}}
-\newcommand {\GetTitleString }[0]{\ifGTS@expand \expandafter \GetTitleStringExpand \else \expandafter \GetTitleStringNonExpand \fi }
-\newcommand {\GetTitleStringExpand }[1]{\def \GetTitleStringResult {##1}\begingroup \GTS@DisablePredefinedCmds \GTS@DisableHook \edef \x {\endgroup \noexpand \def \noexpand \GetTitleStringResult {\GetTitleStringResult }}\x }
-\newcommand {\GetTitleStringNonExpand }[1]{\def \GetTitleStringResult {##1}\global \let \GTS@GlobalString \GetTitleStringResult \begingroup \GTS@RemoveLeft \GTS@RemoveRight \endgroup \let \GetTitleStringResult \GTS@GlobalString }
-\newcommand {\GTS@DisableHook }[0]{}
-\newcommand {\label@hook }[0]{}
-\newcommand {\@currentlabelname }[0]{}
-\newcommand {\reserved@a }[0]{}
-\newcommand {\@safe@activestrue }[0]{}
-\newcommand {\@safe@activesfalse }[0]{}
-\newcommand {\nameref  }[0]{\@ifstar \T@nameref \T@nameref }
-\newcommand {\Sectionformat }[2]{##1}
-\newcommand {\vnameref  }[1]{\unskip ~\nameref {##1}\@vpageref [\unskip ]{##1}}
-\newcommand {\ref  }[0]{\@ifstar \@refstar \T@ref }
-\newcommand {\pageref  }[0]{\@ifstar \@pagerefstar \T@pageref }
-\newcommand {\nameref  }[0]{\@ifstar \@namerefstar \T@nameref }
-\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
-\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\reserved@a }[0]{\AtBeginDocument }
-\newcommand {\reserved@a }[1]{}
-\newcommand {\reserved@a }[2]{}                                                                                                                                                                                                                                                                                                                                                                                                                         </script><script type="math/tex">% This file was *autogenerated* from newton_method.sagetex.sage with
-                                                                                                                                                                                                                                                                                                                                                                                                                                                         % sagetex.py version 2015/08/26 v3.0-92d9f7a
-                                                                                                                                                                                                                                                                                                                                                                                                                                                        %3bec5e3e98aa1871aa8ea1fe7d050607% md5sum of corresponding .sage file (minus &#x0022;goboom&#x0022;,&#x0022;current_tex_line&#x0022;,and pause/unpause lines)</script><script type="text/javascript"> 
+\newcommand {\Sectionformat }[2]{#1}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}</script><script type="math/tex">% This file was *autogenerated* from newton_method.sagetex.sage with
+                                                                       % sagetex.py version 2015/08/26 v3.0-92d9f7a
+                                                                      %3bec5e3e98aa1871aa8ea1fe7d050607% md5sum of corresponding .sage file (minus &#x0022;goboom&#x0022;,&#x0022;current_tex_line&#x0022;,and pause/unpause lines)</script><script type="text/javascript"> 
 </script> 
 </div>
  <div class="maketitle"></div>
-<h5 class="subsubsectionHead"><a 
- id="x1-1000"></a>Introduction</h5>
+<h3 class="sectionHead"><a 
+ id="x1-1000"></a>Introduction</h3>
      <dl class="dialogue"><dt class="actor">
-                                                                  
-
-                                                                  
 Dylan </dt><dd 
 class="speech">I&#x2019;m so tired of having to solve roots by hand. It&#x2019;s a real drag.
      </dd><dt class="actor">
@@ -87,8 +54,8 @@ lines from an initial estimate. While this method is extremely accurate when
 used properly, it is possible to have a very inaccurate estimate when used
 improperly.
 </p>
-<h5 class="subsubsectionHead"><a 
- id="x1-2000"></a>Guided Example</h5>
+<h3 class="sectionHead"><a 
+ id="x1-2000"></a>Guided Example</h3>
 <!--l. 18--><p class="noindent" >In the following figure we have an initial guess <script type="math/tex"> <![CDATA[ 
 x_{0} 
 ]]> 
@@ -110,6 +77,9 @@ x_{0}
 \answer {f'(x_0)} 
 ]]> 
 </script>
+                                                                  
+
+                                                                  
 </p><!--l. 25--><p class="noindent" >What is the equation of the tangent line for the point <script type="math/tex"> <![CDATA[ 
 (x_{0},f(x_{0}) 
 ]]> 
@@ -130,8 +100,8 @@ x_{1}
 </div>
 <!--l. 34--><p class="noindent" ></div>
 </p>
-<h5 class="subsubsectionHead"><a 
- id="x1-3000"></a>On Your Own</h5>
+<h3 class="sectionHead"><a 
+ id="x1-3000"></a>On Your Own</h3>
 <div class="problem-environment question" id="problem3"><a 
  id="x1-3001r3"></a> Consider the function <script type="math/tex"> <![CDATA[ 
 f(x) = x^2-1 
@@ -140,9 +110,6 @@ f(x) = x^2-1
  \graph {x^2-1}  
 ]]> 
 </script>
-                                                                  
-
-                                                                  
 <!--l. 42--><p class="noindent" >Find the tangent line at an initial estimate of <script type="math/tex"> <![CDATA[ 
 x_0=3 
 ]]> 
@@ -190,14 +157,17 @@ result do you get? <script type="math/tex"> <![CDATA[
 <!--l. 74--><p class="noindent" >Why is it important to use caution with Newton&#x2019;s method? </p><div class="free-response" id="problem6"><a 
  id="x1-3003r5"></a>
 </div>
-<h5 class="subsubsectionHead"><a 
- id="x1-4000"></a>In Summary</h5>
+<h3 class="sectionHead"><a 
+ id="x1-4000"></a>In Summary</h3>
      <dl class="dialogue"><dt class="actor">
 Julia </dt><dd 
 class="speech">Wow! Newton&#x2019;s Method is awesome!
      </dd><dt class="actor">
 Dylan </dt><dd 
 class="speech">Yeah, it&#x2019;s way more accurate than just guessing! If you&#x2019;re too far off on
+                                                                  
+
+                                                                  
      that initial guess though...
      </dd><dt class="actor">
 James </dt><dd 

@@ -1,1 +1,62 @@
+\contentsline {section}{Continuity and Discontinuity}{4}{section*.1}
+\contentsline {section}{Introduction}{4}{section*.2}
+\contentsline {section}{Example}{4}{section*.3}
+\contentsline {section}{Problems}{5}{section*.4}
+\contentsline {section}{Derivative}{8}{section*.5}
+\contentsline {subsection}{Guided Example}{8}{subsection*.6}
+\contentsline {subsection}{On Your Own}{9}{subsection*.7}
+\contentsline {subsection}{In Summary}{10}{subsection*.8}
+\contentsline {section}{Application of the Derivative: Change answers to final problem prior to rollout}{11}{section*.9}
+\contentsline {subsection}{The Great Molasses Flood}{11}{subsection*.10}
+\contentsline {subsection}{Marginal Profit}{12}{subsection*.11}
+\contentsline {subsection}{Dorm Room Froyo}{13}{subsection*.12}
+\contentsline {section}{Applications of Maxima - Add Question Answers}{15}{section*.13}
+\contentsline {subsubsection}{James' Traffic Jam}{15}{subsubsection*.14}
+\contentsline {subsubsection}{Julia's Tree House}{16}{subsubsection*.15}
+\contentsline {subsubsection}{Dylan's Lemonade Stand}{16}{subsubsection*.16}
+\contentsline {subsubsection}{Handmade Paper Cups}{17}{subsubsection*.17}
+\contentsline {section}{Mean Value Theorem}{18}{section*.18}
+\contentsline {section}{Introduction}{18}{section*.19}
+\contentsline {section}{Guided Example}{18}{section*.20}
+\contentsline {section}{On Your Own}{20}{section*.21}
+\contentsline {section}{In Summary}{21}{section*.22}
+\contentsline {section}{Motion}{22}{section*.23}
+\contentsline {section}{Introduction}{22}{section*.24}
+\contentsline {section}{Guided Example}{23}{section*.25}
+\contentsline {section}{On Your Own}{24}{section*.26}
+\contentsline {section}{In Summary}{26}{section*.27}
+\contentsline {section}{Rational Functions with Awful Questions}{27}{section*.28}
+\contentsline {section}{Introduction}{27}{section*.29}
+\contentsline {section}{Guided Example}{27}{section*.30}
+\contentsline {section}{On Your Own}{28}{section*.31}
+\contentsline {section}{In Summary}{28}{section*.32}
+\contentsline {section}{Riemann Sums - Obviously Incomplete}{30}{section*.33}
+\contentsline {subsubsection}{Introduction}{30}{subsubsection*.34}
+\contentsline {subsubsection}{Increasing, Concave Up}{30}{subsubsection*.35}
+\contentsline {subsubsection}{Decreasing, Concave Up}{31}{subsubsection*.36}
+\contentsline {subsubsection}{Increasing, Concave Down}{32}{subsubsection*.37}
+\contentsline {subsubsection}{Decreasing, Concave Down}{32}{subsubsection*.38}
+\contentsline {subsubsection}{In Summary}{33}{subsubsection*.39}
+\contentsline {section}{Newton's Methods QUESTIONS}{35}{section*.40}
+\contentsline {section}{Introduction}{35}{section*.41}
+\contentsline {section}{Guided Example}{35}{section*.42}
+\contentsline {section}{On Your Own}{36}{section*.43}
+\contentsline {section}{In Summary}{37}{section*.44}
+\contentsline {section}{Transformations of Functions}{38}{section*.45}
+\contentsline {subsubsection}{Introduction}{38}{subsubsection*.46}
+\contentsline {subsection}{Guided Example}{38}{subsection*.47}
+\contentsline {subsubsection}{On your own}{39}{subsubsection*.48}
+\contentsline {subsubsection}{In Summary}{39}{subsubsection*.49}
+\contentsline {section}{Implicit Differentiation - Finish solutions}{41}{section*.50}
+\contentsline {subsubsection}{Introduction}{41}{subsubsection*.51}
+\contentsline {subsubsection}{Guided Example}{41}{subsubsection*.52}
+\contentsline {subsubsection}{Implicit Differentiation Using Substitution}{42}{subsubsection*.53}
+\contentsline {subsubsection}{Perpendicular at a Point}{42}{subsubsection*.54}
+\contentsline {subsubsection}{In Summary}{43}{subsubsection*.55}
+\contentsline {section}{Differentiation Rules!}{44}{section*.56}
+\contentsline {subsubsection}{The Power Rule}{44}{subsubsection*.57}
+\contentsline {subsubsection}{The Constant Rule}{45}{subsubsection*.58}
+\contentsline {subsubsection}{The Constant Multiple Rule}{45}{subsubsection*.59}
+\contentsline {subsubsection}{The Sum and Difference Rules}{46}{subsubsection*.60}
+\contentsline {subsubsection}{In Summary}{47}{subsubsection*.61}
 \contentsfinish 
