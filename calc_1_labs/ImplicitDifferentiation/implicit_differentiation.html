@@ -8,7 +8,7 @@ solutions</title>
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-07 19:54:00" /> 
+<meta name="date" content="2017-06-08 13:27:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -17,6 +17,7 @@ solutions</title>
 <script data-module="script" data-main="http://ximera.osu.edu/public/javascripts/app.min" src="http://ximera.osu.edu/components/requirejs/require.js"/> 
 </head><body> 
 <div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
 \newcommand {\epstopdfsetup }[0]{\setkeys {ETE}}
  changed the theorem header of amsthm failed\MessageBreak }}}
 \newcommand {\GetTitleStringSetup }[0]{\setkeys {gettitlestring}}
@@ -81,16 +82,19 @@ notice? <script type="math/tex; mode=display"> <![CDATA[
  id="x1-2004r4"></a>
 </div>
 </div> <div class="problem-environment question" id="problem5"><a 
- id="x1-2005r5"></a> Now, using a CAS, solve the function for y, and graph the resulting equation(s).
-What do you notice? <div class="sage"><script type="text/x-sage">
+ id="x1-2005r5"></a> Now, in the following sage cell, solve the function for y, and graph the resulting
+equation(s). What do you notice? <div class="sage"><script type="text/x-sage">x,y = var("x, y")
+eqn = x**2+y**2==1
+new = solve(eqn, y)
+                                                                  
+
+                                                                  
+new
  
 </script></div>
 <div class="free-response" id="problem6"><a 
  id="x1-2006r6"></a>
 </div>
-                                                                  
-
-                                                                  
 </div> <div class="problem-environment question" id="problem7"><a 
  id="x1-2007r7"></a> Using the function(s) you found, find the slope of the tangent lines at a point with
 two values on your graph. <div class="free-response" id="problem8"><a 
@@ -99,8 +103,8 @@ two values on your graph. <div class="free-response" id="problem8"><a
 </div>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>Implicit Differentiation Using Substitution</h3>
-<!--l. 46--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
--x^2*y^3+y^5-32 = 0 
+<!--l. 49--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
+-x^2 \cdot y^3+y^5-32 = 0 
 ]]> 
 </script>. </p><div class="problem-environment question" id="problem9"><a 
  id="x1-3001r1"></a> Using the method shown in the previous section,
@@ -112,7 +116,7 @@ y
 \answer {No} 
 ]]> 
 </script>
-<!--l. 51--><p class="noindent" >Instead, let&#x2019;s treat our equation as an expression - because it equals zero,
+<!--l. 54--><p class="noindent" >Instead, let&#x2019;s treat our equation as an expression - because it equals zero,
 we don&#x2019;t have to worry about moving anything over. Now consider <script type="math/tex"> <![CDATA[ 
 y 
 ]]> 
@@ -152,12 +156,12 @@ x = 3
 x = 7 
 ]]> 
 </script>.
-<!--l. 59--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {} 
+<!--l. 62--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+x = 3: \answer {} 
 ]]> 
 </script>
-</p><!--l. 61--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {} 
+</p><!--l. 64--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+x = 4: \answer {} 
 ]]> 
 </script>
 </div> </p><div class="problem-environment question" id="problem12"><a 
@@ -165,7 +169,7 @@ x = 7
 \sin (x^2)=\cos (xy^2) 
 ]]> 
 </script> at any point.
-<!--l. 66--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 69--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
@@ -187,14 +191,14 @@ class="speech">Did  I  hear  that  you  guys  want  to  know  more  about  using
      </dd><dt class="actor">
 Julia and Dylan </dt><dd 
 class="speech">James! Tell us more!
+                                                                  
+
+                                                                  
      </dd><dt class="actor">
 James </dt><dd 
 class="speech">Alright guys, you can use implicit differentiation with implicit functions
      to tell if two functions are perpendicular at a point!
      </dd><dt class="actor">
-                                                                  
-
-                                                                  
 Julia </dt><dd 
 class="speech">But how?
      </dd><dt class="actor">
@@ -215,7 +219,7 @@ x^2 - 2x + y^2 - 3y = 0
  \graph {}  
 ]]> 
 </script>
-<!--l. 85--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
+<!--l. 88--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
 \answer {Yes} 
 ]]> 
 </script>
@@ -229,7 +233,7 @@ one another.
 </div>
 <h3 class="sectionHead"><a 
  id="x1-5000"></a>In Summary</h3>
-<!--l. 99--><p class="noindent" >There are two main methods to solve implicit equations
+<!--l. 102--><p class="noindent" >There are two main methods to solve implicit equations
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 
