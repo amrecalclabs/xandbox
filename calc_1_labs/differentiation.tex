@@ -18,31 +18,46 @@
 \item[James] Sounds like you guys need my help again?
 \item[Julia and Dylan] Help us James!
 \item[James] There \textit{is} a pattern! Check out this table I made!
+\end{dialogue}
 \begin{center}
 \begin{tabular}{c|c}
-$f(x)$ & $f'(x)$ \\
+$f(x)$ & $\frac{d}{dx}f(x)$ \\
 \hline
 $x^2$ & $2x^1$ \\
 $x^3$ & $3x^2$ \\
 $x^4$ & $4x^3$
 \end{tabular}
 \end{center}
-\end{dialogue}
 \begin{question}
-What pattern do you notice in James' table?
+What pattern do you notice in James' table? Generalize this pattern in terms of $x^n$.
 
-\begin{freeResponse}
-\end{freeResponse}
-
-Generalize this pattern in terms of $x^n$
-
-$ \frac{d}{dx} x^n =  \answer{n*x^{n-1}}$
+\begin{multipleChoice}
+\choice[correct]{$n \cdot x^{n-1}$}
+\choice{$n-1 \cdot x^{n-1}$}
+\choice{$n \cdot x^n$}
+\choice{$n-1 \cdot x^n$}
+\end{multipleChoice}
 \end{question}
 
 \begin{question}
 Using the limit definition of a derivative, compute the derivative for $x^5$
 
-$ \frac{d}{dx} x^5 =  \answer{5x^4}$
+$\frac{d}{dx} x^5 =  \answer{5x^4}$
+
+Notice that your answer fits the same pattern as before!
+\end{question}
+
+\begin{question}
+Use the power rule to differentiate the following functions.
+
+$f(x) = x^{10}$ \hspace{11mm} $\frac{d}{dx}f(x) = \answer{10x^9}$
+
+$f(x) = 3x^2$ \hspace{10mm} $\frac{d}{dx}f(x) = \answer{6x}$
+
+\begin{hint}
+The value $\frac{1}{x}$ can be represented by $x^{-1}$.
+\end{hint}
+$f(x) = \frac{5}{x}$ \hspace{12mm} $\frac{d}{dx}f(x) = \answer{-5x^{-2}}$
 \end{question}
 
 \section{The Constant Rule}
@@ -66,11 +81,11 @@ What does your answer mean?
 \begin{question}
 Using what you found in the previous problem, compute the following derivatives:
 
-$\frac{d}{dx} 2 =  \answer{0}$
+$f(x)=2$ \hspace{14mm} $\frac{d}{dx} f(x) =  \answer{0}$
 
-$\frac{d}{dx} 100 =  \answer{0}$
+$f(x)=100$ \hspace{10mm} $\frac{d}{dx} f(x) =  \answer{0}$
 
-$ \frac{d}{dx} 0 =  \answer{0}$
+$f(x)=0$ \hspace{13mm} $\frac{d}{dx} f(x) =  \answer{0}$
 
 \end{question}
 
@@ -94,11 +109,11 @@ $\frac{d}{dx} (k \cdot x) =  \answer{k}$
 \begin{question}
 \item{Using what you found in the previous problem, compute the following derivatives:}
 
-$\frac{d}{dx} 4x =  \answer{4}$
+$f(x) = 4x$ \hspace{12mm} $\frac{d}{dx} f(x) =  \answer{4}$
 
-$\frac{d}{dx} 10x =  \answer{10}$
+$f(x) = 10x$ \hspace{10mm} $\frac{d}{dx} f(x) =  \answer{10}$
 
-$\frac{d}{dx} \frac{1}{5}x =  \answer{\frac{1}{5}}$
+$f(x) = \frac{1}{5}x$ \hspace{11mm} $\frac{d}{dx} f(x) =  \answer{\frac{1}{5}}$
 \end{question}
 
 \section{The Sum and Difference Rules}
@@ -121,23 +136,24 @@ What does your answer mean?
 
 \begin{freeResponse}
 \end{freeResponse}
-
+\end{question}
+\begin{question}
 Using what you found in the previous problem, compute the following derivatives:
 
-$f(x) = 3x^2 - 5x + 2$, $g(x) = x^2 + 3x$ \hspace{10mm} $j'(x) =  \answer{8x-2}$
+$f(x) = 3x^2 - 5x + 2$, $g(x) = x^2 + 3x$ \hspace{11mm} $\frac{d}{dx}j(x) =  \answer{8x-2}$
 
-$f(x) = x^2 - 4x + 2$, $g(x) = -4x^2 + 3$ \hspace{10mm} $j'(x) = \answer{-6x-4}$
+$f(x) = x^2 - 4x + 2$, $g(x) = -4x^2 + 3$ \hspace{10mm} $\frac{d}{dx}j(x) = \answer{-6x-4}$
 
-$f(x) = 5x^3 + 3x$, $g(x) = 2x^2 - 13x$ \hspace{10mm} $j'(x) =  \answer{15x^2+4x-10}$
+$f(x) = 5x^3 + 3x$, $g(x) = 2x^2 - 13x$ \hspace{13mm} $\frac{d}{dx}j(x) =  \answer{15x^2+4x-10}$
 \end{question}
 \begin{question}
 Julia wonders if a similar rule exists for $m(x) = f(x)-g(x)$. Using the limit definition of derivative, determine if there is a pattern. Then, if there is a rule, use it to solve the 1a, 1b, and 1c. If there is not, do them using the limit definition.
 
-$f(x) = 3x^2 - 5x + 2$, $g(x) = x^2 + 3x$ \hspace{10mm} $m'(x) =  \answer{4x-8}$
+$f(x) = 3x^2 - 5x + 2$, $g(x) = x^2 + 3x$ \hspace{11mm} $\frac{d}{dx}m(x) =  \answer{4x-8}$
 
-$f(x) = x^2 - 4x + 2$, $g(x) = -4x^2 + 3$ \hspace{10mm} $m'(x) =  \answer{-10x-4}$
+$f(x) = x^2 - 4x + 2$, $g(x) = -4x^2 + 3$ \hspace{10mm} $\frac{d}{dx}m(x) =  \answer{-10x-4}$
 
-$f(x) = 5x^3 + 3x$, $g(x) = 2x^2 - 13x$ \hspace{10mm} $m'(x) =  \answer{15x^2-4x+16}$
+$f(x) = 5x^3 + 3x$, $g(x) = 2x^2 - 13x$ \hspace{13mm} $\frac{d}{dx}m(x) =  \answer{15x^2-4x+16}$
 \end{question}
 \section{In Summary}
 We've covered a lot of differentiation rules in this lab, to help you out we've made the following table.
@@ -145,15 +161,15 @@ We've covered a lot of differentiation rules in this lab, to help you out we've 
 \renewcommand{\arraystretch}{3}
 \begin{tabular}{| l | p{7.5cm} |}
     \hline
-    Power Rule & $\displaystyle \dfrac{d}{dx}(x^n)=n*x^{(n-1)}$,where $n$ is any real number besides 0. \\
+    Power Rule & $\dfrac{d}{dx}x^n=\answer{n*x^{(n-1)}}$,where $n$ is any real number. \\
     \hline
-    Constant Rule & $\displaystyle\dfrac{d}{dx}(c) = 0$ \\
+    Constant Rule & $\dfrac{d}{dx}c = \answer{0}$ \\
     \hline
-    Constant Multiple Rule & $\displaystyle\dfrac{d}{dx}(c \cdot f(x))=c\dfrac{d}{dx}f(x)$ \\
+    Constant Multiple Rule & $\dfrac{d}{dx}(c \cdot f(x))=\answer{c} \answer{*} \dfrac{d}{dx}\answer{f(x)}$ \\
     \hline
-    Sum Rule & $\displaystyle\dfrac{d}{dx}(f(x)+g(x))=\dfrac{d}{dx}f(x)+\dfrac{d}{dx}g(x)$ \\
+    Sum Rule & $\dfrac{d}{dx}(f(x)+g(x))=\dfrac{d}{dx}\answer{f(x)}\answer{+}\dfrac{d}{dx}\answer{g(x)}$ \\
     \hline
-    Difference Rule & $\displaystyle\dfrac{d}{dx}(f(x)-g(x))=\dfrac{d}{dx}f(x)-\dfrac{d}{dx}g(x)$ \\
+    Difference Rule & $\dfrac{d}{dx}(f(x)-g(x))=\dfrac{d}{dx}\answer{f(x)}\answer{-}\dfrac{d}{dx}\answer{g(x)}$ \\
     \hline
 \end{tabular}
 \end{center}
