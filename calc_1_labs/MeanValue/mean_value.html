@@ -1,15 +1,13 @@
 <!doctype html> 
 <html lang="en"> 
 <head>
-                                                                  
-
-                                                                  
 <title>Mean Value Theorem</title> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
-<meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="mean_value.tex" /> 
+<meta name="date" content="2017-06-08 13:08:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -18,75 +16,19 @@
 <script data-module="script" data-main="http://ximera.osu.edu/public/javascripts/app.min" src="http://ximera.osu.edu/components/requirejs/require.js"/> 
 </head><body> 
 <div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
-\newcommand {\DeclareMathOperator }[2]{\@OldDeclareMathOperator {##1}{##2}\immediate \write \myfile {\unexpanded {\DeclareMathOperator }{\unexpanded {##1}}{\unexpanded {##2}}}}
-\newcommand {\floatstyle }[1]{\@ifundefined {fs@##1}{\float@error {##1}}{\def \float@style {##1}}}
-\newcommand {\float@error }[1]{\PackageError {float}{Unknown float style ‘##1&#x2019;}{\@eha }}
-\newcommand {\floatname }[2]{\@namedef {fname@##1}{##2}}
-\newcommand {\floatplacement }[2]{\@namedef {fps@##1}{##2}}
-\newcommand {\floatevery }[2]{\csname @float@every@##1\endcsname ={##2}}
-\newcommand {\restylefloat }[0]{\@ifstar \float@restyle@ \float@restyle }
-\newcommand {\float@restyle@ }[1]{\float@restyle {##1}\expandafter \let \csname @float@c@##1\endcsname =\@caption }
-\newcommand {\float@restyle }[1]{\expandafter \edef \csname fst@##1\endcsname {\expandafter \noexpand \csname fs@\float@style \endcsname }\@namedef {##1}{\@nameuse {fst@##1}\@float@setevery {##1}\@float {##1}}\@namedef {##1*}{\@nameuse {fst@##1}\@float@setevery {##1}\@dblfloat {##1}}\expandafter \let \csname end##1\endcsname \float@end \expandafter \let \csname end##1*\endcsname \float@dblend \expandafter \let \csname @float@c@##1\endcsname =\float@caption \@ifundefined {@float@every@##1}{\expandafter \newtoks \csname @float@every@##1\endcsname }{}\@nameuse {@float@every@##1}={}}
-\newcommand {\newfloat }[3]{\@namedef {ext@##1}{##3} \let \float@do =\relax \xdef \@tempa {\noexpand \float@exts {\the \float@exts \float@do {##3}}}\@tempa \floatplacement {##1}{##2}\@ifundefined {fname@##1}{\floatname {##1}{##1}}{} \expandafter \edef \csname ftype@##1\endcsname {\value {float@type}}\addtocounter {float@type}{\value {float@type}} \restylefloat {##1}\expandafter \edef \csname fnum@##1\endcsname {\expandafter \noexpand \csname fname@##1\endcsname {} \expandafter \noexpand \csname the##1\endcsname } \@ifnextchar [{\float@newx {##1}}{\@ifundefined {c@##1}{\newcounter {##1}\@namedef {the##1}{\arabic {##1}}}{}}}
-\newcommand {\float@makebox }[1]{\vbox {\hsize =##1 \@parboxrestore \@fs@pre \@fs@iftopcapt \ifvoid \@floatcapt \else \unvbox \@floatcapt \par \@fs@mid \fi \unvbox \@currbox \else \unvbox \@currbox \ifvoid \@floatcapt \else \par \@fs@mid \unvbox \@floatcapt \fi \fi \par \@fs@post \vskip \z@ }}
-\newcommand {\float@end }[0]{\@endfloatbox \global \setbox \@currbox \float@makebox \columnwidth \let \@endfloatbox \relax \end@float }
-\newcommand {\float@endH }[0]{\@endfloatbox \vskip \intextsep \if@flstyle \setbox \@currbox \float@makebox \columnwidth \fi \box \@currbox \vskip \intextsep \relax }
-\newcommand {\float@dblend }[0]{\@endfloatbox \global \setbox \@currbox \float@makebox \textwidth \let \@endfloatbox \relax \end@dblfloat }
-\newcommand {\caption }[0]{\ifx \@captype \@undefined \@latex@error {\noexpand \caption outside float}\@ehd \expandafter \@gobble \else \refstepcounter \@captype \let \@tempf \@caption \expandafter \ifx \csname @float@c@\@captype \endcsname \relax \else \expandafter \expandafter \let \expandafter \@tempf \csname @float@c@\@captype \endcsname \fi \fi \@dblarg {\@tempf \@captype }}
-\newcommand {\listof }[2]{\@ifundefined {ext@##1}{\float@error {##1}}{\@namedef {l@##1}{\@dottedtocline {1}{1.5em}{2.3em}}\float@listhead {##2}\begingroup \setlength {\parskip }{\z@ }\@starttoc {\@nameuse {ext@##1}}\endgroup }}
-\newcommand {\float@listhead }[1]{\@ifundefined {chapter}{\def \@tempa {\section *}}{\def \@tempa {\chapter *}}\@tempa {##1\@mkboth {\MakeUppercase {##1}}{\MakeUppercase {##1}}}}
-\newcommand {\float@addtolists }[1]{\def \float@do ####1{\addtocontents {####1}{##1}} \the \float@exts }
-\newcommand {\floatc@plain }[2]{\setbox \@tempboxa \hbox {{\@fs@cfont ##1:} ##2}\ifdim \wd \@tempboxa &#x003E;\hsize {\@fs@cfont ##1:} ##2\par \else \hbox to\hsize {\hfil \box \@tempboxa \hfil }\fi }
-\newcommand {\fs@plain }[0]{\def \@fs@cfont {\rmfamily }\let \@fs@capt \floatc@plain \def \@fs@pre {}\def \@fs@post {}\def \@fs@mid {\vspace \abovecaptionskip \relax }\let \@fs@iftopcapt \iffalse }
-\newcommand {\fs@plaintop }[0]{\fs@plain \def \@fs@mid {\vspace \belowcaptionskip \relax }\let \@fs@iftopcapt \iftrue }
-\newcommand {\floatc@ruled }[2]{{\@fs@cfont ##1} ##2\par }
-\newcommand {\fs@ruled }[0]{\def \@fs@cfont {\bfseries }\let \@fs@capt \floatc@ruled \def \@fs@pre {\hrule height.8pt depth0pt \kern 2pt}\def \@fs@post {\kern 2pt\hrule \relax }\def \@fs@mid {\kern 2pt\hrule \kern 2pt}\let \@fs@iftopcapt \iftrue }
-\newcommand {\fs@boxed }[0]{\def \@fs@cfont {\bfseries }\let \@fs@capt \floatc@plain \def \@fs@pre {\setbox \@currbox \vbox {\hbadness 10000 \moveleft 3.4pt\vbox {\advance \hsize by6.8pt \hrule \hbox to\hsize {\vrule \kern 3pt \vbox {\kern 3pt\box \@currbox \kern 3pt}\kern 3pt\vrule }\hrule }}}\def \@fs@mid {\kern 2pt}\def \@fs@post {}\let \@fs@iftopcapt \iffalse }
-\newcommand {\reserved@a }[2]{}
-\newcommand {\reserved@a }[2]{}
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
-\newcommand {\reserved@a }[1]{}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\AppendGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Append \grfext@Check }{\grfext@Append \grfext@@Add }}
-\newcommand {\PrependGraphicsExtensions }[0]{\@ifundefined {Gin@extensions}{\let \Gin@extensions \@empty }{}\@ifstar {\grfext@Prepend \grfext@Check }{\grfext@Prepend \grfext@@Add }}
-\newcommand {\RemoveGraphicsExtensions }[1]{\@ifundefined {Gin@extensions}{\def \Gin@extensions {}}{\edef \grfext@tmp {\zap@space ##1 \@empty }\@for \grfext@ext :=\grfext@tmp \do {\def \grfext@next {\let \grfext@tmp \Gin@extensions \@expandtwoargs \@removeelement \grfext@ext \Gin@extensions \Gin@extensions \ifx \grfext@tmp \Gin@extensions \let \grfext@next \relax \fi \grfext@next }\grfext@next }}\grfext@Print \RemoveGraphicsExtensions }
 \newcommand {\epstopdfsetup }[0]{\setkeys {ETE}}
-\newcommand {\epstopdfcall }[1]{\ifETE@InsideSetfile \expandafter \@firstoftwo \else \expandafter \@secondoftwo \fi {‘##1}{\Gin@base \Gin@ext }}
-\newcommand {\epstopdfDeclareGraphicsRule }[4]{\ifx \\##4\\\@PackageError {epstopdf-base}{Conversion command is missing}\@ehc \else \begingroup \@ifundefined {Gin@rule@##1}{}{\@PackageInfo {epstopdf-base}{Redefining graphics rule for ‘##1&#x2019;}}\endgroup \@namedef {Gin@rule@##1}####1{{##2}{##3}{\epstopdfcall {##4}}}\fi }
-\newcommand {\mdf@patchamsthm }[0]{\let \mdf@deferred@thm@head \deferred@thm@head \pretocmd {\deferred@thm@head }{\@inlabelfalse }{\mdf@PackageInfo {mdframed detected package amsthm
- changed the theorem header of amsthm\MessageBreak }}{\mdf@PackageError {mdframed detected package amsthm
  changed the theorem header of amsthm failed\MessageBreak }}}
 \newcommand {\GetTitleStringSetup }[0]{\setkeys {gettitlestring}}
-\newcommand {\GetTitleString }[0]{\ifGTS@expand \expandafter \GetTitleStringExpand \else \expandafter \GetTitleStringNonExpand \fi }
-\newcommand {\GetTitleStringExpand }[1]{\def \GetTitleStringResult {##1}\begingroup \GTS@DisablePredefinedCmds \GTS@DisableHook \edef \x {\endgroup \noexpand \def \noexpand \GetTitleStringResult {\GetTitleStringResult }}\x }
-\newcommand {\GetTitleStringNonExpand }[1]{\def \GetTitleStringResult {##1}\global \let \GTS@GlobalString \GetTitleStringResult \begingroup \GTS@RemoveLeft \GTS@RemoveRight \endgroup \let \GetTitleStringResult \GTS@GlobalString }
-\newcommand {\GTS@DisableHook }[0]{}
-\newcommand {\label@hook }[0]{}
-\newcommand {\@currentlabelname }[0]{}
-\newcommand {\reserved@a }[0]{}
-\newcommand {\@safe@activestrue }[0]{}
-\newcommand {\@safe@activesfalse }[0]{}
-\newcommand {\nameref  }[0]{\@ifstar \T@nameref \T@nameref }
-\newcommand {\Sectionformat }[2]{##1}
-\newcommand {\vnameref  }[1]{\unskip ~\nameref {##1}\@vpageref [\unskip ]{##1}}
-\newcommand {\ref  }[0]{\@ifstar \@refstar \T@ref }
-\newcommand {\pageref  }[0]{\@ifstar \@pagerefstar \T@pageref }
-\newcommand {\nameref  }[0]{\@ifstar \@namerefstar \T@nameref }
-\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\reserved@a }[2]{}
-\newcommand {\reserved@a }[0]{\AtBeginDocument }
-\newcommand {\reserved@a }[1]{}
-\newcommand {\reserved@a }[2]{}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       </script><script type="math/tex">% This file was *autogenerated* from mean_value.sagetex.sage with
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       % sagetex.py version 2015/08/26 v3.0-92d9f7a
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      %a92260f10ccbe0f78d610b3a8689117d% md5sum of corresponding .sage file (minus &#x0022;goboom&#x0022;,&#x0022;current_tex_line&#x0022;,and pause/unpause lines)</script><script type="text/javascript"> 
+\newcommand {\Sectionformat }[2]{#1}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}</script><script type="math/tex">% This file was *autogenerated* from mean_value.sagetex.sage with
+                                                                       % sagetex.py version 2015/08/26 v3.0-92d9f7a
+                                                                      %a92260f10ccbe0f78d610b3a8689117d% md5sum of corresponding .sage file (minus &#x0022;goboom&#x0022;,&#x0022;current_tex_line&#x0022;,and pause/unpause lines)</script><script type="text/javascript"> 
 </script> 
 </div>
-
-                                                                  
  <div class="maketitle"></div>
-<h5 class="subsubsectionHead"><a 
- id="x1-1000"></a>Introduction</h5>
+<h3 class="sectionHead"><a 
+ id="x1-1000"></a>Introduction</h3>
      <dl class="dialogue"><dt class="actor">
 Dylan </dt><dd 
 class="speech">I don&#x2019;t know about this theorem...it seems pretty <em>mean</em>...
@@ -127,87 +69,83 @@ class="speech">Maybe  we  should  do  an  example...that  looks  pretty
      </dd><dt class="actor">
 ALTOGETHER </dt><dd 
 class="speech">Let&#x2019;s dive in!</dd></dl>
-<h5 class="subsubsectionHead"><a 
- id="x1-2000"></a>Guided Example</h5>
-<!--l. 18--><p class="noindent" >Take a look at the following graph illustrating the Mean Value Theorem
-</p><hr class="figure" /><div class="figure" 
->
                                                                   
 
                                                                   
-                                                                  
-
-                                                                  
-
-<!--l. 21--><p class="noindent" ><img 
-src="meanvalue.jpg" alt="PIC"  
- /> <a class="ximera-label" id="fig:meanvalue"></a>
-                                                                  
-
-                                                                  
+<h3 class="sectionHead"><a 
+ id="x1-2000"></a>Guided Example</h3>
+<!--l. 21--><p class="noindent" >Take a look at the following graph illustrating the Mean Value Theorem:
 </p>
-</div><hr class="endfigure" />
+<div class="image-environment"><img 
+src="meanvalue.jpg" alt="PIC"  
+ /> </div>
 <div class="problem-environment question" id="problem1"><a 
  id="x1-2001r1"></a> What do you notice about the tangent line at c with respect to the secant line from
-a to b? <div class="free-response" id="problem2"><a 
+a to b?
+<div class="free-response" id="problem2"><a 
  id="x1-2002r2"></a>
-</div> What does this mean the derivative of <script type="math/tex"> <![CDATA[ 
+</div>
+<!--l. 33--><p class="noindent" >What does this mean the derivative of <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> is at <script type="math/tex"> <![CDATA[ 
 c 
 ]]> 
-</script>? <script type="math/tex"> <![CDATA[ 
+</script>?
+</p><!--l. 35--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {0} 
 ]]> 
 </script>
-</div> <div class="problem-environment question" id="problem3"><a 
- id="x1-2003r3"></a> If <script type="math/tex"> <![CDATA[ 
+</p><!--l. 37--><p class="noindent" >If <script type="math/tex"> <![CDATA[ 
 f'(x) 
 ]]> 
 </script> was zero for all points in the interval, what could be said about <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> on that
-interval? <script type="math/tex"> <![CDATA[ 
+interval?
+</p><!--l. 39--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {f'(x) is constant} 
 ]]> 
 </script>
-</div> <div class="problem-environment question" id="problem4"><a 
- id="x1-2004r4"></a> Use <script type="math/tex"> <![CDATA[ 
+</div> </p><div class="problem-environment question" id="problem3"><a 
+ id="x1-2003r3"></a> Use <script type="math/tex"> <![CDATA[ 
 f(x)=sin(2x) 
 ]]> 
 </script> on the interval <script type="math/tex"> <![CDATA[ 
 [0,2\pi ] 
 ]]> 
 </script> for the following questions.
-<!--l. 38--><p class="noindent" >Graph <script type="math/tex"> <![CDATA[ 
+<!--l. 44--><p class="noindent" >Graph <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> <script type="math/tex; mode=display"> <![CDATA[ 
  \graph {}  
 ]]> 
 </script>
-</p><!--l. 43--><p class="noindent" >What values for <script type="math/tex"> <![CDATA[ 
+</p><!--l. 49--><p class="noindent" >What values for <script type="math/tex"> <![CDATA[ 
 c 
 ]]> 
 </script> satisfy the mean value theorem?
-</p><!--l. 45--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 51--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {\pi /4,3\pi /4,5\pi /4, 7\pi /4} 
 ]]> 
 </script>
 </div>
 </p>
-<h5 class="subsubsectionHead"><a 
- id="x1-3000"></a>On Your Own</h5>
-<!--l. 50--><p class="noindent" ><script type="math/tex; mode=display"> <![CDATA[ 
+<h3 class="sectionHead"><a 
+ id="x1-3000"></a>On Your Own</h3>
+<!--l. 58--><p class="noindent" ><script type="math/tex; mode=display"> <![CDATA[ 
  \graph {|x^2-x-2|}  
 ]]> 
-</script> Let <script type="math/tex"> <![CDATA[ 
+</script>
+</p><!--l. 60--><p class="noindent" >Let <script type="math/tex"> <![CDATA[ 
 f(x)=\left |x^2-x-2\right | 
 ]]> 
-</script>. </p><div class="problem-environment question" id="problem5"><a 
- id="x1-3001r5"></a> Examine the graph, does the Mean Value Theorem apply to <script type="math/tex"> <![CDATA[ 
+</script>.
+</p>
+<div class="problem-environment question" id="problem4"><a 
+ id="x1-3001r4"></a> Examine the graph, does the Mean Value Theorem apply to <script type="math/tex"> <![CDATA[ 
 f 
 ]]> 
 </script> on the interval
@@ -215,36 +153,43 @@ f
 [a,b]=[0,3] 
 ]]> 
 </script>?
-<!--l. 55--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 65--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {Yes} 
 ]]> 
-</script> If the theorem does apply, for what value of <script type="math/tex"> <![CDATA[ 
+</script>
+</p><!--l. 67--><p class="noindent" >If the theorem does apply, for what value of <script type="math/tex"> <![CDATA[ 
 x 
 ]]> 
 </script> is the theorem satisfied?
-</p><!--l. 58--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 69--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</div> </p><div class="problem-environment question" id="problem6"><a 
- id="x1-3002r6"></a> <script type="math/tex; mode=display"> <![CDATA[ 
+</div>
+</p>
+<div class="problem-environment question" id="problem5"><a 
+ id="x1-3002r5"></a> <script type="math/tex; mode=display"> <![CDATA[ 
  \graph {1/x}  
 ]]> 
 </script> Consider <script type="math/tex"> <![CDATA[ 
 f(x) = \frac {1}{x} 
 ]]> 
 </script>.
-<!--l. 66--><p class="noindent" >Over what region does the Mean Value Theorem not apply?
+<!--l. 78--><p class="noindent" >Over what region does the Mean Value Theorem not apply?
 </p>
-<div class="free-response" id="problem7"><a 
- id="x1-3003r7"></a>
+<div class="free-response" id="problem6"><a 
+ id="x1-3003r6"></a>
+                                                                  
+
+                                                                  
 </div>
-<!--l. 71--><p class="noindent" >Apply the Mean Value Theorem from [1, 4], determining what points experience the
-same instantaneous change as the entire interval. </p><div class="free-response" id="problem8"><a 
- id="x1-3004r8"></a>
+<!--l. 83--><p class="noindent" >Apply the Mean Value Theorem from [1, 4], determining what points experience the
+same instantaneous change as the entire interval. </p><div class="free-response" id="problem7"><a 
+ id="x1-3004r7"></a>
 </div>
-</div> <div class="problem-environment question" id="problem9"><a 
- id="x1-3005r9"></a> Seeing a police officer on the side of the road, your friend Tom slows down to 35
+</div>
+<div class="problem-environment question" id="problem8"><a 
+ id="x1-3005r8"></a> Seeing a police officer on the side of the road, your friend Tom slows down to 35
 mph. However, once the officer pulls over someone else for speeding, Tom speeds up
 to 70 mph. Half an hour and 35 miles later, Tom checks his navigation app and sees
 another police officer is up ahead, slowing himself down to the legal 35 mph.
@@ -252,34 +197,31 @@ However, the police officer still pulls Tom over, saying he had been radioed by 
 first officer right when Tom passed, so he could prove that Tom was going 70 mph at
 some point in the last half hour. Tom is furious about the clearly faulty reasoning of
 the police officer.
-<!--l. 78--><p class="noindent" >Thanks to the Mean Value Theorem, you know the police officer is in the right.
+<!--l. 91--><p class="noindent" >Thanks to the Mean Value Theorem, you know the police officer is in the right.
 Using <script type="math/tex"> <![CDATA[ 
 g(x) 
 ]]> 
 </script> as a function of position to time, explain to Tom why the officer had a valid
 reason to ticket him.
 </p>
-                                                                  
-
-                                                                  
-<div class="free-response" id="problem10"><a 
- id="x1-3006r10"></a>
+<div class="free-response" id="problem9"><a 
+ id="x1-3006r9"></a>
 </div>
-<!--l. 83--><p class="noindent" >Talking to Tom, you find out that he accelerated to 70 mph in only 5 seconds after
+<!--l. 96--><p class="noindent" >Talking to Tom, you find out that he accelerated to 70 mph in only 5 seconds after
 passing the officer. Prove that at some point, Tom had an acceleration of over 25,000
 <script type="math/tex"> <![CDATA[ 
 \frac {\text {mi}}{\text {h}^2} 
 ]]> 
 </script>.
 </p>
-<div class="free-response" id="problem11"><a 
- id="x1-3007r11"></a>
+<div class="free-response" id="problem10"><a 
+ id="x1-3007r10"></a>
 </div>
 </div>
-<h5 class="subsubsectionHead"><a 
- id="x1-4000"></a>In Summary</h5>
-<div class="theorem-like problem-environment definition" id="problem12"><a 
- id="x1-4001r12"></a>The <strong>Mean Value Theorem</strong> states that for any function <script type="math/tex"> <![CDATA[ 
+<h3 class="sectionHead"><a 
+ id="x1-4000"></a>In Summary</h3>
+<div class="theorem-like problem-environment definition" id="problem11"><a 
+ id="x1-4001r11"></a>The <strong>Mean Value Theorem</strong> states that for any function <script type="math/tex"> <![CDATA[ 
 f 
 ]]> 
 </script>, if <script type="math/tex"> <![CDATA[ 
@@ -300,7 +242,10 @@ c
 f'(c)=\frac {f(b)-f(a)}{b-a} 
 ]]> 
 </script>
-<!--l. 93--><p class="noindent" >This means that there is a point <script type="math/tex"> <![CDATA[ 
+                                                                  
+
+                                                                  
+<!--l. 107--><p class="noindent" >This means that there is a point <script type="math/tex"> <![CDATA[ 
 c 
 ]]> 
 </script> such that the secant line from <script type="math/tex"> <![CDATA[ 

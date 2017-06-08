@@ -27,10 +27,13 @@ Take the implicit function you defined in part one, and graph it. What do you no
 \end{freeResponse}
 \end{question}
 \begin{question}
-Now, using a CAS, solve the function for y, and graph the resulting equation(s). What do you notice?
+Now, in the following sage cell, solve the function for y, and graph the resulting equation(s). What do you notice?
 \begin{onlineOnly}
 \begin{sageCell}
-
+x,y = var("x, y")
+eqn = x**2+y**2==1
+new = solve(eqn, y)
+new
 \end{sageCell}
 \end{onlineOnly}
 \begin{freeResponse}
@@ -43,7 +46,7 @@ Using the function(s) you found, find the slope of the tangent lines at a point 
 \end{question}
 \setcounter{problem}{0}
 \section{Implicit Differentiation Using Substitution}
-Consider the equation $-x^2*y^3+y^5-32 = 0$.
+Consider the equation $-x^2 \cdot y^3+y^5-32 = 0$.
 \begin{question}
 Using the method shown in the previous section, evaluate the function for $y$. Does this equation look easy to differentiate?
 $\answer{No}$
