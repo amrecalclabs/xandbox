@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1496925097 "continuity.tex" "continuity.pdf" "continuity" 1496925098
+["pdflatex"] 1496942699 "continuity.tex" "continuity.pdf" "continuity" 1496942701
   "/etc/texmf/web2c/texmf.cnf" 1451280152 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -236,17 +236,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280843 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280935 3846735 a3be5ff00bc62403b9730d0cecfbba9e ""
-  "continuity.aux" 1496925098 1003 5adfe7f3a97f9628e95ca6b4837eca05 ""
-  "continuity.out" 1496925098 199 a282885415ca3ebb39632415c3f6b62c ""
+  "continuity.aux" 1496942701 1003 5adfe7f3a97f9628e95ca6b4837eca05 ""
+  "continuity.out" 1496942701 199 a282885415ca3ebb39632415c3f6b62c ""
   "continuity.png" 1496925037 36218 7ed2b8da834d8adac7110f40dc09ad98 ""
-  "continuity.sagetex.sout" 1496925048 244 fa0d5dd1f4371564813d4e5f036a0cab ""
-  "continuity.tex" 1496925097 4661 1e1dca0fa9766f8600e6074b434d4b45 ""
+  "continuity.sagetex.sout" 1496942591 244 fa0d5dd1f4371564813d4e5f036a0cab ""
+  "continuity.tex" 1496942660 6186 19a2395cd9ba4670938f7f1cfd4fe76f ""
   (generated)
+  "continuity.jax"
+  "continuity.aux"
+  "continuity.pdf"
   "continuity.out"
   "continuity.sagetex.sage"
-  "continuity.aux"
-  "continuity.jax"
-  "continuity.pdf"
-  "continuity.log"
   "continuity.ids"
+  "continuity.log"
   "continuity.oc"

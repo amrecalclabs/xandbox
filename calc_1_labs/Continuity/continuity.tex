@@ -29,12 +29,50 @@ Take the function $f(x) = \dfrac{(1-x)^2}{1-x}$.
 \includegraphics{continuity.png}
 \end{image}
 
-Through some simple elimination, we can easily see that this function is equivalent to $1-x$, where $x \neq 1$. Thus, there is one point on the original function we should pay close attention to: $x=1$. 
+Through some simple elimination, we can easily see that this function is equivalent to $1-x$, where $x \neq 1$. Thus, there is one point on the original function we should pay close attention to: $x=1$.
 
 Using the simple trick of squaring the denominator to create our numerator, we were able to easily pick a point where we will have a discontinuous function, without using a jump or infinite discontinuity. Jump discontinuities can easily be made using piecewise functions, and infinite discontinuities are often best made with rational functions, like fractions of polynomials! Don't worry if you haven't discussed these discontinuities yet; we'll see plenty in this lab!
 
 \section{Problems}
+\begin{question}
+  Consider the graph of $y=f(x)$ below
+  \begin{image}
+    \begin{tikzpicture}
+      \begin{axis}
+    [xmin=-0.2,
+          xmax=2.2,
+          ymin=-0.2,
+          ymax=2.2,
+          axis lines=center,
+          xlabel=$x$,ylabel=$y$,
+          every axis y label/.style={at=(current axis.above origin),anchor=south},
+          every axis x label/.style={at=(current axis.right of origin),anchor=west},
+      domain=-1:2,
+          clip=false,
+      ytick={0.5,1,1.5,2},
+      yticklabels={$0.5$,$1$,$1.5$,$2$},
+      xtick={0.5,1.0,1.5,2},
+      xticklabels={$0.5$,$1$,$1.5$,$2$},
+      grid = major
+    ]
+        \addplot[very thick,black] plot coordinates {(0,0) (1,1)};
+        \addplot[very thick,black] plot coordinates {(1,2) (2,0)};
+        \addplot[color=black,fill=background,only marks,mark=*] coordinates{(1,1)};  %% open hole
+        \addplot[color=black,fill=background,only marks,mark=*] coordinates{(.5,.5)};  %% open hole
+         \addplot[color=black,fill=black,only marks,mark=*] coordinates{(0,0)};  %% closed hole
+        \addplot[color=black,fill=black,only marks,mark=*] coordinates{(2,0)};  %% closed hole
+        \addplot[color=black,fill=black,only marks,mark=*] coordinates{(1,2)};  %% closed hole
 
+    \end{axis}
+    \end{tikzpicture}
+  \end{image}
+  Which of the following are true?
+  \begin{multipleChoice}
+    \choice{$f$ is continuous at $x=0.5$}
+    \choice{$f$ is continuous at $x=1$}
+    \choice[correct]{$f$ is continuous at $x=1.5$}
+  \end{multipleChoice}
+\end{question}
 \begin{question}
 Create a function with the left handed and right handed limits not equal. What kind of discontinuity have you made here? Is there any kind of discontinuity that can't be created like this? Is there another that can?
 Consider the function $$f(x) = \frac{x^3+6x^2+12x+8}{x+2} \text{,}$$ Describe the continuity of this function. If there is a discontinuity, where is it present? Is it possible to modify the function to remove this discontinuity? If so, how?
