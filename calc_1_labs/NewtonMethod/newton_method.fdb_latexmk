@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1496857619 "newton_method.tex" "newton_method.pdf" "newton_method" 1496857620
+["pdflatex"] 1496927299 "newton_method.tex" "newton_method.pdf" "newton_method" 1496927300
   "/etc/texmf/web2c/texmf.cnf" 1451280152 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -233,16 +233,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280843 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280935 3846735 a3be5ff00bc62403b9730d0cecfbba9e ""
-  "newton_method.aux" 1496857620 1080 bbbe8924b2537e01a10b73ac59e6c512 ""
-  "newton_method.out" 1496857620 253 224cd4ab4f45202e7e087a8727edb863 ""
-  "newton_method.sagetex.sout" 1496856716 247 219e128d8361961a2725d45bd59340b8 ""
-  "newton_method.tex" 1496857619 2928 31aec5fad324885f4c8babaaea1144ea ""
+  "NewtonMethod.png" 1496927293 7082 59ab146657be70525de56d298d4a8c77 ""
+  "newton_method.aux" 1496927300 1080 bbbe8924b2537e01a10b73ac59e6c512 ""
+  "newton_method.out" 1496927300 253 224cd4ab4f45202e7e087a8727edb863 ""
+  "newton_method.sagetex.sout" 1496926388 247 219e128d8361961a2725d45bd59340b8 ""
+  "newton_method.tex" 1496927299 2984 0fcd18a3347b5e5fede32e8f90dcfec5 ""
   (generated)
-  "newton_method.log"
-  "newton_method.pdf"
-  "newton_method.aux"
+  "newton_method.out"
   "newton_method.sagetex.sage"
   "newton_method.oc"
-  "newton_method.out"
+  "newton_method.log"
+  "newton_method.aux"
   "newton_method.ids"
   "newton_method.jax"
+  "newton_method.pdf"

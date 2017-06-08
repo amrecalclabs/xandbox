@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1496861005 "mean_value.tex" "mean_value.pdf" "mean_value" 1496861008
+["pdflatex"] 1496926053 "mean_value.tex" "mean_value.pdf" "mean_value" 1496926054
   "/etc/texmf/web2c/texmf.cnf" 1451280152 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -235,17 +235,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280843 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280935 3846735 a3be5ff00bc62403b9730d0cecfbba9e ""
-  "mean_value.aux" 1496861008 1072 23652b8c7175c7fa60c1fc345d41f5a0 ""
-  "mean_value.out" 1496861008 245 1d49beae6b92fc7b4ef219b41d46b54b ""
-  "mean_value.sagetex.sout" 1496861003 244 ed8d572b4adced8ab3e2e7ec7c1df5db ""
-  "mean_value.tex" 1496782703 3814 4dd3da7b9eefd3675a242421fe5e4dc5 ""
+  "mean_value.aux" 1496926053 1072 23652b8c7175c7fa60c1fc345d41f5a0 ""
+  "mean_value.out" 1496926053 245 1d49beae6b92fc7b4ef219b41d46b54b ""
+  "mean_value.sagetex.sout" 1496925936 244 ed8d572b4adced8ab3e2e7ec7c1df5db ""
+  "mean_value.tex" 1496926053 3802 5069507bfd367b7fc32cf429b9b3887d ""
   "meanvalue.jpg" 1496772048 73425 a669a80f3686113a8a88eb740883b9cb ""
   (generated)
-  "mean_value.sagetex.sage"
   "mean_value.log"
-  "mean_value.aux"
-  "mean_value.ids"
-  "mean_value.jax"
   "mean_value.out"
+  "mean_value.jax"
+  "mean_value.sagetex.sage"
   "mean_value.oc"
+  "mean_value.ids"
   "mean_value.pdf"
+  "mean_value.aux"
