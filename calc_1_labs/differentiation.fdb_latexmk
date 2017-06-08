@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1496942703 "differentiation.tex" "differentiation.pdf" "differentiation" 1496942704
+["pdflatex"] 1496942779 "differentiation.tex" "differentiation.pdf" "differentiation" 1496942780
   "/etc/texmf/web2c/texmf.cnf" 1451280152 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -240,16 +240,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280843 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280935 3846735 a3be5ff00bc62403b9730d0cecfbba9e ""
-  "differentiation.aux" 1496942704 1183 af3135b4fafae62a8df7044df9519e00 ""
-  "differentiation.out" 1496942704 333 02438e4fd2e2cbe557650b29b2ca6835 ""
+  "differentiation.aux" 1496942780 1183 af3135b4fafae62a8df7044df9519e00 ""
+  "differentiation.out" 1496942780 333 02438e4fd2e2cbe557650b29b2ca6835 ""
   "differentiation.sagetex.sout" 1496942702 249 620718e1dfa5f952d705b191a318a18a ""
-  "differentiation.tex" 1496942694 5099 dd8ca00d197f1795c3f4c747a4397be7 ""
+  "differentiation.tex" 1496942775 5100 43daf9f757c5e0521db5da847d87831d ""
   (generated)
-  "differentiation.aux"
-  "differentiation.ids"
   "differentiation.oc"
-  "differentiation.jax"
-  "differentiation.sagetex.sage"
-  "differentiation.log"
   "differentiation.out"
+  "differentiation.aux"
+  "differentiation.log"
+  "differentiation.ids"
   "differentiation.pdf"
+  "differentiation.sagetex.sage"
+  "differentiation.jax"
