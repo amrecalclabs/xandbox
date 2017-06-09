@@ -23,7 +23,6 @@ Which of the following equations are defined implicitly?
 \choice[correct]{$x^2y^3+y = 5x+8y$}
 \end{selectAll}
 \end{question}
-\begin{question}
 Graph the following implicitly defined function below, $$x^2+y^2=1$$
 \[
 \graph{}
@@ -40,45 +39,36 @@ Graph the two explicit equations on the same axis below.
 \[
 \graph{}
 \]
+\begin{question}
 Which of the following are true?
 \begin{selectAll}
-\choice{$$x^2+y^2=1$$ is a function}
-\choice[correct]{$$-\sqrt{1-x^2}$$ is a function}
-\choice[correct]{$$\sqrt{1-x^2}$$ is a function}
+\choice{$x^2+y^2=1$ is a function}
+\choice[correct]{$-\sqrt{1-x^2}$ is a function}
+\choice[correct]{$\sqrt{1-x^2}$ is a function}
 \end{selectAll}
 \end{question}
+
 \begin{question}
-Using the functions you found, differentiate to find the slope of the tangent lines at the point $(\frac{\sqrt{2}}),({2}\frac{\sqrt{2}}{2})$. You may do this in the above sage cell or by hand.
-Slope of tangent line at $(\frac{\sqrt{2}}),({2}\frac{\sqrt{2}}{2})=\answer{-1}$
+Using the functions you found, differentiate to find the slope of the tangent lines at the point $(\frac{\sqrt{2}}{2}),(\frac{\sqrt{2}}{2})$. You may do this in the above sage cell or by hand.
+$\answer{-1}$
 \end{question}
 Unfortunately not all implicit equations can be easily solved for y, which is why we use implicit differentiation!
 \begin{explanation}
 Starting with
 $$x^2 + y^2 = 1$$
-we apply the differential operator $\frac{d}{dx}$ to both sides of the equation
-
-% $$\frac{d}{dx} \left(x^2+y^2\right) = \frac{d}{dx} 1$$
-
-% $$\frac{d}{dx} x^2+\frac{d}{dx} y^2 = 0$$
-% Let's examine each of these terms in turn. To start
-% $$\frac{d}{dx} x^2 = \answer{2x}$$
-% On the other hand, $\frac{d}{dx} y^2$ is somewhat different. Here you imagine that $y = f(x)$, and hence by the chain rule
-% \begin{align*}
-% \ddx y^2 &= \ddx (f(x))^2 \\
-% &= 2\cdot f(x) \cdot f'(x) \\
-% &= 2y\dd[y]{x}.
-% Putting this together we are left with the equation
-% \[
-% 2x + 2y\dd[y]{x} =0
-% \]
-% At this point, we solve for $\dd[y]{x}$. Write
-
-% $2x + 2y\dd[y]{x} &= 0$\\
-% $2y \dd[y]{x} &= -2x$\\
-% $\dd[y]{x} &= \answer[given]{\frac{-x}{y}}$.
-
+we first differentiate each term using $\frac{d}{dx}$
+$$\frac{d}{dx}x^2+\frac{d}{dx}y^2 = \frac{d}{dx} 1$$
+You can already fill in 2 of the terms
+$$ \answer{2x}+ \frac{d}{dx}y^2 = \answer{0}$$
+For the term $\frac{d}{dx} y^2$ you can imagine $y = f(x)$, and hence by the chain rule
+ $$\frac{d}{dx} y^2 = \frac{d}{dx}(f(x))^2 $$ \\
+ $$= 2\cdot f(x) \cdot f'(x) $$ \\
+ $$= 2y\frac{dy}{dx}$$ \\
+ Putting this together we have
+ $$2x + 2y\frac{dy}{dx} =0$$
+Solving for $\frac{dy}{dx}$ we get 
+$$\answer{\frac{-x}{y}}$$
 \end{explanation}
-\setcounter{problem}{0}
 \section{On Your Own}
 Consider the equation $y^4+xy=x^3-x+2$.
 \begin{question}
@@ -113,7 +103,6 @@ var("x, y")
 \end{onlineOnly}
 
 Now use Sage Math to find the slope of  $\sin(x^2)=\cos(xy^2)$ at any point. \href{http://doc.sagemath.org/html/en/tutorial/tour_algebra.html#differentiation-integration-etc}{Look here for information on implicit differentiation in Sage}
-
 $\answer{}$
 \end{question}
 \section{Perpendicular at a Point}

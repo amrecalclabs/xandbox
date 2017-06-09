@@ -8,7 +8,7 @@ solutions</title>
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-09 15:40:00" /> 
+<meta name="date" content="2017-06-09 17:03:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -138,17 +138,32 @@ x^2+y^2=1
 </script>
  is a function</span>
 </div>
-<!--l. 50--><p class="noindent" ></div>
+</div> <div class="problem-environment question" id="problem5"><a 
+ id="x1-2005r5"></a> Using the functions you found, differentiate to find the slope of the tangent lines at
+the point <script type="math/tex"> <![CDATA[ 
+(\frac {\sqrt {2}}),({2}\frac {\sqrt {2}}{2}) 
+]]> 
+</script>. You may do this in the above sage cell or by hand. Slope of tangent line
+at <script type="math/tex"> <![CDATA[ 
+(\frac {\sqrt {2}}),({2}\frac {\sqrt {2}}{2})=\answer {-1} 
+]]> 
+</script>
+</div> Unfortunately not all implicit equations can be easily solved for y, which is why we
+use implicit differentiation! <div class="theorem-like problem-environment explanation" id="problem6"><a 
+ id="x1-2006r6"></a>Starting with
+                                 <script type="math/tex; mode=display"> <![CDATA[ 
+x^2 + y^2 = 1 
+]]> 
+</script>
+ we apply the differential operator <script type="math/tex"> <![CDATA[ 
+\frac {d}{dx} 
+]]> 
+</script> to both sides of the equation
+<!--l. 80--><p class="noindent" ></div>
 </p>
-<div class="problem-environment question" id="problem5"><a 
- id="x1-2005r5"></a> Using the function(s) you found, find the slope of the tangent lines at a point with
-two values on your graph. <div class="free-response" id="problem6"><a 
- id="x1-2006r6"></a>
-</div>
-</div>
 <h3 class="sectionHead"><a 
- id="x1-3000"></a>Implicit Differentiation Using Substitution</h3>
-<!--l. 59--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
+ id="x1-3000"></a>On Your Own</h3>
+<!--l. 83--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
 y^4+xy=x^3-x+2 
 ]]> 
 </script>. </p><div class="problem-environment question" id="problem7"><a 
@@ -160,11 +175,14 @@ y
  
 </script></div>
 Does this equation look easy to differentiate?
-<!--l. 69--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 93--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {No} 
 ]]> 
 </script>
-</p><!--l. 71--><p class="noindent" >Instead, let&#x2019;s treat our equation as an expression writing it instead as <script type="math/tex"> <![CDATA[ 
+                                                                  
+
+                                                                  
+</p><!--l. 95--><p class="noindent" >Instead, let&#x2019;s treat our equation as an expression writing it instead as <script type="math/tex"> <![CDATA[ 
 y^4+xy-x^3+x-2=0 
 ]]> 
 </script> Now consider <script type="math/tex"> <![CDATA[ 
@@ -206,11 +224,11 @@ x = 3
 x = 7 
 ]]> 
 </script>.
-<!--l. 79--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 103--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 x = 3: \answer {} 
 ]]> 
 </script>
-</p><!--l. 81--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 105--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 x = 7: \answer {} 
 ]]> 
 </script>
@@ -219,15 +237,12 @@ x = 7: \answer {}
 
  
 </script></div>
-                                                                  
-
-                                                                  
-<!--l. 91--><p class="noindent" >Now use Sage Math to find the slope of <script type="math/tex"> <![CDATA[ 
+<!--l. 115--><p class="noindent" >Now use Sage Math to find the slope of <script type="math/tex"> <![CDATA[ 
 \sin (x^2)=\cos (xy^2) 
 ]]> 
 </script> at any point. <a href="http://doc.sagemath.org/html/en/tutorial/tour_algebra.html##differentiation-integration-etc">Look here for information on
 implicit differentiation in Sage</a>
-</p><!--l. 93--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 117--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
@@ -259,6 +274,9 @@ class="speech">But how?
      </dd><dt class="actor">
 Dylan </dt><dd 
 class="speech">Yeah, I don&#x2019;t see how that helps.
+                                                                  
+
+                                                                  
      </dd><dt class="actor">
 James </dt><dd 
 class="speech">It&#x2019;s easy - all we have to do is see if the tangent lines are perpendicular
@@ -274,7 +292,7 @@ x^2 - 2x + y^2 - 3y = 0
  \graph {}  
 ]]> 
 </script>
-<!--l. 112--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
+<!--l. 136--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
 \answer {Yes} 
 ]]> 
 </script>
@@ -288,10 +306,7 @@ one another.
 </div>
 <h3 class="sectionHead"><a 
  id="x1-5000"></a>In Summary</h3>
-<!--l. 126--><p class="noindent" >There are two main methods to solve implicit equations
-                                                                  
-
-                                                                  
+<!--l. 150--><p class="noindent" >There are two main methods to solve implicit equations
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 
