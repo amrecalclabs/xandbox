@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1497033371 "implicit_differentiation.tex" "implicit_differentiation.pdf" "implicit_differentiation" 1497033372
+["pdflatex"] 1497033511 "implicit_differentiation.tex" "implicit_differentiation.pdf" "implicit_differentiation" 1497033512
   "/etc/texmf/web2c/texmf.cnf" 1451280152 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -242,17 +242,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280843 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280935 3846735 a3be5ff00bc62403b9730d0cecfbba9e ""
-  "implicit_differentiation.aux" 1497033372 1180 9abb7eb802e14f9a915cbe4fcabe7b8a ""
-  "implicit_differentiation.out" 1497033372 330 0080b2ea3e6be8ec860543e3f601a8a9 ""
-  "implicit_differentiation.png" 1497033009 62411 6d96b137a3fbc9cefd8d72cbdd3e9f64 ""
+  "implicit_differentiation.aux" 1497033511 1180 ebcd374ea594a02d1505b6dfea5a7891 ""
+  "implicit_differentiation.out" 1497033511 330 0080b2ea3e6be8ec860543e3f601a8a9 ""
   "implicit_differentiation.sagetex.sout" 1497031990 258 3775b87edc0f6df6f27c1028c6f9e87d ""
-  "implicit_differentiation.tex" 1497033367 5819 1d263c60034fb474b252e3f4be05920e ""
+  "implicit_differentiation.tex" 1497033479 5750 8b5fb76103c1aee188d12456e9027409 ""
   (generated)
   "implicit_differentiation.log"
-  "implicit_differentiation.jax"
-  "implicit_differentiation.aux"
   "implicit_differentiation.pdf"
   "implicit_differentiation.out"
-  "implicit_differentiation.sagetex.sage"
-  "implicit_differentiation.oc"
   "implicit_differentiation.ids"
+  "implicit_differentiation.jax"
+  "implicit_differentiation.oc"
+  "implicit_differentiation.sagetex.sage"
+  "implicit_differentiation.aux"

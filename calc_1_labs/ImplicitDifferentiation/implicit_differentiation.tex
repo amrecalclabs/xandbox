@@ -4,9 +4,6 @@
 \end{abstract}
 \begin{document}
 \maketitle
-\begin{image}
-\includegraphics{implicit_differentiation}
-\end{image}
 \begin{dialogue}
 \item[Dylan] Woah! What's up with this?
 \item[Julia] I didn't know functions were explicit!
@@ -88,13 +85,8 @@ Using both methods you can obtain the same answer, but for some equations the fi
 Consider the equation $y^4+xy=x^3-x+2$.
 \begin{onlineOnly}
 \begin{sageCell}
-x,y=var('x','y')
-f(x,y) = x^3 + y^3 - 6*x*y
-
-y=function('y',x)
-temp=diff(f(x,y))
-solve(temp,diff(y))
-
+y = function('y',x)
+diff( y^4+x*y==x^3-x+2, x )
 \end{sageCell}
 \end{onlineOnly}
 

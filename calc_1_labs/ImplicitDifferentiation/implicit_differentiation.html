@@ -8,7 +8,7 @@ solutions</title>
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-09 17:30:00" /> 
+<meta name="date" content="2017-06-09 18:36:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -28,7 +28,9 @@ solutions</title>
                                                                       %0756b60f39d1a47d6c980fd25734eebf% md5sum of corresponding .sage file (minus &#x0022;goboom&#x0022;,&#x0022;current_tex_line&#x0022;,and pause/unpause lines)</script><script type="text/javascript"> 
 </script> 
 </div>
- <div class="maketitle"></div>
+ <div class="maketitle"></div><div class="image-environment"><img 
+src="implicit_differentiation.png" alt="PIC"  
+ /> </div>
      <dl class="dialogue"><dt class="actor">
 Dylan </dt><dd 
 class="speech">Woah! What&#x2019;s up with this?
@@ -50,7 +52,7 @@ class="speech">Functions can be explicit or implicit! And it not the way you&#x2
      Julia...</dd></dl>
 <h3 class="sectionHead"><a 
  id="x1-1000"></a>Introduction</h3>
-<!--l. 14--><p class="noindent" >So far we have dealt only with explicitly defined functions, where <script type="math/tex"> <![CDATA[ 
+<!--l. 17--><p class="noindent" >So far we have dealt only with explicitly defined functions, where <script type="math/tex"> <![CDATA[ 
 y=f(x) 
 ]]> 
 </script>. Functions where
@@ -122,25 +124,29 @@ are true? <div class="select-all" id="problem4"><a
 x^2+y^2=1 
 ]]> 
 </script> is a function</span> <span class="choice correct "   id="choice7"><script type="math/tex"> <![CDATA[ 
--\sqrt {1-x^2} 
+y=-\sqrt {1-x^2} 
 ]]> 
 </script> is a function</span> <span class="choice correct "   id="choice8"><script type="math/tex"> <![CDATA[ 
-\sqrt {1-x^2} 
+y=\sqrt {1-x^2} 
 ]]> 
 </script> is a function</span>
 </div>
 </div>
 <div class="problem-environment question" id="problem5"><a 
- id="x1-2005r5"></a> Using the functions you found, differentiate to find the slope of the tangent lines at
+ id="x1-2005r5"></a> <div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+Using the functions you found, differentiate to find the slope of the tangent lines at
 the point <script type="math/tex"> <![CDATA[ 
-(\frac {\sqrt {2}}{2}),(\frac {\sqrt {2}}{2}) 
+\left (\frac {\sqrt {2}}{2}\right ),\left (\frac {\sqrt {2}}{2}\right ) 
 ]]> 
 </script>. You may do this in the above sage cell or by hand. <script type="math/tex"> <![CDATA[ 
 \answer {-1} 
 ]]> 
 </script>
 </div> Unfortunately not all implicit equations can be easily solved for y, which is why we
-use implicit differentiation! <div class="theorem-like problem-environment explanation" id="problem6"><a 
+use implicit differentiation! If you are familiar with implicit differentiation you can
+skip the following explanation. <div class="theorem-like problem-environment explanation" id="problem6"><a 
  id="x1-2006r6"></a>Starting with
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 x^2 + y^2 = 1 
@@ -175,15 +181,15 @@ y = f(x)
 </script>
  <br 
 class="newline" />
+                                                                  
+
+                                                                  
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 = 2\cdot f(x) \cdot f'(x)  
 ]]> 
 </script>
  <br 
 class="newline" />
-                                                                  
-
-                                                                  
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 = 2y\frac {dy}{dx} 
 ]]> 
@@ -198,65 +204,43 @@ class="newline" />Putting this together we have
 \frac {dy}{dx} 
 ]]> 
 </script> we get
+                                                                  
+
+                                                                  
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 \answer {\frac {-x}{y}} 
 ]]> 
 </script>
+</div> <div class="problem-environment question" id="problem7"><a 
+ id="x1-2007r7"></a> Use the equation obtained from the above explanation to find <script type="math/tex"> <![CDATA[ 
+\frac {dy}{dx} 
+]]> 
+</script> at <script type="math/tex"> <![CDATA[ 
+\left (\frac {\sqrt {2}}{2}\right ),\left (\frac {\sqrt {2}}{2}\right ) 
+]]> 
+</script> <script type="math/tex"> <![CDATA[ 
+\answer {-1} 
+]]> 
+</script> <div class="feedback" data-feedback="attempt" id="feedback8">Using both
+methods you can obtain the same answer, but for some equations the first method is
+much more work! </div>
 </div>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>On Your Own</h3>
-<!--l. 73--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
+<!--l. 88--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
 y^4+xy=x^3-x+2 
 ]]> 
-</script>. </p><div class="problem-environment question" id="problem7"><a 
- id="x1-3001r7"></a> Using the method shown in the previous section, evaluate
-the function for <script type="math/tex"> <![CDATA[ 
-y 
-]]> 
-</script>. <div class="sage"><script type="text/x-sage">x,y = var("x, y")
-                                                                  
+</script>. </p><div class="sage"><script type="text/x-sage">x,y=var('x','y')
+f(x,y) = x^3 + y^3 - 6*x*y
 
-                                                                  
+y=function('y',x)
+temp=diff(f(x,y))
+solve(temp,diff(y))
+
  
 </script></div>
-Does this equation look easy to differentiate?
-<!--l. 83--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {No} 
-]]> 
-</script>
-</p><!--l. 85--><p class="noindent" >Instead, let&#x2019;s treat our equation as an expression writing it instead as <script type="math/tex"> <![CDATA[ 
-y^4+xy-x^3+x-2=0 
-]]> 
-</script> Now consider <script type="math/tex"> <![CDATA[ 
-y 
-]]> 
-</script>
-as <script type="math/tex"> <![CDATA[ 
-y(x) 
-]]> 
-</script>, a function of <script type="math/tex"> <![CDATA[ 
-x 
-]]> 
-</script>, and differentiate with respect to <script type="math/tex"> <![CDATA[ 
-x 
-]]> 
-</script>. Each <script type="math/tex"> <![CDATA[ 
-y 
-]]> 
-</script> term will gain <script type="math/tex"> <![CDATA[ 
-\frac {dy}{dx} 
-]]> 
-</script>. Then,
-set the expression equal to zero, and solve for <script type="math/tex"> <![CDATA[ 
-\frac {dy}{dx} 
-]]> 
-</script>. What does this represent?
-</p><div class="free-response" id="problem8"><a 
- id="x1-3002r8"></a>
-</div>
-</div>
 <div class="problem-environment question" id="problem9"><a 
- id="x1-3003r9"></a> Using your result in the previous section, evaluate <script type="math/tex"> <![CDATA[ 
+ id="x1-3001r8"></a> Using your result in the previous section, evaluate <script type="math/tex"> <![CDATA[ 
 \frac {dy}{dx} 
 ]]> 
 </script> at <script type="math/tex"> <![CDATA[ 
@@ -266,20 +250,20 @@ x = 3
 x = 7 
 ]]> 
 </script>.
-<!--l. 93--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 104--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 x = 3: \answer {} 
 ]]> 
 </script>
-</p><!--l. 95--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 106--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 x = 7: \answer {} 
 ]]> 
 </script>
 </div> </p><div class="problem-environment question" id="problem10"><a 
- id="x1-3004r10"></a> <div class="sage"><script type="text/x-sage">var("x, y")
+ id="x1-3002r9"></a> <div class="sage"><script type="text/x-sage">var("x, y")
 
  
 </script></div>
-<!--l. 105--><p class="noindent" >Now use Sage Math to find the slope of <script type="math/tex"> <![CDATA[ 
+<!--l. 116--><p class="noindent" >Now use Sage Math to find the slope of <script type="math/tex"> <![CDATA[ 
 \sin (x^2)=\cos (xy^2) 
 ]]> 
 </script> at any point. <a href="http://doc.sagemath.org/html/en/tutorial/tour_algebra.html##differentiation-integration-etc">Look here for information on
@@ -295,6 +279,9 @@ implicit differentiation in Sage</a> <script type="math/tex"> <![CDATA[
 Julia </dt><dd 
 class="speech">Wow, implicit differentiation is rough.
      </dd><dt class="actor">
+                                                                  
+
+                                                                  
 Dylan </dt><dd 
 class="speech">You&#x2019;re telling me... I&#x2019;ve been doing this for hours! I wish we could at
      least do a little more with it if I have to learn it.
@@ -312,9 +299,6 @@ class="speech">Alright guys, you can use implicit differentiation with implicit 
      </dd><dt class="actor">
 Julia </dt><dd 
 class="speech">But how?
-                                                                  
-
-                                                                  
      </dd><dt class="actor">
 Dylan </dt><dd 
 class="speech">Yeah, I don&#x2019;t see how that helps.
@@ -323,7 +307,7 @@ James </dt><dd
 class="speech">It&#x2019;s easy - all we have to do is see if the tangent lines are perpendicular
      at that point, and if they are, then so are the curves!</dd></dl>
 <div class="problem-environment question" id="problem11"><a 
- id="x1-4001r11"></a> Graph <script type="math/tex"> <![CDATA[ 
+ id="x1-4001r10"></a> Graph <script type="math/tex"> <![CDATA[ 
 3x - 2y + x^3-x^2y = 0 
 ]]> 
 </script> and <script type="math/tex"> <![CDATA[ 
@@ -333,21 +317,37 @@ x^2 - 2x + y^2 - 3y = 0
  \graph {}  
 ]]> 
 </script>
-<!--l. 125--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
+<!--l. 136--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
 \answer {Yes} 
 ]]> 
 </script>
 </div> </p><div class="problem-environment question" id="problem12"><a 
- id="x1-4002r12"></a> <div class="problem-environment hint" id="problem13"><a 
- id="x1-4003r13"></a> Remember, two perpendicular lines will have their slopes be the negative inverse of
-one another.
-</div> Prove the two curves are (or are not) perpendicular at the origin. <div class="free-response" id="problem14"><a 
- id="x1-4004r14"></a>
-</div>
-</div>
+ id="x1-4002r11"></a> <div class="problem-environment hint" id="problem13"><a 
+ id="x1-4003r12"></a> To show two lines are perpendicular you must show that the slope of one is the
+opposite inverse of the other
+</div> Show the two curves are (or are not) perpendicular at the origin. You can do this in
+the sage cell provided or by hand. <div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+Slope of <script type="math/tex"> <![CDATA[ 
+3x - 2y + x^3-x^2y = 0 
+]]> 
+</script> at the origin <script type="math/tex"> <![CDATA[ 
+\answer {3/2} 
+]]> 
+</script> Slope of <script type="math/tex"> <![CDATA[ 
+x^2 - 2x + y^2 - 3y = 0 
+]]> 
+</script> at the origin <script type="math/tex"> <![CDATA[ 
+\answer {-2/3} 
+]]> 
+</script> Are the lines perpendicular at the
+origin?
+<!--l. 155--><p class="noindent" ></div>
+</p>
 <h3 class="sectionHead"><a 
  id="x1-5000"></a>In Summary</h3>
-<!--l. 139--><p class="noindent" >There are two main methods to solve implicit equations
+<!--l. 157--><p class="noindent" >There are two main methods to solve implicit equations
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 
