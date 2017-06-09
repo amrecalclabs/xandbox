@@ -8,7 +8,7 @@ solutions</title>
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-09 14:23:00" /> 
+<meta name="date" content="2017-06-09 14:31:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -107,48 +107,26 @@ x^2+y^2=1
  <script type="math/tex; mode=display"> <![CDATA[ 
  \graph {}  
 ]]> 
-</script> Using the following sage cell solve the function for y
-</div> <div class="problem-environment question" id="problem4"><a 
- id="x1-2004r4"></a> Give an example of an explicit function and an implicit function, making sure your
-implicit function is not easily solvable for <script type="math/tex"> <![CDATA[ 
-y 
-]]> 
-</script>. <div class="free-response" id="problem5"><a 
- id="x1-2005r5"></a>
-</div>
-</div> <div class="problem-environment question" id="problem6"><a 
- id="x1-2006r6"></a> Take the implicit function you defined in part one, and graph it. What do you
-notice? <script type="math/tex; mode=display"> <![CDATA[ 
- \graph {}  
-]]> 
-</script> <div class="free-response" id="problem7"><a 
- id="x1-2007r7"></a>
-</div>
-</div> <div class="problem-environment question" id="problem8"><a 
- id="x1-2008r8"></a> Now, in the following sage cell, solve the function for y, and graph the resulting
-equation(s). What do you notice? For help using sage refer to the <a href="http://doc.sagemath.org/html/en/tutorial/tour_algebra.html##solving-equations">documentation</a>
-here.
-<div class="sage"><script type="text/x-sage">x,y = var("x, y")
-#eqn = x**2+y**2==1, this would set eqn to the unit circle
-#replace it with your equation then use the solve command to #solve for y
-
+</script> Now, in the following sage cell, solve the function for y. For help using the solve
+command refer to the <a href="http://doc.sagemath.org/html/en/tutorial/tour_algebra.html##solving-equations">documentation</a> here. <div class="sage"><script type="text/x-sage">x,y = var("x, y")
+#eqn = x**2+y**2==1, this sets eqn to the unit circle
+#use the solve command to solve eqn for y
  
 </script></div>
-<div class="free-response" id="problem9"><a 
- id="x1-2009r9"></a>
+Differentate each equation
 </div>
-</div> <div class="problem-environment question" id="problem10"><a 
- id="x1-2010r10"></a> Using the function(s) you found, find the slope of the tangent lines at a point with
-two values on your graph. <div class="free-response" id="problem11"><a 
- id="x1-2011r11"></a>
+<div class="problem-environment question" id="problem4"><a 
+ id="x1-2004r4"></a> Using the function(s) you found, find the slope of the tangent lines at a point with
+two values on your graph. <div class="free-response" id="problem5"><a 
+ id="x1-2005r5"></a>
 </div>
 </div>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>Implicit Differentiation Using Substitution</h3>
-<!--l. 67--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
+<!--l. 51--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
 -x^2 \cdot y^3+y^5-32 = 0 
 ]]> 
-</script>. </p><div class="problem-environment question" id="problem12"><a 
+</script>. </p><div class="problem-environment question" id="problem6"><a 
  id="x1-3001r1"></a> Using the method shown in the previous section,
 evaluate the function for <script type="math/tex"> <![CDATA[ 
 y 
@@ -158,7 +136,7 @@ y
 \answer {No} 
 ]]> 
 </script>
-<!--l. 72--><p class="noindent" >Instead, let&#x2019;s treat our equation as an expression - because it equals zero,
+<!--l. 56--><p class="noindent" >Instead, let&#x2019;s treat our equation as an expression - because it equals zero,
 we don&#x2019;t have to worry about moving anything over. Now consider <script type="math/tex"> <![CDATA[ 
 y 
 ]]> 
@@ -183,14 +161,11 @@ set the expression equal to zero, and solve for <script type="math/tex"> <![CDAT
 \frac {dy}{dx} 
 ]]> 
 </script>. What does this represent?
-</p><div class="free-response" id="problem13"><a 
+</p><div class="free-response" id="problem7"><a 
  id="x1-3002r2"></a>
 </div>
-                                                                  
-
-                                                                  
 </div>
-<div class="problem-environment question" id="problem14"><a 
+<div class="problem-environment question" id="problem8"><a 
  id="x1-3003r3"></a> Using your result in the previous section, evaluate <script type="math/tex"> <![CDATA[ 
 \frac {dy}{dx} 
 ]]> 
@@ -201,25 +176,28 @@ x = 3
 x = 7 
 ]]> 
 </script>.
-<!--l. 80--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 64--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 x = 3: \answer {} 
 ]]> 
 </script>
-</p><!--l. 82--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 66--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 x = 7: \answer {} 
 ]]> 
 </script>
-</div> </p><div class="problem-environment question" id="problem15"><a 
+</div> </p><div class="problem-environment question" id="problem9"><a 
  id="x1-3004r4"></a> <div class="sage"><script type="text/x-sage">var("x, y")
 
  
 </script></div>
-<!--l. 92--><p class="noindent" >Now use Sage Math to find the slope of <script type="math/tex"> <![CDATA[ 
+                                                                  
+
+                                                                  
+<!--l. 76--><p class="noindent" >Now use Sage Math to find the slope of <script type="math/tex"> <![CDATA[ 
 \sin (x^2)=\cos (xy^2) 
 ]]> 
 </script> at any point. <a href="http://doc.sagemath.org/html/en/tutorial/tour_algebra.html##differentiation-integration-etc">Look here for information on
 implicit differentiation in Sage</a>
-</p><!--l. 94--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 78--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
@@ -255,7 +233,7 @@ class="speech">Yeah, I don&#x2019;t see how that helps.
 James </dt><dd 
 class="speech">It&#x2019;s easy - all we have to do is see if the tangent lines are perpendicular
      at that point, and if they are, then so are the curves!</dd></dl>
-<div class="problem-environment question" id="problem16"><a 
+<div class="problem-environment question" id="problem10"><a 
  id="x1-4001r5"></a> Graph <script type="math/tex"> <![CDATA[ 
 3x - 2y + x^3-x^2y = 0 
 ]]> 
@@ -266,24 +244,24 @@ x^2 - 2x + y^2 - 3y = 0
  \graph {}  
 ]]> 
 </script>
-                                                                  
-
-                                                                  
-<!--l. 113--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
+<!--l. 97--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
 \answer {Yes} 
 ]]> 
 </script>
-</div> </p><div class="problem-environment question" id="problem17"><a 
- id="x1-4002r6"></a> <div class="problem-environment hint" id="problem18"><a 
+</div> </p><div class="problem-environment question" id="problem11"><a 
+ id="x1-4002r6"></a> <div class="problem-environment hint" id="problem12"><a 
  id="x1-4003r7"></a> Remember, two perpendicular lines will have their slopes be the negative inverse of
 one another.
-</div> Prove the two curves are (or are not) perpendicular at the origin. <div class="free-response" id="problem19"><a 
+</div> Prove the two curves are (or are not) perpendicular at the origin. <div class="free-response" id="problem13"><a 
  id="x1-4004r8"></a>
 </div>
 </div>
 <h3 class="sectionHead"><a 
  id="x1-5000"></a>In Summary</h3>
-<!--l. 127--><p class="noindent" >There are two main methods to solve implicit equations
+<!--l. 111--><p class="noindent" >There are two main methods to solve implicit equations
+                                                                  
+
+                                                                  
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 
