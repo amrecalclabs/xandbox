@@ -11,8 +11,25 @@
 \item[James] Functions can be explicit or implicit! And it not the way you're thinking Julia...
 \end{dialogue}
 \section{Introduction}
-So far we have dealt only with explicitly defined functions, where $y=f(x)$.  Functions where there are both $x$ and $y$ on one side or both sides of the equation are called implicit functions.
+So far we have dealt only with explicitly defined functions, where $y=f(x)$.  Functions where there are both $x$ and $y$ on one side or both sides of the equation are called \textbf{implicit functions}.
 \section{Guided Example}
+\begin{question}
+Which of the following equations are defined implicitly?
+\begin{selectAll}
+\choice{$$y=x^2+5x-7$$}
+\choice{$$y=sin(x)$$}
+\choice[correct]{$$x^2+y^2=1$$}
+\choice{$$y=sqrt(x-3)$$}
+\choice[correct]{$x^2y^3+y = 5x+8y$}
+\end{selectAll}
+\end{question}
+\begin{question}
+Graph the following implicitly defined function below, $$x^2+y^2=1$$
+\[
+\graph{}
+\]
+Using the following sage cell solve the function for y
+\end{question}
 \begin{question}
 Give an example of an explicit function and an implicit function, making sure your implicit function is not easily solvable for $y$.
 \begin{freeResponse}
@@ -27,7 +44,7 @@ Take the implicit function you defined in part one, and graph it. What do you no
 \end{freeResponse}
 \end{question}
 \begin{question}
-Now, in the following sage cell, solve the function for y, and graph the resulting equation(s). What do you notice? For help using sage refer to the \href{http://doc.sagemath.org/html/en/tutorial/tour_algebra.html#solving-equations}{domumentation} here.
+Now, in the following sage cell, solve the function for y, and graph the resulting equation(s). What do you notice? For help using sage refer to the \href{http://doc.sagemath.org/html/en/tutorial/tour_algebra.html#solving-equations}{documentation} here.
 
 \begin{onlineOnly}
 \begin{sageCell}
@@ -62,10 +79,17 @@ Using your result in the previous section, evaluate $\frac{dy}{dx}$ at $x = 3$ a
 
 $x = 3: \answer{}$
 
-$x = 4: \answer{}$
+$x = 7: \answer{}$
 \end{question}
 \begin{question}
-Using the same strategy, find the slope of  $\sin(x^2)=\cos(xy^2)$ at any point.
+\begin{onlineOnly}
+\begin{sageCell}
+var("x, y")
+
+\end{sageCell}
+\end{onlineOnly}
+
+Now use Sage Math to find the slope of  $\sin(x^2)=\cos(xy^2)$ at any point. \href{http://doc.sagemath.org/html/en/tutorial/tour_algebra.html#differentiation-integration-etc}{Look here for information on implicit differentiation in Sage}
 
 $\answer{}$
 \end{question}
