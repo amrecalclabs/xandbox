@@ -17,9 +17,9 @@ So far we have dealt only with explicitly defined functions, where $y=f(x)$.  Fu
 Which of the following equations are defined implicitly?
 \begin{selectAll}
 \choice{$$y=x^2+5x-7$$}
-\choice{$$y=sin(x)$$}
+\choice{$$y=\sin(x)$$}
 \choice[correct]{$$x^2+y^2=1$$}
-\choice{$$y=sqrt(x-3)$$}
+\choice{$$y=\sqrt(x-3)$$}
 \choice[correct]{$x^2y^3+y = 5x+8y$}
 \end{selectAll}
 \end{question}
@@ -43,8 +43,8 @@ Graph the two explicit equations on the same axis below.
 Which of the following are true?
 \begin{selectAll}
 \choice{$$x^2+y^2=1$$ is a function}
-\choice[correct]{$$-/sqrt{1-x^2} is a function$$}
-\choice[correct]{$$/sqrt{1-x^2} is a function$$}
+\choice[correct]{$$-\sqrt{1-x^2}$$ is a function}
+\choice[correct]{$$\sqrt{1-x^2}$$ is a function}
 \end{selectAll}
 
 \end{question}
@@ -58,7 +58,14 @@ Using the function(s) you found, find the slope of the tangent lines at a point 
 \section{Implicit Differentiation Using Substitution}
 Consider the equation $-x^2 \cdot y^3+y^5-32 = 0$.
 \begin{question}
-Using the method shown in the previous section, evaluate the function for $y$. Does this equation look easy to differentiate?
+Using the method shown in the previous section, evaluate the function for $y$.
+\begin{onlineOnly}
+\begin{sageCell}
+x,y = var("x, y")
+\end{sageCell}
+\end{onlineOnly}
+Does this equation look easy to differentiate?
+
 $\answer{No}$
 
 Instead, let's treat our equation as an expression - because it equals zero, we don't have to worry about moving anything over. Now consider $y$ as $y(x)$, a function of $x$, and differentiate with respect to $x$. Each $y$ term will gain $\frac{dy}{dx}$. Then, set the expression equal to zero, and solve for $\frac{dy}{dx}$. What does this represent?
