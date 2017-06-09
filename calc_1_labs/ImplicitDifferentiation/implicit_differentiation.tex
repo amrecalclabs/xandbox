@@ -4,6 +4,9 @@
 \end{abstract}
 \begin{document}
 \maketitle
+\begin{image}
+\includegraphics{implicit_differentiation}
+\end{image}
 \begin{dialogue}
 \item[Dylan] Woah! What's up with this?
 \item[Julia] I didn't know functions were explicit!
@@ -43,16 +46,21 @@ Graph the two explicit equations on the same axis below.
 Which of the following are true?
 \begin{selectAll}
 \choice{$x^2+y^2=1$ is a function}
-\choice[correct]{$-\sqrt{1-x^2}$ is a function}
-\choice[correct]{$\sqrt{1-x^2}$ is a function}
+\choice[correct]{$y=-\sqrt{1-x^2}$ is a function}
+\choice[correct]{$y=\sqrt{1-x^2}$ is a function}
 \end{selectAll}
 \end{question}
 
 \begin{question}
-Using the functions you found, differentiate to find the slope of the tangent lines at the point $(\frac{\sqrt{2}}{2}),(\frac{\sqrt{2}}{2})$. You may do this in the above sage cell or by hand.
+\begin{onlineOnly}
+\begin{sageCell}
+
+\end{sageCell}
+\end{onlineOnly}
+Using the functions you found, differentiate to find the slope of the tangent lines at the point $\left(\frac{\sqrt{2}}{2}\right),\left(\frac{\sqrt{2}}{2}\right)$. You may do this in the above sage cell or by hand.
 $\answer{-1}$
 \end{question}
-Unfortunately not all implicit equations can be easily solved for y, which is why we use implicit differentiation!
+Unfortunately not all implicit equations can be easily solved for y, which is why we use implicit differentiation! If you are familiar with implicit differentiation you can skip the following explanation.
 \begin{explanation}
 Starting with
 $$x^2 + y^2 = 1$$
@@ -69,23 +77,26 @@ For the term $\frac{d}{dx} y^2$ you can imagine $y = f(x)$, and hence by the cha
 Solving for $\frac{dy}{dx}$ we get 
 $$\answer{\frac{-x}{y}}$$
 \end{explanation}
+\begin{question}
+Use the equation obtained from the above explanation to find $\frac{dy}{dx}$ at $\left(\frac{\sqrt{2}}{2}\right),\left(\frac{\sqrt{2}}{2}\right)$ 
+$\answer{-1}$
+\begin{feedback}
+Using both methods you can obtain the same answer, but for some equations the first method is much more work!
+\end{feedback}
+\end{question}
 \section{On Your Own}
 Consider the equation $y^4+xy=x^3-x+2$.
-\begin{question}
-Using the method shown in the previous section, evaluate the function for $y$.
 \begin{onlineOnly}
 \begin{sageCell}
-x,y = var("x, y")
+var
+f(x,y) = x^3 + y^3 - 6*x*y
+
+y=function('y',x)
+temp=diff(f(x,y))
+solve(temp,diff(y))
+
 \end{sageCell}
 \end{onlineOnly}
-Does this equation look easy to differentiate?
-
-$\answer{No}$
-
-Instead, let's treat our equation as an expression writing it instead as $y^4+xy-x^3+x-2=0$ Now consider $y$ as $y(x)$, a function of $x$, and differentiate with respect to $x$. Each $y$ term will gain $\frac{dy}{dx}$. Then, set the expression equal to zero, and solve for $\frac{dy}{dx}$. What does this represent?
-\begin{freeResponse}
-\end{freeResponse}
-\end{question}
 
 \begin{question}
 Using your result in the previous section, evaluate $\frac{dy}{dx}$ at $x = 3$ and $x = 7$.
@@ -127,16 +138,23 @@ $\answer{Yes}$
 \end{question}
 \begin{question}
 \begin{hint}
-Remember, two perpendicular lines will have their slopes be the negative inverse of one another.
+To show two lines are perpendicular you must show that the slope of one is the opposite inverse of the other
 \end{hint}
-Prove the two curves are (or are not) perpendicular at the origin.
-\begin{freeResponse}
-\end{freeResponse}
+Show the two curves are (or are not) perpendicular at the origin. You can do this in the sage cell provided or by hand.
+\begin{onlineOnly}
+\begin{sageCell}
+
+\end{sageCell}
+\end{onlineOnly}
+Slope of $3x - 2y + x^3-x^2y = 0$ at the origin $\answer{3/2}$
+Slope of $x^2 - 2x + y^2 - 3y = 0$ at the origin $\answer{-2/3}$
+Are the lines perpendicular at the origin?
+
+
+
 \end{question}
-
-
 \section{In Summary}
-There are two main methods to solve implicit equations 
+There are two main methods to solve implicit equations
 \begin{enumerate}
 \item{Solve for $y$ and then differentiate.}
 \item{Treat $y$ as $y(x)$ and differentiate for $x$, eventually solving for $\frac{dy}{dx}$ to give the value of the derivative at any point.}
