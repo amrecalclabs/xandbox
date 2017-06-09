@@ -46,16 +46,40 @@ Which of the following are true?
 \choice[correct]{$$-\sqrt{1-x^2}$$ is a function}
 \choice[correct]{$$\sqrt{1-x^2}$$ is a function}
 \end{selectAll}
-
 \end{question}
-
 \begin{question}
-Using the function(s) you found, find the slope of the tangent lines at a point with two values on your graph.
-\begin{freeResponse}
-\end{freeResponse}
+Using the functions you found, differentiate to find the slope of the tangent lines at the point $(\frac{\sqrt{2}}),({2}\frac{\sqrt{2}}{2})$. You may do this in the above sage cell or by hand.
+Slope of tangent line at $(\frac{\sqrt{2}}),({2}\frac{\sqrt{2}}{2})=\answer{-1}$
 \end{question}
+Unfortunately not all implicit equations can be easily solved for y, which is why we use implicit differentiation!
+\begin{explanation}
+Starting with
+$$x^2 + y^2 = 1$$
+we apply the differential operator $\frac{d}{dx}$ to both sides of the equation
+
+% $$\frac{d}{dx} \left(x^2+y^2\right) = \frac{d}{dx} 1$$
+
+% $$\frac{d}{dx} x^2+\frac{d}{dx} y^2 = 0$$
+% Let's examine each of these terms in turn. To start
+% $$\frac{d}{dx} x^2 = \answer{2x}$$
+% On the other hand, $\frac{d}{dx} y^2$ is somewhat different. Here you imagine that $y = f(x)$, and hence by the chain rule
+% \begin{align*}
+% \ddx y^2 &= \ddx (f(x))^2 \\
+% &= 2\cdot f(x) \cdot f'(x) \\
+% &= 2y\dd[y]{x}.
+% Putting this together we are left with the equation
+% \[
+% 2x + 2y\dd[y]{x} =0
+% \]
+% At this point, we solve for $\dd[y]{x}$. Write
+
+% $2x + 2y\dd[y]{x} &= 0$\\
+% $2y \dd[y]{x} &= -2x$\\
+% $\dd[y]{x} &= \answer[given]{\frac{-x}{y}}$.
+
+\end{explanation}
 \setcounter{problem}{0}
-\section{Implicit Differentiation Using Substitution}
+\section{On Your Own}
 Consider the equation $y^4+xy=x^3-x+2$.
 \begin{question}
 Using the method shown in the previous section, evaluate the function for $y$.
