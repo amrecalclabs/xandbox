@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  12 JUN 2017 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  12 JUN 2017 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1232,24 +1232,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
  []
 
 [3]
-Overfull \hbox (110.88806pt too wide) in paragraph at lines 111--112
+Overfull \hbox (110.88806pt too wide) in paragraph at lines 110--111
 \OT1/cmr/m/sl/10 swer por-tion af-ter the "==") $[]$ 
- []
-
-
-Overfull \hbox (243.16891pt too wide) in paragraph at lines 124--126
-[]\OT1/cmr/m/sl/10 Now use Sage Math again to find $[]$ for $[]\OT1/cmr/m/n/10 
-(\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = [](\OML/cmm/m/it/10 xy[]\OT1/cmr/m/n/1
-0 )$\OT1/cmr/m/sl/10 . $[]$ 
  []
 
 [4] [5] [6]
 *********************************************************************
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
 (./implicit_differentiation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `implicit_differentiation.out' has not change
 d.
 (rerunfilecheck)             Checksum: 0080B2EA3E6BE8EC860543E3F601A8A9;330.
@@ -1257,7 +1250,7 @@ d.
 Here is how much of TeX's memory you used:
  35389 strings out of 493085
  792039 string characters out of 6136916
- 943383 words of memory out of 5000000
+ 942383 words of memory out of 5000000
  38250 multiletter control sequences out of 15000+600000
  13613 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1280,7 +1273,7 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on implicit_differentiation.pdf (6 pages, 226045 bytes).
+Output written on implicit_differentiation.pdf (6 pages, 226171 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams

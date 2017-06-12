@@ -93,18 +93,17 @@ diff(eq,x)
 solve(diff(eq,x),diff(y(x)))
 \end{sageCell}
 \end{onlineOnly}
-
+What did you get as output from your sage cell? (copy just the answer portion after the "==")
+$\answer{-x/y(x)}$
+\begin{feedback}
+Notice that Sage uses y(x) for x in the output for y.
+\end{feedback}
 \end{question}
 \section{On Your Own}
 Consider the equation $y^4+xy=x^3-x+2$. Using the following Sage cell implicitly differentiate to find $\frac{dy}{dx}$ using the same commands as shown in the previous question.
 \begin{onlineOnly}
 \begin{sageCell}
 var('x,y')
-%y(x)=function('y')(x)
-%eq=y^4+x*y==x^3-x+2
-%eq.substitute(y =y(x))
-%diff(eq,x)
-%solve(diff(eq,x),diff(y(x)))
 \end{sageCell}
 \end{onlineOnly}
 \begin{question}
@@ -121,7 +120,12 @@ var('x,y')
 
 \end{sageCell}
 \end{onlineOnly}
-Now use Sage Math again to find $\frac{dy}{dx}$ for  $\sin(x^2)=\cos(xy^2)$.
+Now use Sage Math again to find $\frac{dy}{dx}$ for  $\sin(x^2)=\cos(xy^2)$, copy your answer in the same way as indicated in the previous section.
+\begin{onlineOnly}
+\begin{sageCell}
+var('x,y')
+\end{sageCell}
+\end{onlineOnly}
 $\answer{-1/2*(sin(x*y(x)^2)*y(x)^2 + 2*x*cos(x^2))/(x*sin(x*y(x)^2)*y(x))}$
 \end{question}
 \section{Perpendicular at a Point}
