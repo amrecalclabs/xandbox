@@ -55,7 +55,9 @@ Which of the following are true?
 \end{sageCell}
 \end{onlineOnly}
 Using the functions you found, differentiate to find the slope of the tangent lines at the point $\left(\frac{\sqrt{2}}{2}\right),\left(\frac{\sqrt{2}}{2}\right)$. You may do this in the above sage cell or by hand.
+
 $\answer{-1}$
+
 \end{question}
 Unfortunately not all implicit equations can be easily solved for y, which is why we use implicit differentiation! If you are familiar with implicit differentiation you can skip the following explanation.
 \begin{explanation}
@@ -96,7 +98,7 @@ solve(diff(eq,x),diff(y(x)))
 What did you get as output from your sage cell? (copy just the answer portion after the "==")
 $\answer{-x/y(x)}$
 \begin{feedback}
-Notice that Sage uses y(x) for x in the output for y.
+Notice that Sage uses y(x) for y in the output.
 \end{feedback}
 \end{question}
 \section{On Your Own}
@@ -114,12 +116,6 @@ Using your result in the previous section, evaluate $\frac{dy}{dx}$ at the point
 $\answer{1/5}$
 \end{question}
 \begin{question}
-\begin{onlineOnly}
-\begin{sageCell}
-var('x,y')
-
-\end{sageCell}
-\end{onlineOnly}
 Now use Sage Math again to find $\frac{dy}{dx}$ for  $\sin(x^2)=\cos(xy^2)$, copy your answer in the same way as indicated in the previous section.
 \begin{onlineOnly}
 \begin{sageCell}
@@ -158,8 +154,14 @@ Show the two curves are (or are not) perpendicular at the origin. You can do thi
 
 \end{sageCell}
 \end{onlineOnly}
-Slope of $3x - 2y + x^3-x^2y = 0$ at the origin $\answer{3/2}$
-Slope of $x^2 - 2x + y^2 - 3y = 0$ at the origin $\answer{-2/3}$
+Slope of $3x - 2y + x^3-x^2y = 0$ at the origin 
+
+$\answer{3/2}$
+
+Slope of $x^2 - 2x + y^2 - 3y = 0$ at the origin 
+
+$\answer{-2/3}$
+
 Are the lines perpendicular at the origin?
 
 
