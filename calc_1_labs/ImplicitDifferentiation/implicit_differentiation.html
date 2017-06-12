@@ -8,7 +8,7 @@ solutions</title>
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-12 13:55:00" /> 
+<meta name="date" content="2017-06-12 14:01:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -232,11 +232,15 @@ diff(eq,x)
 solve(diff(eq,x),diff(y(x)))
  
 </script></div>
-<!--l. 97--><p class="noindent" ></div>
-</p>
+What did you get as output from your sage cell? (copy just the answer portion after
+the ”==”) <script type="math/tex"> <![CDATA[ 
+\answer {-x/y(x)} 
+]]> 
+</script> <div class="feedback" data-feedback="attempt" id="feedback10">Notice that Sage uses y(x) for x in the output for y. </div>
+</div>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>On Your Own</h3>
-<!--l. 99--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
+<!--l. 103--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
 y^4+xy=x^3-x+2 
 ]]> 
 </script>. Using the following Sage cell implicitly differentiate to find <script type="math/tex"> <![CDATA[ 
@@ -244,20 +248,15 @@ y^4+xy=x^3-x+2
 ]]> 
 </script>
 using the same commands as shown in the previous question. </p><div class="sage"><script type="text/x-sage">var('x,y')
-%y(x)=function('y')(x)
-%eq=y^4+x*y==x^3-x+2
-%eq.substitute(y =y(x))
-%diff(eq,x)
-%solve(diff(eq,x),diff(y(x)))
  
 </script></div>
-<div class="problem-environment question" id="problem10"><a 
+<div class="problem-environment question" id="problem11"><a 
  id="x1-3001r9"></a> What did you get as output from your sage cell? (copy just the answer portion after
 the ”==”) <script type="math/tex"> <![CDATA[ 
 \answer {-1/2*(sin(x*y(x)^2)*y(x)^2 + 2*x*cos(x^2))/(x*sin(x*y(x)^2)*y(x))} 
 ]]> 
 </script>
-</div> <div class="problem-environment question" id="problem11"><a 
+</div> <div class="problem-environment question" id="problem12"><a 
  id="x1-3002r10"></a> Using your result in the previous section, evaluate <script type="math/tex"> <![CDATA[ 
 \frac {dy}{dx} 
 ]]> 
@@ -268,24 +267,28 @@ the ”==”) <script type="math/tex"> <![CDATA[
 \answer {1/5} 
 ]]> 
 </script>
-</div> <div class="problem-environment question" id="problem12"><a 
+</div> <div class="problem-environment question" id="problem13"><a 
  id="x1-3003r11"></a> <div class="sage"><script type="text/x-sage">var('x,y')
 
  
 </script></div>
-                                                                  
-
-                                                                  
 Now use Sage Math again to find <script type="math/tex"> <![CDATA[ 
 \frac {dy}{dx} 
 ]]> 
 </script> for <script type="math/tex"> <![CDATA[ 
 \sin (x^2)=\cos (xy^2) 
 ]]> 
-</script>. <script type="math/tex"> <![CDATA[ 
+</script>, copy your answer in the same way as
+indicated in the previous section. <div class="sage"><script type="text/x-sage">var('x,y')
+ 
+</script></div>
+<script type="math/tex"> <![CDATA[ 
 \answer {-1/2*(sin(x*y(x)^2)*y(x)^2 + 2*x*cos(x^2))/(x*sin(x*y(x)^2)*y(x))} 
 ]]> 
 </script>
+                                                                  
+
+                                                                  
 </div>
 <h3 class="sectionHead"><a 
  id="x1-4000"></a>Perpendicular at a Point</h3>
@@ -317,7 +320,7 @@ class="speech">Yeah, I don&#x2019;t see how that helps.
 James </dt><dd 
 class="speech">It&#x2019;s easy - all we have to do is see if the tangent lines are perpendicular
      at that point, and if they are, then so are the curves!</dd></dl>
-<div class="problem-environment question" id="problem13"><a 
+<div class="problem-environment question" id="problem14"><a 
  id="x1-4001r12"></a> Graph <script type="math/tex"> <![CDATA[ 
 3x - 2y + x^3-x^2y = 0 
 ]]> 
@@ -328,12 +331,12 @@ x^2 - 2x + y^2 - 3y = 0
  \graph {}  
 ]]> 
 </script>
-<!--l. 144--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
+<!--l. 148--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
 \answer {Yes} 
 ]]> 
 </script>
-</div> </p><div class="problem-environment question" id="problem14"><a 
- id="x1-4002r13"></a> <div class="problem-environment hint" id="problem15"><a 
+</div> </p><div class="problem-environment question" id="problem15"><a 
+ id="x1-4002r13"></a> <div class="problem-environment hint" id="problem16"><a 
  id="x1-4003r14"></a> To show two lines are perpendicular you must show that the slope of one is the
 opposite inverse of the other
 </div> Show the two curves are (or are not) perpendicular at the origin. You can do this in
@@ -354,14 +357,14 @@ x^2 - 2x + y^2 - 3y = 0
 ]]> 
 </script> Are the lines perpendicular at the
 origin?
-<!--l. 163--><p class="noindent" ></div>
+<!--l. 167--><p class="noindent" ></div>
 </p>
+<h3 class="sectionHead"><a 
+ id="x1-5000"></a>In Summary</h3>
+<!--l. 169--><p class="noindent" >There are two main methods to solve implicit equations
                                                                   
 
                                                                   
-<h3 class="sectionHead"><a 
- id="x1-5000"></a>In Summary</h3>
-<!--l. 165--><p class="noindent" >There are two main methods to solve implicit equations
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 
