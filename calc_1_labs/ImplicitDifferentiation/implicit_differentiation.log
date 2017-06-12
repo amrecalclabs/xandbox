@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  12 JUN 2017 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  12 JUN 2017 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1268,7 +1268,7 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on implicit_differentiation.pdf (6 pages, 226304 bytes).
+Output written on implicit_differentiation.pdf (6 pages, 226274 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams
