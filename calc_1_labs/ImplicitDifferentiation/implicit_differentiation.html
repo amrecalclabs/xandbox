@@ -8,7 +8,7 @@ solutions</title>
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-09 18:36:00" /> 
+<meta name="date" content="2017-06-09 18:39:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -28,9 +28,7 @@ solutions</title>
                                                                       %0756b60f39d1a47d6c980fd25734eebf% md5sum of corresponding .sage file (minus &#x0022;goboom&#x0022;,&#x0022;current_tex_line&#x0022;,and pause/unpause lines)</script><script type="text/javascript"> 
 </script> 
 </div>
- <div class="maketitle"></div><div class="image-environment"><img 
-src="implicit_differentiation.png" alt="PIC"  
- /> </div>
+ <div class="maketitle"></div>
      <dl class="dialogue"><dt class="actor">
 Dylan </dt><dd 
 class="speech">Woah! What&#x2019;s up with this?
@@ -52,7 +50,7 @@ class="speech">Functions can be explicit or implicit! And it not the way you&#x2
      Julia...</dd></dl>
 <h3 class="sectionHead"><a 
  id="x1-1000"></a>Introduction</h3>
-<!--l. 17--><p class="noindent" >So far we have dealt only with explicitly defined functions, where <script type="math/tex"> <![CDATA[ 
+<!--l. 14--><p class="noindent" >So far we have dealt only with explicitly defined functions, where <script type="math/tex"> <![CDATA[ 
 y=f(x) 
 ]]> 
 </script>. Functions where
@@ -227,16 +225,11 @@ much more work! </div>
 </div>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>On Your Own</h3>
-<!--l. 88--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
+<!--l. 85--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
 y^4+xy=x^3-x+2 
 ]]> 
-</script>. </p><div class="sage"><script type="text/x-sage">x,y=var('x','y')
-f(x,y) = x^3 + y^3 - 6*x*y
-
-y=function('y',x)
-temp=diff(f(x,y))
-solve(temp,diff(y))
-
+</script>. </p><div class="sage"><script type="text/x-sage">y = function('y',x)
+diff( y^4+x*y==x^3-x+2, x )
  
 </script></div>
 <div class="problem-environment question" id="problem9"><a 
@@ -250,11 +243,11 @@ x = 3
 x = 7 
 ]]> 
 </script>.
-<!--l. 104--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 96--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 x = 3: \answer {} 
 ]]> 
 </script>
-</p><!--l. 106--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 98--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 x = 7: \answer {} 
 ]]> 
 </script>
@@ -263,7 +256,7 @@ x = 7: \answer {}
 
  
 </script></div>
-<!--l. 116--><p class="noindent" >Now use Sage Math to find the slope of <script type="math/tex"> <![CDATA[ 
+<!--l. 108--><p class="noindent" >Now use Sage Math to find the slope of <script type="math/tex"> <![CDATA[ 
 \sin (x^2)=\cos (xy^2) 
 ]]> 
 </script> at any point. <a href="http://doc.sagemath.org/html/en/tutorial/tour_algebra.html##differentiation-integration-etc">Look here for information on
@@ -279,9 +272,6 @@ implicit differentiation in Sage</a> <script type="math/tex"> <![CDATA[
 Julia </dt><dd 
 class="speech">Wow, implicit differentiation is rough.
      </dd><dt class="actor">
-                                                                  
-
-                                                                  
 Dylan </dt><dd 
 class="speech">You&#x2019;re telling me... I&#x2019;ve been doing this for hours! I wish we could at
      least do a little more with it if I have to learn it.
@@ -290,6 +280,9 @@ James </dt><dd
 class="speech">Did  I  hear  that  you  guys  want  to  know  more  about  using  implicit
      differentiation?
      </dd><dt class="actor">
+                                                                  
+
+                                                                  
 Julia and Dylan </dt><dd 
 class="speech">James! Tell us more!
      </dd><dt class="actor">
@@ -317,7 +310,7 @@ x^2 - 2x + y^2 - 3y = 0
  \graph {}  
 ]]> 
 </script>
-<!--l. 136--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
+<!--l. 128--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
 \answer {Yes} 
 ]]> 
 </script>
@@ -343,11 +336,11 @@ x^2 - 2x + y^2 - 3y = 0
 ]]> 
 </script> Are the lines perpendicular at the
 origin?
-<!--l. 155--><p class="noindent" ></div>
+<!--l. 147--><p class="noindent" ></div>
 </p>
 <h3 class="sectionHead"><a 
  id="x1-5000"></a>In Summary</h3>
-<!--l. 157--><p class="noindent" >There are two main methods to solve implicit equations
+<!--l. 149--><p class="noindent" >There are two main methods to solve implicit equations
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 
