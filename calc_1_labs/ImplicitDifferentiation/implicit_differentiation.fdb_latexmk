@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1497206581 "implicit_differentiation.tex" "implicit_differentiation.pdf" "implicit_differentiation" 1497206582
+["pdflatex"] 1497275728 "implicit_differentiation.tex" "implicit_differentiation.pdf" "implicit_differentiation" 1497275729
   "/etc/texmf/web2c/texmf.cnf" 1451280152 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -242,16 +242,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280843 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280935 3846735 a3be5ff00bc62403b9730d0cecfbba9e ""
-  "implicit_differentiation.aux" 1497206582 1180 ebcd374ea594a02d1505b6dfea5a7891 ""
-  "implicit_differentiation.out" 1497206582 330 0080b2ea3e6be8ec860543e3f601a8a9 ""
+  "implicit_differentiation.aux" 1497275729 1180 8956a49aa57767d4b66fa0ad2456e367 ""
+  "implicit_differentiation.out" 1497275729 330 0080b2ea3e6be8ec860543e3f601a8a9 ""
   "implicit_differentiation.sagetex.sout" 1497206581 258 3775b87edc0f6df6f27c1028c6f9e87d ""
-  "implicit_differentiation.tex" 1497033556 5696 fd82b9dac4cf2c58c01b7efe879bec28 ""
+  "implicit_differentiation.tex" 1497275728 6312 02972e3c1fe32ca0a681e625c48d22ee ""
   (generated)
-  "implicit_differentiation.oc"
-  "implicit_differentiation.ids"
-  "implicit_differentiation.aux"
-  "implicit_differentiation.out"
-  "implicit_differentiation.log"
-  "implicit_differentiation.sagetex.sage"
-  "implicit_differentiation.pdf"
   "implicit_differentiation.jax"
+  "implicit_differentiation.log"
+  "implicit_differentiation.aux"
+  "implicit_differentiation.oc"
+  "implicit_differentiation.sagetex.sage"
+  "implicit_differentiation.out"
+  "implicit_differentiation.ids"
+  "implicit_differentiation.pdf"

@@ -78,35 +78,51 @@ $$\answer{\frac{-x}{y}}$$
 Use the equation obtained from the above explanation to find $\frac{dy}{dx}$ at $\left(\frac{\sqrt{2}}{2}\right),\left(\frac{\sqrt{2}}{2}\right)$ 
 $\answer{-1}$
 \begin{feedback}
-Using both methods you can obtain the same answer, but for some equations the first method is much more work!
+Using both methods you can obtain the same answer, but for many equations the first method is much more work!
 \end{feedback}
 \end{question}
-\section{On Your Own}
-Consider the equation $y^4+xy=x^3-x+2$.
+\begin{question}
+We can fairly easily use sage to do this process for us, to illustrate the process evaluate the following sage cell.
 \begin{onlineOnly}
 \begin{sageCell}
-y = function('y',x)
-diff( y^4+x*y==x^3-x+2, x )
+var('x,y')
+y(x)=function('y')(x)
+eq=x^2+y^2==1
+eq.substitute(y =y(x))
+diff(eq,x)
+solve(diff(eq,x),diff(y(x)))
 \end{sageCell}
 \end{onlineOnly}
 
+\end{question}
+\section{On Your Own}
+Consider the equation $y^4+xy=x^3-x+2$. Using the following Sage cell implicitly differentiate to find $\frac{dy}{dx}$ using the same commands as shown in the previous question.
+\begin{onlineOnly}
+\begin{sageCell}
+var('x,y')
+%y(x)=function('y')(x)
+%eq=y^4+x*y==x^3-x+2
+%eq.substitute(y =y(x))
+%diff(eq,x)
+%solve(diff(eq,x),diff(y(x)))
+\end{sageCell}
+\end{onlineOnly}
 \begin{question}
-Using your result in the previous section, evaluate $\frac{dy}{dx}$ at $x = 3$ and $x = 7$.
-
-$x = 3: \answer{}$
-
-$x = 7: \answer{}$
+What did you get as output from your sage cell? (copy just the answer portion after the "==") $\answer{-1/2*(sin(x*y(x)^2)*y(x)^2 + 2*x*cos(x^2))/(x*sin(x*y(x)^2)*y(x))}$
+\end{question}
+\begin{question}
+Using your result in the previous section, evaluate $\frac{dy}{dx}$ at the point $(1,1)$.
+$\answer{1/5}$
 \end{question}
 \begin{question}
 \begin{onlineOnly}
 \begin{sageCell}
-var("x, y")
+var('x,y')
 
 \end{sageCell}
 \end{onlineOnly}
-
-Now use Sage Math to find the slope of  $\sin(x^2)=\cos(xy^2)$ at any point. \href{http://doc.sagemath.org/html/en/tutorial/tour_algebra.html#differentiation-integration-etc}{Look here for information on implicit differentiation in Sage}
-$\answer{}$
+Now use Sage Math again to find $\frac{dy}{dx}$ for  $\sin(x^2)=\cos(xy^2)$.
+$\answer{-1/2*(sin(x*y(x)^2)*y(x)^2 + 2*x*cos(x^2))/(x*sin(x*y(x)^2)*y(x))}$
 \end{question}
 \section{Perpendicular at a Point}
 \begin{dialogue}
