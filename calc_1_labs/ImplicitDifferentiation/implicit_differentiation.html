@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-12 14:46:00" /> 
+<meta name="date" content="2017-06-14 19:37:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -59,15 +59,16 @@ class="speech">Functions can be explicit or implicit! And it not the way you&#x2
 <!--l. 19--><p class="noindent" >So far we have dealt only with explicitly defined functions, where <script type="math/tex"> <![CDATA[ 
 y=f(x) 
 ]]> 
-</script>. Functions where
-there are both <script type="math/tex"> <![CDATA[ 
-x 
-]]> 
-</script> and <script type="math/tex"> <![CDATA[ 
+</script>. Here <script type="math/tex"> <![CDATA[ 
 y 
 ]]> 
-</script> on one side or both sides of the equation are called <strong>implicit
-functions</strong>.
+</script> is
+dependent variable and it is given in terms of the independent variable <script type="math/tex"> <![CDATA[ 
+x 
+]]> 
+</script>. Functions
+given in terms of both independent and dependent variables are called <em>implicit</em>
+functions.
 </p>
 <h3 class="sectionHead"><a 
  id="x1-2000"></a>Guided Example</h3>
@@ -149,9 +150,11 @@ the point <script type="math/tex"> <![CDATA[
 \answer {-1} 
 ]]> 
 </script>
-</p><!--l. 66--><p class="noindent" ></div> Unfortunately not all implicit equations can be easily solved for y, which is why we
-use implicit differentiation! If you are familiar with implicit differentiation you can
-skip the following explanation. </p><div class="theorem-like problem-environment explanation" id="problem7"><a 
+</p><!--l. 66--><p class="noindent" ></div> Unfortunately not all implicit equations can be easily solved for <script type="math/tex"> <![CDATA[ 
+y 
+]]> 
+</script>, which is why we
+use implicit differentiation! </p><div class="theorem-like problem-environment explanation" id="problem7"><a 
  id="x1-2006r6"></a>Starting with
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 x^2 + y^2 = 1 
@@ -240,7 +243,7 @@ solve(diff(eq,x),diff(y(x)))
  
 </script></div>
 What did you get as output from your sage cell? (copy just the answer portion after
-the ”==”) <script type="math/tex"> <![CDATA[ 
+the ‘‘==” and before the ‘‘]”) <script type="math/tex"> <![CDATA[ 
 \answer {-x/y(x)} 
 ]]> 
 </script> <div class="feedback" data-feedback="attempt" id="feedback11">Notice that Sage uses y(x) for y in the output. </div>
@@ -259,7 +262,7 @@ using the same commands as shown in the previous question. </p><div class="sage"
 </script></div>
 <div class="problem-environment question" id="problem12"><a 
  id="x1-3001r9"></a> What did you get as output from your sage cell? (copy just the answer portion after
-the ”==”)
+the ‘‘==” and before the ‘‘]”)
 <!--l. 119--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer [format=string]{(3*x^2 - y(x) - 1)/(4*y(x)^3 + x)} 
 ]]> 
@@ -290,13 +293,13 @@ indicated in the previous section. <div class="sage"><script type="text/x-sage">
 \answer [format=string]{-1/2*(sin(x*y(x)^2)*y(x)^2 + 2*x*cos(x^2))/(x*sin(x*y(x)^2)*y(x))} 
 ]]> 
 </script>
+                                                                  
+
+                                                                  
 </div>
 <h3 class="sectionHead"><a 
  id="x1-4000"></a>Perpendicular at a Point</h3>
      <dl class="dialogue"><dt class="actor">
-                                                                  
-
-                                                                  
 Julia </dt><dd 
 class="speech">Wow, implicit differentiation is rough.
      </dd><dt class="actor">
@@ -364,14 +367,14 @@ x^2 - 2x + y^2 - 3y = 0
 ]]> 
 </script>
 </p><!--l. 172--><p class="noindent" >Are the lines perpendicular at the origin?
+                                                                  
+
+                                                                  
 </p><!--l. 176--><p class="noindent" ></div>
 </p>
 <h3 class="sectionHead"><a 
  id="x1-5000"></a>In Summary</h3>
 <!--l. 178--><p class="noindent" >There are two main methods to solve implicit equations
-                                                                  
-
-                                                                  
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 
