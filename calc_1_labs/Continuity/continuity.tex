@@ -1,14 +1,20 @@
 \documentclass{ximera}
 \title{Continuity and Discontinuity}
+\input{../preamble.tex}
 \begin{abstract}
 \end{abstract}
 \begin{document}
+\begin{javascript}
+ caseInsensitive = function(a,b) {
+    return a.toLowerCase() == b.toLowerCase();
+  };
+\end{javascript}
 \maketitle
 \begin{dialogue}
 \item[Julia]What does it mean for a graph to be discontinuous? I don't get it!
 \item[Dylan] I think it's like when there's a hole in the graph or something.
 \item[James] Actually there are different kinds of discontinuities, but they can be hard to visualize so let's take a look!
-\item[Altogether] LET'S DIVE IN!
+\item[Altogether] Let's dive in!
 \end{dialogue}
 \section{Introduction}
 \begin{question}
@@ -23,7 +29,7 @@ A function $f$ is said to be \textit{continuous at a point} $x = a$ if which thr
 \end{selectAll}
 \end{question}
 \section{Example}
-Take the function $f(x) = \dfrac{(1-x)^2}{1-x}$.
+Consider the function $f(x) = \dfrac{(1-x)^2}{1-x}$.
 
 \begin{image}
 \includegraphics{continuity.png}
@@ -60,7 +66,7 @@ What kind of discontinuity is present? Select all which apply.
 
 Using the format (*x-value*, *type of discontinuity*), indicate the x-values with their corresponding type of discontinuity. If multiple discontinuities exist, list them in ascending x-value order. Make sure to capitalize the type of discontinuity, and put commas following each ordered pair when necessary.
 
-$\answer{(2, Removable)}$
+$\answer[format=string,validator=caseInsensitive]{(-2, Removable)}$
 \end{question}
 
 \begin{question}
@@ -87,9 +93,9 @@ What kind of discontinuity is present? Select all which apply.
 \choice[correct]{Infinite Discontinuity}
 \end{selectAll}
 
-Using the format (*x-value*, *type of discontinuity*), indicate the x-values with their corresponding type of discontinuity. If multiple discontinuities exist, list them in ascending x-value order. Make sure to capitalize the type of discontinuity, and put commas following each ordered pair when necessary.
+Using the format (*x-value*, *type of discontinuity*), indicate the x-values with their corresponding type of discontinuity. If multiple discontinuities exist, list them in ascending x-value order. Make sure to put commas following each ordered pair when necessary.
 
-$\answer{(2, Infinite)}$
+$\answer[format=string,validator=caseInsensitive]{(1.5, Infinite)}$
 \end{question}
 
 \begin{question}
@@ -111,14 +117,14 @@ Select all points which have a discontinuity.
 What kind of discontinuity is present? Select all which apply.
 
 \begin{selectAll}
-\choice[correct]{Removable Discontinuity}
-\choice{Jump Discontinuity}
+\choice{Removable Discontinuity}
+\choice[correct]{Jump Discontinuity}
 \choice[correct]{Infinite Discontinuity}
 \end{selectAll}
 
-Using the format (*x-value*, *type of discontinuity*), indicate the x-values with their corresponding type of discontinuity. If multiple discontinuities exist, list them in ascending x-value order. Make sure to capitalize the type of discontinuity, and put commas following each ordered pair when necessary.
+Using the format (*x-value*, *type of discontinuity*), indicate the x-values with their corresponding type of discontinuity. If multiple discontinuities exist, list them in ascending x-value order. Make sure to put commas following each ordered pair when necessary.
 
-$\answer{(0, Jump), (1, Infinite)}$
+$\answer[format=string,validator=caseInsensitive]{(0, Jump), (1, Infinite)}$
 \end{question}
 
 \begin{question}
@@ -177,7 +183,7 @@ What kind of discontinuity is present? Select all which apply.
 \begin{hint}
 Think of the different types of numbers - Rationals, Irrationals, Integers, Natural Numbers, Real Numbers, etc. If need be, look up what each of these are to refresh your memory.
 \end{hint}
-Indicate at what x-values the function is always discontinuous.
+Indicate for what kind of numbers the function is discontinuous.
 
 $\answer{Integers}$
 \begin{feedback}

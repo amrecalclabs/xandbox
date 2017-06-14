@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="derivative.tex" /> 
-<meta name="date" content="2017-06-09 15:40:00" /> 
+<meta name="date" content="2017-06-14 14:13:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -42,63 +42,92 @@ class="speech">I&#x2019;m supposed to find the slope of a parabola at a point, a
      how!
      </dd><dt class="actor">
 Dylan </dt><dd 
-class="speech">Well, what if we just make a secant line on the function?
+class="speech">Well if we had two points we could make a secant line to approximate
+     it!
      </dd><dt class="actor">
 Julia </dt><dd 
 class="speech">Secant line? What&#x2019;s that?
      </dd><dt class="actor">
 Dylan </dt><dd 
-class="speech"><em>A secant line is just a line which connects two points on a function</em>!</dd></dl>
-<h3 class="sectionHead"><a 
- id="x1-1000"></a>Guided Example</h3>
-<!--l. 18--><p class="noindent" >Consider the function
+class="speech">A <em>secant line</em> is just a line which connects two points on a function!
+     </dd><dt class="actor">
+Julia </dt><dd 
+class="speech">But isn&#x2019;t the <em>tangent</em> line one that skims a curve at one point? So the
+     slope of the tangent line is the slope at that point! See? <script type="math/tex; mode=display"> <![CDATA[ 
+ graph{f(x)=x^2,g(x)=2(x-1)+1}  
+]]> 
+</script>
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">Well do you know how to find the equation for a line with just one
+     point?
+     </dd><dt class="actor">
+Julia </dt><dd 
+class="speech">...
+     </dd><dt class="actor">
+James </dt><dd 
+class="speech">Come on guys we can approximate the tangent line using the secant
+     line!
+     </dd><dt class="actor">
+Altogether </dt><dd 
+class="speech">Let&#x2019;s dive in!</dd></dl>
                                                                   
 
                                                                   
+<h3 class="sectionHead"><a 
+ id="x1-1000"></a>Guided Example</h3>
+<!--l. 28--><p class="noindent" >Consider the function
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 f(x) = x^2 
 ]]> 
 </script>
+ <script type="math/tex; mode=display"> <![CDATA[ 
+ \graph {f(x)=x^2,g(x)=2(x-1)+1}  
+]]> 
+</script>
 </p>
 <div class="problem-environment question" id="problem1"><a 
- id="x1-1001r1"></a> Find the slope between <script type="math/tex"> <![CDATA[ 
+ id="x1-1001r1"></a> Find the slope of the secant line between <script type="math/tex"> <![CDATA[ 
 x = 2 
 ]]> 
 </script> and <script type="math/tex"> <![CDATA[ 
 x = 7 
 ]]> 
 </script>.
-<!--l. 43--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 57--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {9} 
 ]]> 
 </script>
-</p><!--l. 45--><p class="noindent" >Does this seem to be a good approximation for the rate of change at <script type="math/tex"> <![CDATA[ 
+</p><!--l. 59--><p class="noindent" >Does this seem to be a good approximation for slope of the tangent line at
+<script type="math/tex"> <![CDATA[ 
 x = 2 
 ]]> 
 </script>?
-</p><!--l. 47--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 61--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {No} 
 ]]> 
 </script>
-</p><!--l. 49--><p class="noindent" >Dylan thinks we can solve the problem by just picking something closer than 7.
-What is the slope between <script type="math/tex"> <![CDATA[ 
+</p><!--l. 63--><p class="noindent" >Dylan thinks we can solve the problem by just picking something closer than 7. Find
+the slope of the secant line between <script type="math/tex"> <![CDATA[ 
 x = 2 
 ]]> 
 </script> and <script type="math/tex"> <![CDATA[ 
 x = 3 
 ]]> 
-</script>?
-</p><!--l. 51--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</script>. <script type="math/tex"> <![CDATA[ 
 \answer {5} 
 ]]> 
 </script>
-</p><!--l. 53--><p class="noindent" >Is this a good approximation?
-</p><!--l. 55--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 66--><p class="noindent" >Is this a good approximation for the slope of the tangent line at <script type="math/tex"> <![CDATA[ 
+x=2 
+]]> 
+</script>?
+</p><!--l. 68--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {No} 
 ]]> 
 </script>
-</p><!--l. 57--><p class="noindent" >Is it better than the last attempt?
-</p><!--l. 59--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 70--><p class="noindent" >Is it better than the last attempt?
+</p><!--l. 72--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {Yes} 
 ]]> 
 </script>
@@ -116,6 +145,9 @@ class="speech">You guys need some help?
      </dd><dt class="actor">
 Julia and Dylan </dt><dd 
 class="speech">James! How do we find the slope of a line at a point?
+                                                                  
+
+                                                                  
      </dd><dt class="actor">
 James </dt><dd 
 class="speech">It isn&#x2019;t too tough! Before, you were considering a certain point as your
@@ -129,76 +161,100 @@ h
 h 
 ]]> 
 </script> in
-                                                                  
-
-                                                                  
                                  <script type="math/tex; mode=display"> <![CDATA[ 
-\frac {f(a+h)-f(a)}{(a+h)-a} 
+\frac {f(2+h)-f(2)}{(2+h)-2} 
 ]]> 
 </script>
- become a value closer and closer to zero when we evaluate it? <div class="problem-environment hint" id="problem3"><a 
- id="x1-1003r3"></a> You&#x2019;ll need to use a
-limit here!
+ approach 0? <div class="problem-environment hint" id="problem3"><a 
+ id="x1-1003r3"></a> You&#x2019;ll need to use a limit here!
 </div> <div class="free-response" id="problem4"><a 
  id="x1-1004r4"></a>
 </div>
-<!--l. 76--><p class="noindent" >Using the method you determined, approximate the rate of change at the point
-x=2.
-</p><!--l. 78--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 89--><p class="noindent" >Using the method you determined, approximate the slope of the tangent line at the
+point x=2.
+</p><!--l. 91--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {4} 
 ]]> 
 </script>
-</p><!--l. 80--><p class="noindent" ></div>
+</p><!--l. 93--><p class="noindent" ></div>
      </p><dl class="dialogue"><dt class="actor">
 James </dt><dd 
-class="speech">The value at that point is the slope of the tangent line!
-     </dd><dt class="actor">
-Dylan </dt><dd 
-class="speech">What&#x2019;s a tangent line?
-     </dd><dt class="actor">
-James </dt><dd 
-class="speech"><em>A tangent line is a line which intersects a differentiable curve at a point
-     where the slope of the curve equals the slope of the line</em>. Want to know
-     something really cool?
+class="speech">Want to know something really cool?
      </dd><dt class="actor">
 Julia and Dylan </dt><dd 
 class="speech">What James?
      </dd><dt class="actor">
 James </dt><dd 
-class="speech">The function you just discovered is how you determine a function&#x2019;s
-     derivative! Using that process, you can find the rate of change at any point
-     on a function!
+class="speech">The  function  we  just  discovered  is  how  you  determine  a  function&#x2019;s
+     derivative! Using that process, you can find the instantaneous rate of
+     change at any point on a function!
      </dd><dt class="actor">
 Julia and Dylan </dt><dd 
 class="speech">Wow! So cool!</dd></dl>
 <h3 class="sectionHead"><a 
  id="x1-2000"></a>On Your Own</h3>
-<!--l. 91--><p class="noindent" >Using what you&#x2019;ve learned, find the derivative of the following functions at the given
+<!--l. 102--><p class="noindent" >Using what you&#x2019;ve learned, find the derivative of the following functions at the given
 point.  </p><div class="problem-environment question" id="problem5"><a 
  id="x1-2001r1"></a> <script type="math/tex"> <![CDATA[ 
-g(x) = x^5-5x^4-x^2+2x+1 
+g(x) = x^2+1 
 ]]> 
 </script>, <script type="math/tex"> <![CDATA[ 
 x=2 
 ]]> 
 </script>
-<!--l. 96--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {-82} 
+<!--l. 107--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {4} 
 ]]> 
 </script>
-</p><!--l. 98--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+                                                                  
+
+                                                                  
+</p><!--l. 109--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 h(x) = \frac {1}{x} 
 ]]> 
 </script>, <script type="math/tex"> <![CDATA[ 
 x=2 
 ]]> 
 </script>
-</p><!--l. 100--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 111--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {-0.25} 
 ]]> 
 </script>
-</div>
-</p><!--l. 103--><p class="noindent" >By replacing the point in our formula for the derivative with <script type="math/tex"> <![CDATA[ 
+</p><!--l. 113--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+f(x)=3x^2+4x+2 
+]]> 
+</script>,<script type="math/tex"> <![CDATA[ 
+x=-1 
+]]> 
+</script>
+</p><!--l. 115--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {-2} 
+]]> 
+</script>
+<script type="math/tex"> <![CDATA[ 
+f(t)=\sqrt {t^2+1} 
+]]> 
+</script>,<script type="math/tex"> <![CDATA[ 
+x=3 
+]]> 
+</script>
+</p><!--l. 119--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {\frac {3}{\sqrt {10}}} 
+]]> 
+</script>
+<script type="math/tex"> <![CDATA[ 
+f(x) = x+x^{-1} 
+]]> 
+</script>,<script type="math/tex"> <![CDATA[ 
+x=4 
+]]> 
+</script>
+</p><!--l. 123--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {3.9375} 
+]]> 
+</script>
+</p><!--l. 125--><p class="noindent" ></div>
+</p><!--l. 127--><p class="noindent" >By replacing the point in our formula for the derivative with <script type="math/tex"> <![CDATA[ 
 x 
 ]]> 
 </script>, we may determine the
@@ -208,22 +264,43 @@ functions. </p><div class="problem-environment question" id="problem6"><a
 m(x) = x^3 
 ]]> 
 </script>
-                                                                  
-
-                                                                  
-<!--l. 107--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 131--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {3x^2} 
 ]]> 
 </script>
-</p><!--l. 109--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 133--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 n(x) = 3x+2 
 ]]> 
 </script>
-</p><!--l. 111--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 135--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {3} 
 ]]> 
 </script>
-</div>
+</p><!--l. 137--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+f(x)=4-x^2 
+]]> 
+</script>
+</p><!--l. 139--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {-2x} 
+]]> 
+</script>
+</p><!--l. 141--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+f(x) = 12+7x 
+]]> 
+</script>
+</p><!--l. 143--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {7} 
+]]> 
+</script>
+</p><!--l. 145--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+f(t)=\frac {4}{t+1} 
+]]> 
+</script>
+</p><!--l. 147--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {\frac {-4}{(x+1)^2}} 
+]]> 
+</script>
+</p><!--l. 149--><p class="noindent" ></div>
 </p>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>In Summary</h3>
@@ -236,7 +313,10 @@ class="speech">It comes from the Latin word secare, which means &#x2019;to cut&#
      </dd><dt class="actor">
 Dylan </dt><dd 
 class="speech">Ohh, I get it now! Because a secant line is a line that &#x2019;cuts&#x2019; a function!</dd></dl>
-<!--l. 121--><p class="noindent" >In this lab we&#x2019;ve (hopefully) learned the function for finding a derivative using the
+<!--l. 158--><p class="noindent" >In this lab we&#x2019;ve (hopefully) learned the function for finding a derivative using the
+                                                                  
+
+                                                                  
 limit as <script type="math/tex"> <![CDATA[ 
 h 
 ]]> 

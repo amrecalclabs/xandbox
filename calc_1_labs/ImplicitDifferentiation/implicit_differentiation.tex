@@ -16,7 +16,7 @@
 \item[James] Functions can be explicit or implicit! And it not the way you're thinking Julia...
 \end{dialogue}
 \section{Introduction}
-So far we have dealt only with explicitly defined functions, where $y=f(x)$.  Functions where there are both $x$ and $y$ on one side or both sides of the equation are called \textbf{implicit functions}.
+So far we have dealt only with explicitly defined functions, where $y=f(x)$. Here $y$ is dependent variable and it is given in terms of the independent variable $x$. Functions given in terms of both independent and dependent variables are called \textit{implicit} functions.
 \section{Guided Example}
 \begin{question}
 Which of the following equations are defined implicitly?
@@ -64,7 +64,7 @@ Using the functions you found, differentiate to find the slope of the tangent li
 $\answer{-1}$
 
 \end{question}
-Unfortunately not all implicit equations can be easily solved for y, which is why we use implicit differentiation! If you are familiar with implicit differentiation you can skip the following explanation.
+Unfortunately not all implicit equations can be easily solved for $y$, which is why we use implicit differentiation!
 \begin{explanation}
 Starting with
 $$x^2 + y^2 = 1$$
@@ -100,7 +100,7 @@ diff(eq,x)
 solve(diff(eq,x),diff(y(x)))
 \end{sageCell}
 \end{onlineOnly}
-What did you get as output from your sage cell? (copy just the answer portion after the "==")
+What did you get as output from your sage cell? (copy just the answer portion after the ``==" and before the ``]")
 $\answer{-x/y(x)}$
 \begin{feedback}
 Notice that Sage uses y(x) for y in the output.
@@ -114,7 +114,7 @@ var('x,y')
 \end{sageCell}
 \end{onlineOnly}
 \begin{question}
-What did you get as output from your sage cell? (copy just the answer portion after the "==")
+What did you get as output from your sage cell? (copy just the answer portion after the ``==" and before the ``]")
 
 $\answer[format=string]{(3*x^2 - y(x) - 1)/(4*y(x)^3 + x)}$
 \end{question}

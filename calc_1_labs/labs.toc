@@ -1,1 +1,66 @@
+\contentsline {section}{Continuity and Discontinuity}{5}{section*.1}
+\contentsline {section}{Introduction}{5}{section*.2}
+\contentsline {section}{Example}{5}{section*.3}
+\contentsline {section}{Problems}{6}{section*.4}
+\contentsline {section}{Derivative}{12}{section*.5}
+\contentsline {section}{Guided Example}{12}{section*.6}
+\contentsline {section}{On Your Own}{14}{section*.7}
+\contentsline {section}{In Summary}{15}{section*.8}
+\contentsline {section}{Application of the Derivative: Change answers to final problem prior to rollout}{16}{section*.9}
+\contentsline {section}{The Great Molasses Flood}{16}{section*.10}
+\contentsline {section}{Marginal Profit}{17}{section*.11}
+\contentsline {section}{Dorm Room Froyo}{19}{section*.12}
+\contentsline {section}{Applications of Maxima - Add Question Answers}{20}{section*.13}
+\contentsline {section}{James' Traffic Jam}{20}{section*.14}
+\contentsline {section}{Julia's Tree House}{21}{section*.15}
+\contentsline {section}{Dylan's Lemonade Stand}{22}{section*.16}
+\contentsline {section}{Handmade Paper Cups}{22}{section*.17}
+\contentsline {section}{Mean Value Theorem}{23}{section*.18}
+\contentsline {section}{Introduction}{23}{section*.19}
+\contentsline {section}{Guided Example}{23}{section*.20}
+\contentsline {section}{On Your Own}{25}{section*.21}
+\contentsline {section}{In Summary}{26}{section*.22}
+\contentsline {section}{Motion}{27}{section*.23}
+\contentsline {section}{Introduction}{27}{section*.24}
+\contentsline {section}{Guided Example}{28}{section*.25}
+\contentsline {section}{On Your Own}{29}{section*.26}
+\contentsline {section}{In Summary}{32}{section*.27}
+\contentsline {section}{Rational Functions with Awful Questions}{33}{section*.28}
+\contentsline {section}{Introduction}{33}{section*.29}
+\contentsline {section}{Guided Example}{33}{section*.30}
+\contentsline {section}{On Your Own}{34}{section*.31}
+\contentsline {section}{In Summary}{35}{section*.32}
+\contentsline {section}{Riemann Sums - Obviously Incomplete}{36}{section*.33}
+\contentsline {section}{Introduction}{36}{section*.34}
+\contentsline {section}{Increasing, Concave Up}{36}{section*.35}
+\contentsline {section}{Decreasing, Concave Up}{37}{section*.36}
+\contentsline {section}{Increasing, Concave Down}{38}{section*.37}
+\contentsline {section}{Decreasing, Concave Down}{38}{section*.38}
+\contentsline {section}{In Summary}{40}{section*.39}
+\contentsline {section}{Newton's Methods QUESTIONS}{41}{section*.40}
+\contentsline {section}{Introduction}{41}{section*.41}
+\contentsline {section}{Guided Example}{41}{section*.42}
+\contentsline {section}{On Your Own}{42}{section*.43}
+\contentsline {section}{In Summary}{43}{section*.44}
+\contentsline {section}{Transformations of Functions}{44}{section*.45}
+\contentsline {section}{Introduction}{44}{section*.46}
+\contentsline {section}{Guided Example}{44}{section*.47}
+\contentsline {section}{On your own}{45}{section*.48}
+\contentsline {section}{In Summary}{46}{section*.49}
+\contentsline {section}{Implicit Differentiation}{50}{section*.50}
+\contentsline {section}{Introduction}{50}{section*.51}
+\contentsline {section}{Guided Example}{50}{section*.52}
+\contentsline {section}{On Your Own}{53}{section*.53}
+\contentsline {section}{Perpendicular at a Point}{54}{section*.54}
+\contentsline {section}{In Summary}{55}{section*.55}
+\contentsline {section}{Differentiation Rules!}{56}{section*.56}
+\contentsline {section}{The Power Rule}{56}{section*.57}
+\contentsline {section}{The Constant Rule}{57}{section*.58}
+\contentsline {section}{The Constant Multiple Rule}{58}{section*.59}
+\contentsline {section}{The Sum and Difference Rules}{59}{section*.60}
+\contentsline {section}{In Summary}{60}{section*.61}
+\contentsline {section}{Differentiation Rules! Again!}{61}{section*.62}
+\contentsline {section}{The Product Rule}{61}{section*.63}
+\contentsline {section}{The Quotient Rule}{62}{section*.64}
+\contentsline {section}{The Chain Rule}{63}{section*.65}
 \contentsfinish 
