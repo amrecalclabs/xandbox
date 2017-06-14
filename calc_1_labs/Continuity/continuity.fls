@@ -518,7 +518,6 @@ INPUT ./continuity5.png
 INPUT continuity6.png
 INPUT ./continuity6.png
 INPUT ./continuity6.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT continuity.aux
 INPUT ./continuity.out
 INPUT ./continuity.out
