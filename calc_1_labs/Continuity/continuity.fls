@@ -518,7 +518,7 @@ INPUT ./continuity5.png
 INPUT continuity6.png
 INPUT ./continuity6.png
 INPUT ./continuity6.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT continuity.aux
 INPUT ./continuity.out
 INPUT ./continuity.out
@@ -537,6 +537,5 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
