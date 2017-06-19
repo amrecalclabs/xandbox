@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  19 JUN 2017 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  19 JUN 2017 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1217,28 +1217,28 @@ LaTeX Info: Redefining \nameref on input line 9.
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./labs.toc)
-\tf@toc=\write11
-\openout11 = `labs.toc'.
-
- [2
-
-] (./Transformations/transformations.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./labs.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+) [2
+
+] [3])
+\tf@toc=\write11
+\openout11 = `labs.toc'.
+
+ [4]
+(./Transformations/transformations.tex [5
 
 
-] [4] [5] [6]
-[7]) [8] (./Continuity/continuity.texpdfTeX warning (ext4): destination with th
-e same identifier (name{problem.1}) has been already used, duplicate ignored
+] [6] [7] [8] [9]) [10]
+(./Continuity/continuity.texpdfTeX warning (ext4): destination with the same id
+entifier (name{problem.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.21 A
@@ -1259,7 +1259,7 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[9
+[11
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) 
 has been already used, duplicate ignored
@@ -1294,7 +1294,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[10]pdfTeX warning (ext4): destination with the same identifier (name{problem.3
+[12]pdfTeX warning (ext4): destination with the same identifier (name{problem.3
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1327,7 +1327,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[11]pdfTeX warning (ext4): destination with the same identifier (name{problem.4
+[13]pdfTeX warning (ext4): destination with the same identifier (name{problem.4
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1360,7 +1360,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[12]pdfTeX warning (ext4): destination with the same identifier (name{problem.5
+[14]pdfTeX warning (ext4): destination with the same identifier (name{problem.5
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1420,13 +1420,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[13] [14]) [15] (./Rational/rational.texpdfTeX warning (ext4): destination with
+[15] [16]) [17] (./Rational/rational.texpdfTeX warning (ext4): destination with
  the same identifier (name{problem.1}) has been already used, duplicate ignored
 
 <to be read again> 
                    \relax 
 l.21 D
-      escribe the graph. What strange things do you notice? [16
+      escribe the graph. What strange things do you notice? [18
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) 
 has been already used, duplicate ignored
@@ -1439,12 +1439,12 @@ e identifier (name{problem.3}) has been already used, duplicate ignored
                    \relax 
 l.63 H
       ow can you tell if a rational function has a vertical asymptote or a r...
-[17]) [18] (./derivative/derivative.texpdfTeX warning (ext4): destination with 
+[19]) [20] (./derivative/derivative.texpdfTeX warning (ext4): destination with 
 the same identifier (name{problem.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.55 F
-      ind the slope of the secant line between $x = 2$ and $x = 7$. [19
+      ind the slope of the secant line between $x = 2$ and $x = 7$. [21
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) 
 has been already used, duplicate ignored
@@ -1452,7 +1452,7 @@ has been already used, duplicate ignored
                    \relax 
 l.83 H
       ow can you make the $h$ in $$\frac{f(2+h)-f(2)}{(2+h)-2}$$ approach 0?
-[20]pdfTeX warning (ext4): destination with the same identifier (name{problem.1
+[22]pdfTeX warning (ext4): destination with the same identifier (name{problem.1
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1462,7 +1462,7 @@ ntifier (name{problem.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.130 $
-       m(x) = x^3$ [21]) [22] (./differentiation.tex
+       m(x) = x^3$ [23]) [24] (./differentiation.tex
 
 ! LaTeX Error: Can be used only in preamble.
 
@@ -1488,7 +1488,7 @@ as been already used, duplicate ignored
                    \relax 
 l.43 U
       sing the limit definition of a derivative, compute the derivative for ...
-[23
+[25
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.3}) 
 has been already used, duplicate ignored
@@ -1501,7 +1501,7 @@ y used, duplicate ignored
 <to be read again> 
                    \relax 
 l.72 \item
-          {Differentiate this function using the limit definition.} [24]pdfTeX 
+          {Differentiate this function using the limit definition.} [26]pdfTeX 
 warning (ext4): destination with the same identifier (name{problem.5}) has been
  already used, duplicate ignored
 <to be read again> 
@@ -1520,7 +1520,7 @@ gnored
                    \relax 
 l.110 \item
            {Using what you found in the previous problem, compute the follow...
-[25]pdfTeX warning (ext4): destination with the same identifier (name{problem.8
+[27]pdfTeX warning (ext4): destination with the same identifier (name{problem.8
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1535,13 +1535,13 @@ as been already used, duplicate ignored
                    \relax 
 l.141 U
        sing what you found in the previous problem, compute the following de...
-[26] [27]) (./Differentiation2/differentiation2.texpdfTeX warning (ext4): desti
+[28] [29]) (./Differentiation2/differentiation2.texpdfTeX warning (ext4): desti
 nation with the same identifier (name{problem.1}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
 l.31 U
-      se Julia's guess to find the derivative of $f(x) \cdot g(x)$. [28
+      se Julia's guess to find the derivative of $f(x) \cdot g(x)$. [30
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) 
 has been already used, duplicate ignored
@@ -1554,14 +1554,14 @@ as been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.78 C
-      onsider the functions $f(x) = x^3$ and $g(x) = \cos(x)$. [29]pdfTeX warni
+      onsider the functions $f(x) = x^3$ and $g(x) = \cos(x)$. [31]pdfTeX warni
 ng (ext4): destination with the same identifier (name{problem.4}) has been alre
 ady used, duplicate ignored
 <to be read again> 
                    \relax 
 l.99 U
       sing the Quotient Rule, differentiate the products of the following fu...
-[30]pdfTeX warning (ext4): destination with the same identifier (name{problem.5
+[32]pdfTeX warning (ext4): destination with the same identifier (name{problem.5
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1572,18 +1572,18 @@ ignored
 <to be read again> 
                    \relax 
 l.143 
-       [31]pdfTeX warning (ext4): destination with the same identifier (name{pr
+       [33]pdfTeX warning (ext4): destination with the same identifier (name{pr
 oblem.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.164 
-      ) [32] (./ImplicitDifferentiation/implicit_differentiation.texpdfTeX warn
+      ) [34] (./ImplicitDifferentiation/implicit_differentiation.texpdfTeX warn
 ing (ext4): destination with the same identifier (name{problem.1}) has been alr
 eady used, duplicate ignored
 <to be read again> 
                    \relax 
 l.22 W
-      hich of the following equations are defined implicitly? [33
+      hich of the following equations are defined implicitly? [35
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) 
 has been already used, duplicate ignored
@@ -1595,7 +1595,7 @@ e same identifier (name{problem.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.57 \begin
-           {onlineOnly} [34]
+           {onlineOnly} [36]
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
@@ -1611,7 +1611,7 @@ as been already used, duplicate ignored
                    \relax 
 l.85 U
       se the equation obtained from the above explanation to find $\frac{dy}...
-[35]pdfTeX warning (ext4): destination with the same identifier (name{problem.5
+[37]pdfTeX warning (ext4): destination with the same identifier (name{problem.5
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1629,7 +1629,7 @@ as been already used, duplicate ignored
                    \relax 
 l.122 U
        sing your result in the previous section, evaluate $\frac{dy}{dx}$ at...
-[36]pdfTeX warning (ext4): destination with the same identifier (name{problem.8
+[38]pdfTeX warning (ext4): destination with the same identifier (name{problem.8
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1646,14 +1646,14 @@ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.155 \begin
-            {hint} [37] [38]) (./MeanValue/mean_value.tex
-<MeanValue/meanvalue.jpg, id=544, 798.985pt x 805.0075pt>
+            {hint} [39] [40]) (./MeanValue/mean_value.tex
+<MeanValue/meanvalue.jpg, id=728, 798.985pt x 805.0075pt>
 File: MeanValue/meanvalue.jpg Graphic file (type jpg)
 
 <use MeanValue/meanvalue.jpg>
 Package pdftex.def Info: MeanValue/meanvalue.jpg used on input line 25.
 (pdftex.def)             Requested size: 227.62204pt x 229.33125pt.
- [39
+ [41
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.1}) 
 has been already used, duplicate ignored
@@ -1667,7 +1667,7 @@ as been already used, duplicate ignored
                    \relax 
 l.42 U
       se $f(x)=sin(2x)$ on the interval $[0,2\pi]$ for the following questions.
-[40 <./MeanValue/meanvalue.jpg>]pdfTeX warning (ext4): destination with the sam
+[42 <./MeanValue/meanvalue.jpg>]pdfTeX warning (ext4): destination with the sam
 e identifier (name{problem.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1684,28 +1684,276 @@ m.5}) has been already used, duplicate ignored
                    \relax 
 l.89 S
       eeing a police officer on the side of the road, your friend Tom slows ...
-[41]) [42]
+[43]) [44] (./curve_sketching.tex
 
-! LaTeX Error: File `Curve_Sketching/curve_sketching.tex' not found.
+! LaTeX Error: Can be used only in preamble.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \usepackage
+               {tikz}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.21 \activity{Curve_Sketching/curve_sketching}
-                                               ^^M
-*** (cannot \read from terminal in nonstop modes)
+[45
 
- 
+] [46]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+) [47]
+[48] (./Derivative_Apps/derivative_apps.texpdfTeX warning (ext4): destination w
+ith the same identifier (name{problem.1}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.21 W
+      hat is your speed at any point? [49
+
+]pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 W
+      hat is your acceleration?pdfTeX warning (ext4): destination with the same
+ identifier (name{problem.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 H
+      ow quickly is the molasses travelling after one minute?pdfTeX warning (ex
+t4): destination with the same identifier (name{problem.4}) has been already us
+ed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \begin
+           {hint}pdfTeX warning (ext4): destination with the same identifier (n
+ame{problem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 C
+      ompute the marginal profit, $P'(x)$. [50] [51]pdfTeX warning (ext4): dest
+ination with the same identifier (name{problem.1}) has been already used, dupli
+cate ignored
+<to be read again> 
+                   \relax 
+l.98 I
+      f you start with no customers, how many days will it take you to start...
+) [52] (./MaxMin/max_min_app.texpdfTeX warning (ext4): destination with the sam
+e identifier (name{problem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 
+     pdfTeX warning (ext4): destination with the same identifier (name{problem.
+2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 
+      [53
+
+]pdfTeX warning (ext4): destination with the same identifier (name{problem.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 D
+      etermine the dimensions and cost of the cheapest tree house.pdfTeX warnin
+g (ext4): destination with the same identifier (name{problem.4}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.65 H
+      ow should she price the lemonade to maximize her profit? [54]pdfTeX warni
+ng (ext4): destination with the same identifier (name{problem.5}) has been alre
+ady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.78 H
+      ow many cups should the company produce every day in order to minimize...
+[55]) (./Motion/Motion.tex <Motion/motion.jpg, id=847, 752.8125pt x 674.52pt>
+File: Motion/motion.jpg Graphic file (type jpg)
+
+<use Motion/motion.jpg>
+Package pdftex.def Info: Motion/motion.jpg used on input line 19.
+(pdftex.def)             Requested size: 227.62204pt x 203.95287pt.
+pdfTeX warning (ext4): destination with the same identifier (name{problem.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 A
+       banana is sliding across an ice hockey rink after being thrown in by ...
+[56
+
+ <./Motion/motion.jpg>] [57]pdfTeX warning (ext4): destination with the same id
+entifier (name{problem.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.78 E
+      xamine the following graph of a particle's motion:
+<Motion/position.png, id=858, 507.8975pt x 299.1175pt>
+File: Motion/position.png Graphic file (type png)
+
+<use Motion/position.png>
+Package pdftex.def Info: Motion/position.png used on input line 82.
+(pdftex.def)             Requested size: 227.62204pt x 134.05392pt.
+pdfTeX warning (ext4): destination with the same identifier (name{problem.3}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.97 M
+      odel rockets work through burning a propellant to completion, coasting...
+<Motion/rocket.png, id=860, 317.185pt x 308.15125pt>
+File: Motion/rocket.png Graphic file (type png)
+ <use Motion/rocket.png>
+Package pdftex.def Info: Motion/rocket.png used on input line 100.
+(pdftex.def)             Requested size: 227.62204pt x 221.1446pt.
+
+[58 <./Motion/position.png>]pdfTeX warning (ext4): destination with the same id
+entifier (name{problem.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.125 A
+       t the surface of the Earth, acceleration due to gravity is approximat...
+[59 <./Motion/rocket.png>]pdfTeX warning (ext4): destination with the same iden
+tifier (name{problem.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.149 C
+       onsider a balloon which has been caught in a jet stream high above th...
+pdfTeX warning (ext4): destination with the same identifier (name{problem.6}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.176 O
+       n a spring break trip with friends, you find yourself dared to stand ...
+[60]) [61] (./NewtonMethod/newton_method.tex
+
+! LaTeX Error: File `NewtonMethod' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \end{image}
+                
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \end{image}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+pdfTeX warning (ext4): destination with the same identifier (name{problem.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 W
+      hat is the slope, in general, for the tangent line of $y=f(x)$ at $x_{...
+[62
+
+]pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 C
+      onsider the function $f(x) = x^2-1$.pdfTeX warning (ext4): destination wi
+th the same identifier (name{problem.3}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.64 C
+      onsider the function $g(x) = x^3-4x^2-1$. [63]) [64]
+(./Riemann/Riemann.texpdfTeX warning (ext4): destination with the same identifi
+er (name{problem.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 U
+      sing the given intervals, compute: [65
+
+]pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 C
+      onsider the function $x^2$ on the interval [-7, 0]. Evenly divide the ...
+[66]pdfTeX warning (ext4): destination with the same identifier (name{problem.3
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.85 C
+      onsider the function $\sin(x)$ on the interval [0,$\frac{\pi}{2}$]. Ev...
+pdfTeX warning (ext4): destination with the same identifier (name{problem.4}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.114 C
+       onsider the function $\cos(x)$ on the interval [0, $\frac{\pi}{2}$]. ...
+[67]pdfTeX warning (ext4): destination with the same identifier (name{problem.5
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.149 
+       [68] [69])
+*********************************************************************
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
+(./labs.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
+Package rerunfilecheck Info: File `labs.out' has not changed.
+(rerunfilecheck)             Checksum: 61D9A9831FDD57785682B5922B7DEAFC;3649.
+ ) 
 Here is how much of TeX's memory you used:
- 35746 strings out of 493085
- 795785 string characters out of 6136916
- 944640 words of memory out of 5000000
- 38316 multiletter control sequences out of 15000+600000
+ 36438 strings out of 493085
+ 812838 string characters out of 6136916
+ 963114 words of memory out of 5000000
+ 38860 multiletter control sequences out of 15000+600000
  16183 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,81p,10409b,855s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 80i,16n,98p,10409b,2120s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsltt10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
+0.pfb>
+Output written on labs.pdf (69 pages, 572420 bytes).
+PDF statistics:
+ 1101 PDF objects out of 1200 (max. 8388607)
+ 989 compressed objects within 10 object streams
+ 392 named destinations out of 1000 (max. 500000)
+ 561 words of extra memory for PDF output out of 10000 (max. 10000000)
+
