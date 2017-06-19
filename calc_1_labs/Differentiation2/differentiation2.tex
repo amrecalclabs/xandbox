@@ -4,6 +4,11 @@
 \end{abstract}
 \begin{document}
 \maketitle
+\begin{javascript}
+ caseInsensitive = function(a,b) {
+    return a.toLowerCase() == b.toLowerCase();
+  };
+\end{javascript}
 \begin{dialogue}
 \item[Julia] You know, some of those rules we learned were pretty useful, but some of these derivatives still suck! There \textbf{HAS} to be a better way!
 \item[Dylan] I'm sure there is, and I'm sure I know who could help us!
@@ -23,25 +28,25 @@ Consider the functions $f(x) = 2x$ and $g(x) = 3x^3 + x^2$.
 \graph{2x, 3x^3+x^2}
 \]
 \begin{question}
-Use Julia's guess to find the derivative of $f(x) * g(x)$.
+Use Julia's guess to find the derivative of $f(x) \cdot g(x)$.
 
 $\answer{18x^2+4x}$
 
-Use the limit definition of the derivative to find the derivative of $f(x) * g(x)$.
+Use the limit definition of the derivative to find the derivative of $f(x) \cdot g(x)$.
 
 $\answer{}$
 
 Was Julia right?
 
-$\answer{No}$
+$\answer[format=string,validator=caseInsensitive]{No}$
 \end{question}
 \begin{dialogue}
 \item[Julia] Darn! It didn't work!
 \item[Dylan] It must be a little harder than that...
-\item[James] That's right Dylan, but it is easier than the limit definition! All we have to do is use $$\frac{d}{dx} f(x)*g(x) = f(x)*g'(x) + f'(x)*g(x)\text{.}$$ This is called the \textbf{Product Rule}.
+\item[James] That's right Dylan, but it is easier than the limit definition! All we have to do is use $$\frac{d}{dx} f(x)\cdot g(x) = f(x)\cdot g'(x) + f'(x)*g(x)\text{.}$$ This is called the \textbf{Product Rule}.
 \end{dialogue}
 \begin{question}
-Using the Product Rule, derive the products of the following functions:
+Using the Product Rule, differentiate the products of the following functions:
 
 $f(x) = \sin(x)+x^2$, $g(x) = 3x^3+x$
 
@@ -84,14 +89,14 @@ $\answer{}$
 
 Was Dylan right?
 
-$\answer{No}$
+$\answer[format=string,validator=caseInsensitive]{No}$
 \end{question}
 \begin{dialogue}
 \item[Julia] I knew it! It's never that easy!
-\item[James] Now calm down Julia, this rule is worse than the last one, but it's much better than going through by hand: $$\frac{d}{dx}*\frac{f(x)}{g(x)} = \frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2}\text{.}$$
+\item[James] Now calm down Julia, this rule is worse than the last one, but it's much better than going through by the limit definition: $$\frac{d}{dx}\cdot \frac{f(x)}{g(x)} = \frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2}\text{.}$$
 \end{dialogue}
 \begin{question}
-Using the Product Rule, derive the products of the following functions:
+Using the Quotient Rule, differentiate the products of the following functions:
 
 $f(x) = \sin(x)+x^2$, $g(x) = 3x^3+x$
 
@@ -114,16 +119,16 @@ $\answer{}$
 \item[James] There's one last rule to learn today; the \textbf{Chain Rule}.
 \item[Dylan] That rule sounds pretty cool! When do we use it though? I thought we already covered the functions we need to know...
 \item[Julia] Yeah, what else is there?
-\item[James] We use the chain rule in composition of functions, like when we have $\sin(2x)$ - $2x$ is a function, and so is $\sin()$!
+\item[James] We use the chain rule in composition of functions, like when we have $\sin(2x)$ - $2x$ is a function, and so is $\sin(x)$
 \item[Julia] And how bad is the rule?
 \item[James] This one is a little more tricky - $$\frac{d}{dx}f(g(x)) = f'(g(x))*g'(x)\text{.}$$
 \item[Dylan and Julia] That's so gross.
 \item[James] Well, let's give it a try and see if you like it more than the limit definition!
 \end{dialogue}
 \begin{question}
-Consider $f(x) = \cos(x)$ and $g(x) = x^3$
+Consider $f(x) = \cos(x)$ and $g(x) = 2x$
 \[
-\graph{cos(x), x^3}
+\graph{cos(x), 2x}
 \]
 
 Using the limit definition of derivative, evaluate the derivative of $f(g(x))$.
@@ -132,11 +137,32 @@ $\answer{}$
 
 Now, evaluate the same limit using the chain rule. Was it any better?
 
-$\answer{Yes}$
+$\answer[format=string,validator=caseInsensitive]{Yes}$
 \end{question}
 \begin{question}
 
-Using the Chain Rule, derive the compositions $f(g(x))$ for the following functions:
+Using the Chain Rule, differentiate the compositions $f(g(x))$ for the following functions:
+
+$f(x) = 3x+x^2$, $g(x) = x^4+7x$
+
+$\answer{}$
+
+$f(x) = \cos(x)$, $g(x) = \sin(x)$
+
+$\answer{}$
+
+$f(x) = x^2-5x$, $g(x) = \sqrt{x+3}$
+
+$\answer{}$
+
+$f(x) = x^7$, $g(x) = \sin(x)-x^3+3$
+
+$\answer{}$
+\end{question}
+
+\begin{question}
+
+Using the Chain Rule, differentiate the compositions $g(f(x))$ for the following functions:
 
 $f(x) = 3x+x^2$, $g(x) = x^4+7x$
 
