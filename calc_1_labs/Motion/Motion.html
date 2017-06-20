@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="Motion.tex" /> 
-<meta name="date" content="2017-06-20 19:34:00" /> 
+<meta name="date" content="2017-06-20 19:39:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -200,7 +200,7 @@ src="position.png" alt="PIC"
 <div class="multiple-choice" id="problem6"><span class="choice correct "   id="choice12">Yes</span> <span class="choice  "   id="choice13">No</span> </div>
 <!--l. 109--><p class="noindent" >At approximately what time is the particle moving the most quickly?
 </p><!--l. 111--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-t = \answer [id=particle,format=float,validator=particle-3<.25]{2.9} \text {s} 
+t = \answer [id=particle,format=float,validator=|particle-3|<.25]{} \text {s} 
 ]]> 
 </script>
 </div> </p><div class="problem-environment question" id="problem7"><a 
@@ -212,12 +212,12 @@ src="rocket.png" alt="PIC"
  /> </div>
 <!--l. 119--><p class="noindent" >What was the maximum velocity obtained by the rocket?
 </p><!--l. 121--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-v = \answer [id=maxvel,format=float,validator=maxvel-150<25]{165} \text {ft}\backslash \text {s} 
+v = \answer [id=maxvel,format=float,validator=|maxvel-150|<25]{} \text {ft}\backslash \text {s} 
 ]]> 
 </script>
 </p><!--l. 123--><p class="noindent" >When did the rocket reach its highest point?
 </p><!--l. 125--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-t = \answer [id=highest,format=float,validator=highest-7.5<.5]{7.8} \text {s} 
+t = \answer [id=highest,format=float,validator=|highest-7.5|<.5]{} \text {s} 
 ]]> 
 </script>
 </p><!--l. 127--><p class="noindent" >What was the velocity at that time?
@@ -227,35 +227,39 @@ v = \answer {0} \text {ft} \backslash \text {s}
 </script>
 </p><!--l. 131--><p class="noindent" >When did the rocket&#x2019;s parachute deploy?
 </p><!--l. 133--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-t = \answer [id=deploy,format=float,validator=deploy-10<.5]{10.2} \text {s} 
+t = \answer [id=deploy,format=float,validator=|deploy-10|<.5]{} \text {s} 
 ]]> 
 </script>
 </p><!--l. 135--><p class="noindent" >How fast was the rocket descending by that time?
 </p><!--l. 137--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-v = \answer [id=descent,format=float,validator=descent+70<11]{} \text {ft} \backslash \text {s} 
+v = \answer [id=descent,format=float,validator=|descent+70|<11]{} \text {ft} \backslash \text {s} 
+]]> 
+</script> </p><div class="feedback" data-feedback="script" id="feedback8"><script type="text/javascript"> 
+//<![CDATA[ 
+function feedback8() { return wrong; } 
+//]]> 
+</script> Don&#x2019;t forget that falling will result in a negative velocity! </div>
+<!--l. 142--><p class="noindent" >Describe how long each phase of the rocket lasted.
+</p><!--l. 144--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\text {Take-off} \hspace {5mm} \answer [id=takeoff,format=float,validator=|takeoff-2|<.1]{} \text {s} 
 ]]> 
 </script>
-</p><!--l. 139--><p class="noindent" >Describe how long each phase of the rocket lasted.
-</p><!--l. 141--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\text {Take-off} \hspace {5mm} \answer [id=takeoff,format=float,validator=takeoff-2<.1]{2} \text {s} 
-]]> 
-</script>
-</p><!--l. 143--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\text {Coasting} \hspace {5mm} \answer [id=coast,format=float,validator=|coast-5.9|<.25]{6} \text {s} 
-]]> 
-</script>
-</p><!--l. 145--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\text {Free-fall} \hspace {5mm} \answer [id=fall,format=float,validator=|fall-2.6|<.3]{2.5} \text {s} 
+</p><!--l. 146--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\text {Coasting} \hspace {5mm} \answer [id=coast,format=float,validator=|coast-5.9|<.25]{} \text {s} 
 ]]> 
 </script>
                                                                   
 
                                                                   
-</p><!--l. 147--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\text {Parachute fall} \hspace {5mm} \answer [id=para,format=float,validator=|para-1.6|<.2]{1.7} \text {s} 
+</p><!--l. 148--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\text {Free-fall} \hspace {5mm} \answer [id=fall,format=float,validator=|fall-2.6|<.3]{} \text {s} 
 ]]> 
 </script>
-</div> </p><div class="problem-environment question" id="problem8"><a 
+</p><!--l. 150--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\text {Parachute fall} \hspace {5mm} \answer [id=para,format=float,validator=|para-1.6|<.2]{} \text {s} 
+]]> 
+</script>
+</div> </p><div class="problem-environment question" id="problem9"><a 
  id="x1-3005r7"></a> At the surface of the Earth, acceleration due to gravity is approximately <script type="math/tex"> <![CDATA[ 
 9.8 \frac {\text {m}}{\text {s}^2} 
 ]]> 
@@ -265,32 +269,32 @@ Consider throwing a ball directly upward from atop a 160 meter building at
 35 \frac {\text {m}}{\text {s}} 
 ]]> 
 </script>.
-<!--l. 152--><p class="noindent" >Create an equation to express the acceleration of the ball at any time after it has
+<!--l. 155--><p class="noindent" >Create an equation to express the acceleration of the ball at any time after it has
 been thrown.
-</p><!--l. 154--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 157--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 a(t) = \answer {-9.8} 
 ]]> 
-</script> </p><div class="feedback" data-feedback="attempt" id="feedback9">Remember, up is the positive direction. </div>
-<div class="problem-environment hint" id="problem10"><a 
+</script> </p><div class="feedback" data-feedback="attempt" id="feedback10">Remember, up is the positive direction. </div>
+<div class="problem-environment hint" id="problem11"><a 
  id="x1-3006r8"></a> Don&#x2019;t forget to find the constant of integration - might it have something to do with
 the starting speed?
 </div> Integrate the previously constructed equation to produce the equation for velocity at
 any time for the ball.
-<!--l. 164--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 167--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 v(t) = \answer {-9.8t+35} 
 ]]> 
 </script>
 </p>
-<div class="problem-environment hint" id="problem11"><a 
+<div class="problem-environment hint" id="problem12"><a 
  id="x1-3007r9"></a> Don&#x2019;t forget the constant here either - what is the other factor influencing height
 here?
 </div> Now, integrate your new equation yet again to produce the equation for the position
 of the ball at any time.
-<!--l. 171--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 174--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 p(t) = \answer {-9.8t^2+35t+160} 
 ]]> 
 </script>
-</div> </p><div class="problem-environment question" id="problem12"><a 
+</div> </p><div class="problem-environment question" id="problem13"><a 
  id="x1-3008r10"></a> Consider a balloon which has been caught in a jet stream high above the
 ground. The horizontal position of the balloon at any time can be given by the
 equation
@@ -298,42 +302,42 @@ equation
 p(t) = 3t^5-15t^3+13\text {.} 
 ]]> 
 </script>
-<div class="problem-environment hint" id="problem13"><a 
+<div class="problem-environment hint" id="problem14"><a 
  id="x1-3009r11"></a> Remember, acceleration is the derivative of velocity, and velocity is the derivative of
 position.
 </div> Produce the velocity and acceleration equations for the balloon.
-<!--l. 181--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 184--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 v(t) = \answer {15t^4-45t^2} 
 ]]> 
 </script>
-</p><!--l. 183--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 186--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 a(t) = \answer {60t^3-90t} 
 ]]> 
 </script>
-</p><!--l. 185--><p class="noindent" >Over what time period is the balloon moving in the positive direction?
                                                                   
 
                                                                   
-</p><!--l. 187--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 188--><p class="noindent" >Over what time period is the balloon moving in the positive direction?
+</p><!--l. 190--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {\sqrt {3}} \leq t 
 ]]> 
 </script>
-</p><!--l. 189--><p class="noindent" >When is the velocity increasing?
-</p><!--l. 191--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 192--><p class="noindent" >When is the velocity increasing?
+</p><!--l. 194--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {\frac {\sqrt {3}}{2}} \leq t 
 ]]> 
 </script>
 </p>
-<div class="problem-environment hint" id="problem14"><a 
+<div class="problem-environment hint" id="problem15"><a 
  id="x1-3010r12"></a> Don&#x2019;t overcomplicate this - we only need to concern ourselves with position
 here!
 </div> What was the displacement of the balloon over the interval [0, 2.25]? <em>Displacement
 is distance from the initial position</em>.
-<!--l. 198--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 201--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {2.13} 
 ]]> 
 </script>
-</div> </p><div class="problem-environment question" id="problem15"><a 
+</div> </p><div class="problem-environment question" id="problem16"><a 
  id="x1-3011r13"></a> On a spring break trip with friends, you find yourself dared to stand upon George
 Washington&#x2019;s nose on Mount Rushmore. While on the dangerous climb down, you
 come up with an experiment, and request one of your friends go to the base of the
@@ -343,10 +347,10 @@ Simultaneously on the ground, your friend starts a stopwatch on his phone. You s
 the timer as the wallet passes you, with your friend stopping their&#x2019;s once the wallet
 smashes into the ground. Your stopwatch displays 3.8 seconds, and your friend&#x2019;s
 displays 13.72 seconds.
-<!--l. 203--><p class="noindent" >Determine the acceleration, velocity, and position functions for the wallet. You will
+<!--l. 206--><p class="noindent" >Determine the acceleration, velocity, and position functions for the wallet. You will
 need to use equations to determine each constant of integration. Don&#x2019;t worry about
 units here.
-</p><!--l. 205--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 208--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 p(t) = \answer {} 
 ]]> 
 </script> <script type="math/tex"> <![CDATA[ 
@@ -356,18 +360,18 @@ v(t) = \answer {}
 a(t) = \answer {} 
 ]]> 
 </script>
-</p><!--l. 209--><p class="noindent" >What is the wallet&#x2019;s initial velocity?
-</p><!--l. 211--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 212--><p class="noindent" >What is the wallet&#x2019;s initial velocity?
+</p><!--l. 214--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 v_0 = \answer {38.24} \text {m} \backslash \text {s} 
 ]]> 
 </script>
-</p><!--l. 213--><p class="noindent" >What is it&#x2019;s velocity as it hits the ground?
-</p><!--l. 215--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 216--><p class="noindent" >What is it&#x2019;s velocity as it hits the ground?
+</p><!--l. 218--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 v_f = \answer {97.216} \text {m} \backslash \text {s} 
 ]]> 
 </script>
-</p><!--l. 217--><p class="noindent" >How far off the ground is George Washington&#x2019;s nose?
-</p><!--l. 219--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 220--><p class="noindent" >How far off the ground is George Washington&#x2019;s nose?
+</p><!--l. 222--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 h = \answer {482.2} \text {m} 
 ]]> 
 </script>
@@ -382,12 +386,12 @@ class="speech">I guess there&#x2019;s more to position than just speed!
 Julia </dt><dd 
 class="speech">A <em>lot</em> more! Do you think you could run through the big points real quick
      Dylan?
-     </dd><dt class="actor">
-Dylan </dt><dd 
-class="speech">Sure Julia! When we derive position, we get velocity, and when we
                                                                   
 
                                                                   
+     </dd><dt class="actor">
+Dylan </dt><dd 
+class="speech">Sure Julia! When we derive position, we get velocity, and when we
      derive  velocity,  we  get  acceleration.  Anti-differentiation  will  give  us
      velocity from acceleration and position from velocity.
      </dd><dt class="actor">
