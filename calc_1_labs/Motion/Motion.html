@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="Motion.tex" /> 
-<meta name="date" content="2017-06-20 19:53:00" /> 
+<meta name="date" content="2017-06-20 20:00:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -200,7 +200,7 @@ src="position.png" alt="PIC"
 <div class="multiple-choice" id="problem6"><span class="choice correct "   id="choice12">Yes</span> <span class="choice  "   id="choice13">No</span> </div>
 <!--l. 109--><p class="noindent" >At approximately what time is the particle moving the most quickly?
 </p><!--l. 111--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-t = \answer [id=particle,format=float,validator= -.25 < particle-3 < .25]{} \text {s} 
+t = \answer [id=particle,format=float,validator= 3-particle < .25]{} \text {s} 
 ]]> 
 </script>
 </div> </p><div class="problem-environment question" id="problem7"><a 
@@ -212,12 +212,12 @@ src="rocket.png" alt="PIC"
  /> </div>
 <!--l. 119--><p class="noindent" >What was the maximum velocity obtained by the rocket?
 </p><!--l. 121--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-v = \answer [id=maxvel,format=float,validator=|maxvel-150|<25]{} \text {ft}\backslash \text {s} 
+v = \answer [id=maxvel,format=float,validator=maxvel-150<25]{} \text {ft}\backslash \text {s} 
 ]]> 
 </script>
 </p><!--l. 123--><p class="noindent" >When did the rocket reach its highest point?
 </p><!--l. 125--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-t = \answer [id=highest,format=float,validator=|highest-7.5|<.5]{} \text {s} 
+t = \answer [id=highest,format=float,validator=highest-7.5<.5]{} \text {s} 
 ]]> 
 </script>
 </p><!--l. 127--><p class="noindent" >What was the velocity at that time?
@@ -227,12 +227,12 @@ v = \answer {0} \text {ft} \backslash \text {s}
 </script>
 </p><!--l. 131--><p class="noindent" >When did the rocket&#x2019;s parachute deploy?
 </p><!--l. 133--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-t = \answer [id=deploy,format=float,validator=|deploy-10|<.5]{} \text {s} 
+t = \answer [id=deploy,format=float,validator=deploy-10<.5]{} \text {s} 
 ]]> 
 </script>
 </p><!--l. 135--><p class="noindent" >How fast was the rocket descending by that time?
 </p><!--l. 137--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-v = \answer [id=descent,format=float,validator=|descent+70|<11]{} \text {ft} \backslash \text {s} 
+v = \answer [id=descent,format=float,validator=descent+70<11]{} \text {ft} \backslash \text {s} 
 ]]> 
 </script> </p><div class="feedback" data-feedback="script" id="feedback8"><script type="text/javascript"> 
 //<![CDATA[ 
@@ -241,22 +241,22 @@ function feedback8() { return wrong; }
 </script> Don&#x2019;t forget that falling will result in a negative velocity! </div>
 <!--l. 142--><p class="noindent" >Describe how long each phase of the rocket lasted.
 </p><!--l. 144--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\text {Take-off} \hspace {5mm} \answer [id=takeoff,format=float,validator=|takeoff-2|<.1]{} \text {s} 
+\text {Take-off} \hspace {5mm} \answer [id=takeoff,format=float,validator=takeoff-2<.1]{} \text {s} 
 ]]> 
 </script>
 </p><!--l. 146--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\text {Coasting} \hspace {5mm} \answer [id=coast,format=float,validator=|coast-5.9|<.25]{} \text {s} 
+\text {Coasting} \hspace {5mm} \answer [id=coast,format=float,validator=coast-5.3<.5]{} \text {s} 
 ]]> 
 </script>
                                                                   
 
                                                                   
 </p><!--l. 148--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\text {Free-fall} \hspace {5mm} \answer [id=fall,format=float,validator=|fall-2.6|<.3]{} \text {s} 
+\text {Free-fall} \hspace {5mm} \answer [id=fall,format=float,validator=fall-2.6<.3]{} \text {s} 
 ]]> 
 </script>
 </p><!--l. 150--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\text {Parachute fall} \hspace {5mm} \answer [id=para,format=float,validator=|para-1.6|<.2]{} \text {s} 
+\text {Parachute fall} \hspace {5mm} \answer [id=para,format=float,validator=para-1.6<.2]{} \text {s} 
 ]]> 
 </script>
 </div> </p><div class="problem-environment question" id="problem9"><a 
@@ -329,7 +329,7 @@ a(t) = \answer {60t^3-90t}
 </script>
 </p>
 <div class="problem-environment hint" id="problem15"><a 
- id="x1-3010r12"></a> Don&#x2019;t overcomplicate this - we only need to concern ourselves with position
+ id="x1-3010r12"></a> Don&#x2019;t over complicate this - we only need to concern ourselves with position
 here!
 </div> What was the displacement of the balloon over the interval [0, 2.25]? <em>Displacement
 is distance from the initial position</em>.

@@ -379,9 +379,9 @@ INPUT ./Numberline.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
-INPUT curve_sketch.pdf
-INPUT ./curve_sketch.pdf
-INPUT ./curve_sketch.pdf
+INPUT 00001.jpg
+INPUT ./00001.jpg
+INPUT ./00001.jpg
 INPUT matching.jpeg
 INPUT ./matching.jpeg
 INPUT ./matching.jpeg
