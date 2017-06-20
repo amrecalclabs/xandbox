@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  20 JUN 2017 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  20 JUN 2017 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,10 +415,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \c@ST@cmdline=\count121
 \sagetexindent=\skip46
 
-(./curve_sketching.sagetex.sout)
+No file curve_sketching.sagetex.sout.
 \sagecommandlineskip=\skip47
-)
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip48
 \enit@outerparindent=\dimen157
@@ -1234,12 +1233,12 @@ File: 00001.jpg Graphic file (type jpg)
  <use 00001.jpg>
 Package pdftex.def Info: 00001.jpg used on input line 56.
 (pdftex.def)             Requested size: 58.64755pt x 48.67421pt.
- [2 <./Numberline.png> <./00001.jpg>] [3] [4] <matching.jpeg, id=98, 1891.065pt
- x 1090.0725pt>
-File: matching.jpeg Graphic file (type jpg)
+ [2 <./Numberline.png> <./00001.jpg>] [3] [4] <matching.jpg, id=98, 1891.065pt 
+x 1090.0725pt>
+File: matching.jpg Graphic file (type jpg)
 
-<use matching.jpeg>
-Package pdftex.def Info: matching.jpeg used on input line 138.
+<use matching.jpg>
+Package pdftex.def Info: matching.jpg used on input line 138.
 (pdftex.def)             Requested size: 1891.06041pt x 1090.06984pt.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 143.
 
@@ -1249,7 +1248,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 143.
 
-[5 <./matching.jpeg>]
+[5 <./matching.jpg>]
 *********************************************************************
 [6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
@@ -1261,9 +1260,9 @@ Package rerunfilecheck Info: File `curve_sketching.out' has not changed.
 (rerunfilecheck)             Checksum: 254ED295F63F2C667EE0FC31DC630760;309.
  ) 
 Here is how much of TeX's memory you used:
- 35431 strings out of 493085
- 792410 string characters out of 6136916
- 942265 words of memory out of 5000000
+ 35427 strings out of 493085
+ 792339 string characters out of 6136916
+ 942176 words of memory out of 5000000
  38276 multiletter control sequences out of 15000+600000
  13276 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
