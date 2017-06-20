@@ -378,14 +378,14 @@ INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
 INPUT position.png
 INPUT ./position.png
 INPUT ./position.png
 INPUT rocket.png
 INPUT ./rocket.png
 INPUT ./rocket.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT Motion.aux
 INPUT ./Motion.out
