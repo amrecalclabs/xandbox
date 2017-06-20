@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  20 JUN 2017 14:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  20 JUN 2017 18:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1647,19 +1647,19 @@ l.78 --- TeX4ht warning --- Cannot determine size of graphic in position.png (n
 o BoundingBox) ---
 l. 78 --- needs --- position.png ---
 [2]
-l.96 --- TeX4ht warning --- Cannot determine size of graphic in rocket.png (no 
-BoundingBox) ---
-l. 96 --- needs --- rocket.png ---
+l.116 --- TeX4ht warning --- Cannot determine size of graphic in rocket.png (no
+ BoundingBox) ---
+l. 116 --- needs --- rocket.png ---
 [3] [4] [5]
 *********************************************************************
 [6] [7] (./Motion.aux) ) 
 Here is how much of TeX's memory you used:
- 37582 strings out of 493086
- 820564 string characters out of 6136942
- 1102468 words of memory out of 5000000
- 40310 multiletter control sequences out of 15000+600000
+ 37587 strings out of 493086
+ 820647 string characters out of 6136942
+ 1103474 words of memory out of 5000000
+ 40315 multiletter control sequences out of 15000+600000
  6161 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,6n,79p,10895b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Motion.dvi (7 pages, 21900 bytes).
+Output written on Motion.dvi (7 pages, 24408 bytes).

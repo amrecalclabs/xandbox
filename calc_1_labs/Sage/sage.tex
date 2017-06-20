@@ -6,23 +6,30 @@ SageMath is a computer algebra system, throughout these labs sage cells will be 
 \begin{document}
 \maketitle
 \section{Introduction}
-If you ever want to use a sage cell when one is not provided, or would like to experiment with Sage Cells, you can follow this \link[link]{https://sagecell.sagemath.org/}
-\section{Functions in Sage}
-To define a function you write $f(x)=x^2$, do so in the following cell and evaluate.
+If you ever want to use a sage cell when one is not provided, or would like to experiment with Sage Cells, you can follow this \link[link]{https://sagecell.sagemath.org/}.
+\section{Functions}
+To define a function you use the notation in the following sage cell:
 \begin{onlineOnly}
 \begin{sageCell}
-
+f(x)=x^5+3*x+4
 \end{sageCell}
 \end{onlineOnly}
 \begin{question}
-What output did you get from evaluating the function?
+What output did you get from evaluating the sage cell?
 \begin{multipleChoice}
 \choice[correct]{None}
-\choice{$f(x)=x^2$}
-\choice{$x^2$}
+\choice{$f(x)=x^5+3x+4$}
+\choice{$x^5+3x+4$}
 \end{multipleChoice}
 \begin{feedback}
-All we did was define a function, to see the function definition type $f(x)$
+All we did was define a function, to see the function definition type f(x).
 \end{feedback}
+Evaluate the function at $x=3$ by typing f(3) in the sage cell, what did you get? $\answer{}$
 \end{question}
+
+\begin{onlineOnly}
+\begin{sageCell}
+var('z')
+\end{sageCell}
+\end{onlineOnly}
 \end{document}
