@@ -42,6 +42,8 @@
 \newcommand {\nameref  }[0]{\@ifstar \@namerefstar \T@nameref }
 \newcommand {\input }[1]{}
 \newcommand {\document }[0]{\let \input \otherinput }
+\newcommand {\input }[1]{}
+\newcommand {\document }[0]{\let \input \otherinput }
 \newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
 \newcommand {\input }[1]{}
 \newcommand {\document }[0]{\let \input \otherinput }
