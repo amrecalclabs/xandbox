@@ -371,9 +371,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
-INPUT Numberline.png
-INPUT ./Numberline.png
-INPUT ./Numberline.png
+INPUT ExampleNumberline.png
+INPUT ./ExampleNumberline.png
+INPUT ./ExampleNumberline.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
