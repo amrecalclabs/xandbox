@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1498070470 "curve_sketching.tex" "curve_sketching.pdf" "curve_sketching" 1498070471
+["pdflatex"] 1498071261 "curve_sketching.tex" "curve_sketching.pdf" "curve_sketching" 1498071262
   "/etc/texmf/web2c/texmf.cnf" 1451279870 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -247,17 +247,17 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280644 3844746 6b008947ed367f1201b54964b1675710 ""
   "00001.jpg" 1497989141 23274 9036bb39ee3695935e962f4e6a46256f ""
   "Numberline.png" 1497980446 8994 1c52f37b2b8a9a59d3fe8d5fd5d59363 ""
-  "curve_sketching.aux" 1498070471 1159 65ef8f2e1a3830f9bc41585d130ba371 ""
-  "curve_sketching.out" 1498070471 309 254ed295f63f2c667ee0fc31dc630760 ""
+  "curve_sketching.aux" 1498071262 1159 5646778135b59642c9aeee63757f6f69 ""
+  "curve_sketching.out" 1498071262 309 254ed295f63f2c667ee0fc31dc630760 ""
   "curve_sketching.sagetex.sout" 1498069099 249 0071f0f5e6cbeaaa542276f2b6369bff ""
-  "curve_sketching.tex" 1498070469 7155 794c3160d141a1106c67b85f4586c689 ""
+  "curve_sketching.tex" 1498071251 7104 df27b94de85f7723278f6842fd71cb59 ""
   "matching.jpg" 1497982774 250514 75d0452cbfb7ba5e6ae754b79a2df614 ""
   (generated)
-  "curve_sketching.out"
-  "curve_sketching.oc"
-  "curve_sketching.jax"
-  "curve_sketching.ids"
-  "curve_sketching.aux"
   "curve_sketching.log"
   "curve_sketching.pdf"
+  "curve_sketching.out"
+  "curve_sketching.jax"
+  "curve_sketching.oc"
+  "curve_sketching.aux"
   "curve_sketching.sagetex.sage"
+  "curve_sketching.ids"
