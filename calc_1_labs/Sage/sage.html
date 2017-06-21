@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="sage.tex" /> 
-<meta name="date" content="2017-06-21 13:28:00" /> 
+<meta name="date" content="2017-06-21 14:26:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -25,19 +25,29 @@
                                                                  %9abb3e83c259e287ef0760555843d736% md5sum of corresponding .sage file (minus &#x0022;goboom&#x0022;,&#x0022;current_tex_line&#x0022;,and pause/unpause lines)</script><script type="text/javascript"> 
 </script> 
 </div>
- <div class="maketitle"></div>
+<div 
+class="abstract" 
+>
+<!--l. 5--><p class="noindent" >SageMath is a computer algebra system which uses python, throughout these labs
+sage cells will be used for certain problems. This lab introduces you to the basics of
+using SageMath via Sage Cells.
+</p></div>   <div class="maketitle"></div>
 <h3 class="sectionHead"><a 
  id="x1-1000"></a>Introduction</h3>
 <!--l. 9--><p class="noindent" >If you ever want to use a sage cell when one is not provided, or would like to
 experiment with Sage Cells, you can follow this <a href="https://sagecell.sagemath.org/">link</a>.
 </p>
 <h3 class="sectionHead"><a 
- id="x1-2000"></a>Functions</h3>
-<!--l. 11--><p class="noindent" >To define a function you use the notation in the following sage cell: </p><div class="sage"><script type="text/x-sage">f(x)=x^5+3*x+4
+ id="x1-2000"></a>Basics</h3>
+<!--l. 11--><p class="noindent" >You can use Sage as a calculator!
+</p>
+<h3 class="sectionHead"><a 
+ id="x1-3000"></a>Functions</h3>
+<!--l. 13--><p class="noindent" >To define a function you use the notation in the following sage cell: </p><div class="sage"><script type="text/x-sage">f(x)=x^5+3*x+4
  
 </script></div>
 <div class="problem-environment question" id="problem1"><a 
- id="x1-2001r1"></a> What output did you get from evaluating the sage cell? <div class="multiple-choice" id="problem2"><span class="choice correct "   id="choice1">None</span> <span class="choice  "   id="choice2"><script type="math/tex"> <![CDATA[ 
+ id="x1-3001r1"></a> What output did you get from evaluating the sage cell? <div class="multiple-choice" id="problem2"><span class="choice correct "   id="choice1">None</span> <span class="choice  "   id="choice2"><script type="math/tex"> <![CDATA[ 
 f(x)=x^5+3x+4 
 ]]> 
 </script></span> <span class="choice  "   id="choice3"><script type="math/tex"> <![CDATA[ 
@@ -55,19 +65,25 @@ x=3
 \answer {256} 
 ]]> 
 </script>
-</div> If you don&#x2019;t use function notation, must define your variables before using them like
-in the following Sage Cell. <div class="sage"><script type="text/x-sage">var('x y')
+</div> If you don&#x2019;t use function notation, or want to define a function of multiple variables
+you must define your variables before using them, as in the following Sage Cell.
+<div class="sage"><script type="text/x-sage">var('x y')
 eqn=4*x+y==1
 solve(eqn,y)
  
 </script></div>
 <div class="problem-environment question" id="problem4"><a 
- id="x1-2002r2"></a> From the sage cell above, what can you say about ‘‘=” vs ‘‘==”? <div class="multiple-choice" id="problem5"><span class="choice correct "   id="choice4">‘‘=” is used for
-assignment and ‘‘==” is used to signify equality</span> <span class="choice  "   id="choice5">‘‘=” is used to signify equality
-and ‘‘==” us used for assignment</span> </div>
+ id="x1-3002r2"></a> From the sage cell above, what can you say about ”=” vs ”==”? <div class="multiple-choice" id="problem5"><span class="choice correct "   id="choice4">”=” is used for
+                                                                  
+
+                                                                  
+assignment and ”==” is used to signify equality</span> <span class="choice  "   id="choice5">”=” is used to signify equality and
+”==” is used for assignment</span> </div>
 <div class="feedback" data-feedback="attempt" id="feedback6"><em>Note that you need to include the * operator, go back and take out the * to see how
 Sage Does error messages and debugging.</em> </div>
-</div> </body> 
+</div> The solve command is also shown above, it&#x2019;s fairly intuitive to use, the thing you
+want to solve is the first parameter and what you&#x2019;re solving for is the second
+parameter.  </body> 
  
 </html>
                                                                   
