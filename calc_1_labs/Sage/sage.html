@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="sage.tex" /> 
-<meta name="date" content="2017-06-21 14:26:00" /> 
+<meta name="date" content="2017-06-21 15:17:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -38,16 +38,12 @@ using SageMath via Sage Cells.
 experiment with Sage Cells, you can follow this <a href="https://sagecell.sagemath.org/">link</a>.
 </p>
 <h3 class="sectionHead"><a 
- id="x1-2000"></a>Basics</h3>
-<!--l. 11--><p class="noindent" >You can use Sage as a calculator!
-</p>
-<h3 class="sectionHead"><a 
- id="x1-3000"></a>Functions</h3>
-<!--l. 13--><p class="noindent" >To define a function you use the notation in the following sage cell: </p><div class="sage"><script type="text/x-sage">f(x)=x^5+3*x+4
+ id="x1-2000"></a>Functions</h3>
+<!--l. 12--><p class="noindent" >To define a function you use the notation in the following sage cell: </p><div class="sage"><script type="text/x-sage">f(x)=x^5+3*x+4
  
 </script></div>
 <div class="problem-environment question" id="problem1"><a 
- id="x1-3001r1"></a> What output did you get from evaluating the sage cell? <div class="multiple-choice" id="problem2"><span class="choice correct "   id="choice1">None</span> <span class="choice  "   id="choice2"><script type="math/tex"> <![CDATA[ 
+ id="x1-2001r1"></a> What output did you get from evaluating the sage cell? <div class="multiple-choice" id="problem2"><span class="choice correct "   id="choice1">None</span> <span class="choice  "   id="choice2"><script type="math/tex"> <![CDATA[ 
 f(x)=x^5+3x+4 
 ]]> 
 </script></span> <span class="choice  "   id="choice3"><script type="math/tex"> <![CDATA[ 
@@ -65,6 +61,26 @@ x=3
 \answer {256} 
 ]]> 
 </script>
+</div> <div class="problem-environment question" id="problem4"><a 
+ id="x1-2002r2"></a> Define <script type="math/tex"> <![CDATA[ 
+f(x)=sin(x)^2 
+]]> 
+</script> in the following cell evaluate at <script type="math/tex"> <![CDATA[ 
+x=4pi 
+]]> 
+</script> <div class="problem-environment hint" id="problem5"><a 
+ id="x1-2003r3"></a> In sage, you type pi for <script type="math/tex"> <![CDATA[ 
+pi 
+]]> 
+</script> and remember to
+use the carrot for powers and * for multiplication!
+</div> <div class="sage"><script type="text/x-sage">#To stop something from being evaluated put it in a comment using the hashtag
+ 
+</script></div>
+What did you get? <script type="math/tex"> <![CDATA[ 
+\answer {0} 
+]]> 
+</script>
 </div> If you don&#x2019;t use function notation, or want to define a function of multiple variables
 you must define your variables before using them, as in the following Sage Cell.
 <div class="sage"><script type="text/x-sage">var('x y')
@@ -72,18 +88,47 @@ eqn=4*x+y==1
 solve(eqn,y)
  
 </script></div>
-<div class="problem-environment question" id="problem4"><a 
- id="x1-3002r2"></a> From the sage cell above, what can you say about ”=” vs ”==”? <div class="multiple-choice" id="problem5"><span class="choice correct "   id="choice4">”=” is used for
                                                                   
 
                                                                   
+<div class="problem-environment question" id="problem6"><a 
+ id="x1-2004r4"></a> From the sage cell above, what can you say about ”=” vs ”==”? <div class="multiple-choice" id="problem7"><span class="choice correct "   id="choice4">”=” is used for
 assignment and ”==” is used to signify equality</span> <span class="choice  "   id="choice5">”=” is used to signify equality and
 ”==” is used for assignment</span> </div>
-<div class="feedback" data-feedback="attempt" id="feedback6"><em>Note that you need to include the * operator, go back and take out the * to see how
+<div class="feedback" data-feedback="attempt" id="feedback8"><em>Note that you need to include the * operator, go back and take out the * to see how
 Sage Does error messages and debugging.</em> </div>
 </div> The solve command is also shown above, it&#x2019;s fairly intuitive to use, the thing you
 want to solve is the first parameter and what you&#x2019;re solving for is the second
-parameter.  </body> 
+parameter. <div class="problem-environment question" id="problem9"><a 
+ id="x1-2005r5"></a> Using the solve command, find the solutions for <script type="math/tex"> <![CDATA[ 
+f(x)=x^2+3x+2 
+]]> 
+</script> <div class="problem-environment hint" id="problem10"><a 
+ id="x1-2006r6"></a> You should be solving <script type="math/tex"> <![CDATA[ 
+f(x) 
+]]> 
+</script>
+for <script type="math/tex"> <![CDATA[ 
+x 
+]]> 
+</script>
+</div> <div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+Copy paste what you got in your sage cell here: <script type="math/tex"> <![CDATA[ 
+\answer [format=string]{[x == -2, x == -1]} 
+]]> 
+</script>
+</div>
+<h3 class="sectionHead"><a 
+ id="x1-3000"></a>Getting Help</h3>
+<!--l. 78--><p class="noindent" >If you ever get stuck trying to use a command, there is built in documentation
+(as well as Google). Type the command followed by ”?” to get extensive
+documentation on how to use it with examples. Try this in the following cell.
+</p><div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+</body> 
  
 </html>
                                                                   
