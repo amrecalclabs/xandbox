@@ -24,12 +24,24 @@ What output did you get from evaluating the sage cell?
 \begin{feedback}
 All we did was define a function, to see the function definition type f(x).
 \end{feedback}
-Evaluate the function at $x=3$ by typing f(3) in the sage cell, what did you get? $\answer{}$
+Evaluate the function at $x=3$ by typing f(3) in the sage cell, what did you get? $\answer{256}$
 \end{question}
-
+If you don't use function notation, must define your variables before using them like in the following Sage Cell.
 \begin{onlineOnly}
 \begin{sageCell}
-var('z')
+var('x y')
+eqn=4*x+y==1
+solve(eqn,y)
 \end{sageCell}
 \end{onlineOnly}
+\begin{question}
+From the sage cell above, what can you say about ``=" vs ``=="?
+\begin{multipleChoice}
+\choice[correct]{``=" is used for assignment and ``==" is used to signify equality}
+\choice{``=" is used to signify equality and ``==" us used for assignment}
+\end{multipleChoice}
+\begin{feedback}
+\textit{Note that you need to include the * operator, go back and take out the * to see how Sage Does error messages and debugging.}
+\end{feedback}
+\end{question}
 \end{document}
