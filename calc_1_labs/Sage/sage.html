@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="sage.tex" /> 
-<meta name="date" content="2017-06-20 18:57:00" /> 
+<meta name="date" content="2017-06-21 13:28:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -52,14 +52,22 @@ x=3
 ]]> 
 </script> by typing f(3) in the sage cell, what did you get?
 <script type="math/tex"> <![CDATA[ 
-\answer {} 
+\answer {256} 
 ]]> 
 </script>
-</div>
-<div class="sage"><script type="text/x-sage">var('z')
+</div> If you don&#x2019;t use function notation, must define your variables before using them like
+in the following Sage Cell. <div class="sage"><script type="text/x-sage">var('x y')
+eqn=4*x+y==1
+solve(eqn,y)
  
 </script></div>
-</body> 
+<div class="problem-environment question" id="problem4"><a 
+ id="x1-2002r2"></a> From the sage cell above, what can you say about ‘‘=” vs ‘‘==”? <div class="multiple-choice" id="problem5"><span class="choice correct "   id="choice4">‘‘=” is used for
+assignment and ‘‘==” is used to signify equality</span> <span class="choice  "   id="choice5">‘‘=” is used to signify equality
+and ‘‘==” us used for assignment</span> </div>
+<div class="feedback" data-feedback="attempt" id="feedback6"><em>Note that you need to include the * operator, go back and take out the * to see how
+Sage Does error messages and debugging.</em> </div>
+</div> </body> 
  
 </html>
                                                                   

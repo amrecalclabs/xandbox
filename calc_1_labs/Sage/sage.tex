@@ -1,12 +1,14 @@
 \documentclass{ximera}
 \title{Introduction to Sage and Ximera}
-\begin{abstract}
-SageMath is a computer algebra system, throughout these labs sage cells will be used for certain problems. This lab introduces you to the basics of using a sage cell.
-\end{abstract}
 \begin{document}
+\begin{abstract}
+SageMath is a computer algebra system which uses python, throughout these labs sage cells will be used for certain problems. This lab introduces you to the basics of using SageMath via Sage Cells.
+\end{abstract}
 \maketitle
 \section{Introduction}
 If you ever want to use a sage cell when one is not provided, or would like to experiment with Sage Cells, you can follow this \link[link]{https://sagecell.sagemath.org/}.
+\section{Basics}
+You can use Sage as a calculator!
 \section{Functions}
 To define a function you use the notation in the following sage cell:
 \begin{onlineOnly}
@@ -26,7 +28,7 @@ All we did was define a function, to see the function definition type f(x).
 \end{feedback}
 Evaluate the function at $x=3$ by typing f(3) in the sage cell, what did you get? $\answer{256}$
 \end{question}
-If you don't use function notation, must define your variables before using them like in the following Sage Cell.
+If you don't use function notation, or want to define a function of multiple variables you must define your variables before using them, as in the following Sage Cell.
 \begin{onlineOnly}
 \begin{sageCell}
 var('x y')
@@ -35,13 +37,14 @@ solve(eqn,y)
 \end{sageCell}
 \end{onlineOnly}
 \begin{question}
-From the sage cell above, what can you say about ``=" vs ``=="?
+From the sage cell above, what can you say about "=" vs "=="?
 \begin{multipleChoice}
-\choice[correct]{``=" is used for assignment and ``==" is used to signify equality}
-\choice{``=" is used to signify equality and ``==" us used for assignment}
+\choice[correct]{"=" is used for assignment and "==" is used to signify equality}
+\choice{"=" is used to signify equality and "==" is used for assignment}
 \end{multipleChoice}
 \begin{feedback}
 \textit{Note that you need to include the * operator, go back and take out the * to see how Sage Does error messages and debugging.}
 \end{feedback}
 \end{question}
+The solve command is also shown above, it's fairly intuitive to use, the thing you want to solve is the first parameter and what you're solving for is the second parameter.
 \end{document}
