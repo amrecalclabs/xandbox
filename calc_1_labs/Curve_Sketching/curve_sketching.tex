@@ -16,36 +16,29 @@
 \begin{question}
 Consider the function $f(x)=x^3+12x^2+4$.
 
+Create a number line, and mark the points where the derivative is zero. Between these points, mark the sign of the derivative of any point on that interval (You may do this by hand as it is difficult to format using most CAS systems). An example is shown below.
+
+\begin{image}
+\includegraphics{Numberline}
+\end{image}
+
 On what interval(s) is the slope positive?
+
 \begin{selectAll}
 \choice{$[-8, 0)$}
 \choice[correct]{$(-\infty,-8)$}
 \choice{$(-\infty, 0]$}
 \choice[correct]{$(0,\infty)$}
 \end{selectAll}
+
 On what interval(s) is the slope negative?
+
 \begin{selectAll}
 \choice{$[-4, \infty)$}
 \choice[correct]{$(-8,0)$}
 \choice{$(-\infty, 0]$}
 \choice{$(0,\infty)$}
 \end{selectAll}
-At which points does the slope change sign?
-\begin{selectAll}
-\choice{$(-12.028,0)$}
-\choice[correct]{$(0,4)$}
-\choice[correct]{$(-8,260)$}
-\end{selectAll}
-
-What will the derivative be at these points?
-
-$\answer{0}$
-
-Create a number line, and mark the points where the derivative was zero. Between these points, mark the sign of the derivative of any point on that interval (You may do this by hand as it is difficult to format using most CAS systems). An example is shown below.
-
-\begin{image}
-\includegraphics{Numberline}
-\end{image}
 
 Select everything you can predict about the graph of a function at a point where the derivative is 0:
 
@@ -55,7 +48,7 @@ Select everything you can predict about the graph of a function at a point where
 \choice{The slope will change from negative to positive at the point.}
 \choice{The slope will change sign going from one side of the point to the other.}
 \end{selectAll}
-\begin{feedback}
+\begin{feedback}[wrong]
 If the derivative at a point is zero, we can only tell that the graph flattens out. It is possible that the sign does not change after crossing the point!
 \end{feedback}
 \end{question}
@@ -78,11 +71,24 @@ If the derivative at a point is zero, we can only tell that the graph flattens o
 \item[Dylan and Julia] Wow! Thanks James!
 \end{dialogue}
 \begin{question}
-Examine the graph of the original function.
 
-\[
-\graph{x^3+12x^2+4}
-\]
+Now use your CAS to determine the derivative of the function's derivative, $f''(x)$. Points where the second derivative is zero are known as inflection points. What happens at these points?
+
+\begin{multipleChoice}
+\choice{They show the function is at extrema as well.}
+\choice{They indicate that concavity will remain the same.}
+\choice[correct]{They indicate that concavity is changing.}
+\choice{They show that the function is at minimum change.}
+\end{multipleChoice}
+
+Draw another number line, this time for the second derivative, marking the inflection points. Evaluate $f''(x)$ on a point of each of the intervals created through this marking, and mark the sign. What might this mean in general for changing signs on each side of an inflection point?
+
+\begin{selectAll}
+\choice{The graph will be flat at that point.}
+\choice{The concavity will change from up to down at the point.}
+\choice{The concavity will change from down to up at the point.}
+\choice[correct]{The slope will change direction going from one side of the point to the other.}
+\end{selectAll}
 
 Where is the graph concave up?
 \begin{multipleChoice}
@@ -105,26 +111,6 @@ What about concave down?
 \choice{$[0,260]$}
 \choice{$[4,260]$}
 \end{multipleChoice}
-
-Graph the derivative on the same axes as the function. Notice where it is increasing and decreasing.
-
-Now use your CAS to determine the derivative of the function's derivative, $f''(x)$. Then evaluate at interesting points on the graph of the derivative. Points where the second derivative is zero are known as inflection points. What happens at these points?
-
-\begin{multipleChoice}
-\choice{They show the function is at extrema as well.}
-\choice{They indicate that concavity will remain the same.}
-\choice[correct]{They indicate that concavity is changing.}
-\choice{They show that the function is at minimum change.}
-\end{multipleChoice}
-
-Draw another number line, this time for the second derivative, marking the inflection points. Evaluate $f''(x)$ on a point of each of the intervals created through this marking, and mark the sign. What might this mean in general for changing signs on each side of an inflection point?
-
-\begin{selectAll}
-\choice{The graph will be flat at that point.}
-\choice{The concavity will change from up to down at the point.}
-\choice{The concavity will change from down to up at the point.}
-\choice[correct]{The slope will change direction going from one side of the point to the other.}
-\end{selectAll}
 
 Inflection points are given as ordered pairs. Evaluate each inflection point you found using $f(x)$ to determine the ordered pairs, then select them below.
 \begin{selectAll}
