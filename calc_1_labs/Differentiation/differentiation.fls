@@ -508,6 +508,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/esint/esint10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT differentiation.aux
 INPUT ./differentiation.out
 INPUT ./differentiation.out

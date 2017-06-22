@@ -1,13 +1,14 @@
 <!doctype html> 
 <html lang="en"> 
 <head>
-<title>Riemann Sums - Obviously Incomplete</title> 
+<title>Riemann Sums - We should see if Sage has a Riemann Sums
+Thing</title> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="Riemann.tex" /> 
-<meta name="date" content="2017-06-21 13:28:00" /> 
+<meta name="date" content="2017-06-22 13:48:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -47,7 +48,9 @@ class="speech">Actually, that&#x2019;s pretty easy! We&#x2019;ll just use Rieman
 <!--l. 15--><p class="noindent" >Riemann sums are a method of approximating area under a curve, and they come in
 three varieties; left, right, and midpoint.
 </p>
-<div class="image-environment"> </div>
+<div class="image-environment"><img 
+src="Table.jpg" alt="PIC"  
+ /> </div>
 <div class="center" 
 >
 <!--l. 20--><p class="noindent" >
@@ -56,12 +59,12 @@ three varieties; left, right, and midpoint.
 evenly divide the interval to produce the desired number. From here, we
 choose the height of what will be our rectangles differently for each version:
 </p>
-     <ul class="itemize1">
-     <li class="itemize"><strong>Left Riemann Sum:</strong> The height is calculated using the left endpoint of
-     the subinterval.
                                                                   
 
                                                                   
+     <ul class="itemize1">
+     <li class="itemize"><strong>Left Riemann Sum:</strong> The height is calculated using the left endpoint of
+     the subinterval.
      </li>
      <li class="itemize"><strong>Right Riemann Sum:</strong> The height is calculated using the right endpoint
      of the subinterval.
@@ -77,38 +80,58 @@ curve.
 x^2 
 ]]> 
 </script> on the interval [1, 6]. Evenly divide the interval into six
-subintervals. </p><div class="problem-environment question" id="problem1"><a 
+subintervals.
+</p>
+<div class="problem-environment question" id="problem1"><a 
  id="x1-2001r1"></a> Using the given intervals, compute:
-<!--l. 39--><p class="noindent" >The left Riemann sum.
-</p><!--l. 41--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 46--><p class="noindent" >The left Riemann sum.
+</p><!--l. 48--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 43--><p class="noindent" >The right Riemann sum.
-</p><!--l. 45--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 56--><p class="noindent" >The right Riemann sum.
+</p><!--l. 58--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 47--><p class="noindent" >The midpoint Riemann sum.
-</p><!--l. 49--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 66--><p class="noindent" >The midpoint Riemann sum.
+</p><!--l. 68--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 51--><p class="noindent" >Using your CAS, compute the integral numerically. Which of these estimates was
-most accurate? Show the percent error for each type of Riemann sum.
-</p><!--l. 53--><p class="noindent" >Most Accurate: <script type="math/tex"> <![CDATA[ 
+                                                                  
+
+                                                                  
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 76--><p class="noindent" >Compute the integral numerically. Which of these estimates was most accurate?
+Show the percent error for each type of Riemann sum.
+</p><!--l. 78--><p class="noindent" >Most Accurate: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 55--><p class="noindent" >Left Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 80--><p class="noindent" >Left Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 57--><p class="noindent" >Middle Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 82--><p class="noindent" >Middle Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 59--><p class="noindent" >Right Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 84--><p class="noindent" >Right Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
@@ -122,40 +145,60 @@ x^2
 ]]> 
 </script> on the interval [-7, 0]. Evenly divide the interval into seven
 subintervals.
-<!--l. 66--><p class="noindent" >Using the given intervals, compute:
-</p><!--l. 68--><p class="noindent" >The left Riemann sum.
-</p><!--l. 70--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 91--><p class="noindent" >Using the given intervals, compute:
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 99--><p class="noindent" >The left Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 107--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 72--><p class="noindent" >The right Riemann sum.
-</p><!--l. 74--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 109--><p class="noindent" >The right Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 117--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
                                                                   
 
                                                                   
-</p><!--l. 76--><p class="noindent" >The midpoint Riemann sum.
-</p><!--l. 78--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 119--><p class="noindent" >The midpoint Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 127--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 80--><p class="noindent" >Using your CAS, compute the integral numerically. Which of these estimates was
-most accurate? Show the percent error for each type of Riemann sum.
-</p><!--l. 82--><p class="noindent" >Most Accurate: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 129--><p class="noindent" >Compute the integral numerically. Which of these estimates was most accurate?
+Show the percent error for each type of Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 137--><p class="noindent" >Most Accurate: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 84--><p class="noindent" >Left Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 139--><p class="noindent" >Left Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 86--><p class="noindent" >Middle Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 141--><p class="noindent" >Middle Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 88--><p class="noindent" >Right Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 143--><p class="noindent" >Right Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
@@ -172,36 +215,55 @@ most accurate? Show the percent error for each type of Riemann sum.
 ]]> 
 </script>]. Evenly divide the interval into four
 subintervals. Using the given intervals, compute:
-<!--l. 96--><p class="noindent" >The left Riemann sum.
-</p><!--l. 98--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 151--><p class="noindent" >The left Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 159--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 100--><p class="noindent" >The right Riemann sum.
-</p><!--l. 102--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 161--><p class="noindent" >The right Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+                                                                  
+
+                                                                  
+<!--l. 169--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 104--><p class="noindent" >The midpoint Riemann sum.
-</p><!--l. 106--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 171--><p class="noindent" >The midpoint Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 179--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 108--><p class="noindent" >Using your CAS, compute the integral numerically. Which of these estimates was
-most accurate? Show the percent error for each type of Riemann sum.
-</p><!--l. 110--><p class="noindent" >Most Accurate: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 181--><p class="noindent" >Compute the integral numerically. Which of these estimates was most accurate?
+Show the percent error for each type of Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 189--><p class="noindent" >Most Accurate: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 112--><p class="noindent" >Left Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 191--><p class="noindent" >Left Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 114--><p class="noindent" >Middle Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 193--><p class="noindent" >Middle Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 116--><p class="noindent" >Right Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 195--><p class="noindent" >Right Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
@@ -218,39 +280,55 @@ most accurate? Show the percent error for each type of Riemann sum.
 ]]> 
 </script>]. Evenly divide the interval into eight
 subintervals. Using the given intervals, compute:
-<!--l. 125--><p class="noindent" >The left Riemann sum.
-</p><!--l. 127--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 204--><p class="noindent" >The left Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 212--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 129--><p class="noindent" >The right Riemann sum.
+</p><!--l. 214--><p class="noindent" >The right Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
                                                                   
 
                                                                   
-</p><!--l. 131--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 222--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 133--><p class="noindent" >The midpoint Riemann sum.
-</p><!--l. 135--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 224--><p class="noindent" >The midpoint Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 232--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 137--><p class="noindent" >Using your CAS, compute the integral numerically. Which of these estimates was
-most accurate? Show the percent error for each type of Riemann sum.
-</p><!--l. 139--><p class="noindent" >Most Accurate: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 234--><p class="noindent" >Compute the integral numerically. Which of these estimates was most accurate?
+Show the percent error for each type of Riemann sum.
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 242--><p class="noindent" >Most Accurate: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 141--><p class="noindent" >Left Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 244--><p class="noindent" >Left Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 143--><p class="noindent" >Middle Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 246--><p class="noindent" >Middle Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 145--><p class="noindent" >Right Percent Error: <script type="math/tex"> <![CDATA[ 
+</p><!--l. 248--><p class="noindent" >Right Percent Error: <script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
@@ -276,6 +354,9 @@ James </dt><dd
 class="speech">Haha no problem, I love helpi... that&#x2019;s not the point! Listen, just use
      sum notation, and try to make infinitely many subintervals. If you can do
      that, you&#x2019;ll have an accurate area.</dd></dl>
+                                                                  
+
+                                                                  
 <div class="problem-environment question" id="problem5"><a 
  id="x1-5002r5"></a>
 <div class="problem-environment hint" id="problem6"><a 
@@ -287,12 +368,12 @@ b
 ]]> 
 </script>.
 </div>
-<!--l. 162--><p class="noindent" >How would you represent the width of each rectangle when divided into <script type="math/tex"> <![CDATA[ 
+<!--l. 265--><p class="noindent" >How would you represent the width of each rectangle when divided into <script type="math/tex"> <![CDATA[ 
 n 
 ]]> 
 </script>
 subintervals?
-</p><!--l. 164--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 267--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
@@ -302,36 +383,33 @@ subintervals?
 n 
 ]]> 
 </script> grows larger, will the rectangle be wider than a single point? What does that tell
-you about the top?
+you about the height?
 </div>
-                                                                  
-
-                                                                  
-<!--l. 170--><p class="noindent" >How would you represent the height of each rectangle when divided into <script type="math/tex"> <![CDATA[ 
+<!--l. 273--><p class="noindent" >How would you represent the height of each rectangle when divided into <script type="math/tex"> <![CDATA[ 
 n 
 ]]> 
 </script>
 subintervals?
-</p><!--l. 172--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 275--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 174--><p class="noindent" >Using sigma notation, represent the area under the curve from <script type="math/tex"> <![CDATA[ 
+</p><!--l. 277--><p class="noindent" >How could you use sigma notation to represent the area under the curve from <script type="math/tex"> <![CDATA[ 
 i = 1 
 ]]> 
 </script> to <script type="math/tex"> <![CDATA[ 
 n 
 ]]> 
-</script>, as <script type="math/tex"> <![CDATA[ 
+</script>, as
+<script type="math/tex"> <![CDATA[ 
 n 
 ]]> 
-</script> approaches
-infinity.
-</p><!--l. 176--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</script> approaches infinity?
+</p><!--l. 279--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {} 
 ]]> 
 </script>
-</p><!--l. 178--><p class="noindent" ></div>
+</p><!--l. 281--><p class="noindent" ></div>
      </p><dl class="dialogue"><dt class="actor">
 Julia </dt><dd 
 class="speech">Wow, that&#x2019;s just as accurate as asking our computers!
@@ -344,7 +422,7 @@ Julia and Dylan </dt><dd
 class="speech">Wow! Thanks James!</dd></dl>
 <h3 class="sectionHead"><a 
  id="x1-6000"></a>In Summary</h3>
-<!--l. 186--><p class="noindent" >We&#x2019;ve learned a lot about Riemann sums today, and even the formula for a definite
+<!--l. 289--><p class="noindent" >We&#x2019;ve learned a lot about Riemann sums today, and even the formula for a definite
 integral! So let&#x2019;s recap: </p><div class="theorem-like problem-environment definition" id="problem8"><a 
  id="x1-6001r8"></a>A <strong>Riemann sum</strong> comes in three types, all of which first
 divide an interval into a number of subintervals:
@@ -360,15 +438,15 @@ class="enumerate-enumitem"><strong>Right  endpoint  Riemann  sums</strong>  use 
  (c) </dt><dd 
 class="enumerate-enumitem"><strong>Midpoint  Riemann  sums</strong>  use  the  midpoint  of  the  subinterval  to
      approximate the area.</dd></dl>
-<!--l. 194--><p class="noindent" >Following this, the area of each rectangle is added to approximate the area under the
+                                                                  
+
+                                                                  
+<!--l. 297--><p class="noindent" >Following this, the area of each rectangle is added to approximate the area under the
 curve.
 </div>
 </p>
      <ul class="itemize1">
      <li class="itemize">The formula for the definite integral is
-                                                                  
-
-                                                                  
                                    <script type="math/tex; mode=display"> <![CDATA[ 
 \displaystyle \int _a^b f(x) = \lim _{n\to \infty } \sum _{i=1}^n f(x) \cdot \frac {a-b}{n} 
 ]]> 
