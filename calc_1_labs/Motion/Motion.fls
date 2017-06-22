@@ -386,7 +386,6 @@ INPUT rocket.png
 INPUT ./rocket.png
 INPUT ./rocket.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT Motion.aux
 INPUT ./Motion.out
 INPUT ./Motion.out

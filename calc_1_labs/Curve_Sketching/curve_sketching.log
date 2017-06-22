@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  22 JUN 2017 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  22 JUN 2017 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1235,7 +1235,7 @@ LaTeX Font Warning: Font shape `OT1/cmtt/bx/sl' undefined
 
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 50.
-<00001.jpg, id=58, 195.49036pt x 162.24615pt>
+<00001.jpg, id=59, 195.49036pt x 162.24615pt>
 File: 00001.jpg Graphic file (type jpg)
  <use 00001.jpg>
 Package pdftex.def Info: 00001.jpg used on input line 61.
@@ -1362,7 +1362,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msam10.pfb>
-Output written on curve_sketching.pdf (10 pages, 443933 bytes).
+Output written on curve_sketching.pdf (10 pages, 444278 bytes).
 PDF statistics:
  289 PDF objects out of 1000 (max. 8388607)
  240 compressed objects within 3 object streams
