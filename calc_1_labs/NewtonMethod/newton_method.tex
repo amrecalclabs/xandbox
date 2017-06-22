@@ -20,13 +20,24 @@ In the following figure we have an initial guess $x_{0}$, then we have the blue 
 \includegraphics{NewtonMethod}
 \end{image}
 \begin{question}
+
 What is the slope, in general, for the tangent line of $y=f(x)$ at $x_{0}$?
 
-$\answer{f'(x_0)}$
+\begin{multipleChoice}
+\choice[correct]{$f'(x_0)$}
+\choice{$f'(x)$}
+\choice{$f(x)$}
+\choice{$f(f(x))$}
+\end{multipleChoice}
 
 What is the equation of the tangent line for the point $(x_{0},f(x_{0})$? Please answer in slope-intercept form.
 
-$\answer{y = f'(x)x_0+b}$
+\begin{multipleChoice}
+\choice{$y=f(x) \cdot x + b$}
+\choice[choice]{$y = f'(x_0)\cdot x_0+b$}
+\choice{$y = f'(x) \cdot b + x_0$}
+\choice{$y = f'(x) \cdot b + f(x)$}
+\end{multipleChoice}
 
 How would you use the tangent line you found above to estimate the value of $x_{1}$?
 
@@ -41,9 +52,9 @@ Consider the function $f(x) = x^2-1$.
 \graph{x^2-1}
 \]
 
-Find the tangent line at an initial estimate of $x_0=3$.
+Find the equation of the tangent line at an initial estimate of $x_0=3$.
 
-$\answer{}$
+$y = \answer{}$
 
 Plot the tangent line and function on the same axes. Does the x-intercept of the tangent line seem more or less accurate than your initial estimate?
 
@@ -56,7 +67,7 @@ What is the x-intercept of the tangent line?
 
 $\answer{I don't know}$
 
-Continue this process until the x-intercepts change by less than .0001 on each interval. How many intervals did this take?
+Continue this process until the x-intercepts change by less than .0001 on each iteration. How many iterations did this take?
 
 $\answer{}$
 \end{question}
@@ -78,6 +89,28 @@ Why is it important to use caution with Newton's method?
 \begin{freeResponse}
 \end{freeResponse}
 \end{question}
+
+\begin{question}
+Consider the function $h(x) = 4x^3 - 12x^2 + 2x + 1$.
+\[
+\graph[xmin=-6,xmax=6,ymin=-15,ymax=7,height=400]{4x^3 - 12x^2 + 2x + 1}
+\]
+
+Use an initial guess of $x=3$ to estimate a root of $h(x)$. What do you find?
+
+$\answer{}$
+
+Look at the graph, and attempt to estimate another root using $x = 0$. Did you find the root to the right or the left of this point?
+
+\begin{multipleChoice}
+\choice[correct]{Left}
+\choice{Right}
+\end{multipleChoice}
+
+Increment the initial guess by $0.02$ and use Newton's method until you find the other root. What value of $x$ is the first to work?
+$\answer{}$
+\end{question}
+
 \section{In Summary}
 \begin{dialogue}
 \item[Julia] Wow! Newton's Method is awesome!

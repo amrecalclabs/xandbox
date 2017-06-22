@@ -1,4 +1,5 @@
 \documentclass{ximera}
+\input{../preamble.tex}
 \title{Differentiation Rules! Again!}
 \begin{abstract}
 \end{abstract}
@@ -31,6 +32,13 @@ Consider the functions $f(x) = 2x$ and $g(x) = 3x^3 + x^2$.
 Use Julia's guess to find the derivative of $f(x) \cdot g(x)$.
 
 $\answer{18x^2+4x}$
+
+\begin{definition}
+  The \textbf{derivative} of $f(x)$ at $a$ is defined by the following limit:
+  \[
+  \eval{\frac{d}{dx} f(x)}_{x=a} = \lim_{h\to 0} \frac{f(a+h) - f(a)}{h}.
+  \]
+\end{definition}
 
 Use the limit definition of the derivative to find the derivative of $f(x) \cdot g(x)$.
 

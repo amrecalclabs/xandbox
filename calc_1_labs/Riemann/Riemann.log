@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  22 JUN 2017 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  22 JUN 2017 13:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1628,12 +1628,12 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 *********************************************************************
 [9] [10] (./Riemann.aux) ) 
 Here is how much of TeX's memory you used:
- 37612 strings out of 493086
- 821088 string characters out of 6136942
+ 37613 strings out of 493086
+ 821109 string characters out of 6136942
  1102590 words of memory out of 5000000
- 40340 multiletter control sequences out of 15000+600000
+ 40341 multiletter control sequences out of 15000+600000
  6161 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,6n,79p,10951b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Riemann.dvi (10 pages, 25668 bytes).
+Output written on Riemann.dvi (10 pages, 25908 bytes).

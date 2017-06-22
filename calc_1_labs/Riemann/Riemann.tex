@@ -279,10 +279,10 @@ Think of the start of the interval as $a$ and the end as $b$.
 How would you represent the width of each rectangle when divided into $n$ subintervals?
 
 \begin{multipleChoice}
-\choice{}
-\choice{}
-\choice{}
-\choice{}
+\choice{$\frac{b+a}{2}$}
+\choice{$\frac{b-a}{2}$}
+\choice[correct]{$\frac{b-a}{n}$}
+\choice{$\frac{n}{b-a}$}
 \end{multipleChoice}
 
 \begin{hint}
@@ -291,11 +291,21 @@ As $n$ grows larger, will the rectangle be wider than a single point? What does 
 
 How would you represent the height of each rectangle when divided into $n$ subintervals?
 
-$\answer{}$
+\begin{multipleChoice}
+\choice{$f(x)$}
+\choice{$f(x_b)-f(x_a)$}
+\choice{$\frac{f(x_b)-f(x_a)}{2}$}
+\choice{$\sum_{i=a}^b f(x_i)$}
+\end{multipleChoice}
 
 How could you use sigma notation to represent the area under the curve from $i = 1$ to $n$, as $n$ approaches infinity?
 
-$\answer{}$
+\begin{multipleChoice}
+\choice[correct]{$\lim_{n\to \infty} \sum_{i=1}^n$}
+\choice{$\lim_{n\to 0} \sum_{i=1}^n$}
+\choice{$\lim_{n\to \infty} \sum_{i=1}^\infty$}
+\choice{$\sum_{i=1}^n \lim_{n \to \infty}$}
+\end{multipleChoice}
 
 \end{question}
 \begin{dialogue}
