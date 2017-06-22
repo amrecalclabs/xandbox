@@ -389,6 +389,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
+INPUT nope3.jpg
+INPUT ./nope3.jpg
+INPUT ./nope3.jpg
 INPUT match1.jpg
 INPUT ./match1.jpg
 INPUT ./match1.jpg
@@ -410,9 +413,6 @@ INPUT ./2a.jpg
 INPUT 2b.jpg
 INPUT ./2b.jpg
 INPUT ./2b.jpg
-INPUT matching.jpg
-INPUT ./matching.jpg
-INPUT ./matching.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT curve_sketching.aux
 INPUT ./curve_sketching.out
