@@ -172,7 +172,6 @@
 \newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
 \newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
 \newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
-\newcommand {\arraystretch }[0]{3}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[0]{\AtBeginDocument }

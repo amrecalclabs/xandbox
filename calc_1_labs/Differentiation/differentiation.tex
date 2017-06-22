@@ -31,13 +31,15 @@ $x^4$ & $4x^3$
 \end{dialogue}
 \begin{question}
 What pattern do you notice in James' table? Generalize this pattern in terms of $x^n$.
-
 \begin{multipleChoice}
 \choice[correct]{$n \cdot x^{n-1}$}
 \choice{$n-1 \cdot x^{n-1}$}
 \choice{$n \cdot x^n$}
 \choice{$n-1 \cdot x^n$}
 \end{multipleChoice}
+\begin{feedback}[correct]
+Congrats! You've found what's known as the \dfn{Power Rule}!
+\end{feedback}
 \end{question}
 
 \begin{definition}
@@ -89,10 +91,13 @@ What can you generalize about the derivative of $y=c$ based on this?
 \choice{$\frac{d}{dx} c = x$}
 \choice{$\frac{d}{dx} c = \frac{c}{2}$}
 \end{multipleChoice}
+\begin{feedback}[correct]
+Congrats! You've found what's known as the \dfn{Constant Rule}!
+\end{feedback}
 \end{question}
 
 \begin{question}
-Using what you found in the previous problem, compute the following derivatives:
+Using what you found in the previous question, compute the following derivatives:
 
 $f(x)=2$ \hspace{14mm} $\frac{d}{dx} f(x) =  \answer{0}$
 
@@ -108,9 +113,10 @@ $f(x)=0$ \hspace{13mm} $\frac{d}{dx} f(x) =  \answer{0}$
 \item[James] Alright alright, calm down Julia. We can look at a function like $y = 3x$ next.
 \end{dialogue}
 
-Consider $y = k \cdot x$, where $k$ is some arbitrary constant.
+Consider $y = kx$, where $k$ is some arbitrary constant.
 \begin{question}
-$\frac{d}{dx} (k \cdot x) = \answer{k}$
+Differentiate this function using the limit definition:
+$\frac{d}{dx} (kx) = \answer{k}$
 
 What can you generalize about the derivative of $y = kx$ based on this?
 
@@ -120,6 +126,9 @@ What can you generalize about the derivative of $y = kx$ based on this?
 \choice[correct]{$\frac{d}{dx} kx = k$}
 \choice{$\frac{d}{dx} kx = x$}
 \end{multipleChoice}
+\begin{feedback}[correct]
+Congrats! You've found what's known as the \dfn{Constant Multiple Rule}!
+\end{feedback}
 \end{question}
 
 \begin{question}
@@ -142,7 +151,7 @@ $f(x) = \frac{1}{5}x$ \hspace{11mm} $\frac{d}{dx} f(x) =  \answer{\frac{1}{5}}$
 Consider the differentiable functions $f(x)$ and $g(x)$. We will define a function $j(x) = f(x) + g(x)$.
 
 \begin{hint}
-In $j(x+h)$, the $(x+h)$ will replace $x$ in the component functions as well.
+In $j(x+h)$, the $(x+h)$ will replace $x$ in $f(x)$ and $g(x)$ as well.
 \end{hint}
 Take the derivative of $j(x)$ using the limit definition.
 
@@ -151,11 +160,14 @@ $j'(x) =  \answer{\frac{\j(x+h)-j(x)}{h}}$
 What can you generalize based on this?
 
 \begin{multipleChoice}
-\choice{$\frac{d}{dx} f(x) + g(x) = f'(x) - g'(x)$}
-\choice{$\frac{d}{dx} f(x) + g(x) = g'(x) + f'(x)$}
-\choice{$\frac{d}{dx} f(x) + g(x) = f(x)\cdot g'(x) - g(x) \cdot f'(x)$}
-\choice[correct]{$\frac{d}{dx} f(x) + g(x) = f'(x) + g'(x)$}
+\choice{$f'(x) + g(x) = f'(x) - g'(x)$}
+\choice{$f'(x) + g(x) = g'(x) + f'(x)$}
+\choice{$f'(x) + g(x) = f(x)\cdot g'(x) - g(x) \cdot f'(x)$}
+\choice[correct]{$f'(x) + g(x) = f'(x) + g'(x)$}
 \end{multipleChoice}
+\begin{feedback}[correct]
+Congrats! You've found what's known as the \dfn{Sum Rule}!
+\end{feedback}
 \end{question}
 \begin{question}
 Using what you found in the previous problem, compute the following derivatives:
@@ -169,32 +181,25 @@ $f(x) = 5x^3 + 3x$, $g(x) = 2x^2 - 13x$ \hspace{13mm} $\frac{d}{dx}j(x) =  \answ
 \begin{question}
 Julia wonders if a similar rule exists for $m(x) = f(x)-g(x)$. Using the limit definition of derivative, determine if there is a pattern. Then, if there is a rule, use it to solve the 1a, 1b, and 1c. If there is not, do them using the limit definition.
 
-$f(x) = 3x^2 - 5x + 2$, $g(x) = x^2 + 3x$ \hspace{11mm} $\frac{d}{dx}m(x) =  \answer{4x-8}$
+$f(x) = 3x^2 - 5x + 2$, $\;g(x) = x^2 + 3x$ \hspace{11mm} $\frac{d}{dx}m(x) =  \answer{4x-8}$
 
-$f(x) = x^2 - 4x + 2$, $g(x) = -4x^2 + 3$ \hspace{10mm} $\frac{d}{dx}m(x) =  \answer{10x-4}$
+$f(x) = x^2 - 4x + 2$, $\;g(x) = -4x^2 + 3$ \hspace{10mm} $\frac{d}{dx}m(x) =  \answer{10x-4}$
 
-$f(x) = 5x^3 + 3x$, $g(x) = 2x^2 - 13x$ \hspace{13mm} $\frac{d}{dx}m(x) =  \answer{15x^2-4x+16}$
+$f(x) = 5x^3 + 3x$, $\;g(x) = 2x^2 - 13x$ \hspace{13mm} $\frac{d}{dx}m(x) =  \answer{15x^2-4x+16}$
 \end{question}
 \section{In Summary}
 We've covered a lot of differentiation rules in this lab, to help you out we've made the following table.
 \begin{question}
-\begin{center}
-\renewcommand{\arraystretch}{3}
-\begin{tabular}{| l | p{7.5cm} |}
-    \hline
-    Power Rule & $\dfrac{d}{dx}x^n=$$\answer{n}$ $\answer{*}$ $\answer{x^{n-1}}$,where $n$ is any real number. \\
-    \hline
-    Constant Rule & $\dfrac{d}{dx}c =$ $\answer{0}$ \\
-    \hline
-    Constant Multiple Rule & $\dfrac{d}{dx}(c \cdot f(x))=$ $\answer{c}$ $\answer{*}$ $\dfrac{d}{dx}$ $\answer{f(x)}$ \\
-    \hline
-    Sum Rule & $\dfrac{d}{dx}(f(x)+g(x))=$ $\dfrac{d}{dx}$ $\answer{f(x)}$ $\answer{+}$ $\dfrac{d}{dx}$ $\answer{g(x)}$ \\
-    \hline
-    Difference Rule & $\dfrac{d}{dx}(f(x)-g(x))=$ $\dfrac{d}{dx}$ $\answer{f(x)}$ $\answer{-}$
-    $\dfrac{d}{dx}$ $\answer{g(x)}$ \\
-    \hline
-\end{tabular}
-\end{center}
+\[
+\begin{array}{l|l}
+\hline
+   Power Rule&\begin{prompt}\ddx x^n=\answer{n}\answer{*}]\answer{x^n-1}\end{prompt}\\
+  Constant Rule & \ddx c=\answer{0}\\
+    0.01   & \begin{prompt}\answer{0}\end{prompt}\\
+    0.001  & \begin{prompt}\answer{0}\end{prompt}\\
+    0.0001 & \begin{prompt}\answer{0}\end{prompt}
+\end{array}
+\]
 \end{question}
 
 \pagebreak
