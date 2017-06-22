@@ -8,7 +8,7 @@ Thing</title>
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="Riemann.tex" /> 
-<meta name="date" content="2017-06-22 13:59:00" /> 
+<meta name="date" content="2017-06-22 17:46:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -386,7 +386,19 @@ n
 </script>
 subintervals?
 </p>
-<div class="multiple-choice" id="problem7"><span class="choice  "   id="choice1"></span> <span class="choice  "   id="choice2"></span> <span class="choice  "   id="choice3"></span> <span class="choice  "   id="choice4"></span> </div>
+<div class="multiple-choice" id="problem7"><span class="choice  "   id="choice1"><script type="math/tex"> <![CDATA[ 
+\frac {b+a}{2} 
+]]> 
+</script></span> <span class="choice  "   id="choice2"><script type="math/tex"> <![CDATA[ 
+\frac {b-a}{2} 
+]]> 
+</script></span> <span class="choice correct "   id="choice3"><script type="math/tex"> <![CDATA[ 
+\frac {b-a}{n} 
+]]> 
+</script></span> <span class="choice  "   id="choice4"><script type="math/tex"> <![CDATA[ 
+\frac {n}{b-a} 
+]]> 
+</script></span> </div>
 <div class="problem-environment hint" id="problem8"><a 
  id="x1-5004r7"></a> As <script type="math/tex"> <![CDATA[ 
 n 
@@ -399,11 +411,21 @@ n
 ]]> 
 </script>
 subintervals?
-</p><!--l. 294--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {} 
+</p>
+<div class="multiple-choice" id="problem9"><span class="choice  "   id="choice5"><script type="math/tex"> <![CDATA[ 
+f(x) 
 ]]> 
-</script>
-</p><!--l. 296--><p class="noindent" >How could you use sigma notation to represent the area under the curve from <script type="math/tex"> <![CDATA[ 
+</script></span> <span class="choice  "   id="choice6"><script type="math/tex"> <![CDATA[ 
+f(x_b)-f(x_a) 
+]]> 
+</script></span> <span class="choice  "   id="choice7"><script type="math/tex"> <![CDATA[ 
+\frac {f(x_b)-f(x_a)}{2} 
+]]> 
+</script></span> <span class="choice  "   id="choice8"><script type="math/tex"> <![CDATA[ 
+\sum _{i=a}^b f(x_i) 
+]]> 
+</script></span> </div>
+<!--l. 301--><p class="noindent" >How could you use sigma notation to represent the area under the curve from <script type="math/tex"> <![CDATA[ 
 i = 1 
 ]]> 
 </script> to <script type="math/tex"> <![CDATA[ 
@@ -414,11 +436,21 @@ n
 n 
 ]]> 
 </script> approaches infinity?
-</p><!--l. 298--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {} 
+</p>
+<div class="multiple-choice" id="problem10"><span class="choice correct "   id="choice9"><script type="math/tex"> <![CDATA[ 
+\lim _{n\to \infty } \sum _{i=1}^n 
 ]]> 
-</script>
-</p><!--l. 300--><p class="noindent" ></div>
+</script></span> <span class="choice  "   id="choice10"><script type="math/tex"> <![CDATA[ 
+\lim _{n\to 0} \sum _{i=1}^n 
+]]> 
+</script></span> <span class="choice  "   id="choice11"><script type="math/tex"> <![CDATA[ 
+\lim _{n\to \infty } \sum _{i=1}^\infty  
+]]> 
+</script></span> <span class="choice  "   id="choice12"><script type="math/tex"> <![CDATA[ 
+\sum _{i=1}^n \lim _{n \to \infty } 
+]]> 
+</script></span> </div>
+<!--l. 310--><p class="noindent" ></div>
      </p><dl class="dialogue"><dt class="actor">
 Julia </dt><dd 
 class="speech">Wow, that&#x2019;s just as accurate as asking our computers!
@@ -431,8 +463,8 @@ Julia and Dylan </dt><dd
 class="speech">Wow! Thanks James!</dd></dl>
 <h3 class="sectionHead"><a 
  id="x1-6000"></a>In Summary</h3>
-<!--l. 308--><p class="noindent" >We&#x2019;ve learned a lot about Riemann sums today, and even the formula for a definite
-integral! So let&#x2019;s recap: </p><div class="theorem-like problem-environment definition" id="problem9"><a 
+<!--l. 318--><p class="noindent" >We&#x2019;ve learned a lot about Riemann sums today, and even the formula for a definite
+integral! So let&#x2019;s recap: </p><div class="theorem-like problem-environment definition" id="problem11"><a 
  id="x1-6001r8"></a>A <strong>Riemann sum</strong> comes in three types, all of which first
 divide an interval into a number of subintervals:
      <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
@@ -443,14 +475,14 @@ class="enumerate-enumitem"><strong>Left endpoint Riemann sums</strong> use the l
  (b) </dt><dd 
 class="enumerate-enumitem"><strong>Right  endpoint  Riemann  sums</strong>  use  the  right  endpoint  of  the
      subinterval to approximate the area.
+                                                                  
+
+                                                                  
      </dd><dt class="enumerate-enumitem">
  (c) </dt><dd 
 class="enumerate-enumitem"><strong>Midpoint  Riemann  sums</strong>  use  the  midpoint  of  the  subinterval  to
      approximate the area.</dd></dl>
-                                                                  
-
-                                                                  
-<!--l. 316--><p class="noindent" >Following this, the area of each rectangle is added to approximate the area under the
+<!--l. 326--><p class="noindent" >Following this, the area of each rectangle is added to approximate the area under the
 curve.
 </div>
 </p>

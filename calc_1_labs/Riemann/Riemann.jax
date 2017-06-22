@@ -6,3 +6,4 @@
 \newcommand {\Sectionformat }[2]{#1}
 \newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}
 \newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}
+\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {#1:}}

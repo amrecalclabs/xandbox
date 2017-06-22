@@ -377,12 +377,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
 INPUT position.png
 INPUT ./position.png
 INPUT ./position.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
 INPUT rocket.png
 INPUT ./rocket.png
 INPUT ./rocket.png
