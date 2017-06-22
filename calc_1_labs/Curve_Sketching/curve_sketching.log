@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  22 JUN 2017 12:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  22 JUN 2017 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,24 +1224,24 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: ExampleNumberline.png Graphic file (type png)
 
 <use ExampleNumberline.png>
-Package pdftex.def Info: ExampleNumberline.png used on input line 23.
+Package pdftex.def Info: ExampleNumberline.png used on input line 22.
 (pdftex.def)             Requested size: 659.46213pt x 198.742pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./ExampleNumberline.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmtt/bx/sl' undefined
-(Font)              using `OT1/cmtt/bx/n' instead on input line 51.
+(Font)              using `OT1/cmtt/bx/n' instead on input line 50.
 
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 51.
-<00001.jpg, id=57, 195.49036pt x 162.24615pt>
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 50.
+<00001.jpg, id=58, 195.49036pt x 162.24615pt>
 File: 00001.jpg Graphic file (type jpg)
  <use 00001.jpg>
-Package pdftex.def Info: 00001.jpg used on input line 62.
+Package pdftex.def Info: 00001.jpg used on input line 61.
 (pdftex.def)             Requested size: 58.64755pt x 48.67421pt.
  [2 <./00001.jpg>] [3] [4]
-Overfull \hbox (32.59239pt too wide) in paragraph at lines 141--142
+Overfull \hbox (32.59239pt too wide) in paragraph at lines 140--141
 []\OT1/cmr/m/sl/10 For the fol-low-ing prob-lems, se-lect the cor-rect match of
  $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cm
 m/m/it/10 ; f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/i
@@ -1251,85 +1251,85 @@ t/10 ; andf[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$
 <nope3.jpg, id=111, 460.72125pt x 156.585pt>
 File: nope3.jpg Graphic file (type jpg)
  <use nope3.jpg>
-Package pdftex.def Info: nope3.jpg used on input line 146.
+Package pdftex.def Info: nope3.jpg used on input line 145.
 (pdftex.def)             Requested size: 460.72012pt x 156.58461pt.
 
 <match1.jpg, id=112, 897.3525pt x 307.1475pt>
 File: match1.jpg Graphic file (type jpg)
  <use match1.jpg>
-Package pdftex.def Info: match1.jpg used on input line 149.
+Package pdftex.def Info: match1.jpg used on input line 148.
 (pdftex.def)             Requested size: 897.3503pt x 307.14674pt.
 
 <nope1.jpg, id=113, 451.6875pt x 165.61874pt>
 File: nope1.jpg Graphic file (type jpg)
  <use nope1.jpg>
-Package pdftex.def Info: nope1.jpg used on input line 152.
+Package pdftex.def Info: nope1.jpg used on input line 151.
 (pdftex.def)             Requested size: 451.68639pt x 165.61833pt.
 
 <nope2.jpg, id=114, 453.695pt x 167.62625pt>
 File: nope2.jpg Graphic file (type jpg)
  <use nope2.jpg>
-Package pdftex.def Info: nope2.jpg used on input line 155.
+Package pdftex.def Info: nope2.jpg used on input line 154.
 (pdftex.def)             Requested size: 453.6939pt x 167.62582pt.
  [5 <./nope3.jpg> <./match1.jpg> <./nope1.jpg>] <2a.jpg, id=124, 442.65375pt x 
 169.63374pt>
 File: 2a.jpg Graphic file (type jpg)
 
 <use 2a.jpg>
-Package pdftex.def Info: 2a.jpg used on input line 161.
+Package pdftex.def Info: 2a.jpg used on input line 160.
 (pdftex.def)             Requested size: 442.65265pt x 169.63332pt.
  <2c.jpg, id=125, 449.68pt x 174.6525pt>
 File: 2c.jpg Graphic file (type jpg)
  <use 2c.jpg>
-Package pdftex.def Info: 2c.jpg used on input line 164.
+Package pdftex.def Info: 2c.jpg used on input line 163.
 (pdftex.def)             Requested size: 449.6789pt x 174.65207pt.
 
 <2b.jpg, id=126, 449.68pt x 178.6675pt>
 File: 2b.jpg Graphic file (type jpg)
  <use 2b.jpg>
-Package pdftex.def Info: 2b.jpg used on input line 167.
+Package pdftex.def Info: 2b.jpg used on input line 166.
 (pdftex.def)             Requested size: 449.6789pt x 178.66705pt.
 
 <match2.jpg, id=127, 909.3975pt x 325.215pt>
 File: match2.jpg Graphic file (type jpg)
  <use match2.jpg>
-Package pdftex.def Info: match2.jpg used on input line 170.
+Package pdftex.def Info: match2.jpg used on input line 169.
 (pdftex.def)             Requested size: 909.3953pt x 325.2142pt.
 
 <3c.jpg, id=128, 452.69125pt x 171.64125pt>
 File: 3c.jpg Graphic file (type jpg)
  <use 3c.jpg>
-Package pdftex.def Info: 3c.jpg used on input line 176.
+Package pdftex.def Info: 3c.jpg used on input line 175.
 (pdftex.def)             Requested size: 452.69014pt x 171.64081pt.
  [6 <./nope2.jpg> <./2a.jpg> <./2c.jpg> <./2b.jpg> <./match2.jpg>]
 <3a.jpg, id=138, 461.725pt x 171.64125pt>
 File: 3a.jpg Graphic file (type jpg)
  <use 3a.jpg>
-Package pdftex.def Info: 3a.jpg used on input line 179.
+Package pdftex.def Info: 3a.jpg used on input line 178.
 (pdftex.def)             Requested size: 461.72388pt x 171.64081pt.
 
 <3b.jpg, id=139, 454.69875pt x 187.70125pt>
 File: 3b.jpg Graphic file (type jpg)
  <use 3b.jpg>
-Package pdftex.def Info: 3b.jpg used on input line 182.
+Package pdftex.def Info: 3b.jpg used on input line 181.
 (pdftex.def)             Requested size: 454.69763pt x 187.70079pt.
 
 <match3.jpg, id=140, 937.5025pt x 339.2675pt>
 File: match3.jpg Graphic file (type jpg)
  <use match3.jpg>
-Package pdftex.def Info: match3.jpg used on input line 185.
+Package pdftex.def Info: match3.jpg used on input line 184.
 (pdftex.def)             Requested size: 937.50021pt x 339.26666pt.
  [7 <./3c.jpg> <./3a.jpg> <./3b.jpg> <./match3.jpg>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/sl' in size <9> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 233.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 232.
  [8]
 *********************************************************************
 [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
  (./curve_sketching.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
 Package rerunfilecheck Info: File `curve_sketching.out' has not changed.
 (rerunfilecheck)             Checksum: 254ED295F63F2C667EE0FC31DC630760;309.
 
@@ -1363,7 +1363,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msam10.pfb>
-Output written on curve_sketching.pdf (9 pages, 443673 bytes).
+Output written on curve_sketching.pdf (9 pages, 442838 bytes).
 PDF statistics:
  267 PDF objects out of 1000 (max. 8388607)
  219 compressed objects within 3 object streams

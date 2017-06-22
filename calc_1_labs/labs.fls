@@ -390,10 +390,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsltt10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
 INPUT Transformations/transformations.tex
 INPUT Transformations/transformations.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT Continuity/continuity.tex
 INPUT Continuity/continuity.tex
@@ -404,11 +406,11 @@ INPUT derivative/derivative.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT Differentiation/differentiation.tex
 INPUT Differentiation/differentiation.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT Differentiation2/differentiation2.tex
 INPUT Differentiation2/differentiation2.tex
 INPUT ImplicitDifferentiation/implicit_differentiation.tex
 INPUT ImplicitDifferentiation/implicit_differentiation.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsltt10.tfm
 INPUT MeanValue/mean_value.tex
 INPUT MeanValue/mean_value.tex
 INPUT MeanValue/meanvalue.jpg
@@ -416,8 +418,7 @@ INPUT ./MeanValue/meanvalue.jpg
 INPUT ./MeanValue/meanvalue.jpg
 INPUT Curve_Sketching/curve_sketching.tex
 INPUT Curve_Sketching/curve_sketching.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT Derivative_Apps/derivative_apps.tex
 INPUT Derivative_Apps/derivative_apps.tex
 INPUT MaxMin/max_min_app.tex
@@ -437,6 +438,8 @@ INPUT NewtonMethod/newton_method.tex
 INPUT NewtonMethod/newton_method.tex
 INPUT Riemann/Riemann.tex
 INPUT Riemann/Riemann.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT labs.aux
 INPUT ./labs.out
 INPUT ./labs.out
@@ -462,7 +465,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb

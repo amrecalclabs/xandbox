@@ -1,4 +1,5 @@
 \documentclass{ximera}
+\input{../preamble.tex}
 \usepackage{tikz}
 \title{Differentiation Rules!}
 \begin{abstract}
@@ -20,7 +21,7 @@
 \item[James] There \textit{is} a pattern! Check out this table I made!
 \begin{center}
 \begin{tabular}{c|c}
-$f(x)$ & $\frac{d}{dx}f(x)$ \\
+$f(x)$ & $\ddx f(x)$ \\
 \hline
 $x^2$ & $2x^1$ \\
 $x^3$ & $3x^2$ \\
@@ -39,10 +40,17 @@ What pattern do you notice in James' table? Generalize this pattern in terms of 
 \end{multipleChoice}
 \end{question}
 
+\begin{definition}
+  The \textbf{derivative} of $f$ at $a$ is
+  \[
+  \eval{\frac{d}{dx} f(x)}_{x=a} = \lim_{h\to 0} \frac{f(a+h) - f(a)}{h}.
+  \]
+\end{definition}
+
 \begin{question}
 Using the limit definition of a derivative, compute the derivative for $x^3$.
 
-$\frac{d}{dx} x^5 =  \answer{5x^4}$
+$\frac{d}{dx} x^3 =  \answer{3x^2}$
 \begin{feedback}[correct]
 Notice that your answer fits the same pattern as before!
 \end{feedback}
@@ -51,9 +59,9 @@ Notice that your answer fits the same pattern as before!
 \begin{question}
 Use the power rule to differentiate the following functions.
 
-$f(x) = x^{10}$ \hspace{11mm} $\frac{d}{dx}f(x) = \answer{10x^9}$
+$f(x) = x^{10}$ \hspace{11mm} $\ddx f(x) = \answer{10x^9}$
 
-$f(x) = 3x^2$ \hspace{10mm} $\frac{d}{dx}f(x) = \answer{6x}$
+$f(x) = 3x^2$ \hspace{10mm} $\ddx f(x) = \answer{6x}$
 
 \begin{hint}
 The value $\frac{1}{x}$ can be represented by $x^{-1}$.

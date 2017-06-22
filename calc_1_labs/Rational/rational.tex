@@ -15,8 +15,10 @@
 \end{dialogue}
 \section{Guided Example}
 Consider the function $f(x)=\frac{(x-2)(x+4)}{(x-3)(x+3)(x+4)}$
+\begin{image}
+\includegraphics{discontinuityGraph}
+\end{image}
 
-Graph the function using your favorite CAS system. Depending on the CAS you use, you may need to research how to show discontinuities in a graph. To do this, simply Google "\textit{CAS} show discontinuities", where \textit{CAS} is the name of whatever CAS you are using. At the time this document was written, Desmos did not include discontinuities by default, and thus, a Desmos powered graph has not been provided within this activity.
 \begin{question}
 Describe the graph. What strange things do you notice?
 \begin{freeResponse}
@@ -27,13 +29,21 @@ The "hole" present in the graph is called a \textbf{removable discontinuity}.
 The curve which goes vertical is called a \textbf{vertical asymptote}, another type of discontinuity.
 
 \section{On Your Own}
+Depending on the CAS you use, you may need to research how to show discontinuities in a graph. To do this, simply Google "\textit{CAS} show discontinuities", where \textit{CAS} is the name of whatever CAS you are using. At the time this document was written, Desmos did not include discontinuities. If you are unable to display removable discontinuities, you will need to find them by hand.
 
-Find and report the discontinuities in the following functions:
+Find and report the locations of discontinuities in the following functions:
 
 \begin{question}
 $a(x) = \dfrac{x^2+1}{x-2}$
-
-$\answer{}$
+\[
+\graph{\frac{x^2+1}{x-2}}
+\]
+\begin{selectAll}
+\choice[correct]{$x=2$}
+\choice{$x=-1$}
+\choice{$x=1$}
+\choice{$x=0$}
+\end{selectAll}
 
 $b(x) = \dfrac{x^2-5x+7}{x^2-x-6}$
 
@@ -61,11 +71,12 @@ $\answer{}$
 \end{question}
 \begin{question}
 How can you tell if a rational function has a vertical asymptote or a removable discontinuity?
-\begin{freeResponse}
-\end{freeResponse}
-How can you find these discontinuities?
-\begin{freeResponse}
-\end{freeResponse}
+\begin{multipleChoice}
+\choice[correct]{Vertical asymptotes occur where only the denominator approaches zero, and removable discontinuities occur where both the numerator and denominator approach zero.}
+\choice{Vertical asymptotes occur where only the numerator approaches zero, and removable discontinuities occur where both the numerator and denominator approach zero.}
+\choice{Vertical asymptotes occur where both the numerator and denominator approach zero, and removable discontinuities occurwhere only the denominator approaches zero.}
+\choice{Vertical asymptotes occur where only the numerator approaches zero, and removable discontinuities occurwhere only the denominator approaches zero.}
+\end{multipleChoice}
 \end{question}
 
 \section{In Summary}
