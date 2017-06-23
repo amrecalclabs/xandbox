@@ -15,17 +15,7 @@
 \end{dialogue}
 \begin{javascript}
 withinRange = function(a,b) {
-    var c = (a-b)/a;
-    if (c < 0) {
-        if -c < 0.1 {
-            return a.equals(b);
-            }
-        }
-    else {
-        if (c < 0.1){
-            return a.equals(b);
-            }
-        }
+  if (Math.abs(a-b)>(b/10));
   };
 \end{javascript}
 \section{James' Traffic Jam}
