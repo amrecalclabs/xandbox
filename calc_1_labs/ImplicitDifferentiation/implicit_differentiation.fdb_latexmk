@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1498232306 "implicit_differentiation.tex" "implicit_differentiation.pdf" "implicit_differentiation" 1498232307
+["pdflatex"] 1498236349 "implicit_differentiation.tex" "implicit_differentiation.pdf" "implicit_differentiation" 1498236350
   "/etc/texmf/web2c/texmf.cnf" 1451279870 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -243,16 +243,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280563 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280644 3844746 6b008947ed367f1201b54964b1675710 ""
-  "implicit_differentiation.aux" 1498232307 1161 98ee51a28f77c749ad36bf7066d604b4 ""
-  "implicit_differentiation.out" 1498232307 311 08753d175f016a40b213a520c59bf9ac ""
-  "implicit_differentiation.sagetex.sout" 1498231869 258 3775b87edc0f6df6f27c1028c6f9e87d ""
+  "implicit_differentiation.aux" 1498236350 1161 98ee51a28f77c749ad36bf7066d604b4 ""
+  "implicit_differentiation.out" 1498236350 311 08753d175f016a40b213a520c59bf9ac ""
+  "implicit_differentiation.sagetex.sout" 1498236349 258 3775b87edc0f6df6f27c1028c6f9e87d ""
   "implicit_differentiation.tex" 1498232305 6650 27e49ecefb493b76ac148c1f3a1a7138 ""
   (generated)
-  "implicit_differentiation.sagetex.sage"
-  "implicit_differentiation.ids"
   "implicit_differentiation.out"
-  "implicit_differentiation.log"
+  "implicit_differentiation.aux"
   "implicit_differentiation.pdf"
   "implicit_differentiation.oc"
+  "implicit_differentiation.ids"
+  "implicit_differentiation.sagetex.sage"
   "implicit_differentiation.jax"
-  "implicit_differentiation.aux"
+  "implicit_differentiation.log"
