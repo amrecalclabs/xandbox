@@ -15,7 +15,7 @@
 \end{dialogue}
 \begin{javascript}
 withinRange = function(a,b) {
-    var c = (a-b)/a < 0;
+    var c = (a-b)/a;
     if (c < 0) {
         if -c < 0.1 {
             return a.equals(b);
