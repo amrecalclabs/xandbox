@@ -16,13 +16,13 @@
 
 function withinRange(a,b) {
     var c = (a-b)/a < 0;
-    if ((a-b)/a < 0) {
-        if (b-a)/a < 0.1 {
+    if (c < 0) {
+        if -c < 0.1 {
             return a.equals(b);
             }
         }
     else {
-        if (a-b)/a < 0.1{
+        if (c < 0.1){
             return a.equals(b);
             }
         }
