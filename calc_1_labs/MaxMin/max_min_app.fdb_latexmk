@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1498230526 "max_min_app.tex" "max_min_app.pdf" "max_min_app" 1498230527
+["pdflatex"] 1498230757 "max_min_app.tex" "max_min_app.pdf" "max_min_app" 1498230758
   "/etc/texmf/web2c/texmf.cnf" 1451279870 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -21,6 +21,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm" 1136768653 1508 efecb4a315fe0975509670a272d75ef5 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm" 1136768653 1504 14063b20ffebb33cf8770d4a19c2b79b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl9.tfm" 1136768653 1504 db0beb0fddc52727302ccaeb61bc9b3d ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1136768653 1316 b636689f1933f24d1294acdf6041daaa ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm" 1136768653 1272 e2d13f0df30bf3ad990bb9d028e37f34 ""
@@ -231,16 +232,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280563 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280644 3844746 6b008947ed367f1201b54964b1675710 ""
-  "max_min_app.aux" 1498230527 1106 013319309425974466a862553a545cdb ""
-  "max_min_app.out" 1498230527 279 3c6c2194f1e94847bb1a1c59f5ef1dad ""
+  "max_min_app.aux" 1498230757 1106 013319309425974466a862553a545cdb ""
+  "max_min_app.out" 1498230757 279 3c6c2194f1e94847bb1a1c59f5ef1dad ""
   "max_min_app.sagetex.sout" 1498229537 245 a5fc1753622dd54c8a47a918b7ee96bd ""
-  "max_min_app.tex" 1498230525 4271 963aeb659de5c5b49eb939023ff82f76 ""
+  "max_min_app.tex" 1498230756 4391 7c66ce2fd5748ad18f4ece2cb57c53f1 ""
   (generated)
-  "max_min_app.log"
+  "max_min_app.aux"
   "max_min_app.out"
-  "max_min_app.ids"
+  "max_min_app.log"
   "max_min_app.pdf"
   "max_min_app.jax"
   "max_min_app.sagetex.sage"
-  "max_min_app.aux"
   "max_min_app.oc"
+  "max_min_app.ids"
