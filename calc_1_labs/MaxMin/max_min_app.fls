@@ -311,6 +311,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 OUTPUT max_min_app.oc
 OUTPUT max_min_app.ids
 OUTPUT max_min_app.jax
+INPUT max_min_app.aux
+INPUT max_min_app.aux
 OUTPUT max_min_app.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -325,8 +327,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-OUTPUT max_min_app.out
+INPUT max_min_app.out
+INPUT max_min_app.out
+INPUT max_min_app.out
+INPUT max_min_app.out
 OUTPUT max_min_app.pdf
+INPUT ./max_min_app.out
+INPUT ./max_min_app.out
+OUTPUT max_min_app.out
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
