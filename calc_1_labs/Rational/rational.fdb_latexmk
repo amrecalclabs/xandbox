@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1498161112 "rational.tex" "rational.pdf" "rational" 1498161113
+["pdflatex"] 1498230083 "rational.tex" "rational.pdf" "rational" 1498230084
   "/etc/texmf/web2c/texmf.cnf" 1451279870 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -234,16 +234,16 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280563 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280644 3844746 6b008947ed367f1201b54964b1675710 ""
   "discontinuityGraph.png" 1498136359 39167 eb9ea3f20654cdd60d6e5ab1fe86d126 ""
-  "rational.aux" 1498161113 1093 71afa672ccbb5d90ffe216b01533184e ""
-  "rational.out" 1498161113 266 4cdbd3ba693cca2b49dc6f202b9bf2ac ""
-  "rational.sagetex.sout" 1498156848 242 4cef6c6f8b8c0a2b758fb6eb974028d7 ""
-  "rational.tex" 1498161112 4610 c4c89c1f78ec11b7c47759d3c37c0450 ""
+  "rational.aux" 1498230084 1072 328193e8eba7ef72dc85ec3ca1e91965 ""
+  "rational.out" 1498230084 245 b355179a816214aaa0f033a389c1f8ea ""
+  "rational.sagetex.sout" 1498230083 242 4cef6c6f8b8c0a2b758fb6eb974028d7 ""
+  "rational.tex" 1498220366 4589 1a34fad3ed04446ee05704022b78e894 ""
   (generated)
   "rational.jax"
-  "rational.sagetex.sage"
-  "rational.pdf"
-  "rational.log"
-  "rational.ids"
   "rational.aux"
+  "rational.log"
+  "rational.pdf"
+  "rational.ids"
   "rational.oc"
+  "rational.sagetex.sage"
   "rational.out"
