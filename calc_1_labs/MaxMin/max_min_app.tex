@@ -6,8 +6,16 @@
 \maketitle
 \begin{javascript}
 withinRange = function(a,b) {
-    var c=true;
-    return c;
+    if (0 &gt; (a-b)/a) {
+        if (0.1 &gt; (b-a)/a) {
+            return true;
+        }
+    }
+    else {
+        if (0.1 &gt; (a-b)/a) {
+            return true;
+        }
+    }
   };
 \end{javascript}
 \begin{dialogue}
