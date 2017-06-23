@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  23 JUN 2017 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  23 JUN 2017 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,11 +1223,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [2] [3] [4]
 *********************************************************************
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
 (./max_min_app.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `max_min_app.out' has not changed.
 (rerunfilecheck)             Checksum: 3C6C2194F1E94847BB1A1C59F5EF1DAD;279.
  ) 
@@ -1238,7 +1238,7 @@ Here is how much of TeX's memory you used:
  38247 multiletter control sequences out of 15000+600000
  13444 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,8n,79p,10431b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,8n,79p,10431b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/te
@@ -1252,7 +1252,7 @@ s/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb>
-Output written on max_min_app.pdf (4 pages, 149308 bytes).
+Output written on max_min_app.pdf (4 pages, 148856 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams
