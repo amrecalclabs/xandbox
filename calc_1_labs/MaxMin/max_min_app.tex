@@ -15,6 +15,7 @@
 \end{dialogue}
 
 function withinRange(a,b) {
+    var c = (a-b)/a
     if ((a-b)/a < 0) {
         if (b-a)/a < 0.1 {
             return a.equals(b)
