@@ -17,12 +17,12 @@
 function withinRange(a,b) {
     if ((a-b)/a < 0) {
         if (b-a)/a < 0.1 {
-            return 1
+            return a.equals(b)
             }
         }
     else {
         if (a-b)/a < 0.1{
-            return 1
+            return a.equals(b)
             }
         }
   };
