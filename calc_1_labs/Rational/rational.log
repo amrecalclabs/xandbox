@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  23 JUN 2017 15:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  23 JUN 2017 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1231,18 +1231,18 @@ Package pdftex.def Info: discontinuityGraph.png used on input line 20.
 ] [2 <./discontinuityGraph.png>] [3] [4] [5]
 *********************************************************************
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (./rational.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `rational.out' has not changed.
 (rerunfilecheck)             Checksum: B355179A816214AAA0F033A389C1F8EA;245.
  ) 
 Here is how much of TeX's memory you used:
  35411 strings out of 493085
  791942 string characters out of 6136916
- 942231 words of memory out of 5000000
+ 941231 words of memory out of 5000000
  38251 multiletter control sequences out of 15000+600000
  13635 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1259,7 +1259,7 @@ public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbol
 s/msam10.pfb>
-Output written on rational.pdf (6 pages, 167345 bytes).
+Output written on rational.pdf (6 pages, 167195 bytes).
 PDF statistics:
  176 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams
