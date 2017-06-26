@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="transformations.tex" /> 
-<meta name="date" content="2017-06-26 01:35:00" /> 
+<meta name="date" content="2017-06-26 15:42:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -26,7 +26,14 @@
                                                                       %a1b416a51d3dc57c5ca9d79b30a17c90% md5sum of corresponding .sage file (minus &#x0022;goboom&#x0022;,&#x0022;current_tex_line&#x0022;,and pause/unpause lines)</script><script type="text/javascript"> 
 </script> 
 </div>
- <div class="maketitle"></div>
+ <div class="maketitle"></div><div class="javascript" id="javascript1"><script type="text/javascript"> 
+//<![CDATA[ 
+ caseInsensitive = function(a,b) {
+    return a.toLowerCase() == b.toLowerCase();
+  };
+ 
+//]]> 
+</script></div>
      <dl class="dialogue"><dt class="actor">
 Julia </dt><dd 
 class="speech">Ugh!
@@ -50,28 +57,28 @@ class="speech">There are a ton of ways to transform functions, so let&#x2019;s g
      look at how we can modify our favorite functions!</dd></dl>
 <h3 class="sectionHead"><a 
  id="x1-1000"></a>Introduction</h3>
-<!--l. 16--><p class="noindent" >While you work with many different functions, there are only a few basic types of
+<!--l. 21--><p class="noindent" >While you work with many different functions, there are only a few basic types of
 functions. These include polynomials, rational functions, trigonometric functions,
 exponential functions, and logarithmic functions. In this lab we will explore different
 variations on these basic functions called <strong>transformations</strong>.
 </p>
 <h3 class="sectionHead"><a 
  id="x1-2000"></a>Guided Example</h3>
-<!--l. 18--><p class="noindent" >Consider the function <script type="math/tex"> <![CDATA[ 
+<!--l. 23--><p class="noindent" >Consider the function <script type="math/tex"> <![CDATA[ 
 f(x)=x^2 
 ]]> 
 </script>.
-</p><!--l. 22--><p class="noindent" ><script type="math/tex; mode=display"> <![CDATA[ 
+                                                                  
+
+                                                                  
+</p><!--l. 27--><p class="noindent" ><script type="math/tex; mode=display"> <![CDATA[ 
  \graph {f(x)=x^2}  
 ]]> 
 </script>
 </p>
-<div class="problem-environment question" id="problem1"><a 
+<div class="problem-environment question" id="problem2"><a 
  id="x1-2001r1"></a>
-                                                                  
-
-                                                                  
-<!--l. 26--><p class="noindent" >On the same axis graph <script type="math/tex"> <![CDATA[ 
+<!--l. 31--><p class="noindent" >On the same axis graph <script type="math/tex"> <![CDATA[ 
 g(x)=f(x)+2 
 ]]> 
 </script>, what change happened from <script type="math/tex"> <![CDATA[ 
@@ -81,25 +88,25 @@ f(x)
 g(x) 
 ]]> 
 </script>?
-</p><!--l. 28--><p class="noindent" >The graph shifted <script type="math/tex"> <![CDATA[ 
+</p><!--l. 33--><p class="noindent" >The graph shifted <script type="math/tex"> <![CDATA[ 
 \answer {2} 
 ]]> 
 </script> units <script type="math/tex"> <![CDATA[ 
-\answer {up} 
+\answer [format=string,validator=caseInsensitive]{up} 
 ]]> 
 </script>.
-</p><!--l. 30--><p class="noindent" >What can you infer about <script type="math/tex"> <![CDATA[ 
+</p><!--l. 35--><p class="noindent" >What can you infer about <script type="math/tex"> <![CDATA[ 
 f(x)-2 
 ]]> 
 </script>?
-</p><!--l. 32--><p class="noindent" >The graph would shift <script type="math/tex"> <![CDATA[ 
+</p><!--l. 37--><p class="noindent" >The graph would shift <script type="math/tex"> <![CDATA[ 
 \answer {2} 
 ]]> 
 </script> units <script type="math/tex"> <![CDATA[ 
-\answer {down} 
+\answer [format=string,validator=caseInsensitive]{down} 
 ]]> 
 </script>.
-</p><!--l. 34--><p class="noindent" >Consider the function <script type="math/tex"> <![CDATA[ 
+</p><!--l. 39--><p class="noindent" >Consider the function <script type="math/tex"> <![CDATA[ 
 f(x+2) 
 ]]> 
 </script>, or <script type="math/tex"> <![CDATA[ 
@@ -109,7 +116,7 @@ f(x+2)
 graph of <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
-</script>? </p><div class="free-response" id="problem2"><a 
+</script>? </p><div class="free-response" id="problem3"><a 
  id="x1-2002r2"></a>
 </div> Graph the function <script type="math/tex"> <![CDATA[ 
 f(x+2) 
@@ -118,7 +125,7 @@ f(x+2)
 function <script type="math/tex"> <![CDATA[ 
 f(x-2) 
 ]]> 
-</script>? Graph this function to verify your prediction. <div class="free-response" id="problem3"><a 
+</script>? Graph this function to verify your prediction. <div class="free-response" id="problem4"><a 
  id="x1-2003r3"></a>
 </div> What rule can you write about a general function <script type="math/tex"> <![CDATA[ 
 f(x+c) 
@@ -128,19 +135,19 @@ c
 ]]> 
 </script> is a positive constant?
 The function will shift <script type="math/tex"> <![CDATA[ 
-\answer {c} 
+\answer [format=string,validator=caseInsensitive]{c} 
 ]]> 
 </script> units <script type="math/tex"> <![CDATA[ 
-\answer {left} 
+\answer [format=string,validator=caseInsensitive]{left} 
 ]]> 
 </script>
-<!--l. 43--><p class="noindent" >Why do you think the graph moves in the direction it does when using the
+<!--l. 48--><p class="noindent" >Why do you think the graph moves in the direction it does when using the
 rule you determined in the last question? <em>Hint: Think about the x-intercept
 and how it changes when you add or subtract a constant from the x value</em>
-</p><div class="free-response" id="problem4"><a 
+</p><div class="free-response" id="problem5"><a 
  id="x1-2004r4"></a>
 </div> How do you think the graph of <script type="math/tex"> <![CDATA[ 
-f(x) 
+f(x)=x^2 
 ]]> 
 </script> be affected when you multiply the whole
 function by some constant <script type="math/tex"> <![CDATA[ 
@@ -153,22 +160,22 @@ c=2,\frac {1}{2},-2,\frac {-1}{2}
  \graph {}  
 ]]> 
 </script>
-<div class="free-response" id="problem5"><a 
+<div class="free-response" id="problem6"><a 
  id="x1-2005r5"></a>
 </div> Describe what is happening to the function based on the value of <script type="math/tex"> <![CDATA[ 
 c 
 ]]> 
 </script>, what can you
 generalize from this? It may be helpful to make a table with the x and y values to
-understand why this change happens. <div class="free-response" id="problem6"><a 
+understand why this change happens. <div class="free-response" id="problem7"><a 
  id="x1-2006r6"></a>
 </div>
 </div>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>On your own</h3>
-<div class="problem-environment question" id="problem7"><a 
+<div class="problem-environment question" id="problem8"><a 
  id="x1-3001r7"></a> Using <script type="math/tex"> <![CDATA[ 
-g(x) = x^2 
+f(x) = x^2 
 ]]> 
 </script> as your base function create a new function that will shift the graph up 4
 units, to the right 3 units, reflect it across the x-axis and stretch it vertically by a
@@ -176,7 +183,7 @@ factor of 2 and graph it below <script type="math/tex; mode=display"> <![CDATA[
  \graph {}  
 ]]> 
 </script> Graph the function <script type="math/tex"> <![CDATA[ 
-g(2x) 
+f(2x) 
 ]]> 
 </script> <script type="math/tex; mode=display"> <![CDATA[ 
  \graph {}  
@@ -185,29 +192,28 @@ g(2x)
 or compress <script type="math/tex"> <![CDATA[ 
 x^2 
 ]]> 
-</script> by? (JULIA: I am making a change and pull request to see if this
-works!)
-<!--l. 69--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</script> by?
+<!--l. 74--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {1/2} 
 ]]> 
 </script>
-</p><!--l. 71--><p class="noindent" >Graph <script type="math/tex"> <![CDATA[ 
-g(2x+6) 
+</p><!--l. 76--><p class="noindent" >Graph <script type="math/tex"> <![CDATA[ 
+f(2x+6) 
 ]]> 
-</script> on the same axis above, what transformation occurred? </p><div class="free-response" id="problem8"><a 
+</script> on the same axis above, what transformation occurred? </p><div class="free-response" id="problem9"><a 
  id="x1-3002r8"></a>
 </div> Note the following expansion of the general function <script type="math/tex"> <![CDATA[ 
 f(x)=(ax+b)^2 
 ]]> 
 </script>:
+                                                                  
+
+                                                                  
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 \displaystyle f(x)=\left (ax+b\right )^2=\left (a\left (x+\frac {b}{a}\right )\right )^2=a^2\left (x+\frac {b}{a}\right )^2 
 ]]> 
 </script>
-                                                                  
-
-                                                                  
-<!--l. 76--><p class="noindent" >From this expansion, how is a function in the form <script type="math/tex"> <![CDATA[ 
+<!--l. 81--><p class="noindent" >From this expansion, how is a function in the form <script type="math/tex"> <![CDATA[ 
 f(x)=(ax+b)^2 
 ]]> 
 </script> being shifted and
@@ -217,23 +223,23 @@ a
 </script> and <script type="math/tex"> <![CDATA[ 
 b 
 ]]> 
-</script>? </p><div class="free-response" id="problem9"><a 
+</script>? </p><div class="free-response" id="problem10"><a 
  id="x1-3003r9"></a>
 </div>
-<!--l. 80--><p class="noindent" ></div>
+<!--l. 85--><p class="noindent" ></div>
 </p>
 <h3 class="sectionHead"><a 
  id="x1-4000"></a>In Summary</h3>
-<!--l. 83--><p class="noindent" >For the following questions, pick in which way the general graph <script type="math/tex"> <![CDATA[ 
+<!--l. 88--><p class="noindent" >For the following questions, pick in which way the general graph <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> would change
 under certain transformations. </p>
 <div class="center" 
 >
-<!--l. 84--><p class="noindent" >
+<!--l. 89--><p class="noindent" >
 </p>
-<div class="problem-environment question" id="problem10"><a 
+<div class="problem-environment question" id="problem11"><a 
  id="x1-4001r10"></a>
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 c \cdot f(x) 
@@ -243,7 +249,7 @@ c \cdot f(x)
 c>1 
 ]]> 
 </script>
-<div class="multiple-choice" id="problem11"><span class="choice  "   id="choice1">Shrink <script type="math/tex"> <![CDATA[ 
+<div class="multiple-choice" id="problem12"><span class="choice  "   id="choice1">Shrink <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> vertically by <script type="math/tex"> <![CDATA[ 
@@ -275,12 +281,12 @@ f(x)
 x 
 ]]> 
 </script> axis</span> </div>
-<!--l. 97--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
+<!--l. 102--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
 c<-1 
 ]]> 
 </script>
 </p>
-<div class="multiple-choice" id="problem12"><span class="choice  "   id="choice6">Flip <script type="math/tex"> <![CDATA[ 
+<div class="multiple-choice" id="problem13"><span class="choice  "   id="choice6">Flip <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> over the <script type="math/tex"> <![CDATA[ 
@@ -322,15 +328,15 @@ and stretch horizontally by <script type="math/tex"> <![CDATA[
 c 
 ]]> 
 </script></span> </div>
-<!--l. 107--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
+<!--l. 112--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
 0<c<1 
 ]]> 
 </script>
-</p>
                                                                   
 
                                                                   
-<div class="multiple-choice" id="problem13"><span class="choice  "   id="choice11">Stretch <script type="math/tex"> <![CDATA[ 
+</p>
+<div class="multiple-choice" id="problem14"><span class="choice  "   id="choice11">Stretch <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> horizontally by <script type="math/tex"> <![CDATA[ 
@@ -363,7 +369,7 @@ x
 ]]> 
 </script> axis</span> </div>
 </div>
-<div class="problem-environment question" id="problem14"><a 
+<div class="problem-environment question" id="problem15"><a 
  id="x1-4002r11"></a>
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 f(x+c) 
@@ -373,7 +379,7 @@ f(x+c)
 c>0 
 ]]> 
 </script>
-<div class="multiple-choice" id="problem15"><span class="choice correct "   id="choice16">Shift <script type="math/tex"> <![CDATA[ 
+<div class="multiple-choice" id="problem16"><span class="choice correct "   id="choice16">Shift <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> left by <script type="math/tex"> <![CDATA[ 
@@ -399,12 +405,12 @@ shift it up by <script type="math/tex"> <![CDATA[
 f(x) 
 ]]> 
 </script>.</span> </div>
-<!--l. 130--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
+<!--l. 135--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
 c<0 
 ]]> 
 </script>
 </p>
-<div class="multiple-choice" id="problem16"><span class="choice  "   id="choice21">Shift <script type="math/tex"> <![CDATA[ 
+<div class="multiple-choice" id="problem17"><span class="choice  "   id="choice21">Shift <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> left by <script type="math/tex"> <![CDATA[ 
@@ -430,12 +436,12 @@ shift it up by <script type="math/tex"> <![CDATA[
 f(x) 
 ]]> 
 </script>.</span> </div>
-<!--l. 140--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
+<!--l. 145--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
 c=0 
 ]]> 
 </script>
 </p>
-<div class="multiple-choice" id="problem17"><span class="choice  "   id="choice26">Shift <script type="math/tex"> <![CDATA[ 
+<div class="multiple-choice" id="problem18"><span class="choice  "   id="choice26">Shift <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> left by <script type="math/tex"> <![CDATA[ 
@@ -461,9 +467,9 @@ shift it up by <script type="math/tex"> <![CDATA[
 f(x) 
 ]]> 
 </script>.</span> </div>
-<!--l. 150--><p class="noindent" ></div> </p><div class="problem-environment question" id="problem18"><a 
+<!--l. 155--><p class="noindent" ></div> </p><div class="problem-environment question" id="problem19"><a 
  id="x1-4003r12"></a>
-<!--l. 153--><p class="noindent" >
+<!--l. 158--><p class="noindent" >
                                                                   
 
                                                                   
@@ -471,12 +477,12 @@ f(x)
 f(x)+c 
 ]]> 
 </script>
-</p><!--l. 155--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
+</p><!--l. 160--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
 c>0 
 ]]> 
 </script>
 </p>
-<div class="multiple-choice" id="problem19"><span class="choice  "   id="choice31">Shift <script type="math/tex"> <![CDATA[ 
+<div class="multiple-choice" id="problem20"><span class="choice  "   id="choice31">Shift <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> down by <script type="math/tex"> <![CDATA[ 
@@ -499,12 +505,12 @@ f(x)
 ]]> 
 </script>.</span> <span class="choice  " 
 id="choice35">No change will occur.</span> </div>
-<!--l. 165--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
+<!--l. 170--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
 c=0 
 ]]> 
 </script>
 </p>
-<div class="multiple-choice" id="problem20"><span class="choice  "   id="choice36">Shift <script type="math/tex"> <![CDATA[ 
+<div class="multiple-choice" id="problem21"><span class="choice  "   id="choice36">Shift <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> down by <script type="math/tex"> <![CDATA[ 
@@ -527,12 +533,12 @@ f(x)
 ]]> 
 </script>.</span> <span class="choice correct " 
 id="choice40">No change will occur.</span> </div>
-<!--l. 175--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
+<!--l. 180--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
 c<0 
 ]]> 
 </script>
 </p>
-<div class="multiple-choice" id="problem21"><span class="choice correct "   id="choice41">Shift <script type="math/tex"> <![CDATA[ 
+<div class="multiple-choice" id="problem22"><span class="choice correct "   id="choice41">Shift <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
 </script> down by <script type="math/tex"> <![CDATA[ 

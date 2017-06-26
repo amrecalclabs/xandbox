@@ -24,7 +24,7 @@ Which of the following equations are defined implicitly?
 \choice{$$y=x^2+5x-7$$}
 \choice{$$y=\sin(x)$$}
 \choice[correct]{$$x^2+y^2=1$$}
-\choice{$$y=\sqrt(x-3)$$}
+\choice{$$y=\sqrt{(x-3)}$$}
 \choice[correct]{$x^2y^3+y = 5x+8y$}
 \end{selectAll}
 \end{question}
@@ -32,11 +32,11 @@ Graph the following implicitly defined function below, $$x^2+y^2=1$$
 \[
 \graph{}
 \]
-Now, in the following sage cell, solve the function for y. For help using the solve command refer to the \href{http://doc.sagemath.org/html/en/tutorial/tour_algebra.html#solving-equations}{documentation} here.
+Now, in the following Sage cell, solve the function for $y$. For help using the solve command refer to the \href{http://doc.sagemath.org/html/en/tutorial/tour_algebra.html#solving-equations}{documentation} here.
 \begin{onlineOnly}
 \begin{sageCell}
 x,y = var("x, y")
-#eqn = x**2+y**2==1, this sets eqn to the unit circle
+#eqn = x^2+y^2==1, this sets eqn to the unit circle
 #use the solve command to solve eqn for y
 \end{sageCell}
 \end{onlineOnly}
@@ -59,7 +59,7 @@ Which of the following are true?
 
 \end{sageCell}
 \end{onlineOnly}
-Using the functions you found, differentiate to find the slope of the tangent lines at the point $\left(\frac{\sqrt{2}}{2}\right),\left(\frac{\sqrt{2}}{2}\right)$. You may do this in the above sage cell or by hand.
+Using the functions you found, differentiate to find the slope of the tangent lines at the point $\left(\frac{\sqrt{2}}{2}\right),\left(\frac{\sqrt{2}}{2}\right)$. You may do this in the above Sage cell or by hand.
 
 $\answer{-1}$
 
@@ -73,10 +73,12 @@ $$\frac{d}{dx}x^2+\frac{d}{dx}y^2 = \frac{d}{dx} 1$$
 You can already fill in 2 of the terms
 $$ \answer{2x}+ \frac{d}{dx}y^2 = \answer{0}$$
 For the term $\frac{d}{dx} y^2$ you can imagine $y = f(x)$, and hence by the chain rule
+\begin{align*}
  $$\frac{d}{dx} y^2 = \frac{d}{dx}(f(x))^2 $$ \\
  $$= 2\cdot f(x) \cdot f'(x) $$ \\
  $$= 2y\frac{dy}{dx}$$ \\
- Putting this together we have
+\end{align*}
+Thus we have the following:
  $$2x + 2y\frac{dy}{dx} =0$$
 Solving for $\frac{dy}{dx}$ we get 
 $$\answer{\frac{-x}{y}}$$
@@ -89,7 +91,7 @@ Using both methods you can obtain the same answer, but for many equations the fi
 \end{feedback}
 \end{question}
 \begin{question}
-We can fairly easily use sage to do this process for us, to illustrate the process evaluate the following sage cell.
+We can fairly easily use Sage to do this process for us, to illustrate the process evaluate the following Sage cell.
 \begin{onlineOnly}
 \begin{sageCell}
 var('x,y')
@@ -100,7 +102,7 @@ diff(eq,x)
 solve(diff(eq,x),diff(y(x)))
 \end{sageCell}
 \end{onlineOnly}
-What did you get as output from your sage cell? (copy just the answer portion after the ``==" and before the ``]")
+What did you get as output from your Sage cell? (copy just the answer portion after the ``==" and before the ``]")
 $\answer{-x/y(x)}$
 \begin{feedback}
 Notice that Sage uses y(x) for y in the output.
@@ -114,7 +116,7 @@ var('x,y')
 \end{sageCell}
 \end{onlineOnly}
 \begin{question}
-What did you get as output from your sage cell? (copy just the answer portion after the ``==" and before the ``]")
+What did you get as output from your Sage cell? (copy just the answer portion after the ``==" and before the ``]")
 
 $\answer[format=string]{(3*x^2 - y(x) - 1)/(4*y(x)^3 + x)}$
 \end{question}
@@ -155,7 +157,7 @@ $\answer[format=string,validator=caseInsensitive]{Yes}$
 \begin{hint}
 To show two lines are perpendicular you must show that the slope of one is the opposite inverse of the other
 \end{hint}
-Show the two curves are (or are not) perpendicular at the origin. You can do this in the sage cell provided or by hand.
+Show the two curves are (or are not) perpendicular at the origin. You can do this in the Sage cell provided or by hand.
 \begin{onlineOnly}
 \begin{sageCell}
 
