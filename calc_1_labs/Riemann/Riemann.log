@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  26 JUN 2017 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  26 JUN 2017 18:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1237,11 +1237,11 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  <./Table.jpg>] [2] [3] [4] [5] [6] [7] [8]
 [9] [10]
 *********************************************************************
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 393.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 392.
 (./Riemann.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 393.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 393.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 392.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 392.
 Package rerunfilecheck Info: File `Riemann.out' has not changed.
 (rerunfilecheck)             Checksum: BCCD87C745D031C7E33531B29908737E;378.
  ) 
@@ -1274,7 +1274,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msam10.pfb>
-Output written on Riemann.pdf (10 pages, 291918 bytes).
+Output written on Riemann.pdf (10 pages, 292341 bytes).
 PDF statistics:
  227 PDF objects out of 1000 (max. 8388607)
  190 compressed objects within 2 object streams
