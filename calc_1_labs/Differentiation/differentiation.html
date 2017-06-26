@@ -10,7 +10,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="differentiation.tex" /> 
-<meta name="date" content="2017-06-23 16:37:00" /> 
+<meta name="date" content="2017-06-26 16:07:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -124,7 +124,7 @@ class="speech">Help us James!
 James </dt><dd 
 class="speech">There <em>is</em> a pattern! Check out this table I made!</dd></dl>
 <!--l. 31--><p class="noindent" ><script type="math/tex; mode=display"> <![CDATA[ 
- \begin {array}{l|l} f(x) & \ddx f(x) \\ \hline x^2 & \ddx 2x^1 \\ x^3 & \ddx 3x^2 \\ x^3 & \ddx 4x^3 \end {array}  
+ \begin {array}{l|l} f(x) & \ddx f(x) \\ \hline x^2 & 2x^1 \\ x^3 & 3x^2 \\ x^3 & 4x^3 \end {array}  
 ]]> 
 </script> </p><div class="problem-environment question" id="problem1"><a 
  id="x1-1001r1"></a> What pattern do you notice in James&#x2019; table? Generalize this pattern in terms of <script type="math/tex"> <![CDATA[ 
@@ -395,22 +395,22 @@ j(x)
 ]]> 
 </script> using the limit definition.
 <!--l. 158--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-j'(x) = \answer {\frac {\j (x+h)-j(x)}{h}} 
+j'(x) = \lim _{h\to 0} \frac {\answer {j(x+h)-j(x)}}{\answer {h}} 
 ]]> 
 </script>
 </p><!--l. 160--><p class="noindent" >What can you generalize based on this?
 </p>
 <div class="multiple-choice" id="problem19"><span class="choice  "   id="choice13"><script type="math/tex"> <![CDATA[ 
-f'(x) + g(x) = f'(x) - g'(x) 
+(f(x) + g(x))' = f'(x) - g'(x) 
 ]]> 
 </script></span> <span class="choice  "   id="choice14"><script type="math/tex"> <![CDATA[ 
-f'(x) + g(x) = g'(x) + f'(x) 
+(f(x) + g(x))'= g'(x) + f'(x) 
 ]]> 
 </script></span> <span class="choice  "   id="choice15"><script type="math/tex"> <![CDATA[ 
-f'(x) + g(x) = f(x)\cdot g'(x) - g(x) \cdot f'(x) 
+(f(x) + g(x))' = f(x)\cdot g'(x) - g(x) \cdot f'(x) 
 ]]> 
 </script></span> <span class="choice correct "   id="choice16"><script type="math/tex"> <![CDATA[ 
-f'(x) + g(x) = f'(x) + g'(x) 
+(f(x) + g(x))' = f'(x) + g'(x) 
 ]]> 
 </script></span> </div>
 <div class="feedback" data-feedback="correct" id="feedback20"> Congrats! You&#x2019;ve found what&#x2019;s known as the <strong>Sum Rule</strong>! </div>
