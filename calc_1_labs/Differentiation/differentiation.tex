@@ -24,9 +24,9 @@
 \begin{array}{l|l}
 f(x) & \ddx f(x) \\
 \hline
-x^2 & \ddx 2x^1 \\
-x^3 & \ddx 3x^2 \\
-x^3 & \ddx 4x^3 
+x^2 &  2x^1 \\
+x^3 &  3x^2 \\
+x^3 &  4x^3 
 \end{array}
 \]
 \begin{question}
@@ -155,15 +155,15 @@ In $j(x+h)$, the $(x+h)$ will replace $x$ in $f(x)$ and $g(x)$ as well.
 \end{hint}
 Take the derivative of $j(x)$ using the limit definition.
 
-$j'(x) =  \answer{\frac{\j(x+h)-j(x)}{h}}$
+$j'(x) =  \lim_{h\to 0} \frac{\answer{j(x+h)-j(x)}}{\answer{h}}$
 
 What can you generalize based on this?
 
 \begin{multipleChoice}
-\choice{$f'(x) + g(x) = f'(x) - g'(x)$}
-\choice{$f'(x) + g(x) = g'(x) + f'(x)$}
-\choice{$f'(x) + g(x) = f(x)\cdot g'(x) - g(x) \cdot f'(x)$}
-\choice[correct]{$f'(x) + g(x) = f'(x) + g'(x)$}
+\choice{$(f(x) + g(x))' = f'(x) - g'(x)$}
+\choice{$(f(x) + g(x))'= g'(x) + f'(x)$}
+\choice{$(f(x) + g(x))' = f(x)\cdot g'(x) - g(x) \cdot f'(x)$}
+\choice[correct]{$(f(x) + g(x))' = f'(x) + g'(x)$}
 \end{multipleChoice}
 \begin{feedback}[correct]
 Congrats! You've found what's known as the \dfn{Sum Rule}!
