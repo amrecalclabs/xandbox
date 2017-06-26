@@ -1,4 +1,3 @@
-var avgvel;
 var particle;
 var maxvel;
 var highest;

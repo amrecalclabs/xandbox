@@ -120,8 +120,12 @@ integral(x^2,x,0,6)
 \end{sageCell}
 \end{onlineOnly}
 
-Most Accurate: $\answer[format=string,validator=caseInsensitive]{midpoint}$
-
+Most Accurate:
+\begin{multipleChoice}
+\choice{Left Riemann Sum}
+\choice{Right Riemann Sum}
+\choice[correct]{Midpoint Riemann Sum}
+\end{multipleChoice}
 Left Percent Error: $\answer{}$
 
 Middle Percent Error: $\answer{}$
@@ -137,7 +141,7 @@ Consider the function $x^2$ on the interval [-7, 0].
 \graph[height=400,xmin=-8,xmax=1,ymin=-1,ymax=55]{x^2}
 \]
 
-Evenly divide the interval into seven subintervals, and use them to compute the following Riemann sums.
+Calculate the following Riemann sums by modifying the code provided in the first question to have seven subintervals and reflect the new endpoints.
 
 The left Riemann sum.
 
@@ -147,7 +151,7 @@ The left Riemann sum.
 \end{sageCell}
 \end{onlineOnly}
 
-$\answer{}$
+$\answer{140}$
 
 The right Riemann sum.
 
@@ -157,7 +161,7 @@ The right Riemann sum.
 \end{sageCell}
 \end{onlineOnly}
 
-$\answer{}$
+$\answer{91}$
 
 The midpoint Riemann sum.
 
@@ -167,7 +171,7 @@ The midpoint Riemann sum.
 \end{sageCell}
 \end{onlineOnly}
 
-$\answer{}$
+$\answer{113.75}$
 
 Compute the integral numerically. Which of these estimates was most accurate? Show the percent error for each type of Riemann sum.
 
@@ -177,8 +181,12 @@ Compute the integral numerically. Which of these estimates was most accurate? Sh
 \end{sageCell}
 \end{onlineOnly}
 
-Most Accurate: $\answer{}$
-
+Most Accurate:
+\begin{multipleChoice}
+\choice{Left Riemann Sum}
+\choice{Right Riemann Sum}
+\choice[correct]{Midpoint Riemann Sum}
+\end{multipleChoice}
 Left Percent Error: $\answer{}$
 
 Middle Percent Error: $\answer{}$
@@ -188,13 +196,16 @@ Right Percent Error: $\answer{}$
 
 \section{Increasing, Concave Down}
 \begin{question}
+\begin{hint}
+Add .n() right after rsum to get a clean numerical approximation.
+\end{hint}
 Consider the function $\sin(x)$ on the interval [0,$\frac{\pi}{2}$].
 
 \[
 \graph[xmin=-.5,xmax=2,ymin=-1.5,ymax=1.5,height=400]{sin(x)}
 \]
 
-Evenly divide the interval into four subintervals, and use them to compute the following Riemann sums.
+Calculate the following Riemann sums by modifying the code provided in the first question to have four subintervals and reflect the new endpoints and new function.
 
 The left Riemann sum.
 
@@ -204,7 +215,7 @@ The left Riemann sum.
 \end{sageCell}
 \end{onlineOnly}
 
-$\answer{}$
+$\answer{0.790766260123413}$
 
 The right Riemann sum.
 
@@ -214,7 +225,7 @@ The right Riemann sum.
 \end{sageCell}
 \end{onlineOnly}
 
-$\answer{}$
+$\answer{1.18346534182214}$
 
 The midpoint Riemann sum.
 
@@ -224,7 +235,7 @@ The midpoint Riemann sum.
 \end{sageCell}
 \end{onlineOnly}
 
-$\answer{}$
+$\answer{1.00645454279956}$
 
 Compute the integral numerically. Which of these estimates was most accurate? Show the percent error for each type of Riemann sum.
 
@@ -234,7 +245,12 @@ Compute the integral numerically. Which of these estimates was most accurate? Sh
 \end{sageCell}
 \end{onlineOnly}
 
-Most Accurate: $\answer{}$
+Most Accurate:
+\begin{multipleChoice}
+\choice{Left Riemann Sum}
+\choice{Right Riemann Sum}
+\choice[correct]{Midpoint Riemann Sum}
+\end{multipleChoice}
 
 Left Percent Error: $\answer{}$
 
@@ -252,7 +268,7 @@ Consider the function $\cos(x)$ on the interval [0, $\frac{\pi}{2}$].
 \graph[xmin=-.5,xmax=2,ymin=-1.5,ymax=1.5,height=400]{cos(x)}
 \]
 
-Evenly divide the interval into eight subintervals, and use them to compute the following Riemann sums.
+Calculate the following Riemann sums by modifying the code provided in the first question to have four subintervals and reflect the new endpoints and new function.
 
 The left Riemann sum.
 
@@ -292,7 +308,12 @@ Compute the integral numerically. Which of these estimates was most accurate? Sh
 \end{sageCell}
 \end{onlineOnly}
 
-Most Accurate: $\answer{}$
+Most Accurate:
+\begin{multipleChoice}
+\choice{Left Riemann Sum}
+\choice{Right Riemann Sum}
+\choice[correct]{Midpoint Riemann Sum}
+\end{multipleChoice}
 
 Left Percent Error: $\answer{}$
 

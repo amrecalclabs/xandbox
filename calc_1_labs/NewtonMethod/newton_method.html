@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="newton_method.tex" /> 
-<meta name="date" content="2017-06-26 17:11:00" /> 
+<meta name="date" content="2017-06-26 18:27:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -120,11 +120,12 @@ x=0
 y=0 
 ]]> 
 </script> to find a point near the
-actual root.</span> <span class="choice  "   id="choice11">Derivate the tangent line to find where the second derivative is zero.</span>
-<span class="choice  "   id="choice12">Evaluate the tangent line at a <script type="math/tex"> <![CDATA[ 
+actual root.</span> <span class="choice  "   id="choice11">Take the derivative of the tangent line to find where the second
+derivative is zero.</span> <span class="choice  "   id="choice12">Evaluate the tangent line at a <script type="math/tex"> <![CDATA[ 
 y 
 ]]> 
-</script>-value which was the initial estimate.</span> </div>
+</script>-value which was the initial
+estimate.</span> </div>
 <!--l. 51--><p class="noindent" ></div>
 </p>
 <h3 class="sectionHead"><a 
@@ -153,11 +154,13 @@ tangent line seem more or less accurate than your initial estimate?
 </p><!--l. 72--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {2.5} 
 ]]> 
-</script>
-</p><!--l. 74--><p class="noindent" >Continue this process until the x-intercepts change by less than .0001 on each
+</script> </p><div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+Continue this process until the x-intercepts change by less than .0001 on each
 iteration. How many iterations did this take?
-</p><!--l. 76--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {6} 
+<!--l. 80--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {5} 
 ]]> 
 </script>
 </div> </p><div class="problem-environment question" id="problem7"><a 
@@ -168,53 +171,86 @@ g(x) = x^3-4x^2-1
  \graph {x^3-4x^2-1}  
 ]]> 
 </script> Explain why the function has only one solution with the
-help of a graph. <script type="math/tex; mode=display"> <![CDATA[ 
- \graph {}  
-]]> 
-</script> <div class="free-response" id="problem8"><a 
+help of the graph.
+<div class="free-response" id="problem8"><a 
  id="x1-3003r4"></a>
-</div> Using <script type="math/tex"> <![CDATA[ 
-g(x) 
+</div>
+</div>
+<!--l. 93--><p class="noindent" >Fortunately, with the use of Sage Cells, we don&#x2019;t have to do all of this by hand! The
+                                                                  
+
+                                                                  
+following Sage Cell contains the commands through which we can perform
+Newton&#x2019;s Method, along with comments explaining just what it is that Sage is
+doing.
+</p>
+<div class="sage"><script type="text/x-sage">x = var('x')#This line declares the variable we will be using
+f(x)=cos(x)+5*x-5#Here we define the function whose root we're estimating
+df=diff(f,x)#We then find the derivative of the function
+NewtonsMethod(x)=x-(f/df)(x)#The formula for Newton's Method, which we are calling "NewtonsMethod"
+x0=1# initial guess
+print x0#displays the initial guess in the output
+x1=N(NewtonIt(x0))#first iteration of the method
+print x1#displays first result
+x2=N(NewtonIt(x1))#second iteration of Newtons Method
+print x2#displays second result
+ 
+</script></div>
+<!--l. 110--><p class="noindent" >The only way to run Newton&#x2019;s Method like this will be to take the first few lines of
+code and put them in each cell after this - the method is <strong>not</strong> defined as a function in
+Sage.
+</p>
+<div class="problem-environment question" id="problem9"><a 
+ id="x1-3004r5"></a> Using <script type="math/tex"> <![CDATA[ 
+g(x) = x^3 -4x^2-1 
 ]]> 
-</script> from the previous problem, use an initial guess of 2. After 5 iterations, what
-result do you get? <script type="math/tex"> <![CDATA[ 
-\answer {A really bad one} 
+</script> from before, use an initial guess of 2. After 5 iterations, what result do you
+get? Please round to the ten thousandths place.
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 121--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {-0.395} 
 ]]> 
 </script>
-<!--l. 92--><p class="noindent" >Why is it important to use caution with Newton&#x2019;s method? </p><div class="free-response" id="problem9"><a 
- id="x1-3004r5"></a>
+</p><!--l. 123--><p class="noindent" >Why is it important to use caution with your first guess when doing Newton&#x2019;s
+Method by hand? </p><div class="free-response" id="problem10"><a 
+ id="x1-3005r6"></a>
 </div>
 </div>
-<div class="problem-environment question" id="problem10"><a 
- id="x1-3005r6"></a> Consider the function <script type="math/tex"> <![CDATA[ 
+<div class="problem-environment question" id="problem11"><a 
+ id="x1-3006r7"></a> Consider the function <script type="math/tex"> <![CDATA[ 
 h(x) = 4x^3 - 12x^2 + 2x + 1 
 ]]> 
 </script>. <script type="math/tex; mode=display"> <![CDATA[ 
  \graph [xmin=-6,xmax=6,ymin=-15,ymax=7,height=400]{4x^3 - 12x^2 + 2x + 1}  
 ]]> 
-</script>
-                                                                  
-
-                                                                  
-<!--l. 103--><p class="noindent" >Use an initial guess of <script type="math/tex"> <![CDATA[ 
+</script> <div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 140--><p class="noindent" >Use an initial guess of <script type="math/tex"> <![CDATA[ 
 x=3 
 ]]> 
 </script> to estimate a root of <script type="math/tex"> <![CDATA[ 
 h(x) 
 ]]> 
-</script>. What do you find?
-</p><!--l. 105--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {} 
+</script>. What root do you find? Copy the Sage
+                                                                  
+
+                                                                  
+Cell result from the fifth iteration.
+</p><!--l. 142--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {2.78854472256823} 
 ]]> 
 </script>
-</p><!--l. 107--><p class="noindent" >Look at the graph, and attempt to estimate another root using <script type="math/tex"> <![CDATA[ 
+</p><!--l. 144--><p class="noindent" >Look at the graph, and attempt to estimate another root using <script type="math/tex"> <![CDATA[ 
 x = 0 
 ]]> 
 </script>. Did you find the
 root to the right or the left of this point?
 </p>
-<div class="multiple-choice" id="problem11"><span class="choice correct "   id="choice15">Left</span> <span class="choice  "   id="choice16">Right</span> </div>
-<!--l. 114--><p class="noindent" >Increment the initial guess by <script type="math/tex"> <![CDATA[ 
+<div class="multiple-choice" id="problem12"><span class="choice correct "   id="choice15">Left</span> <span class="choice  "   id="choice16">Right</span> </div>
+<!--l. 151--><p class="noindent" >Increment the initial guess by <script type="math/tex"> <![CDATA[ 
 0.02 
 ]]> 
 </script> and use Newton&#x2019;s method until you find the other
@@ -222,7 +258,7 @@ root. What value of <script type="math/tex"> <![CDATA[
 x 
 ]]> 
 </script> is the first to work? <script type="math/tex"> <![CDATA[ 
-\answer {} 
+\answer {0.1} 
 ]]> 
 </script>
 </div>
