@@ -4,6 +4,11 @@
 \end{abstract}
 \begin{document}
 \maketitle
+\begin{javascript}
+ caseInsensitive = function(a,b) {
+    return a.toLowerCase() == b.toLowerCase();
+  };
+\end{javascript}
 \begin{dialogue}
 \item[Dylan] Hey Julia, can you help me with this problem?
 \item[Julia] Yeah, of course! What do you need?
@@ -12,7 +17,7 @@
 \end{dialogue}
 
 \section{Introduction}
-Riemann sums are a method of approximating area under a curve, and they come in three varieties; left, right, and midpoint.
+Riemann sums are a method of approximating area under a curve, we will look at three varieties; left, right, and midpoint.
 
 \begin{image}
 \includegraphics{Table}
@@ -31,6 +36,20 @@ To create Riemann sums, you simply pick a number of desired subintervals, and th
 
 From here, we simply add the area of each rectangle to produce the area under the curve.
 
+If we are approximating area with $n$ rectangles, then
+\begin{align*}
+  \text{Area} &\approx \sum_{k=1}^n (\text{height of $k$th rectangle})\times(\text{width of $k$th rectangle}) \\
+  &=\sum_{k=1}^n  f(x_k^*)\Delta x \\
+  &=  f(x_1^*)\Delta x +  f(x_2^*)\Delta x +   f(x_3^*)\Delta x + \dots +   f(x_n^*)\Delta x.
+\end{align*}
+\begin{definition}
+  A sum of the form:
+  \[
+  \sum_{k=1}^n  f(x_k^*)\Delta x  = f(x_1^*)\Delta x +  f(x_2^*)\Delta x + \dots +   f(x_n^*)\Delta x
+  \]
+  is called a \textbf{Riemann sum}.
+\end{definition}
+
 \section{Increasing, Concave Up}
 Consider the function $x^2$ on the interval [1, 6].
 \[
@@ -39,49 +58,69 @@ Consider the function $x^2$ on the interval [1, 6].
 
 
 \begin{question}
-Evenly divide the interval into six subintervals, and use them to compute the following Riemann sums.
+The following qustion shows how to compute the Riemann sums using Sage cells, you will need to mimic this process in further questions so be sure to read the Sage code and understand how it represents the equation for Riemann sums.
 
 
 The left Riemann sum.
 
 \begin{onlineOnly}
 \begin{sageCell}
-
+f(x) = x^2
+a=1.0
+b=6.0
+n=6
+Dx=(b-a)/n
+rsum=sum([f(a+i*Dx)*Dx for i in range(n)])
+print rsum
 \end{sageCell}
 \end{onlineOnly}
-
-$\answer{}$
+What did you get for the left Reimann sum from evaluating the above Sage cell?
+$\answer{57.6620370370370}$
 
 
 The right Riemann sum.
 
 \begin{onlineOnly}
 \begin{sageCell}
-
+f(x) = x^2
+a=1.0
+b=6.0
+n=6
+Dx=(b-a)/n
+rsum=sum([f(a+(i+1)*Dx)*Dx for i in range(n)])
+print rsum
 \end{sageCell}
 \end{onlineOnly}
-
-$\answer{}$
-
+What did you get for the right Reimann sum from evaluating the above Sage cell?
+$\answer{86.8287037037037}$
+\begin{feedback}
+Notice the change in the second to last line between the code for left and right Riemann sums.
+\end{feedback}
 
 The midpoint Riemann sum.
 \begin{onlineOnly}
 \begin{sageCell}
-
+f(x) = x^2
+a=1.0
+b=6.0
+n=6
+Dx=(b-a)/n
+rsum=sum([f(a+(i+0.5)*Dx)*Dx for i in range(n)])
+print rsum
 \end{sageCell}
 \end{onlineOnly}
+What did you get for the midpoint Reimann sum from evaluating the above Sage cell?
+$\answer{71.3773148148148}$
 
-$\answer{}$
-
-Compute the integral numerically. Which of these estimates was most accurate? Show the percent error for each type of Riemann sum.
+Compute the integral numerically by evaluating the following Sage cell. Which of these estimates was most accurate? Show the percent error for each type of Riemann sum.
 
 \begin{onlineOnly}
 \begin{sageCell}
-
+integral(x^2,x,0,6)
 \end{sageCell}
 \end{onlineOnly}
 
-Most Accurate: $\answer{}$
+Most Accurate: $\answer[format=string,validator=caseInsensitive]{midpoint}$
 
 Left Percent Error: $\answer{}$
 
