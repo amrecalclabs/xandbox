@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-23 15:38:00" /> 
+<meta name="date" content="2017-06-26 15:58:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -94,7 +94,7 @@ x^2+y^2=1
 </script>
 </span> <span class="choice  "   id="choice4">
                                  <script type="math/tex; mode=display"> <![CDATA[ 
-y=\sqrt (x-3) 
+y=\sqrt {(x-3)} 
 ]]> 
 </script>
 </span> <span class="choice correct "   id="choice5"><script type="math/tex"> <![CDATA[ 
@@ -113,9 +113,12 @@ x^2+y^2=1
  <script type="math/tex; mode=display"> <![CDATA[ 
  \graph {}  
 ]]> 
-</script> Now, in the following sage cell, solve the function for y. For help using the solve
+</script> Now, in the following Sage cell, solve the function for <script type="math/tex"> <![CDATA[ 
+y 
+]]> 
+</script>. For help using the solve
 command refer to the <a href="http://doc.sagemath.org/html/en/tutorial/tour_algebra.html##solving-equations">documentation</a> here. <div class="sage"><script type="text/x-sage">x,y = var("x, y")
-#eqn = x**2+y**2==1, this sets eqn to the unit circle
+#eqn = x^2+y^2==1, this sets eqn to the unit circle
 #use the solve command to solve eqn for y
  
 </script></div>
@@ -145,7 +148,7 @@ Using the functions you found, differentiate to find the slope of the tangent li
 the point <script type="math/tex"> <![CDATA[ 
 \left (\frac {\sqrt {2}}{2}\right ),\left (\frac {\sqrt {2}}{2}\right ) 
 ]]> 
-</script>. You may do this in the above sage cell or by hand.
+</script>. You may do this in the above Sage cell or by hand.
 <!--l. 64--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {-1} 
 ]]> 
@@ -183,27 +186,15 @@ x^2 + y^2 = 1
 y = f(x) 
 ]]> 
 </script>, and hence by the chain rule
-                                 <script type="math/tex; mode=display"> <![CDATA[ 
-\frac {d}{dx} y^2 = \frac {d}{dx}(f(x))^2  
+<script type="math/tex; mode=display"><![CDATA[ 
+\begin{align*} 
+ \frac{d}{dx} y^2 &= \frac{d}{dx}(f(x))^2 \\
+ &= 2\cdot f(x) \cdot f'(x)  \\
+ &= 2y\frac{dy}{dx} \\
+\end{align*} 
 ]]> 
 </script>
- <br 
-class="newline" />
-                                                                  
-
-                                                                  
-                                 <script type="math/tex; mode=display"> <![CDATA[ 
-= 2\cdot f(x) \cdot f'(x)  
-]]> 
-</script>
- <br 
-class="newline" />
-                                 <script type="math/tex; mode=display"> <![CDATA[ 
-= 2y\frac {dy}{dx} 
-]]> 
-</script>
- <br 
-class="newline" />Putting this together we have
+Thus we have the following:
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 2x + 2y\frac {dy}{dx} =0 
 ]]> 
@@ -233,8 +224,8 @@ class="newline" />Putting this together we have
 methods you can obtain the same answer, but for many equations the first method is
 much more work! </div>
 </div> <div class="problem-environment question" id="problem10"><a 
- id="x1-2008r8"></a> We can fairly easily use sage to do this process for us, to illustrate the process
-evaluate the following sage cell. <div class="sage"><script type="text/x-sage">var('x,y')
+ id="x1-2008r8"></a> We can fairly easily use Sage to do this process for us, to illustrate the process
+evaluate the following Sage cell. <div class="sage"><script type="text/x-sage">var('x,y')
 y(x)=function('y')(x)
 eq=x^2+y^2==1
 eq.substitute(y =y(x))
@@ -242,7 +233,7 @@ diff(eq,x)
 solve(diff(eq,x),diff(y(x)))
  
 </script></div>
-What did you get as output from your sage cell? (copy just the answer portion after
+What did you get as output from your Sage cell? (copy just the answer portion after
 the ‘‘==” and before the ‘‘]”) <script type="math/tex"> <![CDATA[ 
 \answer {-x/y(x)} 
 ]]> 
@@ -250,7 +241,7 @@ the ‘‘==” and before the ‘‘]”) <script type="math/tex"> <![CDATA[
 </div>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>On Your Own</h3>
-<!--l. 110--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
+<!--l. 112--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
 y^4+xy=x^3-x+2 
 ]]> 
 </script>. Using the following Sage cell implicitly differentiate to find <script type="math/tex"> <![CDATA[ 
@@ -261,9 +252,9 @@ using the same commands as shown in the previous question. </p><div class="sage"
  
 </script></div>
 <div class="problem-environment question" id="problem12"><a 
- id="x1-3001r9"></a> What did you get as output from your sage cell? (copy just the answer portion after
+ id="x1-3001r9"></a> What did you get as output from your Sage cell? (copy just the answer portion after
 the ‘‘==” and before the ‘‘]”)
-<!--l. 119--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 121--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer [format=string]{(3*x^2 - y(x) - 1)/(4*y(x)^3 + x)} 
 ]]> 
 </script>
@@ -287,15 +278,15 @@ the ‘‘==” and before the ‘‘]”)
 ]]> 
 </script>, copy your answer in the same way as
 indicated in the previous section. <div class="sage"><script type="text/x-sage">var('x,y')
+                                                                  
+
+                                                                  
  
 </script></div>
 <script type="math/tex"> <![CDATA[ 
 \answer [format=string]{-1/2*(sin(x*y(x)^2)*y(x)^2 + 2*x*cos(x^2))/(x*sin(x*y(x)^2)*y(x))} 
 ]]> 
 </script>
-                                                                  
-
-                                                                  
 </div>
 <h3 class="sectionHead"><a 
  id="x1-4000"></a>Perpendicular at a Point</h3>
@@ -338,7 +329,7 @@ x^2 - 2x + y^2 - 3y = 0
  \graph {}  
 ]]> 
 </script>
-<!--l. 151--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
+<!--l. 153--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
 \answer [format=string,validator=caseInsensitive]{Yes} 
 ]]> 
 </script>
@@ -347,34 +338,34 @@ x^2 - 2x + y^2 - 3y = 0
  id="x1-4003r14"></a> To show two lines are perpendicular you must show that the slope of one is the
 opposite inverse of the other
 </div> Show the two curves are (or are not) perpendicular at the origin. You can do this in
-the sage cell provided or by hand. <div class="sage"><script type="text/x-sage">
+the Sage cell provided or by hand. <div class="sage"><script type="text/x-sage">
  
 </script></div>
 Slope of <script type="math/tex"> <![CDATA[ 
 3x - 2y + x^3-x^2y = 0 
 ]]> 
 </script> at the origin
-<!--l. 166--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 168--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {3/2} 
 ]]> 
 </script>
-</p><!--l. 168--><p class="noindent" >Slope of <script type="math/tex"> <![CDATA[ 
+</p><!--l. 170--><p class="noindent" >Slope of <script type="math/tex"> <![CDATA[ 
 x^2 - 2x + y^2 - 3y = 0 
 ]]> 
 </script> at the origin
-</p><!--l. 170--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {-2/3} 
-]]> 
-</script>
-</p><!--l. 172--><p class="noindent" >Are the lines perpendicular at the origin?
                                                                   
 
                                                                   
-</p><!--l. 176--><p class="noindent" ></div>
+</p><!--l. 172--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {-2/3} 
+]]> 
+</script>
+</p><!--l. 174--><p class="noindent" >Are the lines perpendicular at the origin?
+</p><!--l. 178--><p class="noindent" ></div>
 </p>
 <h3 class="sectionHead"><a 
  id="x1-5000"></a>In Summary</h3>
-<!--l. 178--><p class="noindent" >There are two main methods to differentiate implicit equations
+<!--l. 180--><p class="noindent" >There are two main methods to differentiate implicit equations
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 
@@ -389,14 +380,17 @@ y
 </script> as <script type="math/tex"> <![CDATA[ 
 y(x) 
 ]]> 
-</script> and differentiate for <script type="math/tex"> <![CDATA[ 
+</script> and differentiate with respect to the variable <script type="math/tex"> <![CDATA[ 
 x 
 ]]> 
-</script>, eventually solving for <script type="math/tex"> <![CDATA[ 
+</script>, eventually solving
+     for <script type="math/tex"> <![CDATA[ 
 \frac {dy}{dx} 
 ]]> 
-</script> to give the value
-     of the derivative at any point.</dd></dl>
+</script> to give the value of the derivative at any point <script type="math/tex"> <![CDATA[ 
+(x,y) 
+]]> 
+</script>.</dd></dl>
                                                                   
 
                                                                   
