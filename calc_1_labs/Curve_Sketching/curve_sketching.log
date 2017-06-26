@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  23 JUN 2017 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  26 JUN 2017 01:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1623,64 +1623,64 @@ l.60 --- TeX4ht warning --- Cannot determine size of graphic in 00001.jpg (no B
 oundingBox) ---
 l. 60 --- needs --- 00001.jpg ---
 [2] [3]
-l.147 --- TeX4ht warning --- Cannot determine size of graphic in nope3.jpg (no 
+l.150 --- TeX4ht warning --- Cannot determine size of graphic in nope3.jpg (no 
 BoundingBox) ---
-l. 147 --- needs --- nope3.jpg ---
-l.150 --- TeX4ht warning --- Cannot determine size of graphic in match1.jpg (no
+l. 150 --- needs --- nope3.jpg ---
+l.153 --- TeX4ht warning --- Cannot determine size of graphic in match1.jpg (no
  BoundingBox) ---
-l. 150 --- needs --- match1.jpg ---
-l.153 --- TeX4ht warning --- Cannot determine size of graphic in nope1.jpg (no 
+l. 153 --- needs --- match1.jpg ---
+l.156 --- TeX4ht warning --- Cannot determine size of graphic in nope1.jpg (no 
 BoundingBox) ---
-l. 153 --- needs --- nope1.jpg ---
-l.156 --- TeX4ht warning --- Cannot determine size of graphic in nope2.jpg (no 
+l. 156 --- needs --- nope1.jpg ---
+l.159 --- TeX4ht warning --- Cannot determine size of graphic in nope2.jpg (no 
 BoundingBox) ---
-l. 156 --- needs --- nope2.jpg ---
-l.162 --- TeX4ht warning --- Cannot determine size of graphic in 2a.jpg (no Bou
+l. 159 --- needs --- nope2.jpg ---
+l.165 --- TeX4ht warning --- Cannot determine size of graphic in 2a.jpg (no Bou
 ndingBox) ---
-l. 162 --- needs --- 2a.jpg ---
-l.165 --- TeX4ht warning --- Cannot determine size of graphic in 2c.jpg (no Bou
+l. 165 --- needs --- 2a.jpg ---
+l.168 --- TeX4ht warning --- Cannot determine size of graphic in 2c.jpg (no Bou
 ndingBox) ---
-l. 165 --- needs --- 2c.jpg ---
-l.168 --- TeX4ht warning --- Cannot determine size of graphic in 2b.jpg (no Bou
+l. 168 --- needs --- 2c.jpg ---
+l.171 --- TeX4ht warning --- Cannot determine size of graphic in 2b.jpg (no Bou
 ndingBox) ---
-l. 168 --- needs --- 2b.jpg ---
-l.171 --- TeX4ht warning --- Cannot determine size of graphic in match2.jpg (no
+l. 171 --- needs --- 2b.jpg ---
+l.174 --- TeX4ht warning --- Cannot determine size of graphic in match2.jpg (no
  BoundingBox) ---
-l. 171 --- needs --- match2.jpg ---
-l.177 --- TeX4ht warning --- Cannot determine size of graphic in 3c.jpg (no Bou
+l. 174 --- needs --- match2.jpg ---
+l.180 --- TeX4ht warning --- Cannot determine size of graphic in 3c.jpg (no Bou
 ndingBox) ---
-l. 177 --- needs --- 3c.jpg ---
-l.180 --- TeX4ht warning --- Cannot determine size of graphic in 3a.jpg (no Bou
+l. 180 --- needs --- 3c.jpg ---
+l.183 --- TeX4ht warning --- Cannot determine size of graphic in 3a.jpg (no Bou
 ndingBox) ---
-l. 180 --- needs --- 3a.jpg ---
-l.183 --- TeX4ht warning --- Cannot determine size of graphic in match3.jpg (no
+l. 183 --- needs --- 3a.jpg ---
+l.186 --- TeX4ht warning --- Cannot determine size of graphic in match3.jpg (no
  BoundingBox) ---
-l. 183 --- needs --- match3.jpg ---
-l.186 --- TeX4ht warning --- Cannot determine size of graphic in 3b.jpg (no Bou
+l. 186 --- needs --- match3.jpg ---
+l.189 --- TeX4ht warning --- Cannot determine size of graphic in 3b.jpg (no Bou
 ndingBox) ---
-l. 186 --- needs --- 3b.jpg ---
-l.192 --- TeX4ht warning --- Cannot determine size of graphic in match4.jpg (no
+l. 189 --- needs --- 3b.jpg ---
+l.195 --- TeX4ht warning --- Cannot determine size of graphic in match4.jpg (no
  BoundingBox) ---
-l. 192 --- needs --- match4.jpg ---
-l.195 --- TeX4ht warning --- Cannot determine size of graphic in 4c.jpg (no Bou
+l. 195 --- needs --- match4.jpg ---
+l.198 --- TeX4ht warning --- Cannot determine size of graphic in 4c.jpg (no Bou
 ndingBox) ---
-l. 195 --- needs --- 4c.jpg ---
-l.198 --- TeX4ht warning --- Cannot determine size of graphic in 4a.jpg (no Bou
+l. 198 --- needs --- 4c.jpg ---
+l.201 --- TeX4ht warning --- Cannot determine size of graphic in 4a.jpg (no Bou
 ndingBox) ---
-l. 198 --- needs --- 4a.jpg ---
-l.201 --- TeX4ht warning --- Cannot determine size of graphic in 4b.jpg (no Bou
+l. 201 --- needs --- 4a.jpg ---
+l.204 --- TeX4ht warning --- Cannot determine size of graphic in 4b.jpg (no Bou
 ndingBox) ---
-l. 201 --- needs --- 4b.jpg ---
+l. 204 --- needs --- 4b.jpg ---
 [4]
 *********************************************************************
 [5] [6] [7] (./curve_sketching.aux) ) 
 Here is how much of TeX's memory you used:
- 37651 strings out of 493086
- 821523 string characters out of 6136942
- 1106604 words of memory out of 5000000
- 40364 multiletter control sequences out of 15000+600000
+ 37654 strings out of 493086
+ 821572 string characters out of 6136942
+ 1106606 words of memory out of 5000000
+ 40367 multiletter control sequences out of 15000+600000
  6161 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,10n,79p,10913b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on curve_sketching.dvi (7 pages, 34480 bytes).
+Output written on curve_sketching.dvi (7 pages, 34868 bytes).

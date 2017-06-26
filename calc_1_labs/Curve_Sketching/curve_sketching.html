@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="curve_sketching.tex" /> 
-<meta name="date" content="2017-06-23 12:54:00" /> 
+<meta name="date" content="2017-06-26 01:35:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -43,7 +43,7 @@ class="speech">Well maybe we can use derivatives to figure out properties of the
      </dd><dt class="actor">
 Dylan </dt><dd 
 class="speech">Oh! We&#x2019;d be able to see where the graph was heading up or down, plus
-     we&#x2019;d be able to see maxima when the derivative at a point is zero!</dd></dl>
+     we&#x2019;d be able to see extrema when the derivative at a point is zero!</dd></dl>
 <h3 class="sectionHead"><a 
  id="x1-2000"></a>Guided Problems</h3>
 <div class="problem-environment question" id="problem1"><a 
@@ -60,7 +60,7 @@ below.
 <div class="image-environment"><img 
 src="ExampleNumberline.png" alt="PIC"  
  /> </div>
-<!--l. 24--><p class="noindent" >On what interval(s) is the slope positive?
+<!--l. 24--><p class="noindent" >On what interval(s) is the derivative positive?
 </p>
 <div class="select-all" id="problem2"><a 
  id="x1-2002r2"></a> <span class="choice  "   id="choice1"><script type="math/tex"> <![CDATA[ 
@@ -77,7 +77,7 @@ src="ExampleNumberline.png" alt="PIC"
 ]]> 
 </script></span>
 </div>
-<!--l. 33--><p class="noindent" >On what interval(s) is the slope negative?
+<!--l. 33--><p class="noindent" >On what interval(s) is the derivative negative?
 </p>
 <div class="select-all" id="problem3"><a 
  id="x1-2003r3"></a> <span class="choice  "   id="choice5"><script type="math/tex"> <![CDATA[ 
@@ -97,21 +97,21 @@ src="ExampleNumberline.png" alt="PIC"
                                                                   
 
                                                                   
-<!--l. 42--><p class="noindent" >Select everything you can predict about the graph of a function at a point where the
-derivative is 0:
+<!--l. 42--><p class="noindent" >Select everything you can always say about the graph of a function at a point where
+the derivative is 0:
 </p>
 <div class="select-all" id="problem4"><a 
- id="x1-2004r4"></a> <span class="choice correct "   id="choice9">The graph will be flat at that point.</span> <span class="choice  "   id="choice10">The slope will change from positive to
-negative at the point.</span> <span class="choice  "   id="choice11">The slope will change from negative to positive at the
-point.</span> <span class="choice  "   id="choice12">The slope will change sign going from one side of the point to the
+ id="x1-2004r4"></a> <span class="choice correct "   id="choice9">The graph will be flat at that point.</span> <span class="choice  "   id="choice10">The derivative will change from positive to
+negative at the point.</span> <span class="choice  "   id="choice11">The derivative will change from negative to positive at the
+point.</span> <span class="choice  "   id="choice12">The derivative will change sign going from one side of the point to the
 other.</span>
 </div> <div class="feedback" data-feedback="correct" id="feedback5"> If the derivative at a point is zero, we can only tell that the graph flattens
 out. It is possible that the sign does not change after crossing the point! </div>
 </div>
      <dl class="dialogue"><dt class="actor">
 Julia </dt><dd 
-class="speech">So we have local maxima and minima when the derivative is 0, but what
-     about the graph of <script type="math/tex"> <![CDATA[ 
+class="speech">So we have local maximum or minimum when the derivative is 0, but
+     what about the graph of <script type="math/tex"> <![CDATA[ 
 x^3 
 ]]> 
 </script>?</dd></dl>
@@ -127,9 +127,11 @@ Julia </dt><dd
 class="speech">Wait... what&#x2019;s a critical point?
      </dd><dt class="actor">
 Dylan </dt><dd 
-class="speech">Any point where the derivative is zero or does not exist! Because we
-     know it&#x2019;s important, but we have to check to see what it means with our
-     number line!
+class="speech"><div class="theorem-like problem-environment definition" id="problem6"><a 
+ id="x1-2005r5"></a>A critical point is any point where the derivative is zero or does not exist!
+     Because we know it&#x2019;s important, but we have to check to see what it means
+     with our number line!
+     </div>
      </dd><dt class="actor">
 James </dt><dd 
 class="speech">You guys are still figuring that out? I&#x2019;m already determining concavity!
@@ -138,28 +140,32 @@ Dylan and Julia </dt><dd
 class="speech">Holy cat fur! What&#x2019;s concavity?!
      </dd><dt class="actor">
 James </dt><dd 
-class="speech">A graph is <em>concave up when its derivative is increasing</em>, and <em>concave
-     down when its derivative is decreasing</em>. The easiest way to tell is to look
-     at the curve and think ‘Would this hold water?&#x2019; If it would, it&#x2019;s concave
-     up, and if not, it&#x2019;s concave down!
+class="speech">A graph is <em>concave up when its derivative is increasing</em>, and <em>concave down
+     when its derivative is decreasing</em>. The easiest way to tell is to look at the curve
+     and think ‘Would this hold water?&#x2019; If it would, it&#x2019;s concave up, and if not, it&#x2019;s
+     concave down!
      </dd><dt class="actor">
 Dylan and Julia </dt><dd 
 class="speech">Wow! Thanks James!</dd></dl>
-<div class="problem-environment question" id="problem6"><a 
- id="x1-2005r5"></a>
+<div class="problem-environment question" id="problem7"><a 
+ id="x1-2006r6"></a>
                                                                   
 
                                                                   
-<!--l. 74--><p class="noindent" >Now determine the second derivative, <script type="math/tex"> <![CDATA[ 
+<!--l. 75--><p class="noindent" >Now determine the second derivative, <script type="math/tex"> <![CDATA[ 
 f''(x) 
 ]]> 
-</script>. Points where the second derivative is zero are
-known as <strong>inflection points</strong>. What happens at these points?
+</script>, of our original function <script type="math/tex"> <![CDATA[ 
+f(x) = x^3 + 12x^2+4 
+]]> 
+</script>. What happens at
+the points where the second derivative is zero?
 </p>
-<div class="multiple-choice" id="problem7"><span class="choice  "   id="choice13">They show the function is at extrema as well.</span> <span class="choice  "   id="choice14">They indicate that concavity will
+<div class="multiple-choice" id="problem8"><span class="choice  "   id="choice13">They show the function is at extrema as well.</span> <span class="choice  "   id="choice14">They indicate that concavity will
 remain the same.</span> <span class="choice correct "   id="choice15">They indicate that concavity is changing.</span> <span class="choice  "   id="choice16">They show that the
 function is at minimum change.</span> </div>
-<!--l. 84--><p class="noindent" >Draw another number line, this time for the second derivative, marking the inflection
+<!--l. 85--><p class="noindent" >Points where concavity change are known as <strong>inflection points</strong>.
+</p><!--l. 87--><p class="noindent" >Draw another number line, this time for the second derivative, marking the inflection
 points. Evaluate <script type="math/tex"> <![CDATA[ 
 f''(x) 
 ]]> 
@@ -167,12 +173,12 @@ f''(x)
 and mark the sign. What might this mean in general for changing signs on each side
 of an inflection point?
 </p>
-<div class="select-all" id="problem8"><a 
- id="x1-2006r6"></a> <span class="choice  "   id="choice17">The graph will be flat at that point.</span> <span class="choice  "   id="choice18">The concavity will change from up to down
+<div class="select-all" id="problem9"><a 
+ id="x1-2007r7"></a> <span class="choice  "   id="choice17">The graph will be flat at that point.</span> <span class="choice  "   id="choice18">The concavity will change from up to down
 at the point.</span> <span class="choice  "   id="choice19">The concavity will change from down to up at the point.</span> <span class="choice correct
 "  id="choice20">The slope will change direction going from one side of the point to the
 other.</span>
-</div> Where is the graph concave up? <div class="multiple-choice" id="problem9"><span class="choice  "   id="choice21"><script type="math/tex"> <![CDATA[ 
+</div> Where is the graph concave up? <div class="multiple-choice" id="problem10"><span class="choice  "   id="choice21"><script type="math/tex"> <![CDATA[ 
 [0,1] 
 ]]> 
 </script></span> <span class="choice correct "   id="choice22"><script type="math/tex"> <![CDATA[ 
@@ -189,7 +195,7 @@ other.</span>
 ]]> 
 </script></span> </div>
 What about concave down?
-<div class="multiple-choice" id="problem10"><span class="choice  "   id="choice26"><script type="math/tex"> <![CDATA[ 
+<div class="multiple-choice" id="problem11"><span class="choice  "   id="choice26"><script type="math/tex"> <![CDATA[ 
 [0,1] 
 ]]> 
 </script></span> <span class="choice  "   id="choice27"><script type="math/tex"> <![CDATA[ 
@@ -205,12 +211,12 @@ What about concave down?
 [4,260] 
 ]]> 
 </script></span> </div>
-<!--l. 113--><p class="noindent" >Inflection points are given as ordered pairs. Evaluate each inflection point you found
+<!--l. 116--><p class="noindent" >Inflection points are given as ordered pairs. Evaluate each inflection point you found
 using <script type="math/tex"> <![CDATA[ 
 f(x) 
 ]]> 
-</script> to determine the ordered pairs, then select them below. </p><div class="select-all" id="problem11"><a 
- id="x1-2007r7"></a> <span class="choice correct "   id="choice31"><script type="math/tex"> <![CDATA[ 
+</script> to determine the ordered pairs, then select them below. </p><div class="select-all" id="problem12"><a 
+ id="x1-2008r8"></a> <span class="choice correct "   id="choice31"><script type="math/tex"> <![CDATA[ 
 (-4,132) 
 ]]> 
 </script></span> <span class="choice  "   id="choice32"><script type="math/tex"> <![CDATA[ 
@@ -226,8 +232,8 @@ id="choice34"><script type="math/tex"> <![CDATA[
 </script></span>
 </div> Based on what you&#x2019;ve done until now, sketch the graph yourself. When you&#x2019;re done,
 click below to see the graph.
-<div class="multiple-choice" id="problem12"><span class="choice correct "   id="choice35">I&#x2019;m Done! Show me the graph!</span> </div>
-<div class="feedback" data-feedback="attempt" id="feedback13"><script type="math/tex; mode=display"> <![CDATA[ 
+<div class="multiple-choice" id="problem13"><span class="choice correct "   id="choice35">I&#x2019;m Done! Show me the graph!</span> </div>
+<div class="feedback" data-feedback="attempt" id="feedback14"><script type="math/tex; mode=display"> <![CDATA[ 
  \graph [height=400,xmin=-5,xmax=5,ymin=-5,ymax=10]{x^3+12x^2+4}  
 ]]> 
 </script> </div>
@@ -238,10 +244,10 @@ click below to see the graph.
 Dylan </dt><dd 
 class="speech">So if I wanted to match a graph with the graphs of its first and second
      derivative I can do that now!
-     </dd><dt class="actor">
                                                                   
 
                                                                   
+     </dd><dt class="actor">
 Julia </dt><dd 
 class="speech">Wait, really?? How?
      </dd><dt class="actor">
@@ -275,12 +281,12 @@ class="speech">So we can match the graphs based on how all that information rela
      </dd><dt class="actor">
 Dylan </dt><dd 
 class="speech">Exactly, let&#x2019;s try it!</dd></dl>
-<div class="problem-environment question" id="problem14"><a 
- id="x1-3001r8"></a> For the following problems, select the correct match of <script type="math/tex"> <![CDATA[ 
+<div class="problem-environment question" id="problem15"><a 
+ id="x1-3001r9"></a> For the following problems, select the correct match of <script type="math/tex"> <![CDATA[ 
 f(x),f'(x), and f''(x) 
 ]]> 
 </script>
-<div class="multiple-choice" id="problem15"><span class="choice  "   id="choice36"><div class="image-environment"><img 
+<div class="multiple-choice" id="problem16"><span class="choice  "   id="choice36"><div class="image-environment"><img 
 src="nope3.jpg" alt="PIC"  
  /> </div>
 </span> <span class="choice correct "   id="choice37"><div class="image-environment"><img 
@@ -293,7 +299,7 @@ src="nope1.jpg" alt="PIC"
 src="nope2.jpg" alt="PIC"  
  /> </div>
 </span> </div>
-<div class="multiple-choice" id="problem16"><span class="choice  "   id="choice40"><div class="image-environment"><img 
+<div class="multiple-choice" id="problem17"><span class="choice  "   id="choice40"><div class="image-environment"><img 
 src="2a.jpg" alt="PIC"  
  /> </div>
 </span> <span class="choice  "   id="choice41"><div class="image-environment"><img 
@@ -306,7 +312,7 @@ src="2b.jpg" alt="PIC"
 src="match2.jpg" alt="PIC"  
  /> </div>
 </span> </div>
-<div class="multiple-choice" id="problem17"><span class="choice  "   id="choice44"><div class="image-environment"><img 
+<div class="multiple-choice" id="problem18"><span class="choice  "   id="choice44"><div class="image-environment"><img 
 src="3c.jpg" alt="PIC"  
  /> </div>
 </span> <span class="choice  "   id="choice45"><div class="image-environment"><img 
@@ -319,7 +325,7 @@ src="match3.jpg" alt="PIC"
 src="3b.jpg" alt="PIC"  
  /> </div>
 </span> </div>
-<div class="multiple-choice" id="problem18"><span class="choice correct "   id="choice48"><div class="image-environment"><img 
+<div class="multiple-choice" id="problem19"><span class="choice correct "   id="choice48"><div class="image-environment"><img 
 src="match4.jpg" alt="PIC"  
  /> </div>
 </span> <span class="choice  "   id="choice49"><div class="image-environment"><img 
@@ -332,12 +338,12 @@ src="4a.jpg" alt="PIC"
 src="4b.jpg" alt="PIC"  
  /> </div>
 </span> </div>
-<!--l. 204--><p class="noindent" ></div>
+<!--l. 207--><p class="noindent" ></div>
 </p>
 <h3 class="sectionHead"><a 
  id="x1-4000"></a>On Your Own</h3>
-<div class="problem-environment question" id="problem19"><a 
- id="x1-4001r9"></a> Now, consider the function
+<div class="problem-environment question" id="problem20"><a 
+ id="x1-4001r10"></a> Now, consider the function
                                                                   
 
                                                                   
@@ -346,16 +352,16 @@ f(x)=x^3-3x+5\text {.}
 ]]> 
 </script>
  Without graphing the function, complete the following:
-<!--l. 210--><p class="noindent" >Select each type of extrema present on the graph. </p><div class="select-all" id="problem20"><a 
- id="x1-4002r10"></a> <span class="choice correct "   id="choice52">Local Maximum</span> <span class="choice correct "   id="choice53">Local
+<!--l. 213--><p class="noindent" >Select each type of extrema present on the graph. </p><div class="select-all" id="problem21"><a 
+ id="x1-4002r11"></a> <span class="choice correct "   id="choice52">Local Maximum</span> <span class="choice correct "   id="choice53">Local
 Minimum</span> <span class="choice  "   id="choice54">Global Maximum</span> <span class="choice  "   id="choice55">Global Minimum</span>
 </div>
-<!--l. 218--><p class="noindent" >Indicate the coordinates of any critical points. </p><div class="select-all" id="problem21"><a 
- id="x1-4003r11"></a> <span class="choice  "   id="choice56">(-2,0)</span> <span class="choice correct "   id="choice57">(-1,7)</span> <span class="choice  "   id="choice58">(-3,7)</span> <span class="choice  "   id="choice59">(7,-2)</span> <span class="choice correct " 
+<!--l. 221--><p class="noindent" >Indicate the coordinates of any critical points. </p><div class="select-all" id="problem22"><a 
+ id="x1-4003r12"></a> <span class="choice  "   id="choice56">(-2,0)</span> <span class="choice correct "   id="choice57">(-1,7)</span> <span class="choice  "   id="choice58">(-3,7)</span> <span class="choice  "   id="choice59">(7,-2)</span> <span class="choice correct " 
 id="choice60">(1,3)</span> <span class="choice  "   id="choice61">(0,5)</span> <span class="choice  "   id="choice62">(5,0)</span>
 </div>
-<!--l. 229--><p class="noindent" >Indicate the coordinates of any inflection points. </p><div class="select-all" id="problem22"><a 
- id="x1-4004r12"></a> <span class="choice  "   id="choice63"><script type="math/tex"> <![CDATA[ 
+<!--l. 232--><p class="noindent" >Indicate the coordinates of any inflection points. </p><div class="select-all" id="problem23"><a 
+ id="x1-4004r13"></a> <span class="choice  "   id="choice63"><script type="math/tex"> <![CDATA[ 
 (-2,0) 
 ]]> 
 </script></span> <span class="choice  "   id="choice64"><script type="math/tex"> <![CDATA[ 
@@ -378,8 +384,8 @@ id="choice60">(1,3)</span> <span class="choice  "   id="choice61">(0,5)</span> <
 ]]> 
 </script></span>
 </div>
-<!--l. 240--><p class="noindent" >Select the intervals on which the function is concave up. </p><div class="select-all" id="problem23"><a 
- id="x1-4005r13"></a> <span class="choice  "   id="choice70"><script type="math/tex"> <![CDATA[ 
+<!--l. 243--><p class="noindent" >Select the intervals on which the function is concave up. </p><div class="select-all" id="problem24"><a 
+ id="x1-4005r14"></a> <span class="choice  "   id="choice70"><script type="math/tex"> <![CDATA[ 
 [-5,10] 
 ]]> 
 </script></span> <span class="choice  "   id="choice71"><script type="math/tex"> <![CDATA[ 
@@ -393,10 +399,10 @@ id="choice60">(1,3)</span> <span class="choice  "   id="choice61">(0,5)</span> <
 ]]> 
 </script></span>
 </div>
-<!--l. 248--><p class="noindent" >Select the intervals on which the function is concave down.
+<!--l. 251--><p class="noindent" >Select the intervals on which the function is concave down.
 </p>
-<div class="select-all" id="problem24"><a 
- id="x1-4006r14"></a> <span class="choice  "   id="choice74"><script type="math/tex"> <![CDATA[ 
+<div class="select-all" id="problem25"><a 
+ id="x1-4006r15"></a> <span class="choice  "   id="choice74"><script type="math/tex"> <![CDATA[ 
 [0,10] 
 ]]> 
 </script></span> <span class="choice  "   id="choice75"><script type="math/tex"> <![CDATA[ 
@@ -410,19 +416,19 @@ id="choice60">(1,3)</span> <span class="choice  "   id="choice61">(0,5)</span> <
 ]]> 
 </script></span>
 </div>
-<!--l. 257--><p class="noindent" >Now, create a sketch of your function on paper. When you&#x2019;re done, click below to see
+<!--l. 260--><p class="noindent" >Now, create a sketch of your function on paper. When you&#x2019;re done, click below to see
 how your graph should look!
 </p>
-<div class="multiple-choice" id="problem25"><span class="choice correct "   id="choice78">I&#x2019;m done waiting! Show me the graph!</span> <span class="choice  "   id="choice79">I&#x2019;m not ready yet, but I&#x2019;m going to click
+<div class="multiple-choice" id="problem26"><span class="choice correct "   id="choice78">I&#x2019;m done waiting! Show me the graph!</span> <span class="choice  "   id="choice79">I&#x2019;m not ready yet, but I&#x2019;m going to click
 regardless!</span> </div>
-<div class="feedback" data-feedback="correct" id="feedback26"> <script type="math/tex; mode=display"> <![CDATA[ 
+<div class="feedback" data-feedback="correct" id="feedback27"> <script type="math/tex; mode=display"> <![CDATA[ 
  \graph [height=400,ymin=-5,ymax=15,xmin=-10,xmax=10]{x^3-3x+5}  
 ]]> 
 </script> </div>
 </div>
 <h3 class="sectionHead"><a 
  id="x1-5000"></a>In Summary</h3>
-<!--l. 271--><p class="noindent" >In this lab, you&#x2019;ve covered quite a bit. To help organize everything, we&#x2019;ve made the
+<!--l. 274--><p class="noindent" >In this lab, you&#x2019;ve covered quite a bit. To help organize everything, we&#x2019;ve made the
 following table for you.
 </p>
                                                                   
@@ -436,7 +442,7 @@ id="TBL-1-2" /></colgroup><tr
 class="hline"><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-1-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-1-1-1"  
 class="td11"> First Derivative Test    </td><td  style="white-space:wrap; text-align:left;" id="TBL-1-1-2"  
-class="td11"> <!--l. 276--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
+class="td11"> <!--l. 279--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
 f'(x) = 0 
 ]]> 
 </script>:
@@ -454,7 +460,7 @@ class="enumerate-enumitem">A minimum occurs at this point if the sign
     (c) </dt><dd 
 class="enumerate-enumitem">An inflection point occurs at this point if
          the sign of the derivative stays the same.</dd></dl>
-  <!--l. 281--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
+  <!--l. 284--><p class="noindent" >When <script type="math/tex"> <![CDATA[ 
 f'(x) 
 ]]> 
 </script> does not exist:
@@ -481,12 +487,12 @@ x
 ]]> 
 </script> is not a critical
          point.</dd></dl>
-  <!--l. 286--><p class="noindent" >                                                                  </p></td>
+  <!--l. 289--><p class="noindent" >                                                                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-1-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-1-2-1"  
 class="td11"> Second Derivative Test  </td><td  style="white-space:wrap; text-align:left;" id="TBL-1-2-2"  
-class="td11"> <!--l. 287--><p class="noindent" >     If <script type="math/tex"> <![CDATA[ 
+class="td11"> <!--l. 290--><p class="noindent" >     If <script type="math/tex"> <![CDATA[ 
 f'(x)=0\text {,} 
 ]]> 
 </script>
@@ -508,7 +514,7 @@ class="enumerate-enumitem">The test fails if <script type="math/tex"> <![CDATA[
 f''(x)=0 
 ]]> 
 </script>.</dd></dl>
-  <!--l. 291--><p class="noindent" >                                                                  </p></td>
+  <!--l. 294--><p class="noindent" >                                                                  </p></td>
 </tr><tr 
 class="hline"><td><hr /></td><td><hr /></td></tr><tr  
  style="vertical-align:baseline;" id="TBL-1-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-1-3-1"  
