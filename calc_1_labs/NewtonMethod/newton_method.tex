@@ -100,9 +100,9 @@ df=diff(f,x)#We then find the derivative of the function
 NewtonsMethod(x)=x-(f/df)(x)#The formula for Newton's Method, which we are calling "NewtonsMethod"
 x0=1# initial guess
 print x0#displays the initial guess in the output
-x1=N(NewtonIt(x0))#first iteration of the method
+x1=N(NewtonsMethod(x0))#first iteration of the method
 print x1#displays first result
-x2=N(NewtonIt(x1))#second iteration of Newtons Method
+x2=N(NewtonsMethod(x1))#second iteration of Newtons Method
 print x2#displays second result
 \end{sageCell}
 \end{onlineOnly}
