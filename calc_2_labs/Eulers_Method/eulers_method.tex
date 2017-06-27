@@ -17,26 +17,32 @@ Euler's Method is a simple method of approximating the solution to a differentia
 
 \begin{question}
 What alteration to $h$ might produce a more accurate estimation?
+\begin{hint}
+Consider a function with a rapidly changing derivative. How might a larger step-size approximate the rapid changes? A smaller one?
+\end{hint}
 \begin{multipleChoice}
 \choice{Increase the size of $h$ to ignore minor jumps that would make the prediction less accurate.}
 \choice[correct]{Decrease the size of $h$ to take into account very minor alterations in the function's derivative.}
 \choice{Use an $h$ equivalent to the functional value at the point.}
 \choice{Use an $h$ equivalent to the value of the derivative at that point.}
 \end{multipleChoice}
-\begin{hint}
-Consider a function with a rapidly changing derivative. How might a larger step-size approximate the rapid changes? A smaller one?
-\end{hint}
 
 When will this approximation be the best? When will it be the worst?
-\begin{multipleChoice}
-\choice{The approximation will be the best at rapid changes and worst where minimal change occurs.}
-\choice{The approximation will be equally good at all points.}
-\choice{The approximation will be best where the graph stays positive or negative, and worst where the parity changes.}
-\choice[correct]{The approximation will be best where little change occurs, and worst where the most change occurs.}
-\end{multipleChoice}
 \begin{hint}
 Think about the derivative of the graph here, and how it affects the shape.
 \end{hint}
+\begin{multipleChoice}
+\choice{The approximation will be the best at rapid changes
+
+and worst where minimal change occurs.}
+\choice{The approximation will be equally good at all points.}
+\choice{The approximation will be best where the graph stays positive or negative,
+
+and worst where the parity changes.}
+\choice[correct]{The approximation will be best where little change occurs,
+
+and worst where the most change occurs.}
+\end{multipleChoice}
 \end{question}
 
 \section{Guided Example}
@@ -64,7 +70,11 @@ Clearly a much better approximation! Note that the $x$ column is simply our $t$,
 \section{On Your Own}
 
 \begin{enumerate}
-\item For the following, use step sizes of $0.5$, $0.25$, and $0.1$ in combination to approximate the given point. \textit{Euler's Method does not require each step to be the same size.}
+\item For the following, use step sizes of $0.5$, $0.25$, and $0.1$ in combination to approximate the given point. 
+
+\begin{remark}
+Euler's Method does not require each step to be the same size.
+\end{remark}
 \begin{enumerate}
 \item $F(t,y) = t^2 -y$, $y(2) = 3$ at $y(3.5)$.
 \item $F(t,y) = y+t$, $y(0)=1$ at $y(3.85)$.

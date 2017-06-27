@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="newton_method.tex" /> 
-<meta name="date" content="2017-06-26 18:27:00" /> 
+<meta name="date" content="2017-06-27 15:52:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -190,9 +190,9 @@ df=diff(f,x)#We then find the derivative of the function
 NewtonsMethod(x)=x-(f/df)(x)#The formula for Newton's Method, which we are calling "NewtonsMethod"
 x0=1# initial guess
 print x0#displays the initial guess in the output
-x1=N(NewtonIt(x0))#first iteration of the method
+x1=N(NewtonsMethod(x0))#first iteration of the method
 print x1#displays first result
-x2=N(NewtonIt(x1))#second iteration of Newtons Method
+x2=N(NewtonsMethod(x1))#second iteration of Newtons Method
 print x2#displays second result
  
 </script></div>

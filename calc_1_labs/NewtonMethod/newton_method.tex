@@ -110,7 +110,7 @@ print x2#displays second result
 The only way to run Newton's Method like this will be to take the first few lines of code and put them in each cell after this - the method is \textbf{not} defined as a function in Sage.
 
 \begin{question}
-Using $g(x) = x^3 -4x^2-1$ from before, use an initial guess of 2. After 5 iterations, what result do you get? Please round to the ten thousandths place.
+Using $g(x) = x^3 -4x^2-1$ from before, use an initial guess of 2. After 5 iterations, what result do you get?
 
 \begin{onlineOnly}
 \begin{sageCell}
@@ -118,7 +118,7 @@ Using $g(x) = x^3 -4x^2-1$ from before, use an initial guess of 2. After 5 itera
 \end{sageCell}
 \end{onlineOnly}
 
-$\answer{-0.395}$
+$\answer[tolerance=0.001]{-0.395459530414480}$
 
 Why is it important to use caution with your first guess when doing Newton's Method by hand?
 \begin{freeResponse}
@@ -137,9 +137,9 @@ Consider the function $h(x) = 4x^3 - 12x^2 + 2x + 1$.
 \end{onlineOnly}
 
 
-Use an initial guess of $x=3$ to estimate a root of $h(x)$. What root do you find? Copy the Sage Cell result from the fifth iteration.
+Use an initial guess of $x=3$ to estimate a root of $h(x)$. What did you get after the fifth iteration?
 
-$\answer{2.78854472256823}$
+$\answer[tolerance=0.01]{2.78854472256823}$
 
 Look at the graph, and attempt to estimate another root using $x = 0$. Did you find the root to the right or the left of this point?
 
