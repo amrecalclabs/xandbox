@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  27 JUN 2017 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  27 JUN 2017 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**derivative_apps.tex
-(./derivative_apps.tex
+**eulers_method.tex
+(./eulers_method.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 
@@ -415,10 +415,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \c@ST@cmdline=\count121
 \sagetexindent=\skip46
 
-(./derivative_apps.sagetex.sout)
+No file eulers_method.sagetex.sout.
 \sagecommandlineskip=\skip47
-)
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip48
 \enit@outerparindent=\dimen157
@@ -1096,7 +1095,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \c@titlenumber=\count200
 \c@sectiontitlenumber=\count201
 \outcomefile=\write6
-\openout6 = `derivative_apps.oc'.
+\openout6 = `eulers_method.oc'.
 
 \c@theorem=\count202
 \c@algorithm=\count203
@@ -1124,18 +1123,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \c@template=\count225
 \c@warning=\count226
 \idfile=\write7
-\openout7 = `derivative_apps.ids'.
+\openout7 = `eulers_method.ids'.
 
 \c@track@Problem=\count227
 \c@shuffle@Count=\count228
 \c@problem=\count229
 \c@problemType=\count230
 \myfile=\write8
-\openout8 = `derivative_apps.jax'.
+\openout8 = `eulers_method.jax'.
 
 )
-(./derivative_apps.aux)
-\openout1 = `derivative_apps.aux'.
+(./eulers_method.aux)
+\openout1 = `eulers_method.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -1183,7 +1182,7 @@ e
 ))
 \c@lstlisting=\count280
 \ST@sf=\write9
-\openout9 = `derivative_apps.sagetex.sage'.
+\openout9 = `eulers_method.sagetex.sage'.
 
 
 
@@ -1206,9 +1205,9 @@ LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
 
-(./derivative_apps.out) (./derivative_apps.out)
+(./eulers_method.out) (./eulers_method.out)
 \@outlinefile=\write10
-\openout10 = `derivative_apps.out'.
+\openout10 = `eulers_method.out'.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
@@ -1221,55 +1220,70 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]pdfTeX warning (ext4): destination with the same identifier (name{problem.1}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.61 C
-      ompute the marginal profit, $P'(x)$. [2] [3]pdfTeX warning (ext4): destin
-ation with the same identifier (name{problem.1}) has been already used, duplica
-te ignored
-<to be read again> 
-                   \relax 
-l.102 U
-       sing the Chain Rule, how will your profit be changing 35 days from now?
+]
+Overfull \hbox (174.74547pt too wide) in paragraph at lines 33--33
+[]\OT1/cmtt/m/n/10 \choice{The approximation will be the best at rapid changes 
+and worst where minimal change occurs.}[] 
+ []
+
+
+Overfull \hbox (279.74455pt too wide) in paragraph at lines 35--35
+[]\OT1/cmtt/m/n/10 \choice{The approximation will be best where the graph stays
+ positive or negative, and worst where the parity changes.}[] 
+ []
+
+
+Overfull \hbox (263.99469pt too wide) in paragraph at lines 36--36
+[]\OT1/cmtt/m/n/10 \choice[correct]{The approximation will be best where little
+ change occurs, and worst where the most change occurs.}[] 
+ []
+
+
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 39--39
+[]\OT1/cmtt/m/n/10 Think about the derivative of the graph here, and how it aff
+ects the shape.[] 
+ []
+
+[2] [3]
 *********************************************************************
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
- (./derivative_apps.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
-Package rerunfilecheck Info: File `derivative_apps.out' has not changed.
-(rerunfilecheck)             Checksum: ADF97069564567EDC8E56B05CBDC7C79;227.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+ (./eulers_method.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+Package rerunfilecheck Info: File `eulers_method.out' has not changed.
+(rerunfilecheck)             Checksum: 26FB1F36412F99845CEFEFD48A3BBC69;241.
  ) 
 Here is how much of TeX's memory you used:
- 35370 strings out of 493085
- 791704 string characters out of 6136916
- 942279 words of memory out of 5000000
- 38247 multiletter control sequences out of 15000+600000
- 13934 words of font info for 51 fonts, out of 8000000 for 9000
+ 35371 strings out of 493085
+ 791628 string characters out of 6136916
+ 942164 words of memory out of 5000000
+ 38251 multiletter control sequences out of 15000+600000
+ 14096 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,8n,79p,10442b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,8n,79p,10425b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on derivative_apps.pdf (4 pages, 177322 bytes).
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
+9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on eulers_method.pdf (4 pages, 205620 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
