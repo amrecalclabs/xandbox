@@ -28,15 +28,12 @@ Consider a function with a rapidly changing derivative. How might a larger step-
 \end{hint}
 
 When will this approximation be the best? When will it be the worst?
-\begin{foldable}
-\unfoldable
 \begin{multipleChoice}
 \choice{The approximation will be the best at rapid changes and worst where minimal change occurs.}
 \choice{The approximation will be equally good at all points.}
 \choice{The approximation will be best where the graph stays positive or negative, and worst where the parity changes.}
 \choice[correct]{The approximation will be best where little change occurs, and worst where the most change occurs.}
 \end{multipleChoice}
-\end{foldable}
 \begin{hint}
 Think about the derivative of the graph here, and how it affects the shape.
 \end{hint}
@@ -51,7 +48,18 @@ On step two, we see $t_2 = 0.5 + 0.5 = 1$, and $y_2 = 0 + 0.5(0.5 + 2\cdot 0) = 
 
 Let's check our estimation - the actual solution to our differential equation was $$y = 0.25\cdot e^{2t}-0.5t-0.25\text{.}$$ Don't worry about how we found this; just note that at $t=1$, $y = 1.097$.
 
-Clearly, our estimation is not very good. But look at our step size! We moved an entire unit in only two steps - but that's an easy fix. Let's look at the result when we use $h = 0.02$ - we'll spare you the calculations and just let you know that $y_{50}=1.0266$. Clearly a much better approximation! By simply decreasing $h$, we can increase the accuracy of Euler's Method greatly, at the cost of much harder work if done by hand.
+Clearly, our estimation is not very good. But look at our step size! We moved an entire unit in only two steps - but that's an easy fix.
+
+Let's look at the result when we use $h = 0.02$, using Sage! While an example has been provided below, \href{http://doc.sagemath.org/html/en/reference/calculus/sage/calculus/desolvers.html#sage.calculus.desolvers.eulers\_method}{click here}for the documentation on how to use eulers\_method!
+\begin{onlineOnly}
+\begin{sageCell}
+from sage.calculus.desolvers import eulers_method#imports the Euler's Method function from Sage
+t,y = PolynomialRing(QQ,2,"ty").gens()#Defines our two variables
+eulers_method(t+2*y,0,0,0.02,1,algorithm="table")#Produces a table of the t and y values.
+\end{sageCell}
+\end{onlineOnly}
+
+Clearly a much better approximation! Note that the $x$ column is simply our $t$, which Sage uses an $x$ for. By simply decreasing $h$, we can increase the accuracy of Euler's Method greatly, at the cost of much harder work if done by hand.
 
 \section{On Your Own}
 
