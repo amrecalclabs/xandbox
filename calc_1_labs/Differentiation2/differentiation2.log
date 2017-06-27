@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  27 JUN 2017 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  27 JUN 2017 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1537,7 +1537,7 @@ sl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on differentiation2.pdf (5 pages, 184526 bytes).
+Output written on differentiation2.pdf (5 pages, 184267 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
