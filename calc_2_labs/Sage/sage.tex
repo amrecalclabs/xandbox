@@ -72,8 +72,33 @@ You should be solving $f(x)$ for $x$
 Copy paste what you got in your sage cell here: $\answer[format=string]{[x == -2, x == -1]}$
 \end{question}
 
+\section{Limits}
+Limits are also fairly intuitive to use in Sage. This is shown in the following Sage Cell to find $\displaystyle\lim_{x \to \infty}2x+3$
+\begin{onlineOnly}
+\begin{sageCell}
+f(x)=2*x+3
+limit(f(x),x=infinity)
+\end{sageCell}
+\end{onlineOnly}
+\begin{question}
+Using the commands shown above, find the limit of $\displaystyle\lim_{x \to 4}\dfrac{x^2-2x-8}{x-4}$
+\begin{onlineOnly}
+\begin{sageCell}
 
+\end{sageCell}
+\end{onlineOnly}
+What did you get?
+$\answer{6}$
+\end{question}
 
+\section{Differentiation}
+To differentiate in sage, use the diff command. This is shown below. It takes in the function you are differentiating and the 
+\begin{onlineOnly}
+\begin{sageCell}
+f(x)=2*x+3
+diff(f(x),x)
+\end{sageCell}
+\end{onlineOnly}
 \section{Getting Help}
 If you ever get stuck trying to use a command, there is built in documentation (as well as Google). Type the command followed directly by ``?'' to get extensive documentation on how to use it with examples. Try this for the solve command in the following cell.
 \begin{onlineOnly}
