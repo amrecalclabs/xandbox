@@ -415,9 +415,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \c@ST@cmdline=\count121
 \sagetexindent=\skip46
 
-No file max_min_app.sagetex.sout.
+(./max_min_app.sagetex.sout)
 \sagecommandlineskip=\skip47
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip48
 \enit@outerparindent=\dimen157
@@ -1231,9 +1232,9 @@ Package rerunfilecheck Info: File `max_min_app.out' has not changed.
 (rerunfilecheck)             Checksum: 3C6C2194F1E94847BB1A1C59F5EF1DAD;279.
  ) 
 Here is how much of TeX's memory you used:
- 35364 strings out of 493085
- 791555 string characters out of 6136916
- 941170 words of memory out of 5000000
+ 35366 strings out of 493085
+ 791605 string characters out of 6136916
+ 941247 words of memory out of 5000000
  38247 multiletter control sequences out of 15000+600000
  13444 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
