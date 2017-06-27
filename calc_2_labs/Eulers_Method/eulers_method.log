@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  27 JUN 2017 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  27 JUN 2017 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1222,14 +1222,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Overfull \hbox (0.96356pt too wide) in paragraph at lines 30--32
+Overfull \hbox (0.96356pt too wide) in paragraph at lines 30--31
 []\OT1/cmr/m/sl/10 When will this ap-prox-i-ma-tion be the best? When will it b
 e the worst?             
  []
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 32.
+(mdframed)              on input line 31.
 [2] [3]
 *********************************************************************
 [4]
@@ -1244,7 +1244,7 @@ Package rerunfilecheck Info: File `eulers_method.out' has not changed.
 Here is how much of TeX's memory you used:
  35478 strings out of 493085
  794661 string characters out of 6136916
- 942273 words of memory out of 5000000
+ 943273 words of memory out of 5000000
  38352 multiletter control sequences out of 15000+600000
  14236 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1266,7 +1266,7 @@ cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl1
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on eulers_method.pdf (4 pages, 202527 bytes).
+Output written on eulers_method.pdf (4 pages, 202603 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  122 compressed objects within 2 object streams
