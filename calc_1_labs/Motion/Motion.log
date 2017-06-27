@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  27 JUN 2017 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  27 JUN 2017 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,10 +415,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \c@ST@cmdline=\count121
 \sagetexindent=\skip46
 
-(./Motion.sagetex.sout)
+No file Motion.sagetex.sout.
 \sagecommandlineskip=\skip47
-)
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip48
 \enit@outerparindent=\dimen157
@@ -1137,20 +1136,20 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (./Motion.aux)
 \openout1 = `Motion.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
  ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1190,10 +1189,10 @@ e
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into 
 your preamble.
- on input line 3.
+ on input line 5.
 
 \AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring ON on input line 3.
+Package hyperref Info: Link coloring ON on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1202,9 +1201,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count281
 )
-LaTeX Info: Redefining \ref on input line 3.
-LaTeX Info: Redefining \pageref on input line 3.
-LaTeX Info: Redefining \nameref on input line 3.
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
 
 (./Motion.out) (./Motion.out)
 \@outlinefile=\write10
@@ -1251,9 +1250,9 @@ Package rerunfilecheck Info: File `Motion.out' has not changed.
 (rerunfilecheck)             Checksum: 2C9DB78076F1948C2426A52251AA2A31;233.
  ) 
 Here is how much of TeX's memory you used:
- 35410 strings out of 493085
- 791931 string characters out of 6136916
- 942207 words of memory out of 5000000
+ 35408 strings out of 493085
+ 791891 string characters out of 6136916
+ 942149 words of memory out of 5000000
  38258 multiletter control sequences out of 15000+600000
  13276 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
