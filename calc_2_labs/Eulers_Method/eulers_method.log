@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  27 JUN 2017 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  27 JUN 2017 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,9 +415,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \c@ST@cmdline=\count121
 \sagetexindent=\skip46
 
-No file eulers_method.sagetex.sout.
+(./eulers_method.sagetex.sout)
 \sagecommandlineskip=\skip47
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip48
 \enit@outerparindent=\dimen157
@@ -1232,9 +1233,9 @@ Package rerunfilecheck Info: File `eulers_method.out' has not changed.
 (rerunfilecheck)             Checksum: 26FB1F36412F99845CEFEFD48A3BBC69;241.
  ) 
 Here is how much of TeX's memory you used:
- 35377 strings out of 493085
- 791699 string characters out of 6136916
- 941164 words of memory out of 5000000
+ 35379 strings out of 493085
+ 791753 string characters out of 6136916
+ 941247 words of memory out of 5000000
  38253 multiletter control sequences out of 15000+600000
  13797 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

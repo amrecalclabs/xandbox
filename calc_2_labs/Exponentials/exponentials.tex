@@ -1,0 +1,85 @@
+\documentclass{ximera}
+\title{Exponentials}
+\begin{abstract}
+\end{abstract}
+\begin{document}
+\maketitle
+\section{Introduction}
+\begin{dialogue}
+\item[Dylan] Hey Julia, can you help me with this derivative?
+\item[Julia] Sure, which one is it? They've been pretty easy so far.
+\item[Dylan] I can't figure out $2^x$.
+\item[Julia] Oh, I just did $x \cdot 2^{x-1}$.
+\end{dialogue}
+Let's look at what Julia did and see if it makes sense.
+
+Question:
+
+Using a CAS, graph $2^x$ and $x \cdot 2^{x-1}$ on the same set of axes. Does it seem like $x \cdot 2^{x-1}$ is really the graph of the derivative?
+
+\section{Guided Example}
+\begin{dialogue}
+\item[Dylan] Maybe we could go to office hours and get some help with this? I really don't understand what I'm supposed to do.
+\item[Julia] What if we called James? He always knows what to do!
+\item[James] Y'all need help?
+\item[Julia and Dylan] James! How did you get here?
+\item[Julia] I didn't even call you yet...
+\item[James] Don't worry about it guys. Anyway, let's look at the limit definition of the derivative for this one. $$\dfrac{d}{dx}(2^x)=\lim_{h \to 0} \dfrac{2^{x+h}-2^x}{h}$$
+\end{dialogue}
+
+\begin{enumerate}
+\item Manipulate the definition James gave to factor out $2^x$ from the limit.
+\item Gather evidence that this limit exists. You may zoom in on the graph at the $y$-axis, or use progressively smaller values of $h$ to gather this evidence.
+\item Notice that the derivative is a constant times $f(x)$. Create a graph with $y$ equal to the constant you found, and on the same axes plot $\ln \left(x\right)$. Where is the intersection? Because the intersection is there, what is your constant equivalent to?
+\item Repeat this process for $3^x$ and see if you obtain similar results.
+\end{enumerate}
+
+\section{On Your Own}
+\begin{enumerate}
+\item Show that for any $a > 0$, $\dfrac{d}{dx}(a^x) = a^x \cdot \displaystyle \lim_{h \to 0} \dfrac{a^h-1}{h}\text{.}$
+\item Now, we would like to see a value for which $\displaystyle \lim_{h \to 0} \dfrac{a^h-1}{h} = 1$. This would mean that $\dfrac{d}{dx}(a^x) = a^x$.
+\begin{enumerate}
+\item Using your CAS, numerically evaluate the limit at $a = 2$ and $a = 3$. How do they relate to the value we're looking for?
+\item Using what you saw in part (a), use your CAS and trial and error, attempt to find the $a$ for which the limit will be one.
+\begin{dialogue}
+\item[Dylan] Hey, this looks familiar...
+\item[Julia] I swear I've seen that before!
+\item[James] That's $e$! Euler discovered this constant, and its unique properties have made it a \textit{natural} choice for a logarithmic base, leading to a plethora of names for it! $e$ itself is also known as Euler's number and the Naperian base, and when used as a logarithmic base, it is shown as $\ln \left(x\right)$ and known as the natural log!
+\end{dialogue}
+\item Using your CAS, evaluate $\dfrac{d}{dx}(e^x)$.
+\end{enumerate}
+\end{enumerate}
+
+\begin{dialogue}
+\item[Julia] Well, I guess we found something pretty cool!
+\item[Dylan] I guess it's cool that we found something another mathematician did, but what's the point? Like, that's neat that it is its own derivative, but is there any other reason to know it?
+\item[James] $e$ is extremely common in mathematics Dylan! Right now, the money in your savings account is being affected by it!
+\item[Dylan] What?! What are you talking about?!
+\end{dialogue}
+\section{A Simple Application}
+When money is put into a savings account with a growth rate of $r$, it grows by a factor of $1 + r$ at the end of each year. This means that, at the end of each year, your funds will be $$P_n = P_{n-1}+P_{n-1} \cdot r= P_{n-1}(1+r)\text{,}$$ where $P_{0}$ is your initial balance, or principal, and $P_{n}$ is your balance after $n$ years.
+
+Now, imagine if, for whatever reason, your bank wanted to apply half that rate to your account, twice per year, i.e., at the end of the year your balance would be $$P_n = P_{n-1}\left(1+\dfrac{r}{2}\right)\left(1+\dfrac{r}{2}\right) = P_{n-1}\left(1+\dfrac{r}{2}\right)^2\text{.}$$
+
+In general, the change in balance when compounded $n$ times per year is $$P_n = P_{n-1}\left(1+\dfrac{r}{n}\right)^n\text{.}$$
+
+\begin{enumerate}
+\item For all $r > 0$, what is the relationship between $\left(1+\dfrac{r}{2}\right)^2$ and $(1 + r)$? Which, if either, will give a greater pay out?
+\item Calculate the factor your balance grows by for the following intervals.
+\begin{enumerate}
+\item Quarterly
+\item Monthly
+\item Daily
+\item Hourly
+\end{enumerate}
+As the number of compoundings gets larger and large, the multiplication factor becomes $$\lim_{n \to \infty}\left(1 + \dfrac{r}{n}\right)^n \text{.}$$
+\item Substitute $r = 1$ into the factor, and evaluate using your CAS. What is your result?
+\item Evaluate the limit for the following values of $r$:
+\begin{enumerate}
+\item $r = 0.3$
+\item $r = 0.1$
+\item $r = 0.7$
+\item $r$, the general case
+\end{enumerate}
+\end{enumerate}
+\end{document}

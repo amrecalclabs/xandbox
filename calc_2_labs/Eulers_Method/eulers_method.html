@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="eulers_method.tex" /> 
-<meta name="date" content="2017-06-27 15:23:00" /> 
+<meta name="date" content="2017-06-27 16:02:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -106,12 +106,15 @@ point other than that which we are given.
  id="x1-1001r1"></a> What alteration to <script type="math/tex"> <![CDATA[ 
 h 
 ]]> 
-</script> might produce a more accurate estimation? <div class="multiple-choice" id="problem2"><span class="choice  "   id="choice1">Increase the size
-of <script type="math/tex"> <![CDATA[ 
+</script> might produce a more accurate estimation? <div class="problem-environment hint" id="problem2"><a 
+ id="x1-1002r2"></a> Consider a function
+with a rapidly changing derivative. How might a larger step-size approximate the
+rapid changes? A smaller one?
+</div> <div class="multiple-choice" id="problem3"><span class="choice  "   id="choice1">Increase the size of <script type="math/tex"> <![CDATA[ 
 h 
 ]]> 
-</script> to ignore minor jumps that would make the prediction less accurate.</span> <span class="choice correct
-"  id="choice2">Decrease the size of <script type="math/tex"> <![CDATA[ 
+</script> to ignore minor jumps that would make the prediction less
+accurate.</span> <span class="choice correct "   id="choice2">Decrease the size of <script type="math/tex"> <![CDATA[ 
 h 
 ]]> 
 </script> to take into account very minor alterations in the
@@ -122,33 +125,30 @@ h
 point.</span> <span class="choice  "   id="choice4">Use an <script type="math/tex"> <![CDATA[ 
 h 
 ]]> 
-</script> equivalent to the value of the derivative at that point.</span>
+</script> equivalent to the value of the derivative at that point.</span> </div>
+<!--l. 30--><p class="noindent" >When will this approximation be the best? When will it be the worst? </p><div class="problem-environment hint" id="problem4"><a 
+ id="x1-1003r3"></a> Think about
+the derivative of the graph here, and how it affects the shape.
+</div> <div class="multiple-choice" id="problem5"><span class="choice  "   id="choice5">The approximation will be the best at rapid changes
+<!--l. 37--><p class="noindent" >and worst where minimal change occurs.</span> </p><span class="choice  "   id="choice6">The approximation will be equally good
+at all points.</span> <span class="choice  "   id="choice7">The approximation will be best where the graph stays positive or
+negative,
+<!--l. 41--><p class="noindent" >and worst where the parity changes.</span> </p><span class="choice correct "   id="choice8">The approximation will be best where little
+change occurs,
+<!--l. 44--><p class="noindent" >and worst where the most change occurs.</span> </div>
 </div>
-<div class="problem-environment hint" id="problem3"><a 
- id="x1-1002r2"></a> Consider a function with a rapidly changing derivative. How might a larger step-size
-approximate the rapid changes? A smaller one?
-</div>
-<!--l. 30--><p class="noindent" >When will this approximation be the best? When will it be the worst? </p><div class="multiple-choice" id="problem4"><span class="choice  "   id="choice5">The
-approximation will be the best at rapid changes and worst where minimal change
-occurs.</span> <span class="choice  "   id="choice6">The approximation will be equally good at all points.</span> <span class="choice  "   id="choice7">The approximation
-will be best where the graph stays positive or negative, and worst where the parity
-changes.</span> <span class="choice correct "   id="choice8">The approximation will be best where little change occurs, and worst
-where the most change occurs.</span> </div>
-<div class="problem-environment hint" id="problem5"><a 
- id="x1-1003r3"></a> Think about the derivative of the graph here, and how it affects the shape.
-</div>
-</div>
+</p>
 <h3 class="sectionHead"><a 
  id="x1-2000"></a>Guided Example</h3>
-<!--l. 43--><p class="noindent" >Given
+<!--l. 49--><p class="noindent" >Given
+                                                                  
+
+                                                                  
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 F(t,y) = t + 2y 
 ]]> 
 </script>
  and the initial condition
-                                                                  
-
-                                                                  
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 y(0) = 0\text {,} 
 ]]> 
@@ -157,7 +157,7 @@ y(0) = 0\text {,}
 t = 1 
 ]]> 
 </script> using various step sizes.
-</p><!--l. 45--><p class="noindent" >Using a step size of <script type="math/tex"> <![CDATA[ 
+</p><!--l. 51--><p class="noindent" >Using a step size of <script type="math/tex"> <![CDATA[ 
 h = 0.5 
 ]]> 
 </script>, we find <script type="math/tex"> <![CDATA[ 
@@ -173,7 +173,7 @@ y_1 = 0 + 0.5(t_0+2y_0) = 0+(0+2\cdot 0) = 0
 y(t_1) = y(0.5)= 0 
 ]]> 
 </script>.
-</p><!--l. 47--><p class="noindent" >On step two, we see <script type="math/tex"> <![CDATA[ 
+</p><!--l. 53--><p class="noindent" >On step two, we see <script type="math/tex"> <![CDATA[ 
 t_2 = 0.5 + 0.5 = 1 
 ]]> 
 </script>, and <script type="math/tex"> <![CDATA[ 
@@ -183,7 +183,7 @@ y_2 = 0 + 0.5(0.5 + 2\cdot 0) = 0.25
 y(t_2) = y(1) = 0.25 
 ]]> 
 </script>.
-</p><!--l. 49--><p class="noindent" >Let&#x2019;s check our estimation - the actual solution to our differential equation
+</p><!--l. 55--><p class="noindent" >Let&#x2019;s check our estimation - the actual solution to our differential equation
 was
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 y = 0.25\cdot e^{2t}-0.5t-0.25\text {.} 
@@ -196,9 +196,9 @@ t=1
 y = 1.097 
 ]]> 
 </script>.
-</p><!--l. 51--><p class="noindent" >Clearly, our estimation is not very good. But look at our step size! We moved an
+</p><!--l. 57--><p class="noindent" >Clearly, our estimation is not very good. But look at our step size! We moved an
 entire unit in only two steps - but that&#x2019;s an easy fix.
-</p><!--l. 53--><p class="noindent" >Let&#x2019;s look at the result when we use <script type="math/tex"> <![CDATA[ 
+</p><!--l. 59--><p class="noindent" >Let&#x2019;s look at the result when we use <script type="math/tex"> <![CDATA[ 
 h = 0.02 
 ]]> 
 </script>, using Sage! While an example has been
@@ -206,9 +206,12 @@ provided below, <a href="http://doc.sagemath.org/html/en/reference/calculus/sage
 </p><div class="sage"><script type="text/x-sage">from sage.calculus.desolvers import eulers_method#imports the Euler's Method function from Sage
 t,y = PolynomialRing(QQ,2,"ty").gens()#Defines our two variables
 eulers_method(t+2*y,0,0,0.02,1,algorithm="table")#Produces a table of the t and y values.
+                                                                  
+
+                                                                  
  
 </script></div>
-<!--l. 62--><p class="noindent" >Clearly a much better approximation! Note that the <script type="math/tex"> <![CDATA[ 
+<!--l. 68--><p class="noindent" >Clearly a much better approximation! Note that the <script type="math/tex"> <![CDATA[ 
 x 
 ]]> 
 </script> column is simply our <script type="math/tex"> <![CDATA[ 
@@ -224,9 +227,6 @@ h
 </script>, we can increase the accuracy of Euler&#x2019;s
 Method greatly, at the cost of much harder work if done by hand.
 </p>
-                                                                  
-
-                                                                  
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>On Your Own</h3>
      <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
@@ -240,9 +240,11 @@ class="enumerate-enumitem">For the following, use step sizes of <script type="ma
 </script>, and <script type="math/tex"> <![CDATA[ 
 0.1 
 ]]> 
-</script> in combination to approximate the
-     given point. <em>Euler&#x2019;s Method does not require each step to be the same
-     size.</em>
+</script> in combination to approximate
+     the given point.
+     <div class="theorem-like problem-environment remark" id="problem6"><a 
+ id="x1-3002r4"></a>Euler&#x2019;s Method does not require each step to be the same size.
+     </div>
          <dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
       (i) </dt><dd 
 class="enumerate-enumitem"><script type="math/tex"> <![CDATA[ 
@@ -296,14 +298,14 @@ class="speech">How much better is it?
      </dd><dt class="actor">
 James </dt><dd 
 class="speech">Let&#x2019;s take a look!</dd></dl>
-<!--l. 81--><p class="noindent" >The equation for Euler&#x2019;s Midpoint Method is
+<!--l. 91--><p class="noindent" >The equation for Euler&#x2019;s Midpoint Method is
+                                                                  
+
+                                                                  
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 y_k = y_{k-1}+h \cdot m_{k-1}\text {,} 
 ]]> 
 </script>
-                                                                  
-
-                                                                  
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 \text {where } m_{k-1} = F\left (t_{k-1} + \frac {h}{2}, y_{k-1} + \frac {h}{2}F(t_{k-1},y_{k-1})\right )\text {.} 
 ]]> 
@@ -358,8 +360,8 @@ James </dt><dd
 class="speech">Let&#x2019;s make sure we remember what we learned today, okay?</dd></dl>
 <h3 class="sectionHead"><a 
  id="x1-4000"></a>In Summary</h3>
-<div class="theorem-like problem-environment definition" id="problem6"><a 
- id="x1-4001r4"></a><strong>Euler&#x2019;s Method</strong> is a system which approximates solutions of first order differential
+<div class="theorem-like problem-environment definition" id="problem7"><a 
+ id="x1-4001r5"></a><strong>Euler&#x2019;s Method</strong> is a system which approximates solutions of first order differential
 equations by using the rate of change over a small distance to approximate the actual
 change. The basic method uses the equation
                                                                   
@@ -380,8 +382,8 @@ h
 F(x_{n-1}, y_{n-1}) 
 ]]> 
 </script> is the derivative at the previous point.
-</div> <div class="theorem-like problem-environment definition" id="problem7"><a 
- id="x1-4002r5"></a><strong>Euler&#x2019;s Midpoint Method</strong> is a modified version of Euler&#x2019;s Method, which uses
+</div> <div class="theorem-like problem-environment definition" id="problem8"><a 
+ id="x1-4002r6"></a><strong>Euler&#x2019;s Midpoint Method</strong> is a modified version of Euler&#x2019;s Method, which uses
 the derivative at the midpoint between the end and start of the step to better
 approximate the rate of change over the step. This method uses a slightly modified
 equation,
