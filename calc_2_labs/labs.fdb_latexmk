@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1498573703 "labs.tex" "labs.pdf" "labs" 1498573704
+["pdflatex"] 1498573767 "labs.tex" "labs.pdf" "labs" 1498573768
   "/etc/texmf/web2c/texmf.cnf" 1451279870 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/xourse.cls" 1496622168 4826 ec4e2390ed1ff48c90854a43666ed2f8 ""
@@ -251,18 +251,18 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280563 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280644 3844746 6b008947ed367f1201b54964b1675710 ""
   "Sage/sage.tex" 1498158591 3175 e5b24033fcfbcb481e782f5db5b68ec6 ""
-  "labs.aux" 1498573704 1012 5bc747cf43f2525e4cc93ce93237f451 ""
-  "labs.out" 1498573704 208 7e12fc8d34237df61e92f26eae7a4ac3 ""
+  "labs.aux" 1498573768 1012 5bc747cf43f2525e4cc93ce93237f451 ""
+  "labs.out" 1498573768 208 7e12fc8d34237df61e92f26eae7a4ac3 ""
   "labs.sagetex.sout" 1498573521 238 7040381adc23ec6d8e533c74e614bccc ""
-  "labs.tex" 1498573702 203 1b47e8a2babd8411a779cb126ab0a208 ""
-  "labs.toc" 1498573704 245 5fde76b811002146cef49a7ad79c3e73 ""
+  "labs.tex" 1498573766 203 dde29bdc1d754a7a943af7ff44513fbb ""
+  "labs.toc" 1498573768 245 5fde76b811002146cef49a7ad79c3e73 ""
   (generated)
-  "labs.pdf"
-  "labs.aux"
   "labs.log"
-  "labs.oc"
+  "labs.pdf"
   "labs.jax"
-  "labs.ids"
   "labs.sagetex.sage"
+  "labs.aux"
   "labs.toc"
   "labs.out"
+  "labs.ids"
+  "labs.oc"
