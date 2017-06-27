@@ -148,17 +148,16 @@ $f(x) = \frac{1}{5}x$ \hspace{11mm} $\frac{d}{dx} f(x) =  \answer{\frac{1}{5}}$
 \end{dialogue}
 
 \begin{question}
-Consider the differentiable functions $f(x)$ and $g(x)$. We will define a function $j(x) = f(x) + g(x)$.
+Consider the differentiable functions $f(x)$ and $g(x)$. Let $F(x)=f(x)+g(x)$, use the limit definition to find $F'(x)$.
 
-\begin{hint}
-In $j(x+h)$, the $(x+h)$ will replace $x$ in $f(x)$ and $g(x)$ as well.
-\end{hint}
-Take the derivative of $j(x)$ using the limit definition.
-
-$j'(x) =  \lim_{h\to 0} \frac{\answer{j(x+h)-j(x)}}{\answer{h}}$
+\begin{align*}
+F'(x)&= \lim_{h\to 0}\dfrac{F(x+h)-F(x)}{h} \\
+&= \lim_{h\to 0}\dfrac{[f(x+h)+g(x+h)]-[f(x)+g(x)]}{h} \\
+&= \lim_{h\to 0}\eval{\dfrac{\answer{f(x+h)-f(x)}}{h}+\dfrac{\answer{g(x+h)-g(x)}}{h}} \\
+&= \lim_{h\to 0}\dfrac{\answer{f(x+h)-f(x)}}{h}+\lim_{h\to 0}\dfrac{\answer{g(x+h)-g(x)}}{h}
+\end{align*}
 
 What can you generalize based on this?
-
 \begin{multipleChoice}
 \choice{$(f(x) + g(x))' = f'(x) - g'(x)$}
 \choice{$(f(x) + g(x))'= g'(x) + f'(x)$}

@@ -16,28 +16,67 @@
 \end{dialogue}
 
 \section{Examining Parametric Graphs}
-For the following questions, use your favorite CAS to graph the given equations, and give a short explanation of why each graph looks the way it does.
+\textbf{For the following questions, graph the given equations, and give a short explanation of why each graph looks the way it does.}
 \begin{question}
 $x = \sin(2t)$, $y = 2t^2$, $t = [-2,2]$
 
 \[
-\graph{\sin(2t), t=[-2,2]}
+\graph{}
 \]
 
 
 $x = t + \sin(3t)$, $y = 7t + \sin(2t)$, $t = [-6,6]$
+
+\[
+\graph{}
+\]
+
 $x = 3\sin(2t)$, $y = 2\cos(t)$, $t = [0,2*\pi]$
+
+\[
+\graph{}
+\]
+
 $x(t) = 11\cos(t) - 6\cos(\dfrac{11}{6}t), y(t) = 11\sin(t) - 6\sin(\dfrac{11}{6} t)$, $t = [0,50]$
+
+\[
+\graph{}
+\]
+
 \end{question}
 
 \section{On Your Own}
-\begin{enumerate}
+\begin{question}
 \item Your friend Joe is beyond excited about his new car, and wants to see just what it can do, despite your requests to be careful. He has set up a large wooden ramp designed to cause his car to do three barrel rolls before landing. These barrel rolls will be perfect circles, his car is 1.5 meters wide, and will take off exactly at the same angle it will land at.
-\begin{enumerate}
-\item How could the position of his right headlight be modeled, if the center of his front bumper is the origin?
-\item What interval of $t$ should be used to replicate the spinning of Joe's car, assuming he lands the jump?
-\item Using the arc length formula, determine the distance traveled by his right headlight.
-\end{enumerate}
+
+How could the position of his right headlight be modeled, if the center of his front bumper is the origin?
+
+\begin{multipleChoice}
+\choice{$x(t)=\sin(t)$, $y(t)=\cos(t)$}
+\choice{$x(t)=\cos(1.5t)$, $y(t)=\sin(1.5t)$}
+\choice[correct]{$x(t)=1.5 \cdot \cos(t)$, $y(t)=1.5 \cdot \sin(t)$}
+\choice{$x(t)=1.5 \cdot \cos(t)$, $y(t)=\sin(t)$}
+\end{multipleChoice}
+
+What interval of $t$ should be used to replicate the spinning of Joe's car, assuming he lands the jump?
+
+\begin{multipleChoice}
+\choice{$t = [0,4\pi]$}
+\choice{$t = [0,\dfrac{10\pi}{3}]$}
+\choice[correct]{$t = [0,6\pi]$}
+\choice{$t = [0, 2\pi]$}
+\end{multipleChoice}
+
+Using the arc length formula, determine the distance traveled by his right headlight.
+
+\begin{onlineOnly}
+\begin{sageCell}
+
+\end{sageCell}
+\end{onlineOnly}
+
+$\answer{9*\pi}\text{m}$
+
 \item After his successful jump, Joe has become even more daring, deciding to jump across the Grand Canyon. Choosing the narrowest point along the canyon, in Marble Canyon, he needs to jump ``only'' 185 meters to safely land on the other side. Consider the base of the canyon directly under the jump to be the origin. This point lies 140 meters below the ramp.
 \begin{enumerate}
 \item First, design a position equation for Joe's car, starting with acceleration and working your way to position. You will not have the values to solve it, but you will end up with a skeleton for the final equation.
