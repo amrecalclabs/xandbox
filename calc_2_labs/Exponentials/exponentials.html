@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="exponentials.tex" /> 
-<meta name="date" content="2017-06-27 18:13:00" /> 
+<meta name="date" content="2017-06-27 18:48:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -263,7 +263,10 @@ a = 2
 a = 3 
 ]]> 
 </script>. How do they relate to the value
-we&#x2019;re looking for?
+we&#x2019;re looking for (where <script type="math/tex"> <![CDATA[ 
+\displaystyle \lim _{h \to 0} \dfrac {a^h-1}{h} = 1 
+]]> 
+</script>)?
 </p>
 <div class="sage"><script type="text/x-sage">
  
@@ -415,55 +418,55 @@ r > 0
 \left (1+\dfrac {r}{4}\right )^4 
 ]]> 
 </script></span> <span class="choice  "   id="choice45"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{48}\right )^48 
+\left (1+\dfrac {r}{48}\right )^{48} 
 ]]> 
 </script></span> <span class="choice  "   id="choice46"><script type="math/tex"> <![CDATA[ 
 \left (1+\dfrac {r}{3}\right )^3 
 ]]> 
 </script></span> <span class="choice  "   id="choice47"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{25}\right )^25 
+\left (1+\dfrac {r}{25}\right )^{25} 
 ]]> 
 </script></span> </div>
      </li>
      <li class="itemize">Monthly <div class="multiple-choice" id="problem17"><span class="choice  "   id="choice48"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{38}\right )^38 
+\left (1+\dfrac {r}{38}\right )^{38} 
 ]]> 
 </script></span> <span class="choice  "   id="choice49"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{48}\right )^48 
+\left (1+\dfrac {r}{48}\right )^{48} 
 ]]> 
 </script></span> <span class="choice correct "   id="choice50"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{12}\right )^12 
+\left (1+\dfrac {r}{12}\right )^{12} 
 ]]> 
 </script></span> <span class="choice  "   id="choice51"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{35}\right )^35 
+\left (1+\dfrac {r}{35}\right )^{35} 
 ]]> 
 </script></span> </div>
      </li>
      <li class="itemize">Daily <div class="multiple-choice" id="problem18"><span class="choice  "   id="choice52"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{36}\right )^36 
+\left (1+\dfrac {r}{36}\right )^{36} 
 ]]> 
 </script></span> <span class="choice correct "   id="choice53"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{365}\right )^365 
+\left (1+\dfrac {r}{365}\right )^{365} 
 ]]> 
 </script></span> <span class="choice  "   id="choice54"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{380}\right )^380 
+\left (1+\dfrac {r}{380}\right )^{380} 
 ]]> 
 </script></span> <span class="choice  "   id="choice55"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{24}\right )^24 
+\left (1+\dfrac {r}{24}\right )^{24} 
 ]]> 
 </script></span> </div>
      </li>
      <li class="itemize">Hourly <div class="multiple-choice" id="problem19"><span class="choice correct "   id="choice56"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{8760}\right )^8760 
+\left (1+\dfrac {r}{8760}\right )^{8760} 
 ]]> 
 </script></span> <span class="choice  "   id="choice57"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{525600}\right )^525600 
+\left (1+\dfrac {r}{525600}\right )^{525600} 
 ]]> 
 </script></span> <span class="choice  "   id="choice58"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{365}\right )^365 
+\left (1+\dfrac {r}{365}\right )^{365} 
 ]]> 
 </script></span> <span class="choice  "   id="choice59"><script type="math/tex"> <![CDATA[ 
-\left (1+\dfrac {r}{8640}\right )^8640 
+\left (1+\dfrac {r}{8640}\right )^{8640} 
 ]]> 
 </script></span> </div>
      </li></ul>
@@ -476,8 +479,8 @@ becomes
 </p><!--l. 229--><p class="noindent" >Substitute <script type="math/tex"> <![CDATA[ 
 r = 1 
 ]]> 
-</script> into the factor, and evaluate using your CAS. What is your result?
-</p><div class="sage"><script type="text/x-sage">
+</script> into the factor, and evaluate using your the following Sage Cell. What is
+your result? </p><div class="sage"><script type="text/x-sage">
  
 </script></div>
                                                                   
