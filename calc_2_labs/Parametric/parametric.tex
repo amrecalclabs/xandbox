@@ -34,7 +34,7 @@ $x = t + \sin(3t)$, $y = 7t + \sin(2t)$, $t = [-6,6]$
 
 \begin{freeResponse}
 \end{freeResponse}
-$x = 3\sin(2t)$, $y = 2\cos(t)$, $t = [0,2*\pi]$
+$x = 3\sin(2t)$, $y = 2\cos(t)$, $t = [0,2\pi]$
 
 \[
 \graph{}
@@ -59,10 +59,18 @@ $x(t) = 11\cos(t) - 6\cos(\dfrac{11}{6}t), y(t) = 11\sin(t) - 6\sin(\dfrac{11}{6
 How could the position of his right headlight be modeled, if the center of his front bumper is the origin?
 
 \begin{multipleChoice}
-\choice{$x(t)=\sin(t)$, $y(t)=\cos(t)$}
-\choice{$x(t)=\cos(1.5t)$, $y(t)=\sin(1.5t)$}
-\choice[correct]{$x(t)=1.5 \cdot \cos(t)$, $y(t)=1.5 \cdot \sin(t)$}
-\choice{$x(t)=1.5 \cdot \cos(t)$, $y(t)=\sin(t)$}
+\choice{$x(t)=\sin(t)$
+
+$y(t)=\cos(t)$}
+\choice{$x(t)=\cos(1.5t)$
+
+$y(t)=\sin(1.5t)$}
+\choice[correct]{$x(t)=1.5 \cdot \cos(t)$
+
+$y(t)=1.5 \cdot \sin(t)$}
+\choice{$x(t)=1.5 \cdot \cos(t)$
+
+$y(t)=\sin(t)$}
 \end{multipleChoice}
 
 What interval of $t$ should be used to replicate the spinning of Joe's car, assuming he lands the jump?
@@ -84,7 +92,7 @@ $$L = \int_\alpha^\beta \sqrt{\dfrac{dx}{dt}^2 + \dfrac{dy}{dt}^2} \;dt$$
 \end{sageCell}
 \end{onlineOnly}
 \begin{center}
-$\answer{9*\pi}\text{m}$
+$\answer{9\pi}\text{m}$
 \end{center}
 \end{question}
 \begin{question}
@@ -93,19 +101,35 @@ After his successful jump, Joe has become even more daring, deciding to jump acr
 First, design position equations for Joe's car, starting with acceleration and working your way to position. You will not have the values to solve it, but you will end up with a skeleton for the final equation.
 
 \begin{multipleChoice}
-\choice[correct]{$p_y(t) = a_gt^2 + v_0t + 140$,$p_x(t) = v_0t$}
-\choice{$p_y(t) = v_0t + 140$,$p_x(t) = a_gt + v_0$}
-\choice{$p_y(t) = v_0t$,$p_x(t) = a_gt^2 + v_0t$}
-\choice{$p_y(t) = a_gt^2 + 140$,$p_x(t) = v_0t + 140$}
+\choice[correct]{$p_y(t) = a_gt^2 + v_0t + 140$
+
+$p_x(t) = v_0t$}
+\choice{$p_y(t) = v_0t + 140$
+
+$p_x(t) = a_gt + v_0$}
+\choice{$p_y(t) = v_0t$
+
+$p_x(t) = a_gt^2 + v_0t$}
+\choice{$p_y(t) = a_gt^2 + 140$
+
+$p_x(t) = v_0t + 140$}
 \end{multipleChoice}
 
 For acceleration due to gravity, use $9.8 \text{m} \backslash \text{s}^2$. Joe's car leaves the ramp at $60 \text{m}\backslash \text{s}$, at an angle of $30^\circ$. What are the initial velocities in the $x$ and $y$ directions?
 
 \begin{multipleChoice}
-\choice{$v_{x0} = 30 \text{m} \backslash \text{s}$, $v_{y0} = 51.96 \text{m} \backslash \text{s}$}
-\choice{$v_{x0} = 60 \text{m} \backslash \text{s}$, $v_{y0} = 60 \text{m} \backslash \text{s}$}
-\choice[correct]{$v_{x0} = 51.96 \text{m} \backslash \text{s}$, $v_{y0} = 30 \text{m} \backslash \text{s}$}
-\choice{$v_{x0} = 42.42 \text{m} \backslash \text{s}$, $v_{y0} = 42.42 \text{m} \backslash \text{s}$}
+\choice{$v_{x0} = 30 \text{m} \backslash \text{s}$
+
+$v_{y0} = 51.96 \text{m} \backslash \text{s}$}
+\choice{$v_{x0} = 60 \text{m} \backslash \text{s}$
+
+$v_{y0} = 60 \text{m} \backslash \text{s}$}
+\choice[correct]{$v_{x0} = 51.96 \text{m} \backslash \text{s}$
+
+$v_{y0} = 30 \text{m} \backslash \text{s}$}
+\choice{$v_{x0} = 42.42 \text{m} \backslash \text{s}$
+
+$v_{y0} = 42.42 \text{m} \backslash \text{s}$}
 \end{multipleChoice}
 
 What is the equation for $v_{y}$?
