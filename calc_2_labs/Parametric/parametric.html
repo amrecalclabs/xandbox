@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="parametric.tex" /> 
-<meta name="date" content="2017-06-28 13:42:00" /> 
+<meta name="date" content="2017-06-28 13:48:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -16,6 +16,7 @@
 <script data-module="script" data-main="http://ximera.osu.edu/public/javascripts/app.min" src="http://ximera.osu.edu/components/requirejs/require.js"/> 
 </head><body> 
 <div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
 \newcommand {\epstopdfsetup }[0]{\setkeys {ETE}}
  changed the theorem header of amsthm failed\MessageBreak }}}
 \newcommand {\GetTitleStringSetup }[0]{\setkeys {gettitlestring}}
@@ -145,7 +146,7 @@ x = 3\sin (2t)
 y = 2\cos (t) 
 ]]> 
 </script>, <script type="math/tex"> <![CDATA[ 
-t = [0,2*\pi ] 
+t = [0,2\pi ] 
 ]]> 
 </script>
 <!--l. 41--><p class="noindent" ><script type="math/tex; mode=display"> <![CDATA[ 
@@ -189,29 +190,33 @@ bumper is the origin?
 <div class="multiple-choice" id="problem7"><span class="choice  "   id="choice1"><script type="math/tex"> <![CDATA[ 
 x(t)=\sin (t) 
 ]]> 
-</script>, <script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 64--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 y(t)=\cos (t) 
 ]]> 
-</script></span> <span class="choice  "   id="choice2"><script type="math/tex"> <![CDATA[ 
+</script></span> </p><span class="choice  "   id="choice2"><script type="math/tex"> <![CDATA[ 
 x(t)=\cos (1.5t) 
 ]]> 
-</script>, <script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 67--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 y(t)=\sin (1.5t) 
 ]]> 
-</script></span> <span class="choice correct "   id="choice3"><script type="math/tex"> <![CDATA[ 
+</script></span> </p><span class="choice correct "   id="choice3"><script type="math/tex"> <![CDATA[ 
 x(t)=1.5 \cdot \cos (t) 
 ]]> 
-</script>, <script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 70--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 y(t)=1.5 \cdot \sin (t) 
 ]]> 
-</script></span> <span class="choice  "   id="choice4"><script type="math/tex"> <![CDATA[ 
+</script></span> </p><span class="choice  "   id="choice4"><script type="math/tex"> <![CDATA[ 
 x(t)=1.5 \cdot \cos (t) 
 ]]> 
-</script>, <script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 73--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 y(t)=\sin (t) 
 ]]> 
 </script></span> </div>
-<!--l. 68--><p class="noindent" >What interval of <script type="math/tex"> <![CDATA[ 
+</p><!--l. 76--><p class="noindent" >What interval of <script type="math/tex"> <![CDATA[ 
 t 
 ]]> 
 </script> should be used to replicate the spinning of Joe&#x2019;s car, assuming he
@@ -230,10 +235,10 @@ t = [0,6\pi ]
 t = [0, 2\pi ] 
 ]]> 
 </script></span> </div>
-<!--l. 77--><p class="noindent" >Using the arc length formula, determine the distance traveled by his right headlight.
+<!--l. 85--><p class="noindent" >Using the arc length formula, determine the distance traveled by his right headlight.
 Do not use a full period, or Sage will return zero; instead, use half of a period and
 remember to multiply your final result by two!
-</p><!--l. 79--><p class="noindent" >
+</p><!--l. 87--><p class="noindent" >
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 L = \int _\alpha ^\beta \sqrt {\dfrac {dx}{dt}^2 + \dfrac {dy}{dt}^2} \;dt 
 ]]> 
@@ -242,52 +247,56 @@ L = \int _\alpha ^\beta \sqrt {\dfrac {dx}{dt}^2 + \dfrac {dy}{dt}^2} \;dt
 <div class="sage"><script type="text/x-sage">
  
 </script></div>
-<div class="center" 
->
-<!--l. 86--><p class="noindent" >
-</p><!--l. 87--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {9*\pi }\text {m} 
-]]> 
-</script></p></div>
                                                                   
 
                                                                   
-<!--l. 89--><p class="noindent" ></div> </p><div class="problem-environment question" id="problem9"><a 
+<div class="center" 
+>
+<!--l. 94--><p class="noindent" >
+</p><!--l. 95--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {9\pi }\text {m} 
+]]> 
+</script></p></div>
+<!--l. 97--><p class="noindent" ></div> </p><div class="problem-environment question" id="problem9"><a 
  id="x1-3002r7"></a> After his successful jump, Joe has become even more daring, deciding to jump
 across the Grand Canyon. Choosing the narrowest point along the canyon, in Marble
 Canyon, he needs to jump ‘‘only&#x2019;&#x2019; 185 meters to safely land on the other side.
 Consider the base of the canyon directly under the jump to be the origin. This point
 lies 140 meters below the ramp.
-<!--l. 93--><p class="noindent" >First, design position equations for Joe&#x2019;s car, starting with acceleration and working
+<!--l. 101--><p class="noindent" >First, design position equations for Joe&#x2019;s car, starting with acceleration and working
 your way to position. You will not have the values to solve it, but you will end up
 with a skeleton for the final equation.
 </p>
 <div class="multiple-choice" id="problem10"><span class="choice correct "   id="choice9"><script type="math/tex"> <![CDATA[ 
 p_y(t) = a_gt^2 + v_0t + 140 
 ]]> 
-</script>,<script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 106--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 p_x(t) = v_0t 
 ]]> 
-</script></span> <span class="choice  "   id="choice10"><script type="math/tex"> <![CDATA[ 
+</script></span> </p><span class="choice  "   id="choice10"><script type="math/tex"> <![CDATA[ 
 p_y(t) = v_0t + 140 
 ]]> 
-</script>,<script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 109--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 p_x(t) = a_gt + v_0 
 ]]> 
-</script></span> <span class="choice  "   id="choice11"><script type="math/tex"> <![CDATA[ 
+</script></span> </p><span class="choice  "   id="choice11"><script type="math/tex"> <![CDATA[ 
 p_y(t) = v_0t 
 ]]> 
-</script>,<script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 112--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 p_x(t) = a_gt^2 + v_0t 
 ]]> 
-</script></span> <span class="choice  "   id="choice12"><script type="math/tex"> <![CDATA[ 
+</script></span> </p><span class="choice  "   id="choice12"><script type="math/tex"> <![CDATA[ 
 p_y(t) = a_gt^2 + 140 
 ]]> 
-</script>,<script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 115--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 p_x(t) = v_0t + 140 
 ]]> 
 </script></span> </div>
-<!--l. 102--><p class="noindent" >For acceleration due to gravity, use <script type="math/tex"> <![CDATA[ 
+</p><!--l. 118--><p class="noindent" >For acceleration due to gravity, use <script type="math/tex"> <![CDATA[ 
 9.8 \text {m} \backslash \text {s}^2 
 ]]> 
 </script>. Joe&#x2019;s car leaves the ramp at <script type="math/tex"> <![CDATA[ 
@@ -308,29 +317,33 @@ y
 <div class="multiple-choice" id="problem11"><span class="choice  "   id="choice13"><script type="math/tex"> <![CDATA[ 
 v_{x0} = 30 \text {m} \backslash \text {s} 
 ]]> 
-</script>, <script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 123--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 v_{y0} = 51.96 \text {m} \backslash \text {s} 
 ]]> 
-</script></span> <span class="choice  "   id="choice14"><script type="math/tex"> <![CDATA[ 
+</script></span> </p><span class="choice  "   id="choice14"><script type="math/tex"> <![CDATA[ 
 v_{x0} = 60 \text {m} \backslash \text {s} 
 ]]> 
-</script>, <script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 126--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 v_{y0} = 60 \text {m} \backslash \text {s} 
 ]]> 
-</script></span> <span class="choice correct "   id="choice15"><script type="math/tex"> <![CDATA[ 
+</script></span> </p><span class="choice correct "   id="choice15"><script type="math/tex"> <![CDATA[ 
 v_{x0} = 51.96 \text {m} \backslash \text {s} 
 ]]> 
-</script>, <script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 129--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 v_{y0} = 30 \text {m} \backslash \text {s} 
 ]]> 
-</script></span> <span class="choice  "   id="choice16"><script type="math/tex"> <![CDATA[ 
+</script></span> </p><span class="choice  "   id="choice16"><script type="math/tex"> <![CDATA[ 
 v_{x0} = 42.42 \text {m} \backslash \text {s} 
 ]]> 
-</script>, <script type="math/tex"> <![CDATA[ 
+</script>
+<!--l. 132--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 v_{y0} = 42.42 \text {m} \backslash \text {s} 
 ]]> 
 </script></span> </div>
-<!--l. 111--><p class="noindent" >What is the equation for <script type="math/tex"> <![CDATA[ 
+</p><!--l. 135--><p class="noindent" >What is the equation for <script type="math/tex"> <![CDATA[ 
 v_{y} 
 ]]> 
 </script>? </p><div class="multiple-choice" id="problem12"><span class="choice  "   id="choice17"><script type="math/tex"> <![CDATA[ 
@@ -375,7 +388,7 @@ How long will it take Joe to reach the same altitude he started at? <div class="
 10.6040 \text { s} 
 ]]> 
 </script></span> </div>
-<!--l. 133--><p class="noindent" >How far will Joe travel before he returns to 160 meters off the base of the canyon? </p><div class="multiple-choice" id="problem15"><span class="choice  "   id="choice29"><script type="math/tex"> <![CDATA[ 
+<!--l. 157--><p class="noindent" >How far will Joe travel before he returns to 160 meters off the base of the canyon? </p><div class="multiple-choice" id="problem15"><span class="choice  "   id="choice29"><script type="math/tex"> <![CDATA[ 
 183.672 \text { m} 
 ]]> 
 </script></span>
@@ -389,8 +402,11 @@ How long will it take Joe to reach the same altitude he started at? <div class="
 318.12 \text { m} 
 ]]> 
 </script></span> </div>
-<!--l. 141--><p class="noindent" >Does Joe make it across? </p><div class="multiple-choice" id="problem16"><span class="choice correct "   id="choice33">Yes</span> <span class="choice  "   id="choice34">No</span> </div>
-<!--l. 147--><p class="noindent" >What is the necessary initial velocity for him to perfectly make the jump? </p><div class="multiple-choice" id="problem17"><span class="choice  "   id="choice35"><script type="math/tex"> <![CDATA[ 
+<!--l. 165--><p class="noindent" >Does Joe make it across? </p><div class="multiple-choice" id="problem16"><span class="choice correct "   id="choice33">Yes</span> <span class="choice  "   id="choice34">No</span> </div>
+                                                                  
+
+                                                                  
+<!--l. 171--><p class="noindent" >What is the necessary initial velocity for him to perfectly make the jump? </p><div class="multiple-choice" id="problem17"><span class="choice  "   id="choice35"><script type="math/tex"> <![CDATA[ 
 v_{0} = 45.092 \text {m} \backslash \text {s} 
 ]]> 
 </script></span> <span class="choice correct "   id="choice36"><script type="math/tex"> <![CDATA[ 
@@ -404,7 +420,7 @@ v_{0} = 3.5673 \text {m} \backslash \text {s}
 ]]> 
 </script></span>
 </div>
-<!--l. 155--><p class="noindent" ></div> </p><div class="problem-environment question" id="problem18"><a 
+<!--l. 179--><p class="noindent" ></div> </p><div class="problem-environment question" id="problem18"><a 
  id="x1-3003r8"></a> Just before Joe started to accelerate towards the ramp, a young spider crawled onto
 one of his tires! Your friend noticed just before Joe started to move, and was able to
 give the position of the spider in both the <script type="math/tex"> <![CDATA[ 
@@ -415,10 +431,7 @@ y
 ]]> 
 </script> directions with respect to
 time:
-<!--l. 159--><p class="noindent" >
-                                                                  
-
-                                                                  
+<!--l. 183--><p class="noindent" >
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 x = \dfrac {3}{\pi } \cdot (t - \sin (t)) 
 ]]> 
@@ -427,47 +440,47 @@ x = \dfrac {3}{\pi } \cdot (t - \sin (t))
 y = \dfrac {3}{\pi } \cdot (1 - \cos (t))\text {.} 
 ]]> 
 </script>
-</p><!--l. 161--><p class="noindent" >Unfortunately, your friend didn&#x2019;t see what happened after Joe reached the ramp, and
+</p><!--l. 185--><p class="noindent" >Unfortunately, your friend didn&#x2019;t see what happened after Joe reached the ramp, and
 was unable to model everything which followed.
-</p><!--l. 163--><p class="noindent" >If Joe&#x2019;s tires have a radius of <script type="math/tex"> <![CDATA[ 
+</p><!--l. 187--><p class="noindent" >If Joe&#x2019;s tires have a radius of <script type="math/tex"> <![CDATA[ 
 0.4 
 ]]> 
 </script> meters and he must travel 131.85 meters to reach the
 base of the jump, how much distance will the spider have covered in this
 time?
-</p><!--l. 165--><p class="noindent" ><em>Note: We are not looking for the area under the curve here. Think of the distance
+</p><!--l. 189--><p class="noindent" ><em>Note: We are not looking for the area under the curve here. Think of the distance
 around the tire, and the number of rotations the tires will experience.</em>
-</p><!--l. 167--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 191--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {131.85} \text {m} 
 ]]> 
 </script>
-</p><!--l. 169--><p class="noindent" >How does this distance relate to the distance the car itself moved? </p><div class="multiple-choice" id="problem19"><span class="choice  "   id="choice39">The spider
-traveled a greater distance than the car.</span> <span class="choice correct "   id="choice40">The spider traveled the same
-distance as the car.</span> <span class="choice  "   id="choice41">The spider traveled a lesser distance than the car.</span> </div>
-<!--l. 176--><p class="noindent" >For a parametric curve, the area under the curve may be represented by the
-integral
                                                                   
 
                                                                   
+</p><!--l. 193--><p class="noindent" >How does this distance relate to the distance the car itself moved? </p><div class="multiple-choice" id="problem19"><span class="choice  "   id="choice39">The spider
+traveled a greater distance than the car.</span> <span class="choice correct "   id="choice40">The spider traveled the same
+distance as the car.</span> <span class="choice  "   id="choice41">The spider traveled a lesser distance than the car.</span> </div>
+<!--l. 200--><p class="noindent" >For a parametric curve, the area under the curve may be represented by the
+integral
                                  <script type="math/tex; mode=display"> <![CDATA[ 
 A = \int _{t_0}^{t_1} y(t)x'(t) dt \text {.} 
 ]]> 
 </script>
-</p><!--l. 178--><p class="noindent" >What is the area under the curve for one full period? <script type="math/tex"> <![CDATA[ 
+</p><!--l. 202--><p class="noindent" >What is the area under the curve for one full period? <script type="math/tex"> <![CDATA[ 
 \answer {.48*\pi } 
 ]]> 
 </script>
-</p><!--l. 182--><p class="noindent" >How does this relate to the area of the circle which created the cycloid?
+</p><!--l. 206--><p class="noindent" >How does this relate to the area of the circle which created the cycloid?
 </p>
 <div class="center" 
 >
-<!--l. 183--><p class="noindent" >
-</p><!--l. 184--><p class="noindent" >The area of the cycloid is <script type="math/tex"> <![CDATA[ 
+<!--l. 207--><p class="noindent" >
+</p><!--l. 208--><p class="noindent" >The area of the cycloid is <script type="math/tex"> <![CDATA[ 
 \answer {3} 
 ]]> 
 </script> times as much as the area of the circle which traces
 it.</p></div>
-<!--l. 186--><p class="noindent" ></div> </body> 
+<!--l. 210--><p class="noindent" ></div> </body> 
  
 </html>
                                                                   
