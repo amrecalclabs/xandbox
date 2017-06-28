@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1498665130 "curve_sketching.tex" "curve_sketching.pdf" "curve_sketching" 1498665131
+["pdflatex"] 1498666225 "curve_sketching.tex" "curve_sketching.pdf" "curve_sketching" 1498666226
   "/etc/texmf/web2c/texmf.cnf" 1451279870 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1496622168 40037 52c32e9e88db3bdd20c7c3d0afed3cfc ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -257,10 +257,10 @@
   "4b.jpg" 1498222283 12802 ebec3350c468e053a0ca285ac6fa54fa ""
   "4c.jpg" 1498222283 12501 9210b0025db379ead58cea60008b60ee ""
   "ExampleNumberline.png" 1498663995 13291 c43b05c2fc97b81b0fad54dd91c8e5ae ""
-  "curve_sketching.aux" 1498665131 1145 ad2a8e3277044372b2247dbd6b516cff ""
-  "curve_sketching.out" 1498665131 294 ee285027a6ac45fb7ddc122b9410807b ""
+  "curve_sketching.aux" 1498666226 1145 ad2a8e3277044372b2247dbd6b516cff ""
+  "curve_sketching.out" 1498666226 294 ee285027a6ac45fb7ddc122b9410807b ""
   "curve_sketching.sagetex.sout" 0 -1 0 ""
-  "curve_sketching.tex" 1498665129 12119 34fd8e5b336f63cc6518a80631fc8930 ""
+  "curve_sketching.tex" 1498666222 12532 26c8e00a247661e0cfa76ca43db23cfb ""
   "match1.jpg" 1498072987 24720 1701991e2a7de51a3e493dc373898f49 ""
   "match2.jpg" 1498072987 24821 e4ca426d709432d3a93c315a38a78675 ""
   "match3.jpg" 1498072987 29991 5580f860da1bef6f43f8a03ec31e3d76 ""
@@ -269,11 +269,11 @@
   "nope2.jpg" 1498073527 13194 7d9ed34a6c1ece3122b6dcd9997d55fe ""
   "nope3.jpg" 1498075042 14492 8b438586eaa38857957442c39d028f61 ""
   (generated)
-  "curve_sketching.pdf"
-  "curve_sketching.oc"
-  "curve_sketching.aux"
-  "curve_sketching.log"
-  "curve_sketching.jax"
   "curve_sketching.out"
-  "curve_sketching.sagetex.sage"
+  "curve_sketching.jax"
+  "curve_sketching.log"
   "curve_sketching.ids"
+  "curve_sketching.sagetex.sage"
+  "curve_sketching.oc"
+  "curve_sketching.pdf"
+  "curve_sketching.aux"
