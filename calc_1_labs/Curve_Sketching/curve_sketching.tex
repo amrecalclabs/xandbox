@@ -346,35 +346,45 @@ For the following problems, select the correct match of $f(x),f'(x), and f''(x)$
 
 
 \section{In Summary}
-In this lab, you've covered quite a bit. To help organize everything, we've made the following table for you.
+In this lab, you've covered quite a bit. To help organize everything, we've put the important theorems below.
 
 We've also included the second derivative test below, which is another method to determine if a critical point is a maximum, minimum, or saddle point. To do this, you simply evaluate the second derivative at the critical point, and determine what that point is based on the value, as shown in the table.
 
-\begin{tabular}{| l | p{7.5cm} |}
-\hline
-First Derivative Test & When $f'(x) = 0$: \begin{enumerate}
-\item{A maximum occurs if at this point, the sign of the derivative changes from positive to negative.}
-\item{A minimum occurs at this point if the sign of the derivative changes from negative to positive.}
-\item{A saddle point occurs at this point if the sign of the derivative is the same on both sides of the point.}
-\end{enumerate}
-When $f'(x)$ does not exist:
+\begin{theorem}[First Derivative Test]
+Suppose that $c$ is a critical number($f'(c)=0$) on a continuous function $f$.
 \begin{enumerate}
-\item{If $x$ is in the domain of $f(x)$, follow the same steps as when $f'(x)=0\text{.}$}
-\item{If $x$ is not in the domain, then $x$ is not a critical point.}
-\end{enumerate}\\
-\hline
-Concavity Test &  If $f''(x)$ exists for all $x\in(a,b)$ \begin{enumerate}
+\item If $f'$ changes from positive to negative at $c$, then $f$ has a local maximum at $c$.
+\item If $f'$ changes from negative to positive at $c$, then $f$ has a local minimum at $c$.
+\item If $f'$ does not change sign at $c$, then $f$ has a saddle point at $c$.
+\end{enumerate}
+\begin{remark}
+When $f'(c)$ does not exist:
+\begin{enumerate}
+\item{If $c$ is in the domain of $f$, follow the same steps as when $f'(c)=0\text{.}$}
+\item{If $c$ is not in the domain, then $c$ is not a critical number.}
+\end{enumerate}
+\end{remark}
+\end{theorem}
+
+\begin{theorem}[Concavity Test]
+If $f''(x)$ exists for all $x\in(a,b)$ 
+\begin{enumerate}
 \item{If $f''(x)>0$ for all $x\in(a,b)$, then $f$ is concave up on $(a,b)$}
 \item{If $f''(x)<0$ for all $x\in(a,b)$, then $f$ is concave down on $(a,b)$}
-\end{enumerate}\\
-\hline
-Test for Infection Points &  If $f''(c)=0$ or $f''(x)$ does not exist and $f''(x)$ changes sign at $x=c$, then $f$ has a point of inflection at $x=c$\\
-\hline
-Second Derivative Test &  \hspace{5mm}If $f'(x)=0\text{,}$ \begin{enumerate}
-\item{A local maximum occurs if $f''(x)<0$.}
-\item{A local minimum occurs if $f''(x)>0$.}
-\item{The test fails if $f''(x)=0$.}
-\end{enumerate}\\ \hline
-\end{tabular}
+\end{enumerate}
+\end{theorem}
+
+\begin{theorem}[Test for Inflection Points]
+If $f''(c)=0$ or $f''(c)$ does not exist and $f''(x)$ changes sign at $x=c$, then $f$ has a point of inflection at $x=c$
+\end{theorem}
+
+\begin{theorem}[Second Derivative Test]
+Let $c$ be a critical point of $f(x)$. If $f''(c)$ exists, then
+\begin{enumerate}
+\item{If $f''(c)>0$, then $f(c)$ is a local minimum.}
+\item{If $f''(c)<0$, then $f(c)$ is a local maximum.}
+\item{If $f''(c)=0$, then the test is inconclusive: $f(c)$ could be a local max, min, or neither.}
+\end{enumerate}
+\end{theorem}
 \end{document}
 %\pagebreak
