@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  29 JUN 2017 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  29 JUN 2017 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**derivative.tex
-(./derivative.tex
+**intro.tex
+(./intro.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 
@@ -415,9 +415,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \c@ST@cmdline=\count121
 \sagetexindent=\skip46
 
-No file derivative.sagetex.sout.
+(./intro.sagetex.sout)
 \sagecommandlineskip=\skip47
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip48
 \enit@outerparindent=\dimen157
@@ -1095,7 +1096,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \c@titlenumber=\count200
 \c@sectiontitlenumber=\count201
 \outcomefile=\write6
-\openout6 = `derivative.oc'.
+\openout6 = `intro.oc'.
 
 \c@theorem=\count202
 \c@algorithm=\count203
@@ -1123,14 +1124,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \c@template=\count225
 \c@warning=\count226
 \idfile=\write7
-\openout7 = `derivative.ids'.
+\openout7 = `intro.ids'.
 
 \c@track@Problem=\count227
 \c@shuffle@Count=\count228
 \c@problem=\count229
 \c@problemType=\count230
 \myfile=\write8
-\openout8 = `derivative.jax'.
+\openout8 = `intro.jax'.
 
 )
 (../preamble.tex (/usr/share/texlive/texmf-dist/tex/latex/esint/esint.sty
@@ -1410,8 +1411,8 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \mc@col@check@num=\count304
 )
 \digitwidth=\dimen267
-) (./derivative.aux)
-\openout1 = `derivative.aux'.
+) (./intro.aux)
+\openout1 = `intro.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -1427,7 +1428,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
- ABD: EveryShipout initializing macros
+
+ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count305
@@ -1458,7 +1460,7 @@ e
 ))
 \c@lstlisting=\count311
 \ST@sf=\write9
-\openout9 = `derivative.sagetex.sage'.
+\openout9 = `intro.sagetex.sage'.
 
 
 
@@ -1481,78 +1483,58 @@ LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
 
-(./derivative.out) (./derivative.out)
+(./intro.out) (./intro.out)
 \@outlinefile=\write10
-\openout10 = `derivative.out'.
+\openout10 = `intro.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+esint on input line 7.
+LaTeX Font Info:    Try loading font information for U+esint on input line 25.
 
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-] [2]pdfTeX warning (ext4): destination with the same identifier (name{problem.
-1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.117 \begin
-            {hint} [3]pdfTeX warning (ext4): destination with the same identifi
-er (name{problem.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.144 $
-       m(x) = x^3$ [4]
+)
 *********************************************************************
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
- (./derivative.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
-Package rerunfilecheck Info: File `derivative.out' has not changed.
-(rerunfilecheck)             Checksum: D8B3160A1DD9FD814FACDD3B217F7EFC;189.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
+ (./intro.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
+Package rerunfilecheck Info: File `intro.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 41067 strings out of 493085
- 925321 string characters out of 6136916
- 1142506 words of memory out of 5000000
- 43743 multiletter control sequences out of 15000+600000
- 15045 words of font info for 61 fonts, out of 8000000 for 9000
+ 40978 strings out of 493085
+ 924329 string characters out of 6136916
+ 1139565 words of memory out of 5000000
+ 43696 multiletter control sequences out of 15000+600000
+ 6968 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,8n,79p,10423b,678s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,7n,79p,10418b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msam10.pfb>
-Output written on derivative.pdf (5 pages, 210920 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt10.pfb>
+Output written on intro.pdf (1 page, 95948 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 54 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

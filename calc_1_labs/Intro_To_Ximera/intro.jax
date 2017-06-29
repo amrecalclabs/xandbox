@@ -169,8 +169,6 @@
 \newcommand {\nameref  }[0]{\@ifstar \@namerefstar \T@nameref }
 \newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
 \newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
-\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
-\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[0]{\AtBeginDocument }
