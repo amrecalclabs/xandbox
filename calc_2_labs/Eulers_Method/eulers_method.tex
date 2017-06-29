@@ -56,7 +56,7 @@ Let's check our estimation - the actual solution to our differential equation wa
 
 Clearly, our estimation is not very good. But look at our step size! We moved an entire unit in only two steps - but that's an easy fix.
 
-Let's look at the result when we use $h = 0.02$, using Sage! While an example has been provided below, \href{http://doc.sagemath.org/html/en/reference/calculus/sage/calculus/desolvers.html#sage.calculus.desolvers.eulers\_method}{click here}for the documentation on how to use eulers\_method!
+Let's look at the result when we use $h = 0.02$, using Sage! While an example has been provided below, \href{http://doc.sagemath.org/html/en/reference/calculus/sage/calculus/desolvers.html#sage.calculus.desolvers.eulers\_method}{click here} for the documentation on how to use eulers\_method!
 \begin{onlineOnly}
 \begin{sageCell}
 from sage.calculus.desolvers import eulers_method#imports the Euler's Method function from Sage
@@ -65,7 +65,7 @@ eulers_method(t+2*y,0,0,0.02,1,algorithm="table")#Produces a table of the t and 
 \end{sageCell}
 \end{onlineOnly}
 
-Clearly a much better approximation! Note that the $x$ column is simply our $t$, which Sage uses an $x$ for. By simply decreasing $h$, we can increase the accuracy of Euler's Method greatly, at the cost of much harder work if done by hand.
+Clearly a much better approximation! Note that the $x$ column is simply our $t$, Sage uses an $x$ instead of $t$. By simply decreasing $h$, we can increase the accuracy of Euler's Method greatly, at the cost of much harder work if done by hand.
 
 \section{On Your Own}
 

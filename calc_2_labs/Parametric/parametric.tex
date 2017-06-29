@@ -1,5 +1,5 @@
 \documentclass{ximera}
-\title{Parametric}
+\title{Parametric Equations}
 \begin{abstract}
 \end{abstract}
 \begin{document}
@@ -16,7 +16,13 @@
 \end{dialogue}
 
 \section{Examining Parametric Graphs}
-\textbf{For the following questions, graph the given equations, and give a short explanation of why each graph looks the way it does.}
+\begin{dialogue}
+\item[Dylan] So, how exactly do we input parametric equations in Desmos?
+\item[James] It's easy! First, we put a parenthesis, then the equation for our $x$-value. After that, we put a comma, our $y$-value equation, then close our parentheses!
+\item[Julia] But how do we work with our $t$ then?
+\item[James] Desmos will pop up a range for $t$ just under your equations!
+\end{dialogue}
+For the following questions, graph the given equations, and give a short explanation of why each graph looks the way it does.
 \begin{question}
 $x = \sin(2t)$, $y = 2t^2$, $t = [-2,2]$
 
@@ -42,7 +48,7 @@ $x = 3\sin(2t)$, $y = 2\cos(t)$, $t = [0,2\pi]$
 
 \begin{freeResponse}
 \end{freeResponse}
-$x(t) = 11\cos(t) - 6\cos(\dfrac{11}{6}t), y(t) = 11\sin(t) - 6\sin(\dfrac{11}{6} t)$, $t = [0,50]$
+$x(t) = 11\cos(t) - 6\cos\left(\dfrac{11}{6}t\right), y(t) = 11\sin(t) - 6\sin\left(\dfrac{11}{6} t\right)$, $t = [0,50]$
 
 \[
 \graph{}
@@ -84,7 +90,7 @@ What interval of $t$ should be used to replicate the spinning of Joe's car, assu
 
 Using the arc length formula, determine the distance traveled by his right headlight. Do not use a full period, or Sage will return zero; instead, use half of a period and remember to multiply your final result by two!
 
-$$L = \int_\alpha^\beta \sqrt{\dfrac{dx}{dt}^2 + \dfrac{dy}{dt}^2} \;dt$$
+$$L = \int_\alpha^\beta \sqrt{\left(\dfrac{dx}{dt}\right)^2 + \left(\dfrac{dy}{dt}\right)^2} \;dt$$
 
 \begin{onlineOnly}
 \begin{sageCell}
@@ -118,18 +124,18 @@ $p_x(t) = v_0t + 140$}
 For acceleration due to gravity, use $9.8 \text{m} \backslash \text{s}^2$. Joe's car leaves the ramp at $60 \text{m}\backslash \text{s}$, at an angle of $30^\circ$. What are the initial velocities in the $x$ and $y$ directions?
 
 \begin{multipleChoice}
-\choice{$v_{x0} = 30 \text{m} \backslash \text{s}$
+\choice{$v_{x0} = 30 \text{m} / \text{s}$
 
-$v_{y0} = 51.96 \text{m} \backslash \text{s}$}
-\choice{$v_{x0} = 60 \text{m} \backslash \text{s}$
+$v_{y0} = 51.96 \text{m} / \text{s}$}
+\choice{$v_{x0} = 60 \text{m} / \text{s}$
 
-$v_{y0} = 60 \text{m} \backslash \text{s}$}
-\choice[correct]{$v_{x0} = 51.96 \text{m} \backslash \text{s}$
+$v_{y0} = 60 \text{m} / \text{s}$}
+\choice[correct]{$v_{x0} = 51.96 \text{m} / \text{s}$
 
-$v_{y0} = 30 \text{m} \backslash \text{s}$}
-\choice{$v_{x0} = 42.42 \text{m} \backslash \text{s}$
+$v_{y0} = 30 \text{m} / \text{s}$}
+\choice{$v_{x0} = 42.42 \text{m} / \text{s}$
 
-$v_{y0} = 42.42 \text{m} \backslash \text{s}$}
+$v_{y0} = 42.42 \text{m} / \text{s}$}
 \end{multipleChoice}
 \begin{feedback}[correct]
 What is the equation for $v_{y}$?
@@ -172,10 +178,10 @@ Does Joe make it across?
 
 What is the necessary initial velocity for him to perfectly make the jump?
 \begin{multipleChoice}
-\choice{$v_{0} = 45.092 \text{m} \backslash \text{s}$}
-\choice[correct]{$v_{0} = 40.3672 \text{m} \backslash \text{s}$}
-\choice{$v_{0} = 35.673 \text{m} \backslash \text{s}$}
-\choice{$v_{0} = 3.5673 \text{m} \backslash \text{s}$}
+\choice{$v_{0} = 45.092 \text{m} / \text{s}$}
+\choice[correct]{$v_{0} = 40.3672 \text{m} / \text{s}$}
+\choice{$v_{0} = 35.673 \text{m} / \text{s}$}
+\choice{$v_{0} = 3.5673 \text{m} / \text{s}$}
 \end{multipleChoice}
 
 \end{question}
