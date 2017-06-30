@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  30 JUN 2017 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  30 JUN 2017 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1516,11 +1516,11 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/sl' in size <9> not available
  [2] [3] [4]
 *********************************************************************
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
  (./intro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `intro.out' has not changed.
 (rerunfilecheck)             Checksum: E8C504EA1F2B459DA2FE795926FBE67C;255.
 
@@ -1529,9 +1529,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 41086 strings out of 493085
- 925452 string characters out of 6136916
- 1143565 words of memory out of 5000000
+ 41088 strings out of 493085
+ 925474 string characters out of 6136916
+ 1144565 words of memory out of 5000000
  43748 multiletter control sequences out of 15000+600000
  14854 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1552,10 +1552,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on intro.pdf (5 pages, 194492 bytes).
+Output written on intro.pdf (5 pages, 194823 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
