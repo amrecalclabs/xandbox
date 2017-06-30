@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="newton_method.tex" /> 
-<meta name="date" content="2017-06-27 16:02:00" /> 
+<meta name="date" content="2017-06-30 14:30:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -98,10 +98,10 @@ f(f(x))
 </script>?
 </p>
 <div class="multiple-choice" id="problem3"><span class="choice  "   id="choice5"><script type="math/tex"> <![CDATA[ 
-y=f(x) \cdot x + b 
+y=f(x) \cdot x + f(x_0) 
 ]]> 
 </script></span> <span class="choice correct "   id="choice6"><script type="math/tex"> <![CDATA[ 
-y = f'(x_0)\cdot x_0+b 
+y = f'(x_0)\cdot (x-x_0)+f(x_0) 
 ]]> 
 </script></span> <span class="choice  "   id="choice7"><script type="math/tex"> <![CDATA[ 
 y = f'(x) \cdot b + x_0 
@@ -143,7 +143,7 @@ x_0=3
 ]]> 
 </script>.
 </p><!--l. 61--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-y = \answer {6x-12} 
+y = \answer {6x-10} 
 ]]> 
 </script>
 </p><!--l. 63--><p class="noindent" >Plot the tangent line and function on the same axes. Does the x-intercept of the
@@ -152,7 +152,7 @@ tangent line seem more or less accurate than your initial estimate?
 <div class="multiple-choice" id="problem6"><span class="choice correct "   id="choice13">More Accurate</span> <span class="choice  "   id="choice14">Less Accurate</span> </div>
 <!--l. 70--><p class="noindent" >What is the x-intercept of the tangent line?
 </p><!--l. 72--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {2.5} 
+\answer {\frac {5}{3}} 
 ]]> 
 </script> </p><div class="sage"><script type="text/x-sage">
  
@@ -170,8 +170,11 @@ g(x) = x^3-4x^2-1
 </script>. <script type="math/tex; mode=display"> <![CDATA[ 
  \graph {x^3-4x^2-1}  
 ]]> 
-</script> Explain why the function has only one solution with the
-help of the graph.
+</script> Why does <script type="math/tex"> <![CDATA[ 
+g(x)=0 
+]]> 
+</script> have only one solution? Explain with the help of
+a graph.
 <div class="free-response" id="problem8"><a 
  id="x1-3003r4"></a>
 </div>
@@ -214,10 +217,21 @@ get?
 ]]> 
 </script>
 </p><!--l. 123--><p class="noindent" >Why is it important to use caution with your first guess when doing Newton&#x2019;s
-Method by hand? </p><div class="free-response" id="problem10"><a 
+Method by hand? It might help you to understand why if you plot both the
+function and the tangent lines from Newton&#x2019;s method in the following Desmos
+graph.
+</p><!--l. 127--><p class="noindent" ><script type="math/tex; mode=display"> <![CDATA[ 
+ \graph {}  
+]]> 
+</script>
+</p>
+<div class="free-response" id="problem10"><a 
  id="x1-3005r6"></a>
 </div>
 </div>
+                                                                  
+
+                                                                  
 <div class="problem-environment question" id="problem11"><a 
  id="x1-3006r7"></a> Consider the function <script type="math/tex"> <![CDATA[ 
 h(x) = 4x^3 - 12x^2 + 2x + 1 
@@ -228,36 +242,41 @@ h(x) = 4x^3 - 12x^2 + 2x + 1
 </script> <div class="sage"><script type="text/x-sage">
  
 </script></div>
-<!--l. 140--><p class="noindent" >Use an initial guess of <script type="math/tex"> <![CDATA[ 
+<!--l. 145--><p class="noindent" >Use an initial guess of <script type="math/tex"> <![CDATA[ 
 x=3 
 ]]> 
 </script> to estimate a root of <script type="math/tex"> <![CDATA[ 
 h(x) 
 ]]> 
 </script>. What did you get after the fifth
-                                                                  
-
-                                                                  
 iteration?
-</p><!--l. 142--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 147--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer [tolerance=0.01]{2.78854472256823} 
 ]]> 
 </script>
-</p><!--l. 144--><p class="noindent" >Look at the graph, and attempt to estimate another root using <script type="math/tex"> <![CDATA[ 
+</p><!--l. 149--><p class="noindent" >Look at the graph, and attempt to estimate another root using <script type="math/tex"> <![CDATA[ 
 x = 0 
 ]]> 
 </script>. Did you find the
 root to the right or the left of this point?
 </p>
 <div class="multiple-choice" id="problem12"><span class="choice correct "   id="choice15">Left</span> <span class="choice  "   id="choice16">Right</span> </div>
-<!--l. 151--><p class="noindent" >Increment the initial guess by <script type="math/tex"> <![CDATA[ 
-0.02 
-]]> 
-</script> and use Newton&#x2019;s method until you find the other
-root. What value of <script type="math/tex"> <![CDATA[ 
+<!--l. 156--><p class="noindent" >Increment the <script type="math/tex"> <![CDATA[ 
 x 
 ]]> 
-</script> is the first to work? <script type="math/tex"> <![CDATA[ 
+</script> guess by <script type="math/tex"> <![CDATA[ 
+0.02 
+]]> 
+</script> and use Newton&#x2019;s method until you find the root on the
+right. What value of <script type="math/tex"> <![CDATA[ 
+x 
+]]> 
+</script> is the first to work?
+</p>
+<div class="sage"><script type="text/x-sage">
+ 
+</script></div>
+<!--l. 164--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {0.1} 
 ]]> 
 </script>

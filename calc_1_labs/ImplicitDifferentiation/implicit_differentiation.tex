@@ -109,6 +109,8 @@ Notice that Sage uses y(x) for y in the output.
 \end{feedback}
 \end{question}
 \section{On Your Own}
+In each of the following problems, evaluate the derivative by hand, and use the Sage cells as a check.
+
 Consider the equation $y^4+xy=x^3-x+2$. Using the following Sage cell implicitly differentiate to find $\frac{dy}{dx}$ using the same commands as shown in the previous question.
 \begin{onlineOnly}
 \begin{sageCell}
@@ -151,9 +153,11 @@ Graph $3x - 2y + x^3-x^2y = 0$ and $x^2 - 2x + y^2 - 3y = 0$ on the same set of 
 \]
 
 Do they look perpendicular anywhere?
-$\answer[format=string,validator=caseInsensitive]{Yes}$
-\end{question}
-\begin{question}
+\begin{multipleChoice}
+\choice[correct]{Yes}
+\choice{No}
+\end{multipleChoice}
+
 \begin{hint}
 To show two lines are perpendicular you must show that the slope of one is the opposite inverse of the other
 \end{hint}
@@ -163,11 +167,11 @@ Show the two curves are (or are not) perpendicular at the origin. You can do thi
 
 \end{sageCell}
 \end{onlineOnly}
-Slope of $3x - 2y + x^3-x^2y = 0$ at the origin 
+Slope of $3x - 2y + x^3-x^2y = 0$ at the origin:
 
 $\answer{3/2}$
 
-Slope of $x^2 - 2x + y^2 - 3y = 0$ at the origin 
+Slope of $x^2 - 2x + y^2 - 3y = 0$ at the origin:
 
 $\answer{-2/3}$
 

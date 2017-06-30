@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  27 JUN 2017 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  30 JUN 2017 14:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1596,19 +1596,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 )
-l.23 --- TeX4ht warning --- Cannot determine size of graphic in Table.jpg (no B
+l.25 --- TeX4ht warning --- Cannot determine size of graphic in Table.jpg (no B
 oundingBox) ---
-l. 23 --- needs --- Table.jpg ---
+l. 25 --- needs --- Table.jpg ---
 [1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1616,7 +1616,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1628,12 +1628,12 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 *********************************************************************
 [10] [11] (./Riemann.aux) ) 
 Here is how much of TeX's memory you used:
- 37624 strings out of 493086
- 821288 string characters out of 6136942
- 1102498 words of memory out of 5000000
- 40352 multiletter control sequences out of 15000+600000
+ 37627 strings out of 493086
+ 821329 string characters out of 6136942
+ 1103501 words of memory out of 5000000
+ 40355 multiletter control sequences out of 15000+600000
  6161 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,6n,79p,10902b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Riemann.dvi (11 pages, 31796 bytes).
+Output written on Riemann.dvi (11 pages, 32300 bytes).
