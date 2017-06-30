@@ -17,7 +17,9 @@
 \end{dialogue}
 
 \section{Introduction}
-Riemann sums are a method of approximating area under a curve, we will look at three varieties; left, right, and midpoint.
+Riemann sums are a method of approximating area under a curve. In this lab, we will look at three varieties; left, right, and midpoint.
+
+Please answer to at least three decimal places throughout this lab!
 
 \begin{image}
 \includegraphics{Table}
@@ -114,6 +116,10 @@ $\answer[tolerance=0.001]{71.3773148148148}$
 
 Compute the integral numerically by evaluating the following Sage cell. Which of these estimates was most accurate? Show the percent error for each type of Riemann sum, rounding to two decimal places.
 
+\begin{remark}
+Recall that percent error is calculated with the following formula: $$\left|\dfrac{\text{Calculated}-\text{Actual}}{Actual}\right| \cdot 100$$
+\end{remark}
+
 \begin{onlineOnly}
 \begin{sageCell}
 integral(x^2,x,0,6)
@@ -128,9 +134,9 @@ Most Accurate:
 \end{multipleChoice}
 Left Percent Error: $\answer{19.91}$\%
 
-Middle Percent Error: $\answer{0.86}$
+Middle Percent Error: $\answer{0.86}$\%
 
-Right Percent Error: $\answer{20.60}$
+Right Percent Error: $\answer{20.60}$\%
 \end{question}
 
 \section{Decreasing, Concave Up}
@@ -351,7 +357,7 @@ As $n$ grows larger, will the rectangle be wider than a single point? What does 
 How would you represent the height of each rectangle when divided into $n$ subintervals?
 
 \begin{multipleChoice}
-\choice{$f(x)$}
+\choice[correct]{$f(x_i)$}
 \choice{$f(x_b)-f(x_a)$}
 \choice{$\frac{f(x_b)-f(x_a)}{2}$}
 \choice{$\sum_{i=a}^b f(x_i)$}
@@ -386,7 +392,7 @@ Following this, the area of each rectangle is added to approximate the area unde
 \end{definition}
 
 \begin{itemize}
-\item{The formula for the definite integral is $$\displaystyle \int_a^b f(x) = \lim_{n\to\infty} \sum_{i=1}^n f(x) \cdot \frac{a-b}{n}$$where $a$ and $b$ are the endpoints of the interval.}
+\item{The formula for the definite integral is $$\displaystyle \int_a^b f(x) = \lim_{n\to\infty} \sum_{i=1}^n f(x) \cdot \frac{b-a}{n}$$where $a$ and $b$ are the endpoints of the interval.}
 \end{itemize}
 \pagebreak
 \end{document}

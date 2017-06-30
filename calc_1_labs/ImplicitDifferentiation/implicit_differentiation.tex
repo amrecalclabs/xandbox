@@ -19,7 +19,7 @@
 So far we have dealt only with explicitly defined functions, where $y=f(x)$. Here $y$ is dependent variable and it is given in terms of the independent variable $x$. Functions given in terms of both independent and dependent variables are called \textit{implicit} functions.
 \section{Guided Example}
 \begin{question}
-Which of the following equations are defined implicitly?
+Which of the following equations defined $y$ as a function of $x$ implicitly?
 \begin{selectAll}
 \choice{$$y=x^2+5x-7$$}
 \choice{$$y=\sin(x)$$}
@@ -28,11 +28,11 @@ Which of the following equations are defined implicitly?
 \choice[correct]{$x^2y^3+y = 5x+8y$}
 \end{selectAll}
 \end{question}
-Graph the following implicitly defined function below, $$x^2+y^2=1$$
+Graph the curve defined by this equation: $$x^2+y^2=1$$
 \[
 \graph{}
 \]
-Now, in the following Sage cell, solve the function for $y$. For help using the solve command refer to the \href{http://doc.sagemath.org/html/en/tutorial/tour_algebra.html#solving-equations}{documentation} here.
+Now, in the following Sage cell, solve for $y$. For help using the solve command refer to the \href{http://doc.sagemath.org/html/en/tutorial/tour_algebra.html#solving-equations}{documentation} here.
 \begin{onlineOnly}
 \begin{sageCell}
 x,y = var("x, y")
@@ -47,9 +47,9 @@ Graph the two explicit equations on the same axis below.
 \begin{question}
 Which of the following are true?
 \begin{selectAll}
-\choice{$x^2+y^2=1$ is a function}
-\choice[correct]{$y=-\sqrt{1-x^2}$ is a function}
-\choice[correct]{$y=\sqrt{1-x^2}$ is a function}
+\choice{$x^2+y^2=1$ is a function of $x$.}
+\choice[correct]{$y=-\sqrt{1-x^2}$ is a function of $x$.}
+\choice[correct]{$y=\sqrt{1-x^2}$ is a function of $x$.}
 \end{selectAll}
 \end{question}
 
@@ -59,7 +59,7 @@ Which of the following are true?
 
 \end{sageCell}
 \end{onlineOnly}
-Using the functions you found, differentiate to find the slope of the tangent lines at the point $\left(\frac{\sqrt{2}}{2}\right),\left(\frac{\sqrt{2}}{2}\right)$. You may do this in the above Sage cell or by hand.
+Using the functions you found, differentiate to find the slope of the tangent lines at the point $\big( \left(\frac{\sqrt{2}}{2}\right),\left(\frac{\sqrt{2}}{2}\right) \big)$. You may do this in the above Sage cell or by hand.
 
 $\answer{-1}$
 

@@ -1,6 +1,6 @@
 \documentclass{ximera}
 \input{../preamble.tex}
-\title{Differentiation Rules! Again!}
+\title{Differentiation Rules Part Two}
 \begin{abstract}
 \end{abstract}
 \begin{document}
@@ -26,7 +26,7 @@
 \end{dialogue}
 Consider the functions $f(x) = 2x$ and $g(x) = 3x^3 + x^2$.
 \[
-\graph{2x, 3x^3+x^2}
+\graph{f(x)=2x, g(x)=3x^3+x^2}
 \]
 \begin{question}
 Use Julia's guess to find the derivative of $f(x) \cdot g(x)$.
@@ -45,8 +45,10 @@ Use the limit definition of the derivative to find the derivative of $f(x) \cdot
 $\answer{24x^3+6x^2}$
 
 Was Julia right?
-
-$\answer[format=string,validator=caseInsensitive]{No}$
+\begin{multipleChoice}
+\choice{Yes}
+\choice[correct]{No}
+\end{multipleChoice}
 \end{question}
 \begin{dialogue}
 \item[Julia] Darn! It didn't work!
@@ -83,21 +85,24 @@ $\answer{78x^{38}}$
 \item[Dylan] Alright, well, I guess I would divide the derivative of the numerator by the derivative of the denominator.
 \end{dialogue}
 \begin{question}
-Consider the functions $f(x) = x^3$ and $g(x) = \cos(x)$.
+Consider the functions $f(x) = x^3+1$ and $g(x) = x$.
 \[
-\graph{x^3, cos(x)}
+\graph{f(x)=x^3+1, g(x)=x}
 \]
 Use Dylan's guess to find the derivative of $\frac{f(x)}{g(x)}$.
 
-$\answer{3x^2/\sin(x)}$
+$\answer{3x^2/1}$
 
 Use the limit definition of the derivative to find the derivative of $\frac{f(x)}{g(x)}$.
 
-$\answer{(\cos(x)3x^2-x^3\sin(x))/\cos(x)^2}$
+$\answer{(2x^3-1)/x^2}$
 
 Was Dylan right?
 
-$\answer[format=string,validator=caseInsensitive]{No}$
+\begin{multipleChoice}
+\choice{Yes}
+\choice[correct]{No}
+\end{multipleChoice}
 \end{question}
 \begin{dialogue}
 \item[Julia] I knew it! It's never that easy!
@@ -129,43 +134,42 @@ $\answer{-25/(2x^{26})}$
 \item[Julia] Yeah, what else is there?
 \item[James] We use the chain rule in composition of functions, like when we have $\sin(2x)$ - $2x$ is a function, and so is $\sin(x)$
 \item[Julia] And how bad is the rule?
-\item[James] This one is a little more tricky - $$\frac{d}{dx}f(g(x)) = f'(g(x))*g'(x)\text{.}$$
+\item[James] This one is a little more tricky - $$\frac{d}{dx}f(g(x)) = f'(g(x))\cdot g'(x)\text{.}$$
 \item[Dylan and Julia] That's so gross.
 \item[James] Well, let's give it a try and see if you like it more than the limit definition!
 \end{dialogue}
 \begin{question}
-Consider $f(x) = \cos(x)$ and $g(x) = 2x$
+Consider $f(x) = \sqrt(x)$ and $g(x) = \frac{1}{x}$
 \[
-\graph{cos(x), 2x}
+\graph{sqrt(x), 1/x}
 \]
 
 Using the limit definition of derivative, evaluate the derivative of $f(g(x))$.
 
-$\answer{-2\sin(2x)}$
+$\answer{-1/2x^{3/2}}$
 
-Now, evaluate the same limit using the chain rule. Was it any better?
+Now, evaluate the same limit using the chain rule. Notice you get the same answer. Yay.
 
-$\answer[format=string,validator=caseInsensitive]{Yes}$
 \end{question}
 \begin{question}
 
-Using the Chain Rule, differentiate the compositions $f(g(x))$ for the following functions:
+Find the compostition $f(g(x))$, then using the Chain Rule, differentiate $f(g(x))$ for the following functions:
 
 $f(x) = 3x+x^2$, $g(x) = x^4+7x$
 
-$\answer{8x^7+70x^4+12x^3+98x+21}$
+$\begin{prompt}f(g(x))=\answer{3(x^4+7x)+(x^4+7x)^2}\end{prompt}$
+$\begin{prompt}\dfrac{d}{dx}\eval{f(g(x))}=\answer{8x^7+70x^4+12x^3+98x+21}\end{prompt}$
 
 $f(x) = \cos(x)$, $g(x) = \sin(x)$
 
-$\answer{-\cos(x)\sin(\sin(x))}$
+$\begin{prompt}f(g(x))=\answer{\cos(\sin(x))}\end{prompt}$
+$\begin{prompt}\dfrac{d}{dx}\eval{f(g(x))}=\answer{-\cos(x)\sin(\sin(x))}\end{prompt}$
 
 $f(x) = \cos(x)$, $g(x) = x^3$
 
-$\answer{3x^2\sin(x^3)}$
+$\begin{prompt}f(g(x))=\answer{\cos(x^3)}\end{prompt}$
+$\begin{prompt}\dfrac{d}{dx}\eval{f(g(x))}=\answer{-3x^2\sin(x^3)}\end{prompt}$
 
-$f(x) = x^7$, $g(x) = \sin(x)-x^3+3$
-
-$\answer{7(-x^3+sin(x)_3)^6(cos(x)-3x^2)}$
 \end{question}
 
 \begin{question}
@@ -174,18 +178,20 @@ Using the Chain Rule, differentiate the compositions $g(f(x))$ for the following
 
 $f(x) = 3x+x^2$, $g(x) = x^4+7x$
 
-$\answer{(2x+3)(4x^3(x+3)^3+7)}$
+$\begin{prompt}g(f(x))=\answer{(3x+x^2)^4+7(3x+x^2)}\end{prompt}$
+$\begin{prompt}\dfrac{d}{dx}\eval{g(f(x))}=\answer{(2x+3)(4x^3(x+3)^3+7)}\end{prompt}$
 
 $f(x) = \cos(x)$, $g(x) = \sin(x)$
 
-$\answer{\sin(x)(-\cos(\cos(x))}$
+$\begin{prompt}g(f(x))=\answer{\sin(\cos(x))}\end{prompt}$
+$\begin{prompt}\dfrac{d}{dx}\eval{g(f(x))}=\answer{-\cos(\cos(x))\sin(x)}\end{prompt}$
 
 $f(x) = \cos(x)$, $g(x) = x^3$
 
+$\begin{prompt}g(f(x))=\answer{\cos(x)^3}\end{prompt}$
+$\begin{prompt}\dfrac{d}{dx}\eval{g(f(x))}=\answer{-3\cos(x)^2\sin(x)}\end{prompt}$
+
 $\answer{-3\cos(x)^2\sin(x)}$
 
-$f(x) = x^7$, $g(x) = \sin(x)-x^3+3$
-
-$\answer{7x^6(\cos(x^7)-3x^{14})}$
 \end{question}
 \end{document}

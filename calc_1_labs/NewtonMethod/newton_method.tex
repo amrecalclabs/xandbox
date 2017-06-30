@@ -33,8 +33,8 @@ What is the slope, in general, for the tangent line of $y=f(x)$ at $x_{0}$?
 What is the equation of the tangent line for the point $(x_{0},f(x_{0})$?
 
 \begin{multipleChoice}
-\choice{$y=f(x) \cdot x + b$}
-\choice[correct]{$y = f'(x_0)\cdot x_0+b$}
+\choice{$y=f(x) \cdot x + f(x_0)$}
+\choice[correct]{$y = f'(x_0)\cdot (x-x_0)+f(x_0)$}
 \choice{$y = f'(x) \cdot b + x_0$}
 \choice{$y = f'(x) \cdot b + f(x)$}
 \end{multipleChoice}
@@ -58,7 +58,7 @@ Consider the function $f(x) = x^2-1$.
 
 Find the equation of the tangent line at an initial estimate of $x_0=3$.
 
-$y = \answer{6x-12}$
+$y = \answer{6x-10}$
 
 Plot the tangent line and function on the same axes. Does the x-intercept of the tangent line seem more or less accurate than your initial estimate?
 
@@ -69,7 +69,7 @@ Plot the tangent line and function on the same axes. Does the x-intercept of the
 
 What is the x-intercept of the tangent line?
 
-$\answer{2.5}$
+$\answer{\frac{5}{3}}$
 \begin{onlineOnly}
 \begin{sageCell}
 
@@ -84,7 +84,7 @@ Consider the function $g(x) = x^3-4x^2-1$.
 \[
 \graph{x^3-4x^2-1}
 \]
-Explain why the function has only one solution with the help of the graph.
+Why does $g(x)=0$ have only one solution? Explain with the help of a graph.
 
 \begin{freeResponse}
 \end{freeResponse}
@@ -120,7 +120,12 @@ Using $g(x) = x^3 -4x^2-1$ from before, use an initial guess of 2. After 5 itera
 
 $\answer[tolerance=0.001]{-0.395459530414480}$
 
-Why is it important to use caution with your first guess when doing Newton's Method by hand?
+Why is it important to use caution with your first guess when doing Newton's Method by hand? It might help you to understand why if you plot both the function and the tangent lines from Newton's method in the following Desmos graph.
+
+\[
+\graph{}
+\]
+
 \begin{freeResponse}
 \end{freeResponse}
 \end{question}
@@ -148,7 +153,14 @@ Look at the graph, and attempt to estimate another root using $x = 0$. Did you f
 \choice{Right}
 \end{multipleChoice}
 
-Increment the initial guess by $0.02$ and use Newton's method until you find the other root. What value of $x$ is the first to work?
+Increment the $x$ guess by $0.02$ and use Newton's method until you find the root on the right. What value of $x$ is the first to work?
+
+\begin{onlineOnly}
+\begin{sageCell}
+
+\end{sageCell}
+\end{onlineOnly}
+
 $\answer{0.1}$
 \end{question}
 
