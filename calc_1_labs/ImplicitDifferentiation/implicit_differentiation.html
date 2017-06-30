@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="implicit_differentiation.tex" /> 
-<meta name="date" content="2017-06-30 14:29:00" /> 
+<meta name="date" content="2017-06-30 14:43:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -256,7 +256,9 @@ the ‘‘==” and before the ‘‘]”) <script type="math/tex"> <![CDATA[
 </div>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>On Your Own</h3>
-<!--l. 112--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
+<!--l. 112--><p class="noindent" >In each of the following problems, evaluate the derivative by hand, and use the Sage
+cells as a check.
+</p><!--l. 114--><p class="noindent" >Consider the equation <script type="math/tex"> <![CDATA[ 
 y^4+xy=x^3-x+2 
 ]]> 
 </script>. Using the following Sage cell implicitly differentiate to find <script type="math/tex"> <![CDATA[ 
@@ -269,7 +271,7 @@ using the same commands as shown in the previous question. </p><div class="sage"
 <div class="problem-environment question" id="problem12"><a 
  id="x1-3001r9"></a> What did you get as output from your Sage cell? (copy just the answer portion after
 the ‘‘==” and before the ‘‘]”)
-<!--l. 121--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 123--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer [format=string]{(3*x^2 - y(x) - 1)/(4*y(x)^3 + x)} 
 ]]> 
 </script>
@@ -292,10 +294,10 @@ the ‘‘==” and before the ‘‘]”)
 \sin (x^2)=\cos (xy^2) 
 ]]> 
 </script>, copy your answer in the same way as
-indicated in the previous section. <div class="sage"><script type="text/x-sage">var('x,y')
                                                                   
 
                                                                   
+indicated in the previous section. <div class="sage"><script type="text/x-sage">var('x,y')
  
 </script></div>
 <script type="math/tex"> <![CDATA[ 
@@ -344,13 +346,9 @@ x^2 - 2x + y^2 - 3y = 0
  \graph {}  
 ]]> 
 </script>
-<!--l. 153--><p class="noindent" >Do they look perpendicular anywhere? <script type="math/tex"> <![CDATA[ 
-\answer [format=string,validator=caseInsensitive]{Yes} 
-]]> 
-</script>
-</div> </p><div class="problem-environment question" id="problem16"><a 
- id="x1-4002r13"></a> <div class="problem-environment hint" id="problem17"><a 
- id="x1-4003r14"></a> To show two lines are perpendicular you must show that the slope of one is the
+<!--l. 155--><p class="noindent" >Do they look perpendicular anywhere? </p><div class="multiple-choice" id="problem16"><span class="choice correct "   id="choice9">Yes</span> <span class="choice  "   id="choice10">No</span> </div>
+<div class="problem-environment hint" id="problem17"><a 
+ id="x1-4002r13"></a> To show two lines are perpendicular you must show that the slope of one is the
 opposite inverse of the other
 </div> Show the two curves are (or are not) perpendicular at the origin. You can do this in
 the Sage cell provided or by hand. <div class="sage"><script type="text/x-sage">
@@ -359,28 +357,28 @@ the Sage cell provided or by hand. <div class="sage"><script type="text/x-sage">
 Slope of <script type="math/tex"> <![CDATA[ 
 3x - 2y + x^3-x^2y = 0 
 ]]> 
-</script> at the origin
-<!--l. 168--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
-\answer {3/2} 
-]]> 
-</script>
-</p><!--l. 170--><p class="noindent" >Slope of <script type="math/tex"> <![CDATA[ 
-x^2 - 2x + y^2 - 3y = 0 
-]]> 
-</script> at the origin
+</script> at the origin:
                                                                   
 
                                                                   
-</p><!--l. 172--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 172--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+\answer {3/2} 
+]]> 
+</script>
+</p><!--l. 174--><p class="noindent" >Slope of <script type="math/tex"> <![CDATA[ 
+x^2 - 2x + y^2 - 3y = 0 
+]]> 
+</script> at the origin:
+</p><!--l. 176--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {-2/3} 
 ]]> 
 </script>
-</p><!--l. 174--><p class="noindent" >Are the lines perpendicular at the origin?
-</p><!--l. 178--><p class="noindent" ></div>
+</p><!--l. 178--><p class="noindent" >Are the lines perpendicular at the origin?
+</p><!--l. 182--><p class="noindent" ></div>
 </p>
 <h3 class="sectionHead"><a 
  id="x1-5000"></a>In Summary</h3>
-<!--l. 180--><p class="noindent" >There are two main methods to differentiate implicit equations
+<!--l. 184--><p class="noindent" >There are two main methods to differentiate implicit equations
      </p><dl class="enumerate-enumitem"><dt class="enumerate-enumitem">
  (a) </dt><dd 
 class="enumerate-enumitem">Solve for <script type="math/tex"> <![CDATA[ 
