@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="newton_method.tex" /> 
-<meta name="date" content="2017-06-30 14:30:00" /> 
+<meta name="date" content="2017-07-03 18:56:00" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <meta name="ximera" content="version 0.0.1" /> 
@@ -50,13 +50,16 @@ class="speech">Maybe you&#x2019;ve heard of Sir Isaac Newton? He got tired of so
 Dylan </dt><dd 
 class="speech">Wow! I&#x2019;m just like him except worse in every way!</dd></dl>
 <!--l. 16--><p class="noindent" >Newton&#x2019;s Method is a system of approximating roots of polynomials by using tangent
-lines from an initial estimate. While this method is extremely accurate when
-used properly, it is possible to have a very inaccurate estimate when used
-improperly.
+lines from an initial estimate. While this method is extremely accurate when used
+properly, it is possible to have a very inaccurate estimate when used improperly.
 </p>
+<div class="center" 
+>
+<!--l. 17--><p class="noindent" >
+</p><!--l. 18--><p class="noindent" ><strong>Answer all questions to at least three decimal places where possible!</strong></p></div>
 <h3 class="sectionHead"><a 
  id="x1-2000"></a>Guided Example</h3>
-<!--l. 18--><p class="noindent" >In the following figure we have an initial guess <script type="math/tex"> <![CDATA[ 
+<!--l. 21--><p class="noindent" >In the following figure we have an initial guess <script type="math/tex"> <![CDATA[ 
 x_{0} 
 ]]> 
 </script>, then we have the blue tangent line
@@ -68,7 +71,10 @@ src="NewtonMethod.png" alt="PIC"
  /> </div>
 <div class="problem-environment question" id="problem1"><a 
  id="x1-2001r1"></a>
-<!--l. 24--><p class="noindent" >What is the slope, in general, for the tangent line of <script type="math/tex"> <![CDATA[ 
+                                                                  
+
+                                                                  
+<!--l. 27--><p class="noindent" >What is the slope, in general, for the tangent line of <script type="math/tex"> <![CDATA[ 
 y=f(x) 
 ]]> 
 </script> at <script type="math/tex"> <![CDATA[ 
@@ -76,9 +82,6 @@ x_{0}
 ]]> 
 </script>?
 </p>
-                                                                  
-
-                                                                  
 <div class="multiple-choice" id="problem2"><span class="choice correct "   id="choice1"><script type="math/tex"> <![CDATA[ 
 f'(x_0) 
 ]]> 
@@ -92,7 +95,7 @@ f(x)
 f(f(x)) 
 ]]> 
 </script></span> </div>
-<!--l. 33--><p class="noindent" >What is the equation of the tangent line for the point <script type="math/tex"> <![CDATA[ 
+<!--l. 36--><p class="noindent" >What is the equation of the tangent line for the point <script type="math/tex"> <![CDATA[ 
 (x_{0},f(x_{0}) 
 ]]> 
 </script>?
@@ -110,7 +113,7 @@ y = f'(x) \cdot b + x_0
 y = f'(x) \cdot b + f(x) 
 ]]> 
 </script></span> </div>
-<!--l. 42--><p class="noindent" >How would you use the tangent line you found above to estimate the value of the
+<!--l. 45--><p class="noindent" >How would you use the tangent line you found above to estimate the value of the
 root?
 </p>
 <div class="multiple-choice" id="problem4"><span class="choice  "   id="choice9">Solve for <script type="math/tex"> <![CDATA[ 
@@ -126,7 +129,7 @@ y
 ]]> 
 </script>-value which was the initial
 estimate.</span> </div>
-<!--l. 51--><p class="noindent" ></div>
+<!--l. 54--><p class="noindent" ></div>
 </p>
 <h3 class="sectionHead"><a 
  id="x1-3000"></a>On Your Own</h3>
@@ -138,20 +141,20 @@ f(x) = x^2-1
  \graph {x^2-1}  
 ]]> 
 </script>
-<!--l. 59--><p class="noindent" >Find the equation of the tangent line at an initial estimate of <script type="math/tex"> <![CDATA[ 
+<!--l. 62--><p class="noindent" >Find the equation of the tangent line at an initial estimate of <script type="math/tex"> <![CDATA[ 
 x_0=3 
 ]]> 
 </script>.
-</p><!--l. 61--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 64--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 y = \answer {6x-10} 
 ]]> 
 </script>
-</p><!--l. 63--><p class="noindent" >Plot the tangent line and function on the same axes. Does the x-intercept of the
+</p><!--l. 66--><p class="noindent" >Plot the tangent line and function on the same axes. Does the x-intercept of the
 tangent line seem more or less accurate than your initial estimate?
 </p>
 <div class="multiple-choice" id="problem6"><span class="choice correct "   id="choice13">More Accurate</span> <span class="choice  "   id="choice14">Less Accurate</span> </div>
-<!--l. 70--><p class="noindent" >What is the x-intercept of the tangent line?
-</p><!--l. 72--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 73--><p class="noindent" >What is the x-intercept of the tangent line?
+</p><!--l. 75--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {\frac {5}{3}} 
 ]]> 
 </script> </p><div class="sage"><script type="text/x-sage">
@@ -159,7 +162,7 @@ tangent line seem more or less accurate than your initial estimate?
 </script></div>
 Continue this process until the x-intercepts change by less than .0001 on each
 iteration. How many iterations did this take?
-<!--l. 80--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 83--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {5} 
 ]]> 
 </script>
@@ -178,11 +181,11 @@ a graph.
 <div class="free-response" id="problem8"><a 
  id="x1-3003r4"></a>
 </div>
-</div>
-<!--l. 93--><p class="noindent" >Fortunately, with the use of Sage Cells, we don&#x2019;t have to do all of this by hand! The
                                                                   
 
                                                                   
+</div>
+<!--l. 96--><p class="noindent" >Fortunately, with the use of Sage Cells, we don&#x2019;t have to do all of this by hand! The
 following Sage Cell contains the commands through which we can perform
 Newton&#x2019;s Method, along with comments explaining just what it is that Sage is
 doing.
@@ -199,7 +202,7 @@ x2=N(NewtonsMethod(x1))#second iteration of Newtons Method
 print x2#displays second result
  
 </script></div>
-<!--l. 110--><p class="noindent" >The only way to run Newton&#x2019;s Method like this will be to take the first few lines of
+<!--l. 113--><p class="noindent" >The only way to run Newton&#x2019;s Method like this will be to take the first few lines of
 code and put them in each cell after this - the method is <strong>not</strong> defined as a function in
 Sage.
 </p>
@@ -212,26 +215,26 @@ get?
 <div class="sage"><script type="text/x-sage">
  
 </script></div>
-<!--l. 121--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 124--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer [tolerance=0.001]{-0.395459530414480} 
 ]]> 
 </script>
-</p><!--l. 123--><p class="noindent" >Why is it important to use caution with your first guess when doing Newton&#x2019;s
+</p><!--l. 126--><p class="noindent" >Why is it important to use caution with your first guess when doing Newton&#x2019;s
 Method by hand? It might help you to understand why if you plot both the
 function and the tangent lines from Newton&#x2019;s method in the following Desmos
 graph.
-</p><!--l. 127--><p class="noindent" ><script type="math/tex; mode=display"> <![CDATA[ 
+</p><!--l. 130--><p class="noindent" ><script type="math/tex; mode=display"> <![CDATA[ 
  \graph {}  
 ]]> 
 </script>
 </p>
 <div class="free-response" id="problem10"><a 
  id="x1-3005r6"></a>
-</div>
-</div>
                                                                   
 
                                                                   
+</div>
+</div>
 <div class="problem-environment question" id="problem11"><a 
  id="x1-3006r7"></a> Consider the function <script type="math/tex"> <![CDATA[ 
 h(x) = 4x^3 - 12x^2 + 2x + 1 
@@ -242,7 +245,7 @@ h(x) = 4x^3 - 12x^2 + 2x + 1
 </script> <div class="sage"><script type="text/x-sage">
  
 </script></div>
-<!--l. 145--><p class="noindent" >Use an initial guess of <script type="math/tex"> <![CDATA[ 
+<!--l. 148--><p class="noindent" >Use an initial guess of <script type="math/tex"> <![CDATA[ 
 x=3 
 ]]> 
 </script> to estimate a root of <script type="math/tex"> <![CDATA[ 
@@ -250,18 +253,18 @@ h(x)
 ]]> 
 </script>. What did you get after the fifth
 iteration?
-</p><!--l. 147--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 150--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer [tolerance=0.01]{2.78854472256823} 
 ]]> 
 </script>
-</p><!--l. 149--><p class="noindent" >Look at the graph, and attempt to estimate another root using <script type="math/tex"> <![CDATA[ 
+</p><!--l. 152--><p class="noindent" >Look at the graph, and attempt to estimate another root using <script type="math/tex"> <![CDATA[ 
 x = 0 
 ]]> 
 </script>. Did you find the
 root to the right or the left of this point?
 </p>
 <div class="multiple-choice" id="problem12"><span class="choice correct "   id="choice15">Left</span> <span class="choice  "   id="choice16">Right</span> </div>
-<!--l. 156--><p class="noindent" >Increment the <script type="math/tex"> <![CDATA[ 
+<!--l. 159--><p class="noindent" >Increment the <script type="math/tex"> <![CDATA[ 
 x 
 ]]> 
 </script> guess by <script type="math/tex"> <![CDATA[ 
@@ -276,7 +279,7 @@ x
 <div class="sage"><script type="text/x-sage">
  
 </script></div>
-<!--l. 164--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 167--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {0.1} 
 ]]> 
 </script>
