@@ -331,10 +331,10 @@ INPUT sage.out
 INPUT sage.out
 INPUT sage.out
 INPUT sage.out
+OUTPUT sage.pdf
 INPUT ./sage.out
 INPUT ./sage.out
 OUTPUT sage.out
-OUTPUT sage.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
