@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  11 AUG 2017 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.28)  13 AUG 2017 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -13,13 +13,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \usepackage{
+l.8 \usepackage{
                 esint} % for \oiint
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.6 \graphicspath
+l.9 \graphicspath
                  {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -34,8 +34,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 {.
-      /}
+l.10 {.
+       /}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -151,7 +151,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no / in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 7--15
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--18
 []
  []
 
@@ -162,13 +162,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \usepackage{
+l.20 \usepackage{
                  tkz-euclide}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.18 \tikzset
+l.21 \tikzset
              {>=stealth} %% cool arrow head
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -183,7 +183,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 \tikzset{>
+l.21 \tikzset{>
                =stealth} %% cool arrow head
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -198,7 +198,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 ! Undefined control sequence.
-l.19 \tikzset
+l.22 \tikzset
              {shorten <>/.style={ shorten >=#1, shorten <=#1 } } %% allows s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -233,7 +233,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no > in font nullfont!
 Missing character: There is no = in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.19 \tikzset{shorten <>/.style={ shorten >=#
+l.22 \tikzset{shorten <>/.style={ shorten >=#
                                              1, shorten <=#1 } } %% allows s...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -252,7 +252,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no < in font nullfont!
 Missing character: There is no = in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.19 ...rten <>/.style={ shorten >=#1, shorten <=#
+l.22 ...rten <>/.style={ shorten >=#1, shorten <=#
                                                   1 } } %% allows shorter ve...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -261,12 +261,12 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no 1 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 18--20
+Overfull \hbox (20.0pt too wide) in paragraph at lines 21--23
 []
  []
 
 ! Undefined control sequence.
-l.21 \usetikzlibrary
+l.24 \usetikzlibrary
                     {backgrounds} %% for boxes around graphs
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -281,7 +281,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 \usetikzlibrary{b
+l.24 \usetikzlibrary{b
                       ackgrounds} %% for boxes around graphs
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -298,7 +298,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.22 \usetikzlibrary
+l.25 \usetikzlibrary
                     {shapes,positioning}  %% Clouds and stars
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -325,7 +325,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.23 \usetikzlibrary
+l.26 \usetikzlibrary
                     {matrix} %% for matrix
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -340,7 +340,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no x in font nullfont!
 ! Undefined control sequence.
-l.24 \usepgfplotslibrary
+l.27 \usepgfplotslibrary
                         {polar} %% for polar plots
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -354,7 +354,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.25 \usetkzobj
+l.28 \usetkzobj
                {all}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -372,7 +372,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 \usepackage[makeroom]{
+l.29 \usepackage[makeroom]{
                            cancel} %% for strike outs
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -384,7 +384,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \usepackage{
+l.31 \usepackage{
                  multicol}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -396,18 +396,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 \usepackage{
+l.32 \usepackage{
                  pgffor} %% required for integral for loops
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 21--30
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--33
 []
  []
 
 ! Undefined control sequence.
-l.34 \tikzset
+l.37 \tikzset
              {pics/carc/.style args={#1:#2:#3}{code={\draw[pic actions] (#1:...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -422,7 +422,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 \tikzset{p
+l.37 \tikzset{p
                ics/carc/.style args={#1:#2:#3}{code={\draw[pic actions] (#1:...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -450,7 +450,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no = in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.34 \tikzset{pics/carc/.style args={#
+l.37 \tikzset{pics/carc/.style args={#
                                       1:#2:#3}{code={\draw[pic actions] (#1:...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -460,7 +460,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no : in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.34 \tikzset{pics/carc/.style args={#1:#
+l.37 \tikzset{pics/carc/.style args={#1:#
                                          2:#3}{code={\draw[pic actions] (#1:...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -470,7 +470,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no : in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.34 \tikzset{pics/carc/.style args={#1:#2:#
+l.37 \tikzset{pics/carc/.style args={#1:#2:#
                                             3}{code={\draw[pic actions] (#1:...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -484,7 +484,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.34 ...cs/carc/.style args={#1:#2:#3}{code={\draw
+l.37 ...cs/carc/.style args={#1:#2:#3}{code={\draw
                                                   [pic actions] (#1:#3) arc(...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -506,7 +506,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.34 ...rgs={#1:#2:#3}{code={\draw[pic actions] (#
+l.37 ...rgs={#1:#2:#3}{code={\draw[pic actions] (#
                                                   1:#3) arc(#1:#2:#3);}}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -516,7 +516,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no : in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.34 ...={#1:#2:#3}{code={\draw[pic actions] (#1:#
+l.37 ...={#1:#2:#3}{code={\draw[pic actions] (#1:#
                                                   3) arc(#1:#2:#3);}}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -530,7 +530,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.34 ...#3}{code={\draw[pic actions] (#1:#3) arc(#
+l.37 ...#3}{code={\draw[pic actions] (#1:#3) arc(#
                                                   1:#2:#3);}}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -540,7 +540,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no : in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.34 ...{code={\draw[pic actions] (#1:#3) arc(#1:#
+l.37 ...{code={\draw[pic actions] (#1:#3) arc(#1:#
                                                   2:#3);}}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -550,7 +550,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no : in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.34 ...de={\draw[pic actions] (#1:#3) arc(#1:#2:#
+l.37 ...de={\draw[pic actions] (#1:#3) arc(#1:#2:#
                                                   3);}}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -561,7 +561,7 @@ Missing character: There is no 3 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 34--35
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--38
 []
  []
 
@@ -572,7 +572,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \usepackage{
+l.41 \usepackage{
                  array}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -580,7 +580,7 @@ between \documentclass and \begin{document}.
 ! Undefined control sequence.
 <argument> \extrarowheight 
                            
-l.39 \setlength{\extrarowheight}{+.1cm}
+l.42 \setlength{\extrarowheight}{+.1cm}
                                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -595,7 +595,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 \setlength{\extrarowheight}{+.1cm}
+l.42 \setlength{\extrarowheight}{+.1cm}
                                        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -608,12 +608,12 @@ Missing character: There is no m in font nullfont!
 \digitwidth=\dimen102
 Missing character: There is no 9 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 39--45
+Overfull \hbox (20.0pt too wide) in paragraph at lines 42--48
 []
  []
 
 ! Undefined control sequence.
-l.87 \DeclareMathOperator
+l.90 \DeclareMathOperator
                          {\arccot}{arccot}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -622,7 +622,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.87 \DeclareMathOperator{\arccot
+l.90 \DeclareMathOperator{\arccot
                                  }{arccot}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -637,7 +637,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 \DeclareMathOperator{\arccot}{a
+l.90 \DeclareMathOperator{\arccot}{a
                                     rccot}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -649,7 +649,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.88 \DeclareMathOperator
+l.91 \DeclareMathOperator
                          {\arcsec}{arcsec}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -658,7 +658,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.88 \DeclareMathOperator{\arcsec
+l.91 \DeclareMathOperator{\arcsec
                                  }{arcsec}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -673,7 +673,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 ! Undefined control sequence.
-l.89 \DeclareMathOperator
+l.92 \DeclareMathOperator
                          {\arccsc}{arccsc}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -682,7 +682,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.89 \DeclareMathOperator{\arccsc
+l.92 \DeclareMathOperator{\arccsc
                                  }{arccsc}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -697,7 +697,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no c in font nullfont!
 ! Undefined control sequence.
-l.90 \DeclareMathOperator
+l.93 \DeclareMathOperator
                          {\si}{Si}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -706,7 +706,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.90 \DeclareMathOperator{\si
+l.93 \DeclareMathOperator{\si
                              }{Si}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -717,7 +717,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no S in font nullfont!
 Missing character: There is no i in font nullfont!
 ! Undefined control sequence.
-l.91 \DeclareMathOperator
+l.94 \DeclareMathOperator
                          {\proj}{\vec{proj}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -726,7 +726,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.91 \DeclareMathOperator{\proj
+l.94 \DeclareMathOperator{\proj
                                }{\vec{proj}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -737,17 +737,17 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.91 \DeclareMathOperator{\proj}{\vec
+l.94 \DeclareMathOperator{\proj}{\vec
                                      {proj}}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 91.
+(Font)              <7> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 91.
+(Font)              <5> on input line 94.
 ! Extra }, or forgotten $.
-l.91 \DeclareMathOperator{\proj}{\vec{proj}}
+l.94 \DeclareMathOperator{\proj}{\vec{proj}}
                                             
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -756,7 +756,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.92 \DeclareMathOperator
+l.95 \DeclareMathOperator
                          {\scal}{scal}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -765,7 +765,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.92 \DeclareMathOperator{\scal
+l.95 \DeclareMathOperator{\scal
                                }{scal}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -774,7 +774,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.93 \DeclareMathOperator
+l.96 \DeclareMathOperator
                          {\sign}{sign}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -783,7 +783,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.93 \DeclareMathOperator{\sign
+l.96 \DeclareMathOperator{\sign
                                }{sign}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -794,23 +794,23 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.94 
+l.97 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 87--94
+Overfull \hbox (20.0pt too wide) in paragraph at lines 90--97
 []
  []
 
 
-Overfull \hbox (56.1033pt too wide) in paragraph at lines 87--94
+Overfull \hbox (56.1033pt too wide) in paragraph at lines 90--97
 [][][][][]$ 
  []
 
 ! Undefined control sequence.
-l.121 \colorlet
+l.124 \colorlet
                {textColor}{black}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -825,7 +825,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 \colorlet{t
+l.124 \colorlet{t
                  extColor}{black}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -845,7 +845,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
-l.122 \colorlet
+l.125 \colorlet
                {background}{white}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -869,7 +869,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.123 \colorlet
+l.126 \colorlet
                {penColor}{blue!50!black} % Color of a curve in a plot
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -899,7 +899,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
-l.124 \colorlet
+l.127 \colorlet
                {penColor2}{red!50!black}% Color of a curve in a plot
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -929,7 +929,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
-l.125 \colorlet
+l.128 \colorlet
                {penColor3}{red!50!blue} % Color of a curve in a plot
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -958,7 +958,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.126 \colorlet
+l.129 \colorlet
                {penColor4}{green!50!black} % Color of a curve in a plot
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -990,7 +990,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
-l.127 \colorlet
+l.130 \colorlet
                {penColor5}{orange!80!black} % Color of a curve in a plot
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1023,7 +1023,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
-l.128 \colorlet
+l.131 \colorlet
                {penColor6}{yellow!70!black} % Color of a curve in a plot
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1056,7 +1056,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
-l.129 \colorlet
+l.132 \colorlet
                {fill1}{penColor!20} % Color of fill in a plot
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1081,7 +1081,7 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.130 \colorlet
+l.133 \colorlet
                {fill2}{penColor2!20} % Color of fill in a plot
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1107,7 +1107,7 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.131 \colorlet
+l.134 \colorlet
                {fillp}{fill1} % Color of positive area
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1126,7 +1126,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
-l.132 \colorlet
+l.135 \colorlet
                {filln}{penColor2!20} % Color of negative area
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1152,7 +1152,7 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.133 \colorlet
+l.136 \colorlet
                {fill3}{penColor3!20} % Fill
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1178,7 +1178,7 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.134 \colorlet
+l.137 \colorlet
                {fill4}{penColor4!20} % Fill
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1204,7 +1204,7 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.135 \colorlet
+l.138 \colorlet
                {fill5}{penColor5!20} % Fill
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1230,7 +1230,7 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.136 \colorlet
+l.139 \colorlet
                {gridColor}{gray!50} % Color of grid in a plot
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1255,12 +1255,12 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 121--137
+Overfull \hbox (20.0pt too wide) in paragraph at lines 124--140
 []
  []
 
 ! Undefined control sequence.
-l.145 \pgfmathdeclarefunction
+l.148 \pgfmathdeclarefunction
                              {gauss}{2}{% gives gaussian
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1275,7 +1275,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 \pgfmathdeclarefunction{g
+l.148 \pgfmathdeclarefunction{g
                                auss}{2}{% gives gaussian
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1287,7 +1287,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no 2 in font nullfont!
 ! Undefined control sequence.
-l.146   \pgfmathparse
+l.149   \pgfmathparse
                      {1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1299,7 +1299,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.146   \pgfmathparse{1/(#
+l.149   \pgfmathparse{1/(#
                           2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1330,7 +1330,7 @@ Missing character: There is no ( in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no - in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.146   \pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#
+l.149   \pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#
                                                   1)^2)/(2*#2^2))}%
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1342,13 +1342,13 @@ Missing character: There is no ) in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 ...mathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^
+l.149 ...mathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^
                                                   2)/(2*#2^2))}%
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! You can't use `macro parameter character #' in math mode.
-l.146 ...se{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#
+l.149 ...se{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#
                                                   2^2))}%
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1356,7 +1356,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Extra }, or forgotten $.
-l.146 ...#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}
+l.149 ...#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}
                                                   %
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1365,7 +1365,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.147 }
+l.150 }
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1376,19 +1376,19 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.148 
+l.151 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (47.26398pt too wide) in paragraph at lines 145--148
+Overfull \hbox (47.26398pt too wide) in paragraph at lines 148--151
 []$[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 (2 \OMS/cmsy/m/n/10 ^^C
 
  []
 
 
-Overfull \hbox (17.26395pt too wide) in paragraph at lines 145--148
+Overfull \hbox (17.26395pt too wide) in paragraph at lines 148--151
 \OT1/cmr/m/n/10 2[]))$ 
  []
 
