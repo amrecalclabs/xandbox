@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  12 AUG 2017 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  13 AUG 2017 14:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1044,11 +1044,22 @@ Excluding comment 'comment')
 \c@summary=\count215
 \c@template=\count216
 \c@warning=\count217
-\c@track@Problem=\count218
-\c@shuffle@Count=\count219
-\c@problem=\count220
-\c@problemType=\count221
-)) (/usr/share/texmf/tex/generic/tex4ht/tex4ht.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/forloop/forloop.sty
+Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
+)
+\c@Iteration1=\count218
+\c@RndQuant=\count219
+\c@Temp@Hold=\count220
+\c@Temp@RandMe=\count221
+\c@shuffle@maxCount=\count222
+\c@shuffle@count=\count223
+\c@shuffle@trackProblem=\count224
+\c@shuffle@desiredProblems=\count225
+\c@problem=\count226
+\c@problemType=\count227
+))
+(/usr/share/texmf/tex/generic/tex4ht/tex4ht.sty
 version 2008-10-27-17:23
 Package: tex4ht 
 --------------------------------------
@@ -1076,7 +1087,7 @@ version 2009-01-07-07:11
 version 2008-10-27-17:23
 
 --- needs --- tex4ht labs ---
-\tmp:cnt=\count222
+\tmp:cnt=\count228
 \openout15 = `labs.tmp'.
 
 (./labs.tmp)
@@ -1287,7 +1298,7 @@ version 2009-05-18-23:01
 (/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/xou
 rse.4ht
 version 2015-08-22-10:35
-\c@ximera@part=\count223
+\c@ximera@part=\count229
 
 /projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/xour
 se.4ht:53: Too many }'s.
@@ -1308,11 +1319,11 @@ version 2014-01-26-09:44
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks57
-\MT@count=\count224
+\MT@count=\count230
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen222
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count225
+\MT@listname@count=\count231
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
@@ -1326,8 +1337,8 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-\c@identification=\count226
-\c@choiceId=\count227
+\c@identification=\count232
+\c@choiceId=\count233
 
 (/usr/share/texmf/tex/generic/tex4ht/html4.4ht
 version 2009-05-18-23:01
@@ -1584,7 +1595,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
 LaTeX Font Info:    ... okay on input line 125.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
 LaTeX Font Info:    ... okay on input line 125.
-\c@lstlisting=\count228
+Normal \count register pool exhausted, switching to extended pool.
+\c@lstlisting=\count277
 \ST@sf=\write8
 \openout8 = `labs.sagetex.sage'.
 
@@ -1613,6 +1625,18 @@ ra.cfg:166: Extra \fi.
 l.166 \fi
          
 I'm ignoring this; it doesn't match any \if.
+
+/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/xime
+ra.cfg:174: Undefined control sequence.
+\a:@HEAD ...ame="og:image" content="}\xourse@logo 
+                                                  \HCode {" />\Hnewline }\HC...
+l.174 \EndPreamble
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
@@ -1650,12 +1674,12 @@ or  <return>  to continue without it.
 
 ] [2] (./labs.aux) ) 
 Here is how much of TeX's memory you used:
- 37459 strings out of 493086
- 818842 string characters out of 6136942
- 1100207 words of memory out of 5000000
- 40208 multiletter control sequences out of 15000+600000
+ 37530 strings out of 493086
+ 820148 string characters out of 6136942
+ 1101803 words of memory out of 5000000
+ 40275 multiletter control sequences out of 15000+600000
  3808 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,5n,81p,10894b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on labs.dvi (2 pages, 6364 bytes).
+Output written on labs.dvi (2 pages, 6344 bytes).
