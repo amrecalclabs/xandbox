@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1502806307 "sage.tex" "sage.pdf" "sage" 1502806307
+["pdflatex"] 1502816366 "sage.tex" "sage.pdf" "sage" 1502816367
   "/etc/texmf/web2c/texmf.cnf" 1451279870 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/ximera.cls" 1502545363 42792 924e9310d6b661e1518e75ff08dae8ae ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -246,16 +246,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1435377840 31349 7675f8adfbe12aae865d340d35423a49 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1451280563 1779312 b2f993ff39f888114b7dddf8751f0ae0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1451280644 3844746 6b008947ed367f1201b54964b1675710 ""
-  "sage.aux" 1502806307 1001 69a6a5e2b6f1a214b9adca17fe6ebe0d ""
-  "sage.out" 1502806307 197 1a07dc67febf75f0c4e4c03828c88d6c ""
-  "sage.sagetex.sout" 0 -1 0 ""
-  "sage.tex" 1502806305 3204 c6c543f8f72a50c7fb221ae9690a5ede ""
+  "sage.aux" 1502816367 1001 69a6a5e2b6f1a214b9adca17fe6ebe0d ""
+  "sage.out" 1502816367 197 1a07dc67febf75f0c4e4c03828c88d6c ""
+  "sage.sagetex.sout" 1502816338 238 d9ee799a97e9bca7554d845493e4197d ""
+  "sage.tex" 1502816366 3290 fab34706d412af4fd29934b2345424a2 ""
   (generated)
-  "sage.pdf"
-  "sage.jax"
-  "sage.log"
-  "sage.aux"
-  "sage.sagetex.sage"
   "sage.ids"
+  "sage.aux"
   "sage.oc"
+  "sage.jax"
   "sage.out"
+  "sage.pdf"
+  "sage.sagetex.sage"
+  "sage.log"
