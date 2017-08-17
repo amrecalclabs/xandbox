@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  16 AUG 2017 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  16 AUG 2017 17:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1676,7 +1676,7 @@ or  <return>  to continue without it.
 Here is how much of TeX's memory you used:
  37530 strings out of 493086
  820148 string characters out of 6136942
- 1101803 words of memory out of 5000000
+ 1101770 words of memory out of 5000000
  40275 multiletter control sequences out of 15000+600000
  3808 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
