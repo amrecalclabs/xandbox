@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  16 AUG 2017 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2015.12.28)  17 AUG 2017 03:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -18,7 +18,7 @@ Document Class: xourse 2015/07/15 Version 1.26 by Bart Snapp, Oscar Levin, Hans
 
 (/projects/136c1909-e3bf-4f9d-a532-79668570f249/texmf/tex/latex/ximeraLatex/xim
 era.cls
-Document Class: ximera 2016/08/17 Version 1.30 by Bart Snapp
+Document Class: ximera 2016/08/17 Version 1.31 by Bart Snapp
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -1674,10 +1674,10 @@ or  <return>  to continue without it.
 
 ] [2] (./labs.aux) ) 
 Here is how much of TeX's memory you used:
- 37530 strings out of 493086
- 820148 string characters out of 6136942
- 1101770 words of memory out of 5000000
- 40275 multiletter control sequences out of 15000+600000
+ 37509 strings out of 493086
+ 819677 string characters out of 6136942
+ 1101226 words of memory out of 5000000
+ 40254 multiletter control sequences out of 15000+600000
  3808 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,5n,81p,10894b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
