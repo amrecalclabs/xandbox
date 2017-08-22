@@ -310,6 +310,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 OUTPUT continuity.oc
 OUTPUT continuity.ids
+INPUT /usr/share/texlive/texmf-dist/tex/latex/forloop/forloop.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/forloop/forloop.sty
 OUTPUT continuity.jax
 INPUT ../preamble.tex
 INPUT ../preamble.tex
@@ -499,10 +501,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT continuity.png
 INPUT ./continuity.png
 INPUT ./continuity.png
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT continuity2.png
 INPUT ./continuity2.png
 INPUT ./continuity2.png
