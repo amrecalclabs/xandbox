@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  16 OCT 2017 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  16 OCT 2017 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1227,13 +1227,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [2
+
+])
 \tf@toc=\write11
 \openout11 = `labs.toc'.
 
- [2
-
-]
+ [3]
 (./Intro_To_Ximera/intro.tex
 
 LaTeX Font Warning: Font shape `OT1/cmtt/bx/sl' undefined
@@ -1241,13 +1241,13 @@ LaTeX Font Warning: Font shape `OT1/cmtt/bx/sl' undefined
 
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 30.
-[3
+[4
 
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/sl' in size <9> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 77.
- [4] [5] [6]) [7] (./Sage/sage.texpdfTeX warning (ext4): destination with the s
+ [5] [6] [7]) [8] (./Sage/sage.texpdfTeX warning (ext4): destination with the s
 ame identifier (name{problem.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1259,7 +1259,7 @@ l.19 W
                    \relax 
 l.31 D
       efine $f(x)=\sin(x)^2$ in the following cell evaluate at $x=4\pi$
-[8
+[9
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.3}) 
 has been already used, duplicate ignored
@@ -1272,9 +1272,9 @@ lready used, duplicate ignored
 <to be read again> 
                    \relax 
 l.63 U
-      sing the solve command, find the roots for $f(x)=x^2+3x+2$ [9]pdfTeX warn
-ing (ext4): destination with the same identifier (name{problem.5}) has been alr
-eady used, duplicate ignored
+      sing the solve command, find the roots for $f(x)=x^2+3x+2$ [10]pdfTeX war
+ning (ext4): destination with the same identifier (name{problem.5}) has been al
+ready used, duplicate ignored
 <to be read again> 
                    \relax 
 l.84 U
@@ -1289,40 +1289,40 @@ Overfull \hbox (36.23727pt too wide) in paragraph at lines 109--111
 []\OT1/cmr/m/sl/10 Copy paste your an-swer from Sage here: $[]$ 
  []
 
-[10]pdfTeX warning (ext4): destination with the same identifier (name{problem.7
+[11]pdfTeX warning (ext4): destination with the same identifier (name{problem.7
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.121 C
-       opy paste your answer from Sage here:) [11]
+       opy paste your answer from Sage here:) [12]
 (./Eulers_Method/eulers_method.texpdfTeX warning (ext4): destination with the s
 ame identifier (name{problem.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.19 W
-      hat alteration to $h$ might produce a more accurate estimation? [12
+      hat alteration to $h$ might produce a more accurate estimation? [13
 
 ]
-[13] [14]) [15] (./Exponentials/exponentials.texpdfTeX warning (ext4): destinat
+[14] [15]) [16] (./Exponentials/exponentials.texpdfTeX warning (ext4): destinat
 ion with the same identifier (name{problem.1}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
 l.17 
-      [16
+      [17
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.43 
-      [17]pdfTeX warning (ext4): destination with the same identifier (name{pro
+      [18]pdfTeX warning (ext4): destination with the same identifier (name{pro
 blem.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.104 B
        ased on your results from the previous section, what is $\dfrac{d}{dx...
-[18] [19] [20]pdfTeX warning (ext4): destination with the same identifier (name
+[19] [20] [21]pdfTeX warning (ext4): destination with the same identifier (name
 {problem.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1335,8 +1335,8 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/sl' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 198.
- [21] [22]
-[23]) [24] (./Parametric/parametric.tex [25
+ [22] [23]
+[24]) [25] (./Parametric/parametric.tex [26
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{problem.1}) 
 has been already used, duplicate ignored
@@ -1350,37 +1350,85 @@ nored
                    \relax 
 l.63 \item
            Your friend Joe is beyond excited about his new car, and wants to...
-[26] [27]pdfTeX warning (ext4): destination with the same identifier (name{prob
+[27] [28]pdfTeX warning (ext4): destination with the same identifier (name{prob
 lem.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.105 A
        fter his successful jump, Joe has become even more daring, deciding t...
-[28] [29]pdfTeX warning (ext4): destination with the same identifier (name{prob
+[29] [30]pdfTeX warning (ext4): destination with the same identifier (name{prob
 lem.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.189 J
        ust before Joe started to accelerate towards the ramp, a young spider...
-[30]) [31]
+[31]) [32] (./Test/2017-10-16-151432.texpdfTeX warning (ext4): destination with
+ the same identifier (name{problem.1}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.19 W
+      hat output did you get from evaluating the sage cell?pdfTeX warning (ext4
+): destination with the same identifier (name{problem.2}) has been already used
+, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 D
+      efine $f(x)=\sin(x)^2$ in the following cell evaluate at $x=4\pi$
+[33
+
+]pdfTeX warning (ext4): destination with the same identifier (name{problem.3}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 F
+      rom the sage cell above, what can you say about ``='' vs ``==''?pdfTeX wa
+rning (ext4): destination with the same identifier (name{problem.4}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 U
+      sing the solve command, find the roots for $f(x)=x^2+3x+2$ [34]pdfTeX war
+ning (ext4): destination with the same identifier (name{problem.5}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.84 U
+      sing the commands shown above, find the limit of $\displaystyle\lim_{x...
+pdfTeX warning (ext4): destination with the same identifier (name{problem.6}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.103 U
+       sing the diff command find $\dfrac{d}{dx}\dfrac{x^2-2x-8}{x-4}$
+Overfull \hbox (36.23727pt too wide) in paragraph at lines 109--111
+[]\OT1/cmr/m/sl/10 Copy paste your an-swer from Sage here: $[]$ 
+ []
+
+[35]pdfTeX warning (ext4): destination with the same identifier (name{problem.7
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.121 C
+       opy paste your answer from Sage here:) [36]
 *********************************************************************
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 15.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 15.
 (./labs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 14.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 14.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 15.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 15.
 Package rerunfilecheck Info: File `labs.out' has not changed.
-(rerunfilecheck)             Checksum: 54FE84E0B8C07FCA60A772357736AFD6;1335.
+(rerunfilecheck)             Checksum: CBEF9285EE372A88B822C6FDB88778C5;1686.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37181 strings out of 493029
- 830886 string characters out of 6136234
- 975507 words of memory out of 5000000
- 39839 multiletter control sequences out of 15000+600000
+ 37219 strings out of 493029
+ 831339 string characters out of 6136234
+ 975505 words of memory out of 5000000
+ 39846 multiletter control sequences out of 15000+600000
  17561 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,81p,10419b,918s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1411,10 +1459,10 @@ m/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on labs.pdf (31 pages, 390445 bytes).
+Output written on labs.pdf (36 pages, 399663 bytes).
 PDF statistics:
- 663 PDF objects out of 1000 (max. 8388607)
- 595 compressed objects within 6 object streams
- 260 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 742 PDF objects out of 1000 (max. 8388607)
+ 668 compressed objects within 7 object streams
+ 287 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
