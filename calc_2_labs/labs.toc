@@ -1,34 +1,27 @@
-\contentsline {section}{Intro to Ximera MEWO}{4}{section*.1}
-\contentsline {section}{Multiple Choice and Select All}{4}{section*.2}
-\contentsline {section}{Fill in the Blanks!}{5}{section*.3}
-\contentsline {section}{Hints}{6}{section*.4}
-\contentsline {section}{Desmos}{7}{section*.5}
-\contentsline {section}{Introduction to Sage}{9}{section*.6}
-\contentsline {section}{Introduction}{9}{section*.7}
-\contentsline {section}{Functions}{9}{section*.8}
-\contentsline {section}{Limits}{11}{section*.9}
-\contentsline {section}{Differentiation}{11}{section*.10}
-\contentsline {section}{Integration}{12}{section*.11}
-\contentsline {section}{Getting Help}{12}{section*.12}
-\contentsline {section}{Euler's Method}{13}{section*.13}
-\contentsline {section}{Introduction}{13}{section*.14}
-\contentsline {section}{Guided Example}{14}{section*.15}
-\contentsline {section}{On Your Own}{15}{section*.16}
-\contentsline {section}{In Summary}{16}{section*.17}
-\contentsline {section}{Exponentials}{17}{section*.18}
-\contentsline {section}{Introduction}{17}{section*.19}
-\contentsline {section}{Guided Example}{17}{section*.20}
-\contentsline {section}{On Your Own}{20}{section*.21}
-\contentsline {section}{A Simple Application}{22}{section*.22}
-\contentsline {section}{Parametric Equations}{26}{section*.23}
-\contentsline {section}{Introduction}{26}{section*.24}
-\contentsline {section}{Examining Parametric Graphs}{26}{section*.25}
-\contentsline {section}{On Your Own}{28}{section*.26}
-\contentsline {section}{Introduction to Sage}{33}{section*.27}
-\contentsline {section}{Introduction}{33}{section*.28}
-\contentsline {section}{Functions}{33}{section*.29}
-\contentsline {section}{Limits}{35}{section*.30}
-\contentsline {section}{Differentiation}{35}{section*.31}
-\contentsline {section}{Integration}{36}{section*.32}
-\contentsline {section}{Getting Help}{36}{section*.33}
+\contentsline {section}{Intro to Ximera MEWO}{3}{section*.1}
+\contentsline {section}{Multiple Choice and Select All}{3}{section*.2}
+\contentsline {section}{Fill in the Blanks!}{4}{section*.3}
+\contentsline {section}{Hints}{5}{section*.4}
+\contentsline {section}{Desmos}{6}{section*.5}
+\contentsline {section}{Introduction to Sage}{8}{section*.6}
+\contentsline {section}{Introduction}{8}{section*.7}
+\contentsline {section}{Functions}{8}{section*.8}
+\contentsline {section}{Limits}{10}{section*.9}
+\contentsline {section}{Differentiation}{10}{section*.10}
+\contentsline {section}{Integration}{11}{section*.11}
+\contentsline {section}{Getting Help}{11}{section*.12}
+\contentsline {section}{Euler's Method}{12}{section*.13}
+\contentsline {section}{Introduction}{12}{section*.14}
+\contentsline {section}{Guided Example}{13}{section*.15}
+\contentsline {section}{On Your Own}{14}{section*.16}
+\contentsline {section}{In Summary}{15}{section*.17}
+\contentsline {section}{Exponentials}{16}{section*.18}
+\contentsline {section}{Introduction}{16}{section*.19}
+\contentsline {section}{Guided Example}{16}{section*.20}
+\contentsline {section}{On Your Own}{19}{section*.21}
+\contentsline {section}{A Simple Application}{21}{section*.22}
+\contentsline {section}{Parametric Equations}{25}{section*.23}
+\contentsline {section}{Introduction}{25}{section*.24}
+\contentsline {section}{Examining Parametric Graphs}{25}{section*.25}
+\contentsline {section}{On Your Own}{27}{section*.26}
 \contentsfinish 
