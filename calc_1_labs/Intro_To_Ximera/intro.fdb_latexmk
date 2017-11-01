@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1509557475 "intro.tex" "intro.pdf" "intro" 1509557476
+["pdflatex"] 1509568767 "intro.tex" "intro.pdf" "intro" 1509568768
   "../preamble.tex" 1502635327 6336 767337c4750cce700fc8e2ecdeef1332 ""
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/home/user/texmf/tex/latex/ximeraLatex/ximera.cls" 1502939838 45430 e8f6d34e681fa380166511e3a0381f21 ""
@@ -311,16 +311,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1506161354 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
-  "intro.aux" 1509557476 1089 840f8ba09784c8947f27b13307eebd0f ""
-  "intro.out" 1509557476 262 0910249d2ba2a4b940e3af46eeefd041 ""
-  "intro.sagetex.sout" 1509557434 239 66ed247ba6f11f655b393dfe4c14eac9 ""
-  "intro.tex" 1509557437 6164 62e83a94a70597fc81afde0f92d6fba8 ""
+  "intro.aux" 1509568768 1082 8c626bb85576ae22418ba7a7458dcbf0 ""
+  "intro.out" 1509568768 255 e8c504ea1f2b459da2fe795926fbe67c ""
+  "intro.sagetex.sout" 1509568746 239 66ed247ba6f11f655b393dfe4c14eac9 ""
+  "intro.tex" 1509568766 6175 32830f4e25b13ad44924bbcdc71dacc8 ""
   (generated)
-  "intro.pdf"
   "intro.jax"
-  "intro.oc"
-  "intro.ids"
-  "intro.aux"
   "intro.log"
-  "intro.out"
+  "intro.aux"
+  "intro.ids"
+  "intro.oc"
+  "intro.pdf"
   "intro.sagetex.sage"
+  "intro.out"
