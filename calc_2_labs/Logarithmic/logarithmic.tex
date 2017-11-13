@@ -1,0 +1,135 @@
+\documentclass{ximera}
+\title{Logarithms}
+\begin{abstract}
+\end{abstract}
+\begin{document}
+\maketitle
+\section{Introduction}
+\begin{dialogue}
+\item[Dylan] log$_b(x)$? Why are they talking about trees on this paper?
+\item[Julia] Well, that doesn't seem quite right... it probably isn't talking about forests or anything. Is it?
+\item[James] Come on you guys, the lecture $just$ went over this! It's the inverse exponential function!
+\end{dialogue}
+
+\section{Examining Log Rules}
+\begin{dialogue}
+\item[Dylan] Alright, so it isn't about trees, and maybe I wasn't paying attention during the lecture. So, what do I need to know before I do the lab?
+\item[Julia] Well, at least you're admitting it! I think I remember us going over a few rules for logarithms, but I can't quite seem to remember how they went...
+\item[James] Let's do a refresher then!
+\end{dialogue}
+For the following multiple choice questions, you'll be given the left hand side of the equation. Match it up with the right hand side!
+\begin{question}
+log$_b(\dfrac{x}{y})$
+
+\begin{multipleChoice}
+\choice{log$_b(y)$ - log$_b(x)$}
+\choice{$\dfrac{\text{log}_b(x)}{\text{log}_b(y)}$}
+\choice[correct]{log$_b(x)$ - log$_b(y)$}
+\choice{$\dfrac{\text{log}_b(y)}{\text{log}_b(x)}$}
+\end{multipleChoice}
+
+log$_b(x*y)$
+\begin{multipleChoice}
+\choice{log$_b(y)$ + log$_b(x)$}
+\choice{$\text{log}_b(x) \cdot \text{log}_b(y)$}
+\choice{$\text{log}_b(y) \cdot \text{log}_b(x)$}
+\choice[correct]{log$_b(x)$ + log$_b(y)$}
+\end{multipleChoice}
+
+log$_b(x^y)$
+\begin{multipleChoice}
+\choice[correct]{$y$ $\cdot$ log$_b(x)$}
+\choice{$x$ $\cdot$ log$_b(y)$}
+\choice{log$_b(x^y)$}
+\choice{log$_b(y^x)$}
+\end{multipleChoice}
+\begin{freeResponse}
+\end{freeResponse}
+\end{question}
+
+\section{Beyond the Basics}
+\begin{dialogue}
+\item[James] Now that we've gotten past the basic stuff, let's talk about the meaty stuff - calculus with logs!
+\item[Dylan] I'm not going to like this, am I?
+\item[Julia] Sometimes you're way too into this James...
+\end{dialogue}
+\begin{example}
+Lets work together to determine the value of $\dfrac{d}{dx}$ln$(x)$
+\begin{explanation}
+First, lets think about a number that might make it easier for us to determine the value.
+\begin{multipleChoice}
+\choice{$x^2$}
+\choice{$x$}
+\choice[correct]{$e^x$}
+\choice{$\pi$}
+\end{multipleChoice}
+\begin{feedback}
+We want $e^x$ because it is its own derivative - that will make our differentiation more than a bit easier!
+\end{feedback}
+
+Now, lets consider a general equation $y = $ln$(e^y)$.
+
+What is the derivative of the left hand side?
+$\answer{1}$
+
+On the right hand side, we apply the chain rule to see $$\dfrac{d}{dy} \text{ln}(e^y) = \dfrac{dx}{dy} \cdot \dfrac{d}{dx}\text{ln}(x) \text{, where } x = e^y$$
+
+Now, because we know that $\dfrac{d}{dy}e^y = e^y$, we can change our $\dfrac{dx}{dy}\cdot\dfrac{d}{dx}\text{ln}(x) = 1$ to what?
+
+\begin{multipleChoice}
+\choice{$x$}
+\choice{$\dfrac{d}{dz} = x$}
+\choice{$\dfrac{1}{\dfrac{d}{dx}}$}
+\choice[correct]{$x*\dfrac{d}{dx}\text{ln}(x)$}
+\end{multipleChoice}
+\begin{feedback}
+And thus, we see that we have $\dfrac{d}{dx}\text{ln}(x) = \dfrac{1}{x}$. So in general, the derivative of $ln(x)$ is $\dfrac{1}{x}$!
+\end{feedback}
+\end{explanation}
+\end{example}
+
+\begin{dialogue}
+\item[Dylan] Well, that was quite a bit James!
+\item[James] Its good to know!
+\item[Julia] Do you think you could give us a little practice James? I wanna be sure I understand how to use it to get an A on this coming exam!
+\item[James] It would be my pleasure!
+\end{dialogue}
+
+\section{Practice with Logarithmic Differentiation}
+Take the derivative of the following functions, without using any technology (except to enter your answer!).
+\begin{problem}
+$\ln(\ln(x)^3)=\answer{\dfrac{3}{x\cdot \ln(x)}}$
+\end{problem}
+
+\begin{problem}
+$\ln(\cot(x))=\answer{-\csc(x)\cdot\sec(x)}$
+\end{problem}
+
+Now, use your knowledge of Sage (and if necessary, a quick glance back at the Intro to Sage lab) to evaluate the following derivatives at the indicated point.
+
+\begin{onlineOnly}
+\begin{sageCell}
+
+\end{sageCell}
+\end{onlineOnly}
+
+\begin{problem}
+$\ln(\sin(\cos(\ln(x))))$ at $x=10$
+
+$\answer{-1/10\cdot \sin\cdot\ln(10)\cdot\cot(\cos(\ln(10)))}$
+\end{problem}
+
+\begin{problem}
+$16^{\ln(\csc(x)^2)}$ at $x = 1$
+
+$\answer{-3\cdot\ln(16)\cdot\cot(1)\cdot 16^{3\ln(\csc(1))}}$
+\end{problem}
+
+Finally, we'll look at the general form of the derivative of a logarithmic function with any base $b$. Here's a hint to get you started:
+
+Use your knowledge of $\dfrac{d}{dx} \ln(x)$ and the change of base formula, $\log_b(x) = \dfrac{\ln(x)}{\ln(b)}$ to find the derivative for $\log_b(x)$.
+\begin{problem}
+What is $\dfrac{d}{dx}\log_b(x)$?
+$\answer{\frac{1}{x\cdot\ln(b)}}$
+\end{problem}
+\end{document}
