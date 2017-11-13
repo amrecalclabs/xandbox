@@ -410,6 +410,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT Parametric/parametric.tex
 INPUT Parametric/parametric.tex
+INPUT Logarithmic/logarithmic.tex
+INPUT Logarithmic/logarithmic.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl8.tfm
 INPUT labs.aux
 INPUT ./labs.out
 INPUT ./labs.out

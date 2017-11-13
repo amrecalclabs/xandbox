@@ -19,32 +19,30 @@
 \end{dialogue}
 For the following multiple choice questions, you'll be given the left hand side of the equation. Match it up with the right hand side!
 \begin{question}
-log$_b(\dfrac{x}{y})$
+log$_b\left(\dfrac{x}{y}\right)$
 
 \begin{multipleChoice}
-\choice{log$_b(y)$ - log$_b(x)$}
-\choice{$\dfrac{\text{log}_b(x)}{\text{log}_b(y)}$}
-\choice[correct]{log$_b(x)$ - log$_b(y)$}
-\choice{$\dfrac{\text{log}_b(y)}{\text{log}_b(x)}$}
+\choice{$\log_b(y)- log_b(x)$}
+\choice{$\dfrac{\log_b(x)}{\log_b(y)}$}
+\choice[correct]{$\log_b(x) - \log_b(y)$}
+\choice{$\dfrac{\log_b(y)}{\log_b(x)}$}
 \end{multipleChoice}
 
 log$_b(x*y)$
 \begin{multipleChoice}
-\choice{log$_b(y)$ + log$_b(x)$}
-\choice{$\text{log}_b(x) \cdot \text{log}_b(y)$}
-\choice{$\text{log}_b(y) \cdot \text{log}_b(x)$}
-\choice[correct]{log$_b(x)$ + log$_b(y)$}
+\choice{$\log_b(y) \div \log_b(x)$}
+\choice{$\log_b(x) \cdot \log_b(y)$}
+\choice{$\log_b(y) \cdot \log_b(x)$}
+\choice[correct]{$\log_b(x) + \log_b(y)$}
 \end{multipleChoice}
 
 log$_b(x^y)$
 \begin{multipleChoice}
 \choice[correct]{$y$ $\cdot$ log$_b(x)$}
-\choice{$x$ $\cdot$ log$_b(y)$}
-\choice{log$_b(x^y)$}
-\choice{log$_b(y^x)$}
+\choice{$x \cdot \log_b(y)$}
+\choice{$\log_b(x^y)$}
+\choice{$\log_b(y^x)$}
 \end{multipleChoice}
-\begin{freeResponse}
-\end{freeResponse}
 \end{question}
 
 \section{Beyond the Basics}
@@ -54,7 +52,7 @@ log$_b(x^y)$
 \item[Julia] Sometimes you're way too into this James...
 \end{dialogue}
 \begin{example}
-Lets work together to determine the value of $\dfrac{d}{dx}$ln$(x)$
+Lets work together to determine the value of $\dfrac{d}{dx}\ln(x)$
 \begin{explanation}
 First, lets think about a number that might make it easier for us to determine the value.
 \begin{multipleChoice}
@@ -67,23 +65,23 @@ First, lets think about a number that might make it easier for us to determine t
 We want $e^x$ because it is its own derivative - that will make our differentiation more than a bit easier!
 \end{feedback}
 
-Now, lets consider a general equation $y = $ln$(e^y)$.
+Now, lets consider a general equation $y = \ln(e^y)$.
 
 What is the derivative of the left hand side?
 $\answer{1}$
 
-On the right hand side, we apply the chain rule to see $$\dfrac{d}{dy} \text{ln}(e^y) = \dfrac{dx}{dy} \cdot \dfrac{d}{dx}\text{ln}(x) \text{, where } x = e^y$$
+On the right hand side, we apply the chain rule to see $$\dfrac{d}{dy} \ln(e^y) = \dfrac{dx}{dy} \cdot \dfrac{d}{dx}\ln(x) \text{, where } x = e^y$$
 
-Now, because we know that $\dfrac{d}{dy}e^y = e^y$, we can change our $\dfrac{dx}{dy}\cdot\dfrac{d}{dx}\text{ln}(x) = 1$ to what?
+Now, because we know that $\dfrac{d}{dy}e^y = e^y$, we can change our $\dfrac{dx}{dy}\cdot\dfrac{d}{dx}\ln(x) = 1$ to what?
 
 \begin{multipleChoice}
 \choice{$x$}
 \choice{$\dfrac{d}{dz} = x$}
 \choice{$\dfrac{1}{\dfrac{d}{dx}}$}
-\choice[correct]{$x*\dfrac{d}{dx}\text{ln}(x)$}
+\choice[correct]{$x*\dfrac{d}{dx}\ln(x)$}
 \end{multipleChoice}
 \begin{feedback}
-And thus, we see that we have $\dfrac{d}{dx}\text{ln}(x) = \dfrac{1}{x}$. So in general, the derivative of $ln(x)$ is $\dfrac{1}{x}$!
+And thus, we see that we have $\dfrac{d}{dx}\ln(x) = \dfrac{1}{x}$. So in general, the derivative of $\ln(x)$ is $\dfrac{1}{x}$!
 \end{feedback}
 \end{explanation}
 \end{example}
