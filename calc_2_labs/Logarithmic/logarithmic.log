@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  13 NOV 2017 08:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  13 NOV 2017 09:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1240,10 +1240,10 @@ Package rerunfilecheck Info: File `logarithmic.out' has not changed.
 (rerunfilecheck)             Checksum: A8F7ED3445C79A5D6C7851280FE67A66;279.
  ) 
 Here is how much of TeX's memory you used:
- 36864 strings out of 493029
- 827689 string characters out of 6136234
+ 36861 strings out of 493029
+ 827618 string characters out of 6136234
  975931 words of memory out of 5000000
- 39768 multiletter control sequences out of 15000+600000
+ 39765 multiletter control sequences out of 15000+600000
  17102 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,8n,79p,10419b,735s stack positions out of 5000i,500n,10000p,200000b,80000s
