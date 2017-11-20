@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  20 NOV 2017 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  20 NOV 2017 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1249,7 +1249,7 @@ Package rerunfilecheck Info: File `L-Hopital.out' has not changed.
 Here is how much of TeX's memory you used:
  36862 strings out of 493029
  827746 string characters out of 6136234
- 977100 words of memory out of 5000000
+ 977102 words of memory out of 5000000
  39781 multiletter control sequences out of 15000+600000
  14117 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1275,7 +1275,7 @@ pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmti10.pfb>
-Output written on L-Hopital.pdf (3 pages, 217523 bytes).
+Output written on L-Hopital.pdf (3 pages, 217527 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  125 compressed objects within 2 object streams
