@@ -7,7 +7,7 @@
 <meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
 <!-- charset=utf-8,-css,html,xhtml --> 
 <meta name="src" content="logarithmic.tex" /> 
-<meta name="date" content="2017-11-13 20:40:00" /> 
+<meta name="date" content="2017-11-20 20:57:00" /> 
 <meta name="author" content="" /> 
 <meta charset="UTF-8" /> 
 <meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
@@ -161,7 +161,7 @@ e^x
 </script> because it is its own derivative - that will make our differentiation more
 than a bit easier! </div>
 <!--l. 68--><p class="noindent" >Now, lets consider a general equation <script type="math/tex"> <![CDATA[ 
-y = \ln (e^y) 
+y = \ln (e^x) 
 ]]> 
 </script>.
 </p><!--l. 70--><p class="noindent" >What is the derivative of the left hand side? <script type="math/tex"> <![CDATA[ 
@@ -170,14 +170,14 @@ y = \ln (e^y)
 </script>
 </p><!--l. 73--><p class="noindent" >On the right hand side, we apply the chain rule to see
                                  <script type="math/tex; mode=display"> <![CDATA[ 
-\dfrac {d}{dy} \ln (e^y) = \dfrac {dx}{dy} \cdot \dfrac {d}{dx}\ln (x) \text {, where } x = e^y 
+\dfrac {d}{dx} \ln (e^x) = \dfrac {dx}{dy} \cdot \dfrac {d}{dx}\ln (y) \text {, where } y = e^x 
 ]]> 
 </script>
 </p><!--l. 75--><p class="noindent" >Now, because we know that <script type="math/tex"> <![CDATA[ 
-\dfrac {d}{dy}e^y = e^y 
+\dfrac {d}{dx}e^x = e^x 
 ]]> 
 </script>, we can change our <script type="math/tex"> <![CDATA[ 
-\dfrac {dx}{dy}\cdot \dfrac {d}{dx}\ln (x) = 1 
+\dfrac {dy}{dx}\cdot \dfrac {d}{dy}\ln (x) = 1 
 ]]> 
 </script> to what?
 </p>
@@ -191,7 +191,7 @@ x
 \dfrac {1}{\dfrac {d}{dx}} 
 ]]> 
 </script></span> <span class="choice correct "   id="choice20"><script type="math/tex"> <![CDATA[ 
-x*\dfrac {d}{dx}\ln (x) 
+x \cdot \dfrac {d}{dx}\ln (x) 
 ]]> 
 </script></span> </div>
 <div class="feedback" data-feedback="attempt" id="feedback10">And thus, we see that we have <script type="math/tex"> <![CDATA[ 
@@ -225,58 +225,76 @@ class="speech">It would be my pleasure!</dd></dl>
 <h3 class="sectionHead"><a 
  id="x1-4000"></a>Practice with Logarithmic Differentiation</h3>
 <!--l. 97--><p class="noindent" >Take the derivative of the following functions, without using any technology (except
-to enter your answer!). </p><div class="problem-environment problem" id="problem11"><a 
+to enter your answer!).
+</p>
+<div class="problem-environment problem" id="problem11"><a 
  id="x1-4001r4"></a> <script type="math/tex"> <![CDATA[ 
-\ln (\ln (x)^3)=\answer {\dfrac {3}{x\cdot \ln (x)}} 
+\ln (x^2)=\answer {\frac {2}{x}} 
 ]]> 
 </script>
 </div>
 <div class="problem-environment problem" id="problem12"><a 
  id="x1-4002r5"></a> <script type="math/tex"> <![CDATA[ 
+\ln (x)+\ln (x)=\answer {\frac {2}{x}} 
+]]> 
+</script>
+</div>
+<div class="problem-environment problem" id="problem13"><a 
+ id="x1-4003r6"></a> <script type="math/tex"> <![CDATA[ 
 \ln (\cot (x))=\answer {-\csc (x)\cdot \sec (x)} 
 ]]> 
 </script>
 </div>
-<!--l. 106--><p class="noindent" >Now, use your knowledge of Sage (and if necessary, a quick glance back at the
-Intro to Sage lab) to evaluate the following derivatives at the indicated
-point.
+<!--l. 111--><p class="noindent" >Now, use your knowledge of Sage (and if necessary, a quick glance back at the Intro
+to Sage lab) to evaluate the following derivatives. If a point is indicated, evaluate at
+that point.
 </p>
+<div class="problem-environment problem" id="problem14"><a 
+ id="x1-4004r7"></a> <script type="math/tex"> <![CDATA[ 
+\ln (\ln (x)^3)=\answer {\dfrac {3}{x\cdot \ln (x)}} 
+]]> 
+</script>
+</div>
 <div class="sage"><script type="text/x-sage">
  
 </script></div>
-<div class="problem-environment problem" id="problem13"><a 
- id="x1-4003r6"></a> <script type="math/tex"> <![CDATA[ 
+<div class="problem-environment problem" id="problem15"><a 
+ id="x1-4005r8"></a>
+<!--l. 127--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \ln (\sin (\cos (\ln (x)))) 
 ]]> 
 </script> at <script type="math/tex"> <![CDATA[ 
 x=10 
 ]]> 
 </script>
-<!--l. 117--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+</p><!--l. 129--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {\frac {(\frac {-1}{10}\cdot \cos (\cos (\log (10)))\cdot \sin (\log (10)))}{\sin (\cos (\log (10)))}} 
 ]]> 
 </script>
 </div>
 </p>
-<div class="problem-environment problem" id="problem14"><a 
- id="x1-4004r7"></a> <script type="math/tex"> <![CDATA[ 
+<div class="problem-environment problem" id="problem16"><a 
+ id="x1-4006r9"></a> <script type="math/tex"> <![CDATA[ 
 16^{\ln (\csc (x)^2)} 
 ]]> 
 </script> at <script type="math/tex"> <![CDATA[ 
 x = 1 
 ]]> 
 </script>
-<!--l. 123--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
+<!--l. 135--><p class="noindent" ><script type="math/tex"> <![CDATA[ 
 \answer {-3\cdot \ln (16)\cdot \cot (1)\cdot 16^{3\ln (\csc (1))}} 
 ]]> 
 </script>
 </div>
-</p><!--l. 126--><p class="noindent" >Finally, we&#x2019;ll look at the general form of the derivative of a logarithmic function with
+                                                                  
+
+                                                                  
+</p><!--l. 138--><p class="noindent" >Finally, we&#x2019;ll look at the general form of the derivative of a logarithmic function with
 any base <script type="math/tex"> <![CDATA[ 
 b 
 ]]> 
 </script>. Here&#x2019;s a hint to get you started:
-</p><!--l. 128--><p class="noindent" >Use your knowledge of <script type="math/tex"> <![CDATA[ 
+</p><!--l. 140--><p class="noindent" >Use your knowledge of <script type="math/tex"> <![CDATA[ 
 \dfrac {d}{dx} \ln (x) 
 ]]> 
 </script> and the change of base formula, <script type="math/tex"> <![CDATA[ 
@@ -285,13 +303,33 @@ b
 </script> to find the derivative for <script type="math/tex"> <![CDATA[ 
 \log _b(x) 
 ]]> 
-</script>. </p><div class="problem-environment problem" id="problem15"><a 
- id="x1-4005r8"></a>
+</script>. </p><div class="problem-environment problem" id="problem17"><a 
+ id="x1-4007r10"></a>
 What is <script type="math/tex"> <![CDATA[ 
 \dfrac {d}{dx}\log _b(x) 
 ]]> 
 </script>? <script type="math/tex"> <![CDATA[ 
 \answer {\frac {1}{x\cdot \ln (b)}} 
+]]> 
+</script>
+</div>
+<!--l. 146--><p class="noindent" >Now, try taking the derivative of just a few more functions!
+</p>
+<div class="problem-environment problem" id="problem18"><a 
+ id="x1-4008r11"></a> <script type="math/tex"> <![CDATA[ 
+\dfrac {d}{dx}\log _{7}x^2 = \answer {\frac {2}{x \cdot \ln (7)}} 
+]]> 
+</script>
+</div>
+<div class="problem-environment problem" id="problem19"><a 
+ id="x1-4009r12"></a> <script type="math/tex"> <![CDATA[ 
+\dfrac {d}{dx}\log _{5}\sin (x) = \answer {\frac {\cot (x)}{\ln (5)}} 
+]]> 
+</script>
+</div>
+<div class="problem-environment problem" id="problem20"><a 
+ id="x1-4010r13"></a> <script type="math/tex"> <![CDATA[ 
+\dfrac {d}{dx}\log _{20}x^3 = \answer {\frac {3}{x \cdot \ln (20)}} 
 ]]> 
 </script>
 </div> </body> 
