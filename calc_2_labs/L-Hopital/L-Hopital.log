@@ -1,14 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  20 NOV 2017 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  20 NOV 2017 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**labs.tex
-(./labs.tex
+**L-Hopital.tex
+(./L-Hopital.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(/home/user/texmf/tex/latex/ximeraLatex/xourse.cls
-Document Class: xourse 2015/07/15 Version 1.26 by Bart Snapp, Oscar Levin, Hans
- Parshall
 (/home/user/texmf/tex/latex/ximeraLatex/ximera.cls
 Document Class: ximera 2016/08/17 Version 1.31 by Bart Snapp
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -417,7 +414,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \c@ST@cmdline=\count121
 \sagetexindent=\skip46
 
-(./labs.sagetex.sout)
+(./L-Hopital.sagetex.sout)
 \sagecommandlineskip=\skip47
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
@@ -1093,7 +1090,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \c@titlenumber=\count199
 \c@sectiontitlenumber=\count266
 \outcomefile=\write6
-\openout6 = `labs.oc'.
+\openout6 = `L-Hopital.oc'.
 
 \c@theorem=\count267
 \c@algorithm=\count268
@@ -1121,7 +1118,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \c@template=\count290
 \c@warning=\count291
 \idfile=\write7
-\openout7 = `labs.ids'.
+\openout7 = `L-Hopital.ids'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/forloop/forloop.sty
@@ -1138,27 +1135,28 @@ Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
 \c@problem=\count300
 \c@problemType=\count301
 \myfile=\write8
-\openout8 = `labs.jax'.
+\openout8 = `L-Hopital.jax'.
 
-))
-(./Calc2_preamble.sty) (./labs.aux)
-\openout1 = `labs.aux'.
+)
+(../Calc2_preamble.sty) (./L-Hopital.aux)
+\openout1 = `L-Hopital.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
- ABD: EveryShipout initializing macros
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
@@ -1189,17 +1187,17 @@ e
 ))
 \c@lstlisting=\count308
 \ST@sf=\write9
-\openout9 = `labs.sagetex.sage'.
+\openout9 = `L-Hopital.sagetex.sage'.
 
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 10.
+ on input line 11.
 
 \AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring ON on input line 10.
+Package hyperref Info: Link coloring ON on input line 11.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1208,313 +1206,79 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count309
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
 
-(./labs.out) (./labs.out)
+(./L-Hopital.out) (./L-Hopital.out)
 \@outlinefile=\write10
-\openout10 = `labs.out'.
+\openout10 = `L-Hopital.out'.
 
- [1
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./labs.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2
+)
 
-])
-\tf@toc=\write11
-\openout11 = `labs.toc'.
+LaTeX Warning: No \author given.
 
- [3]
-(./Intro_To_Ximera/intro.tex
-
-LaTeX Font Warning: Font shape `OT1/cmtt/bx/sl' undefined
-(Font)              using `OT1/cmtt/bx/n' instead on input line 30.
-
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 30.
-[4
-
-
-]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/sl' in size <9> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 77.
- [5] [6] [7]) [8] (./Sage/sage.texpdfTeX warning (ext4): destination with the s
-ame identifier (name{problem.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19 W
-      hat output did you get from evaluating the sage cell?pdfTeX warning (ext4
-): destination with the same identifier (name{problem.2}) has been already used
-, duplicate ignored
-<to be read again> 
-                   \relax 
-l.31 D
-      efine $f(x)=\sin(x)^2$ in the following cell evaluate at $x=4\pi$
-[9
-
-]pdfTeX warning (ext4): destination with the same identifier (name{problem.3}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.52 F
-      rom the sage cell above, what can you say about ``='' vs ``==''?pdfTeX wa
-rning (ext4): destination with the same identifier (name{problem.4}) has been a
-lready used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.63 U
-      sing the solve command, find the roots for $f(x)=x^2+3x+2$ [10]pdfTeX war
-ning (ext4): destination with the same identifier (name{problem.5}) has been al
-ready used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.84 U
-      sing the commands shown above, find the limit of $\displaystyle\lim_{x...
-pdfTeX warning (ext4): destination with the same identifier (name{problem.6}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.103 U
-       sing the diff command find $\dfrac{d}{dx}\dfrac{x^2-2x-8}{x-4}$
-Overfull \hbox (36.23727pt too wide) in paragraph at lines 109--111
-[]\OT1/cmr/m/sl/10 Copy paste your an-swer from Sage here: $[]$ 
- []
-
-[11]pdfTeX warning (ext4): destination with the same identifier (name{problem.7
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.121 C
-       opy paste your answer from Sage here:) [12]
-(./Eulers_Method/eulers_method.texpdfTeX warning (ext4): destination with the s
-ame identifier (name{problem.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19 W
-      hat alteration to $h$ might produce a more accurate estimation? [13
-
-]
-[14] [15]) [16] (./Exponentials/exponentials.texpdfTeX warning (ext4): destinat
-ion with the same identifier (name{problem.1}) has been already used, duplicate
- ignored
-<to be read again> 
-                   \relax 
-l.17 
-      [17
-
-]pdfTeX warning (ext4): destination with the same identifier (name{problem.2}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.43 
-      [18]pdfTeX warning (ext4): destination with the same identifier (name{pro
-blem.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.104 B
-       ased on your results from the previous section, what is $\dfrac{d}{dx...
-[19] [20] [21]pdfTeX warning (ext4): destination with the same identifier (name
-{problem.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.186 
-      
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 198.
-
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/sl' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 198.
- [22] [23]
-[24]) [25] (./Parametric/parametric.tex [26
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]pdfTeX warning (ext4): destination with the same identifier (name{problem.1}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27 $
-      x = \sin(2t)$, $y = 2t^2$, $t = [-2,2]$pdfTeX warning (ext4): destination
- with the same identifier (name{problem.2}) has been already used, duplicate ig
-nored
-<to be read again> 
-                   \relax 
-l.63 \item
-           Your friend Joe is beyond excited about his new car, and wants to...
-[27] [28]pdfTeX warning (ext4): destination with the same identifier (name{prob
-lem.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.105 A
-       fter his successful jump, Joe has become even more daring, deciding t...
-[29] [30]pdfTeX warning (ext4): destination with the same identifier (name{prob
-lem.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.189 J
-       ust before Joe started to accelerate towards the ramp, a young spider...
-[31]) [32] (./Logarithmic/logarithmic.texpdfTeX warning (ext4): destination wit
-h the same identifier (name{problem.1}) has been already used, duplicate ignore
-d
-<to be read again> 
-                   \relax 
-l.22 l
-      og$_b\left(\dfrac{x}{y}\right)$ [33
-
-] [34]pdfTeX warning (ext4): destination with the same identifier (name{problem
-.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.100 $
-       \ln(x^2)=\answer{\frac{2}{x}}$ [35]pdfTeX warning (ext4): destination wi
-th the same identifier (name{problem.3}) has been already used, duplicate ignor
-ed
-<to be read again> 
-                   \relax 
-l.104 $
-       \ln(x)+\ln(x)=\answer{\frac{2}{x}}$pdfTeX warning (ext4): destination wi
-th the same identifier (name{problem.4}) has been already used, duplicate ignor
-ed
-<to be read again> 
-                   \relax 
-l.108 $
-       \ln(\cot(x))=\answer{-\csc(x)\cdot\sec(x)}$pdfTeX warning (ext4): destin
-ation with the same identifier (name{problem.5}) has been already used, duplica
-te ignored
-<to be read again> 
-                   \relax 
-l.116 $
-       \ln(\ln(x)^3)=\answer{\dfrac{3}{x\cdot \ln(x)}}$pdfTeX warning (ext4): d
-estination with the same identifier (name{problem.6}) has been already used, du
-plicate ignored
-<to be read again> 
-                   \relax 
-l.126 
-      pdfTeX warning (ext4): destination with the same identifier (name{problem
-.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.133 $
-       16^{\ln(\csc(x)^2)}$ at $x = 1$pdfTeX warning (ext4): destination with t
-he same identifier (name{problem.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.142 W
-       hat is $\dfrac{d}{dx}\log_b(x)$? [36]) [37] (./L-Hopital/L-Hopital.tex
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \usepackage
-               {../Calc2_preamble.sty}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.6 \usepackage{../Calc2_
-                         preamble.sty}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.6 \usepackage{../Calc2_preamble.sty}
-                                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.7 
-    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-)
-! Missing } inserted.
-<inserted text> 
-                }
-l.18 \activity{L-Hopital/L-Hopital.tex}
-                                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[38
-
-]
+] [2]
 *********************************************************************
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 19.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 19.
-(./labs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 19.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 19.
-Package rerunfilecheck Info: File `labs.out' has not changed.
-(rerunfilecheck)             Checksum: 412A26AE1622C770E8F8646CAA5B5582;1735.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+ (./L-Hopital.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package rerunfilecheck Info: File `L-Hopital.out' has not changed.
+(rerunfilecheck)             Checksum: 9DE185C79A7F62B3B23A0FE99E3A6761;169.
  ) 
 Here is how much of TeX's memory you used:
- 37265 strings out of 493029
- 831761 string characters out of 6136234
- 977620 words of memory out of 5000000
- 39859 multiletter control sequences out of 15000+600000
- 17920 words of font info for 66 fonts, out of 8000000 for 9000
+ 36861 strings out of 493029
+ 827737 string characters out of 6136234
+ 977102 words of memory out of 5000000
+ 39781 multiletter control sequences out of 15000+600000
+ 14117 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,81p,10419b,918s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,8n,79p,10436b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsl9.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsltt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on labs.pdf (38 pages, 412715 bytes).
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsl9.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti10.pfb>
+Output written on L-Hopital.pdf (3 pages, 218067 bytes).
 PDF statistics:
- 784 PDF objects out of 1000 (max. 8388607)
- 707 compressed objects within 8 object streams
- 313 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 
