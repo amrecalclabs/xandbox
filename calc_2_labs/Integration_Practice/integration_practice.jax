@@ -1,5 +1,23 @@
 \newenvironment {prompt}{}{}
 \newcommand {\DeclareMathOperator }[2]{\@OldDeclareMathOperator {##1}{##2}\immediate \write \myfile {\unexpanded {\DeclareMathOperator }{\unexpanded {##1}}{\unexpanded {##2}}}}
+\newcommand {\dsp }[0]{\displaystyle }
+\newcommand {\df }[0]{\dsp \frac }
+\newcommand {\dlim }[0]{\displaystyle \lim }
+\newcommand {\ddx }[0]{\df {d}{dx}}
+\newcommand {\dydx }[0]{\df {dy}{dx}}
+\newcommand {\dx }[0]{\; dx}
+\newcommand {\dt }[0]{\; dt}
+\newcommand {\dint }[0]{\displaystyle \int }
+\newcommand {\du }[0]{\; du}
+\newcommand {\dv }[0]{\; dv}
+\newcommand {\hh }[0]{\hs {40pt}}
+\newcommand {\ssm }[0]{\vs {25pt}}
+\newcommand {\sm }[0]{\vs {75pt}}
+\newcommand {\med }[0]{\vs {150pt}}
+\newcommand {\bg }[0]{\vs {230pt}}
+\newcommand {\dtheta }[0]{\; d\theta }
+\newcommand {\hs }[0]{\hspace }
+\newcommand {\vs }[0]{\vspace }
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
@@ -31,9 +49,6 @@
 \newcommand {\ref  }[0]{\@ifstar \@refstar \T@ref }
 \newcommand {\pageref  }[0]{\@ifstar \@pagerefstar \T@pageref }
 \newcommand {\nameref  }[0]{\@ifstar \@namerefstar \T@nameref }
-\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
-\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
-\newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
 \newcommand {\descriptionlabel }[1]{\hspace {\labelsep }\textbf {##1:}}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[2]{}
