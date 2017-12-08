@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1512722336 "series_tests.tex" "series_tests.pdf" "series_tests" 1512722338
+["pdflatex"] 1512723044 "series_tests.tex" "series_tests.pdf" "series_tests" 1512723046
   "../Calc2_preamble.sty" 1511209559 278 ff5f85b52f382704ca0142ddcdef35b4 ""
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/home/user/texmf/tex/latex/ximeraLatex/ximera.cls" 1510563093 45538 bb2cb1d5098476763585215d39f192d2 ""
@@ -232,16 +232,16 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
   "Strat_Table1.png" 1512721029 357232 776755bbdaaf290a10118dbbfd1bab88 ""
   "Strat_Table2.png" 1512721029 344359 55b9aecfa3d9fd9788983b03d3f3c203 ""
-  "series_tests.aux" 1512722337 783 70206d859b68ded4e640a6f232ad4540 ""
-  "series_tests.out" 1512722337 48 6652c09a257cb8c2adde21136bfcd4d5 ""
-  "series_tests.sagetex.sout" 1512720730 246 55c4c0d1a18a0409815e5b632a80a141 ""
-  "series_tests.tex" 1512722336 7075 6667160c60ec5e47bf6789849c077466 ""
+  "series_tests.aux" 1512723046 783 70206d859b68ded4e640a6f232ad4540 ""
+  "series_tests.out" 1512723046 48 6652c09a257cb8c2adde21136bfcd4d5 ""
+  "series_tests.sagetex.sout" 1512723036 246 55c4c0d1a18a0409815e5b632a80a141 ""
+  "series_tests.tex" 1512723044 6871 b5537b5388d02ea823c729fc42f70a61 ""
   (generated)
-  "series_tests.sagetex.sage"
-  "series_tests.ids"
-  "series_tests.pdf"
-  "series_tests.aux"
   "series_tests.out"
-  "series_tests.jax"
-  "series_tests.log"
   "series_tests.oc"
+  "series_tests.jax"
+  "series_tests.ids"
+  "series_tests.aux"
+  "series_tests.pdf"
+  "series_tests.log"
+  "series_tests.sagetex.sage"

@@ -11,13 +11,6 @@
 \newcommand {\du }[0]{\; du}
 \newcommand {\dv }[0]{\; dv}
 \newcommand {\hh }[0]{\hs {40pt}}
-\newcommand {\ssm }[0]{\vs {25pt}}
-\newcommand {\sm }[0]{\vs {75pt}}
-\newcommand {\med }[0]{\vs {150pt}}
-\newcommand {\bg }[0]{\vs {230pt}}
-\newcommand {\dtheta }[0]{\; d\theta }
-\newcommand {\hs }[0]{\hspace }
-\newcommand {\vs }[0]{\vspace }
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }

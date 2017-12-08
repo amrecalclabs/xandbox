@@ -18,10 +18,6 @@
 \newcommand {\du }[0]{\; du}
 \newcommand {\dv }[0]{\; dv}
 \newcommand {\dtheta }[0]{\; d\theta }
-\newcommand {\smaller }[0]{\footnotesize }
-\newcommand {\eval }[0]{\biggr |}
-\newcommand {\hs }[0]{\hspace }
-\newcommand {\vs }[0]{\vspace }
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }

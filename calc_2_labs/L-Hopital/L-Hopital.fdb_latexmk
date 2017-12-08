@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1512722482 "L-Hopital.tex" "L-Hopital.pdf" "L-Hopital" 1512722483
+["pdflatex"] 1512723312 "L-Hopital.tex" "L-Hopital.pdf" "L-Hopital" 1512723313
   "../Calc2_preamble.sty" 1511209559 278 ff5f85b52f382704ca0142ddcdef35b4 ""
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/home/user/texmf/tex/latex/ximeraLatex/ximera.cls" 1510563093 45538 bb2cb1d5098476763585215d39f192d2 ""
@@ -250,16 +250,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1506161354 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
-  "L-Hopital.aux" 1512722482 951 9f669be1c7ae0537b55cf3f165f7b0db ""
-  "L-Hopital.out" 1512722482 169 9de185c79a7f62b3b23a0fe99e3a6761 ""
-  "L-Hopital.sagetex.sout" 1512722480 243 896b58b3748ff71c68a01d4a9d4b85e0 ""
-  "L-Hopital.tex" 1512374837 4559 a62463e38cc1f65b5c630607ae63efdf ""
+  "L-Hopital.aux" 1512723313 951 9f669be1c7ae0537b55cf3f165f7b0db ""
+  "L-Hopital.out" 1512723313 169 9de185c79a7f62b3b23a0fe99e3a6761 ""
+  "L-Hopital.sagetex.sout" 1512722789 243 896b58b3748ff71c68a01d4a9d4b85e0 ""
+  "L-Hopital.tex" 1512723311 4559 a62463e38cc1f65b5c630607ae63efdf ""
   (generated)
-  "L-Hopital.pdf"
   "L-Hopital.oc"
-  "L-Hopital.jax"
+  "L-Hopital.out"
   "L-Hopital.sagetex.sage"
-  "L-Hopital.log"
+  "L-Hopital.jax"
+  "L-Hopital.pdf"
   "L-Hopital.aux"
   "L-Hopital.ids"
-  "L-Hopital.out"
+  "L-Hopital.log"
